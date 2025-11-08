@@ -1,0 +1,28 @@
+{
+ "layer": "top",
+ "position": "top",
+ "reload_style_on_change": true,
+ "spacing": 6,
+ "include": [
+  "/home/taian/.config/waybar/modules.json"
+ ],
+
+ "modules-left": [
+  "custom/notifications",  
+  "hyprland/workspaces",
+  "custom/target",
+  "battery"
+ ],
+
+ "modules-center": [
+  "clock"
+ ],
+
+ "modules-right": [
+  "network",
+  "bluetooth",
+  "custom/cava_mviz",
+  "group/system",
+  "custom/power" 
+ ]
+}

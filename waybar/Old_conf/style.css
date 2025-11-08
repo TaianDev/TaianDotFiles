@@ -1,0 +1,280 @@
+
+/* ================================================
+		      COLORES
+   =============================================== */
+
+@define-color backgroundlight #FFFFFF;
+@define-color backgrounddark #FFFFFF;
+@define-color workspacesbackground1 #FFFFFF;
+@define-color workspacesbackground2 #CCCCCC;
+@define-color bordercolor #35D6E7;
+@define-color textcolor1 #000000;
+@define-color textcolor2 #000000;
+@define-color textcolor3 #FFFFFF;
+@define-color iconcolor #FFFFFF;
+@define-color backend1 #080809;
+
+
+* {
+    font-family: "Fira Sans Semibold";
+    border: none;
+    border-radius: 0px;
+}
+
+window#waybar {
+    background-color: rgba(33, 33, 43, 0.40);
+    margin: 0;
+    padding: 0;
+    min-width: 1600px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 12px;
+}
+
+#workspaces {
+    background-color: rgba(33, 33, 43, 1);
+    margin: 1px;
+    padding: 5px 8px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    min-width: 220px;
+    font-size: 0px; /* Oculta números/texto */
+    color: @textcolor1;
+}
+
+#workspaces button {
+    padding: 4px;
+    margin: 2px 4px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: transparent;
+    font-size: 0px;
+    min-width: 8px;
+    min-height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* borde base (inactivo y vacío) */
+     transition: background 0.5s ease, border-color 0.5s ease;
+}
+
+#workspaces button.persistent:not(.active):not(.empty) {
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+#workspaces button.active {
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+#workspaces button:hover,
+#workspaces button.persistent:not(.active):not(.empty):hover,
+#workspaces button.active:hover {
+    background: @workspacesbackground2;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    opacity: 1;
+}
+
+#window {
+    margin: 10px 15px 10px 0px;
+    padding: 2px 10px 0px 10px;
+    color: @textcolor1;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+}
+
+#custom-notifications {
+    margin: 1px 5px 1px 1px;
+    padding: 1px 10px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    min-width: 19px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+@keyframes whitePulse {
+  0%   { background-color: rgba(33, 33, 43, 1); }
+  50%  { background-color: rgba(255, 255, 255, 0.5); }
+  100% { background-color: rgba(33, 33, 43, 1); }
+}
+
+#custom-notifications:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+#custom-target {
+    margin: 1px 5px;
+    padding: 2px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    min-width: 110px; /* ancho fijo para mantener consistencia */
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#custom-target:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+#custom-spotify {
+    margin: 1px 5px;
+    padding: 2px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    min-width: 150px; /* ancho fijo para estabilidad */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+#custom-spotify:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+#custom-power {
+    margin: 1px 1px 1px 1px;
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    min-width: 19px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#custom-power:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+#custom-datetime {
+    margin: 1px 5px;
+    padding: 6px 16px;
+    border-radius: 12px;
+    min-width: 24px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+
+
+#custom-datetime:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+
+
+/* ==== PILDORAS DE SISTEMA ==== */
+
+/* WiFi */
+#network {
+    margin: 1px 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+}
+#network:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+/* Batería */
+#battery {
+    margin: 1px 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+}
+#battery:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+/* CPU */
+#cpu {
+    margin: 1px 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+}
+#cpu:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+/* RAM */
+#memory {
+    margin: 1px 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+}
+#memory:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+/* Disco */
+#disk {
+    margin: 1px 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+}
+#disk:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+/* Temperatura */
+#temperature {
+    margin: 1px 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+}
+#temperature:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}
+
+#tray {
+    margin: 1px 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(33, 33, 43, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: normal;
+    min-width: 9px; /* ancho mínimo para estabilidad */
+}
+
+#tray:hover {
+    animation: whitePulse 1s ease-in-out infinite;
+}

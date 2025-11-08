@@ -1,0 +1,172 @@
+@import url('../../.cache/wal/colors-waybar.css');
+
+* {
+    font-family: "Fira Sans Semibold";
+    border: none;
+    border-radius: 0px;
+}
+
+window#waybar {
+  background-color: alpha(@background, 0.5);
+  box-shadow: inset 0 -2px alpha(@foreground, 1); 
+}
+
+#workspaces {
+ margin: 4px 2px 8px 2px;
+ font-size: 12px;
+ background: rgba(12, 12, 12, 1);
+ box-shadow: inset 0 -3px @foreground;
+ border-radius: 8px;
+ padding: 0px 4px;
+ min-height: 30px;
+}
+
+#workspaces button {
+ background: rgba(12, 12, 12, 0);
+ border: 0px solid rgba(255, 255, 255, 0.2);
+ margin: 0px 0px 0px 0px;
+ border-radius: 1px;
+ margin-left: 0px;
+ margin-right: 0px;
+ padding: 1px 6px; 
+ color: rgba(255, 255, 255, 1);
+ transition: all 0.1s ease-in-out;
+}
+
+#workspaces button.active {
+/* background: rgba(132, 126, 142, 1);*/
+ background: alpha(@foreground, 0.7);
+ border-radius: 4px;
+ padding: 1px 13px;
+ border: 0px solid rgba(255, 255, 255, 0.7);  
+}
+
+#workspaces button:not(.empty) {
+ box-shadow: inset 0 -7px alpha(@foreground, 0.5);
+}
+
+#custom-notifications {
+ font-size: 15px;
+ margin: 4px 0px 8px 4px; 
+ /*border: 3px solid @foreground;*/
+ background: rgba(12, 12, 12, 1);
+ box-shadow: inset 0 -3px @foreground;
+ border-radius: 8px;
+ padding: 0px 13px 0px 10px;
+}
+
+#custom-target {
+ font-size: 14px;
+/*border: 3px solid @foreground;*/
+ box-shadow: inset 0 -3px @foreground;
+ border-radius: 8px;
+ padding: 3px 13px; 
+ margin: 4px 0px 8px 0px;
+ background: rgba(12, 12, 12, 1);
+ transition: all 0.1s ease-in-out;
+}
+
+#taskbar button {
+ background: rgba(255, 255, 255, 0.05231);
+ margin: 4px 3px 8px 0px;
+ border-radius: 8px;
+ border: 0px solid rgba(255, 255, 255, 0.5);
+ transition: all 0.1s ease-in-out;
+}
+
+#taskbar button.active {
+  box-shadow: inset 0 -3px @foreground;
+}
+
+#clock {
+ margin: 4px 0px 8px 0px;
+ padding: 0px 13px 0px 13px;
+ /*background: rgba(255, 255, 255, 0.05231);*/
+ background: rgba(12, 12, 12, 1);
+ border-radius: 8px;
+ box-shadow: inset 0 -3px @foreground;
+ transition: all 0.1s ease-in-out;
+}
+
+#system {
+ margin: 4px 2px 8px 2px;
+ font-size: 15px;
+ padding: 0px 10px 0px 10px;
+ background: rgba(12, 12, 12, 1);
+/*border: 3px solid alpha(@foreground, 1);*/
+ box-shadow: 
+  inset 0 -3px @foreground;
+ border-radius: 8px;
+}
+
+#temperature{
+ margin: 0px 8px 0px 0px;
+ border-radius: 6px;
+ background: alpha(@foreground, 0);
+ padding: 0px 4px 0px 0px;
+}
+
+#cpu {
+ margin: 0px 7px 0px 0px;
+ border-radius: 6px;
+ background: alpha(@foreground, 0);
+ padding: 0px 2px 0px 2px;
+}
+
+#memory {
+ margin: 0px 0px 0px 0px;
+ border-radius: 6px;
+ background: alpha(@foreground, 0);
+ padding: 0px 0px 0px 0px;
+}
+
+#custom-cava_mviz {
+/*border: 3px solid alpha(@foreground, 1);*/
+ box-shadow: inset 0 -3px @foreground;
+ border-radius: 8px;
+ margin: 4px 0px 8px 0px;
+ padding: 0px 2px 0px 2px;
+ background: rgba(12, 12, 12, 1);
+}
+
+#network {
+ background: rgba(12, 12, 12, 1);
+ margin: 4px 3px 8px 0px;
+ border-radius: 8px;
+ border: 0px solid rgba(255, 255, 255, 0.5);
+ transition: all 0.1s ease-in-out;
+ box-shadow: inset 0 -3px @foreground;
+ padding: 0px 5px 0px 5px;
+}
+
+#bluetooth {
+ background: rgba(12, 12, 12, 1);
+ margin: 4px 3px 8px 0px;
+ border-radius: 8px;
+ border: 0px solid rgba(255, 255, 255, 0.5);
+ transition: all 0.1s ease-in-out;
+ box-shadow: inset 0 -3px @foreground;
+ padding: 0px 8px 0px 8px;
+}
+
+#battery {
+/*background: rgba(255, 255, 255, 0.05231);*/
+ background: rgba(12, 12, 12, 1);
+ margin: 4px 3px 8px 0px;
+ border-radius: 8px;
+ border: 0px solid rgba(255, 255, 255, 0.5);
+ transition: all 0.1s ease-in-out;
+ box-shadow: inset 0 -3px @foreground;
+ padding: 0px 7px 0px 7px;
+}
+
+
+#custom-power {
+ font-size: 15px;
+ margin: 4px 4px 8px 0px;
+/*border: 3px solid @foreground;*/
+ box-shadow: inset 0 -3px @foreground;
+ background: rgba(12, 12, 12, 1);
+ border-radius: 8px;
+ padding: 0px 10px 0px 10px;
+}

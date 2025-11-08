@@ -1,0 +1,119 @@
+{
+"hyprland/workspaces": {
+    "format" : "{}",
+    "on-click": "activate",
+    "persistent-workspaces" : {
+      "*" : 6
+   }
+  },
+  
+"custom/notifications": {
+    "format": "󰣇",
+    "tooltip": false,
+    "on-click": "swaync-client -t"
+ }, 
+ 
+"custom/target": {
+    "format": "{}",
+    "return-type": "txt",
+    "exec": "/home/taian/Personal_Scripts/Set_Target/get-target.sh",
+    "interval": 2,
+    "tooltip": false,
+    "on-click": "notify-send 'Target' 'Usa set-target <IP> o clear-target'"
+ },
+
+"wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 18,
+    "icon-theme": "Numix-Circle",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "ignore-list": [
+       "Alacritty",
+       "kitty"
+    ]
+ },
+  
+"clock": {
+  "format": "{:L%A %d/%m - %I:%M %p}",
+  "format-alt": "{:L%I:%M:%S %p}",
+  "tooltip" : false,
+  "interval": 1,
+  "smooth-scrolling-threshold": 0.01,
+      "actions":  {
+           "on-click-right": "mode",
+            }
+ },
+
+"network": {
+  "format-wifi": " ",
+  "format-ethernet":" ",
+  "format-disconnected": "",
+  "tooltip-format-disconnected": "Not connected",
+  "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+  "tooltip-format-ethernet": "{ifname} 🖧   {bandwidthUpBits}  {bandwidthDownBits}",
+  "on-click": "kitty -e nmtui"
+        },
+
+"bluetooth": {
+  "format": "󰂯 {status}",
+  "format-on": "󰂯",
+  "format-off": "󰂯 off",
+  "format-disabled": "󰂲",
+  "format-no-controller": "󰂲",
+  "format-connected-battery": "{device_battery_percentage}% 󰂯",
+  "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+  "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+  "tooltip-format-enumerate-connected": "{device_alias}\n{device_address}",
+  "tooltip-format-enumerate-connected-battery": "{device_alias}\n{device_address}\n{device_battery_percentage}%",
+  "on-click-right": "blueman-manager"
+ }, 
+
+"custom/cava_mviz": {
+  "exec": "bash -c 'sleep 2 && $HOME/.config/waybar/Waycripts/WaybarCava.sh'",
+  "format": "{}",
+  "tooltip": false,
+  "on-click": "kitty cava"
+ },
+
+"temperature": {
+  "hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input",
+  "format": "{temperatureC}°C ",
+  "tooltip-format": "CPU: {temperatureC}°C",
+  "critical-threshold": 80
+ },
+
+"cpu": {
+  "format": "{usage}%  ",
+  "tooltip": true
+ },
+
+"memory": {
+  "format": "{percentage}% ",
+  "tooltip": true
+ },
+ 
+"group/system": {
+ "orientation": "horizontal",
+  "modules": ["temperature", "cpu","memory"]
+},
+
+"battery": {
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon}\u00A0\u00A0\u00A0{capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+},
+
+"custom/power": {
+ "format": "⏻",
+ "tooltip": false,
+ "on-click": "wlogout"
+}
+
+}

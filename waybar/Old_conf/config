@@ -1,0 +1,43 @@
+{
+    // General Settings - LIMPIA Y SIN DUPLICADOS
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    // Configuración para ancho completo pegado arriba
+    "margin-top": 3,
+    "width": 1361,    
+    "margin-bottom": 0,
+    "margin-left": 0,    
+    "reload_style_on_change": true,
+    "margin-right": 0,
+    "spacing": 0,
+
+    // Load Modules
+    "include": [
+        "~/.config/waybar/modules.json",
+    ],
+
+    // Modulos-izquierda
+    "modules-left": [
+       "custom/notifications",    
+       "custom/target",
+       "custom/spotify",
+       "network"
+    ],
+
+    // Modules Center
+    "modules-center": [
+      "hyprland/workspaces"
+    ],
+
+    // Modulos-derecha   
+    "modules-right": [
+	"memory",
+	"cpu",
+        "temperature",
+        "battery",
+        "custom/datetime",
+        "custom/power"
+    ]
+}
+  

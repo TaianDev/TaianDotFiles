@@ -1,0 +1,97 @@
+{
+  "hyprland/workspaces": {
+    "format": "{}",
+    "on-click": "activate",
+    "tooltip": false,
+    "active-only": false,
+    "persistent-workspaces": {
+      "*": 10
+    }
+  },
+
+"custom/target": {
+    "format": "{}",
+    "return-type": "txt",
+    "exec": "/home/taian/Personal_Scripts/Set_Target/get-target.sh",
+    "interval": 2,
+    "tooltip": false,
+    "on-click": "notify-send 'Target' 'Usa set-target <IP> o clear-target'"
+},
+
+"custom/spotify": {
+    "exec": "/home/taian/Personal_Scripts/Sptify_waybar/spotify.sh",
+    "interval": 0,
+    "format": "{}",
+    "max-length": 19,
+    "return-type": "json",
+    "on-click": "/home/taian/Personal_Scripts/EWW_widget_sp/spotify.sh",
+    "tooltip": true
+},
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "wlogout"
+},
+
+"custom/datetime": {
+    "format": "{}",
+    "exec": "date '+%H:%M | %d-%m'",
+    "interval": 60,
+    "on-click": "/home/taian/Personal_Scripts/EWW_calendar/calendar.sh",
+    "tooltip": false
+},
+
+
+"network": {
+    "interface": "wlo1", // cambia si tu interfaz es diferente
+    "format-wifi": "\u00A0\u00A0\u00A0\u00A0{signalStrength}%",
+    "format-disconnected": "󰖪",
+    "tooltip-format-wifi": "\u00A0\u00A0 {essid} ({signalStrength}%)",
+    "tooltip-format-disconnected": "Sin conexión",
+    "max-length": 30,
+    "on-click": "kitty -e nmtui"
+},
+
+"battery": {
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon}\u00A0\u00A0\u00A0{capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+},
+
+"cpu": {
+    "format": "\u00A0\u00A0 {usage}%",
+    "on-click": "htop"
+},
+
+"memory": {
+    "format": " {percentage}%",
+    "tooltip-format": "Usada: {used:0.1f}GB / Total: {total:0.1f}GB  ({percentage}%)",
+    "on-click": "htop"
+},
+
+"tray": {
+	"icon-size": 10,
+	"spacing": 2
+},
+
+"temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input", 
+    "critical-threshold": 80,
+    "format": " {temperatureC}°C",
+    "tooltip": false
+},
+
+"custom/notifications": {
+    "format": "󰣇",
+    "tooltip": false,
+    "on-click": "swaync-client -t"
+}
+
+
+}
