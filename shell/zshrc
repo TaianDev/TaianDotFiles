@@ -1,0 +1,43 @@
+# ─── Zinit ─────────────────────────────────────
+source ~/.zinit/bin/zinit.zsh
+
+# Plugins Zsh
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-syntax-highlighting
+
+export ZSH="$HOME/.oh-my-zsh"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+
+# ─── Cargar colores de pywal ───
+load_wal_colors() {
+  [[ -f "${HOME}/.cache/wal/colors.sh" ]] && source "${HOME}/.cache/wal/colors.sh"
+}
+#CAMBIO CON SEÑAL
+trap 'load_wal_colors' USR1
+# Cargar colores al inicio
+load_wal_colors
+
+# ─── Alias ─────────────────────────────────────
+alias kittyfloat='kitty --class floating-term'
+alias ff='fastfetch'
+
+# ─── PATH ──────────────────────────────────────
+#export PATH="$HOME/.local/bin:$HOME/.config/waybar/SCRIPTS:$PATH"
+export PATH="$HOME/Personal_Scripts/Set_Target:$HOME/.local/bin:$HOME/.config/waybar/SCRIPTS:$PATH"
+export PATH=$PATH:/home/taian/.spicetify
+
+# ─── Fastfetch y Estado inicial ───────────────
+FASTFETCH_SHOWN=0
+
+precmd() {
+  load_wal_colors
+  # Mostrar fastfetch una sola vez
+  if [[ $FASTFETCH_SHOWN -eq 0 ]]; then
+    ff
+    FASTFETCH_SHOWN=1
+  fi
+}
+
+# ─── Inicializar Starship ──────────────────────
+eval "$(starship init zsh)"

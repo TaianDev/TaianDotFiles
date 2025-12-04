@@ -1,0 +1,79 @@
+@import url('../../.cache/wal/colors-waybar.css');
+
+@define-color cc-bg rgba(12, 12, 12, 0.75);
+@define-color noti-border-color black;
+@define-color noti-bg rgba(12, 12, 12, 0.40);
+@define-color noti-bg-opaque rgba(12, 12, 12, 0.75);
+@define-color noti-bg-darker rgba(12, 12, 12, 0.75);
+@define-color noti-bg-hover rgba(12, 12, 12, 0.75);
+@define-color noti-bg-hover-opaque rgba(12, 12, 12, 0.75);
+@define-color noti-bg-focus rgba(68, 68, 68, 0.2);
+
+* {
+font-family: "Fira Sans Semibold";
+}
+.control-center {
+  background: alpha(@cc-bg, 0.6);
+ /* box-shadow:
+    inset 0 3px rgba(255, 255, 255, 0.8),
+    inset 0 -3px rgba(255, 255, 255, 0.8),
+    inset 2px 0 rgba(255, 255, 255, 0.8),
+    inset -2px 0 rgba(255, 255, 255, 0.8); */
+    box-shadow:
+      inset 0 4px @foreground,
+      inset 0 -4px @foreground,
+      inset 2px 0 @foreground,
+      inset -2px 0 @foreground;
+}
+
+.widget-title {
+  background: alpha(@cc-bg, 0.6);
+  border-radius: 8px;
+  box-shadow:
+    inset 0 3px alpha(@foreground, 0.3),
+    inset 0 -3px alpha(@foreground, 0.3);
+  margin-right: 13px;
+  margin-left: 13px;
+  margin-top: 20px;
+}
+
+.widget-notifications{
+ border-radius: 8px;
+ box-shadow:
+  inset 0 3px alpha(@foreground, 0.3),
+  inset 0 -3px alpha(@foreground, 0.3);
+ background: alpha(@cc-bg, 0.6);
+}
+
+.widget-dnd {
+  background: alpha(@cc-bg, 0.6);
+  border-radius: 8px;
+  box-shadow: 
+    inset 0 3px alpha(@foreground, 0.3),
+    inset 0 -3px alpha(@foreground, 0.3);
+  margin-right: 13px; 
+  margin-left: 13px;
+}
+
+.widget-buttons-grid {
+ margin-left: 55px;
+ margin-top: 0px;
+}
+
+.notification-row .notification-background {
+  border-radius: 8px;
+  padding: 20px 20px;
+}
+
+.notification-row .notification-background .notification {
+  background: @noti-bg;
+}
+
+.notification-row .notification-background .notification .notification-action,
+.notification-row .notification-background .notification .notification-default-action {
+  padding: 4px 4px;
+  margin: 2px;
+  background: @noti-bg;
+  color: @text-color;
+  border-radius: 8px;
+}

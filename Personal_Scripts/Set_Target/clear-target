@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TARGET_FILE="/home/taian/Personal_Scripts/Set_Target/target.txt"
+
+rm -f "$TARGET_FILE"
