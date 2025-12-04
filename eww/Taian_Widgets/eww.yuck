@@ -1,0 +1,97 @@
+;; Firma en el borde de la pantalla
+(defwindow activate
+           :monitor 0
+           :geometry (geometry :x "-10px"
+                               :y "-25px"
+                               :width "9%"
+                               :height "10px"
+                               :anchor "bottom right")
+           :stacking "bottom"
+	   :namespace "signature"
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"	
+           :wm-ignore false
+	  "Taian"
+)
+
+;;Widget audio
+
+(deflisten song_artist :initial "Unknow Artist"
+'/home/taian/.config/eww/Taian_Widgets/ewwW_scripts/gm_inf.sh artist')
+(deflisten song_title :initial "Unknow Song"
+'/home/taian/.config/eww/Taian_Widgets/ewwW_scripts/gm_inf.sh title')
+
+(deflisten song_album :initial "Unknow Album"
+'/home/taian/.config/eww/Taian_Widgets/ewwW_scripts/gm_inf.sh album')
+
+(defpoll cover :interval "1s" "/home/taian/.config/eww/Taian_Widgets/ewwW_scripts/gm_inf.sh cover")
+
+(defpoll len :interval "1s" "/home/taian/.config/eww/Taian_Widgets/ewwW_scripts/gm_inf.sh len")
+
+(defpoll song_position_s  :interval "1s" "playerctl position -p spotify,tidal-hifi || echo 0")
+
+(defpoll current :interval "1s" "/home/taian/.config/eww/Taian_Widgets/ewwW_scripts/gm_inf.sh current")
+
+(defpoll player_status :interval "1s" "playerctl status -p spotify,tidal-hifi")
+
+(defwidget audio-widget []
+;; Contenedor principal
+ (box :class "audio-wid" 
+      :orientation "v" 
+      :space-evenly false
+      :halign "linespace" ;;
+      :spacing 10 ;;
+;; Caja superior
+ (box :class "box1"
+      :orientation "h"
+      :space-evenly false
+      :spacing 1
+      :valign "center" ;;
+  ;; Cover de la canción
+  (box :class "cover-art" :halign "start" (image :path cover
+                                 :image-width 100
+                                 :image-heigth 100))	
+  ;; Información de la cancion
+  (box :class "info-song" 
+	:orientation "v" 
+	:halign "center"
+	:valign "start" 
+	:space-evenly false 
+	:hexpand true
+        (label :class "song-title" 
+		:text song_title 
+		:limit-width 25 
+		:halign "center"
+)
+        (label :class "song-artist"
+		:halign "center"
+	        :text song_artist 
+		:limit-width 25))
+ )
+;; Segundo contenedor
+  (box :class "controls" :orientation "h" :halign "start" :spacing 10
+        (button :onclick "playerctl previous -p spotify, tidal-hifi" "󰒮")
+        (button :onclick "playerctl play-pause -p spotify, tidal-hifi" {player_status == "Playing" ? "󰏤" : "󰐊"})
+        (button :onclick "playerctl next -p spotify, tidal-hifi" "󰒭"))
+  (box :class "time" :orientation "h" :halign "start" :valign "start" :spacing 0 :hexpand false :vexpand false
+   (label :class "current" :text current)
+   (label :text "-")
+   (label :class "len_s" :text len)
+  )
+ )
+)
+
+(defwindow audio
+           :monitor 0
+           :geometry (geometry :x "230px"
+                               :y "9px"
+                               :width "400px"
+                               :height "200px"
+                               :anchor "top right")
+           :stacking "fg"
+           :namespace "audio"
+           :windowtype "dock"
+           :wm-ignore false
+          (audio-widget)
+)
+

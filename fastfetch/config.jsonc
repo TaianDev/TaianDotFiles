@@ -1,0 +1,104 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/hyprland.icon",
+    "color": {
+      "1": "#eae7dc"
+    },
+    "padding": {
+      "top": 1,
+      "right": 0
+    },
+  },
+ 
+  "display": {
+    "separator": "> "
+  },
+
+
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "  ┌────────────────────────────────────┐"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "(󰣇) Distro ",
+      "keyColor": "#7DA5C6"
+    },
+    {
+      "type": "kernel",
+      "key": "() Kernel ",
+      "keyColor": "#7DA5C6"
+    },
+    {
+      "type": "Packages",
+      "format": "{}",
+      "key": "(󰏗) Packages ",
+      "keyColor": "#7DA5C6"
+    },
+    {
+      "type": "shell",
+      "key": "() Unix shell ",
+      "keyColor": "#7DA5C6"
+    },
+    {
+      "type": "terminal",
+      "key": "() Terminal ",
+      "keyColor": "#7DA5C6"
+    },
+    {
+      "type": "wm",
+      "format": "{} ({3})",
+      "key": "() Window manager",
+      "keyColor": "#7DA5C6"
+    },
+    
+    {
+      "type": "disk",
+      "key": "(󱦟) OS Age ",
+      "folders": "/",
+      "keyColor": "#7DA5C6",
+      "format": "{days} days"
+    },
+
+    {
+      "type": "uptime",
+      "key": "(󱫐) Uptime ",
+      "keyColor": "#7DA5C6"
+    },
+
+    {
+      "type": "disk",
+      "format": "{1} / {2}", 
+      "key": "() Disk ",
+      "keyColor": "#7DA5C6",
+      "path": "/"
+    },
+    
+    {
+      "type": "title",
+      "key": "() User ",
+      "keyColor": "#7DA5C6"
+    },
+  "break",
+    {
+      "type": "custom",
+      "format": "  └────────────────────────────────────┘"
+    },
+
+    {
+      "type": "colors",
+      "paddingLeft": 12,
+      "symbol": "circle",
+        "color": {
+    "1": "#7DA5C6"
+  }
+    },
+    "break",
+  ]
+}
+
+

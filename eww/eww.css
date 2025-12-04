@@ -1,0 +1,188 @@
+window {
+    background-color: transparent;
+}
+
+.spotify-widget {
+    background-color: rgb(33, 33, 43);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 14px;
+    color: white;
+    font-family: "Inter";
+    min-width: 300px;
+    min-height: 90px;
+}
+
+.artwork-container {
+    margin-right: 1px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    min-height: 40px;
+}
+
+.artwork-container image {
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    min-width: 30px;
+    min-height: 1px;
+    padding: 0px 0px;
+}
+
+.info-controls {
+    margin-left: 4px;
+    min-width: 200px;
+}
+
+.song-info {
+    margin-bottom: 8px;
+}
+
+.song-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.song-artist {
+    font-size: 13px;
+    color: rgb(179, 179, 179);
+}
+
+.controls {
+    margin: 10px 0 8px 0;
+}
+
+.control-btn {
+    background-color: black;
+    border: none;
+    color: rgba(255, 255, 255, 0.1) ;
+    font-size: 16px;
+    padding: 2px;
+    border-radius: 30px;
+    min-width: 22px;
+    min-height: 22px;
+    margin: 2px 6px;
+}
+
+.control-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: white;
+}
+
+.progress-container {
+    margin-top: 4px;
+    padding: 0 8px;
+}
+
+progress {
+    min-height: 4px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+}
+
+progress trough {
+    min-height: 4px;
+    background-color: rgba(55, 55, 55, 0.25);
+    border-radius: 2px;
+}
+
+progress progress {
+    min-height: 4px;
+    background-color: rgb(29, 185, 84);
+    border-radius: 2px;
+}
+
+button {
+    background-color: rgb(42, 42, 42);
+    border: none;
+    color: rgb(42, 42, 42);
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 10px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+button:hover {
+    background-color: rgba(55, 55, 55, 1);
+    color: black;
+}
+
+label {
+    color: white;
+}
+
+
+/* Widget del calendario - sin transparencia */
+.calendar-widget {
+  background: #21212b;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.calendar-widget:hover {
+  border-color: #89b4fa;
+}
+
+/* Encabezado del calendario (mes/año) */
+.calendar-widget header {
+  background: #89b4fa;
+  color: #1e1e2e;
+  font-weight: bold;
+  font-size: 9px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* Nombres de días de la semana */
+.calendar-widget .day-names {
+  background: #313244;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.calendar-widget .day-names label {
+  color: #a6adc8;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px 4px;
+}
+
+/* Días del calendario */
+.calendar-widget calendar {
+  color: #cdd6f4;
+  font-family: monospace;
+}
+
+/* Días individuales */
+.calendar-widget calendar button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #bac2de;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 8px;
+  min-width: 32px;
+  min-height: 32px;
+  margin: 1px;
+}
+
+.calendar-widget *:hover {
+  background: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+/* O probar con selectors más específicos de GTK */
+calendar:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* O directamente en el widget */
+.calendar-widget:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
