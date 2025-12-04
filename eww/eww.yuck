@@ -1,0 +1,102 @@
+;; Variables para el player de Spotify
+(defpoll spotify_status :interval "1s" "scripts/spotify.sh status")
+(defpoll spotify_title :interval "1s" "scripts/spotify.sh title")
+(defpoll spotify_artist :interval "1s" "scripts/spotify.sh artist")
+(defpoll spotify_position :interval "1s" "scripts/spotify.sh position")
+(defpoll spotify_duration :interval "1s" "scripts/spotify.sh duration")
+(defpoll spotify_progress :interval "1s" "scripts/spotify.sh progress")
+(defpoll spotify_artwork :interval "1s" "scripts/spotify.sh artwork")
+(include "./music-widget/eww.yuck")
+;; Widget principal de Spotify
+(defwidget spotify []
+  (box :class "spotify-widget"
+       :orientation "h"
+       :space-evenly false
+       :spacing 8
+    ;; Artwork
+    (box :class "artwork-container"
+      (image :path spotify_artwork
+             :image-width 105
+             :image-height 105))
+    
+    ;; Información y controles
+    (box :class "info-controls"
+         :orientation "v"
+         :space-evenly false
+         :spacing 8
+         :hexpand true
+      
+      ;; Información de la canción
+      (box :class "song-info"
+           :orientation "v"
+           :space-evenly false
+           :spacing 2
+           :halign "center"
+        (label :class "song-title"
+               :text spotify_title
+               :limit-width 30
+               :halign "center")
+        (label :class "song-artist"
+               :text spotify_artist
+               :limit-width 30
+               :halign "center"))
+      
+      ;; Controles de reproducción
+      (box :class "controls"
+           :orientation "h"
+           :space-evenly false
+           :spacing 12
+           :halign "center"
+        (button :class "control-btn prev-btn"
+                :onclick "scripts/spotify.sh previous"
+                "")
+        (button :class "control-btn play-pause-btn"
+                :onclick "scripts/spotify.sh toggle"
+                "${spotify_status == "Playing" ? "⏸" : ""}")
+        (button :class "control-btn next-btn"
+                :onclick "scripts/spotify.sh next"
+                ""))
+      
+      ;; Barra de progreso
+      (box :class "progress-container"
+           :orientation "h"
+           :halign "fill"
+        (progress :class "progress-bar"
+                  :value spotify_progress
+                  :orientation "h")))))
+
+;; Ventana principal
+(defwindow spotify-player
+  :monitor 0
+  :geometry (geometry :x "205px"
+                      :y "9px"
+                      :width "300px"
+                      :height "80px"
+                      :anchor "top left")
+  :stacking "overlay"
+  :reserve (struts :distance "0px" :side "top")
+  :windowtype "dock"
+  :wm-ignore false
+  (spotify))
+
+(defwidget calendar-widget []
+  (calendar
+    :class "calendar-widget"
+    :value "${EWW_TIME}"
+    :show-heading true
+    :show-week-numbers false
+    :show-day-names true))
+
+(defwindow calendar-window
+  :monitor 0
+  :geometry (geometry 
+    :x "1006px" 
+    :y "9px" 
+    :width "100px"     ; Más pequeño sin el título
+    :height "130px"    ; Más compacto
+    :anchor "top left")
+  :stacking "overlay"
+  :windowtype "normal"
+  :wm-ignore false
+  :focusable false     ; Opcional: evita que tome el foco
+  (calendar-widget))
