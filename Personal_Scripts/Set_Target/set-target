@@ -1,0 +1,10 @@
+#!/bin/bash
+
+TARGET_FILE="/home/taian/Personal_Scripts/Set_Target/target.txt"
+
+if [[ -z "$1" ]]; then
+    echo "Uso: set-target <IP>"
+    exit 1
+fi
+
+echo "$1" > "$TARGET_FILE"
