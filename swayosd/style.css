@@ -1,0 +1,66 @@
+@import url('../../.cache/wal/colors-waybar.css');
+
+* {
+    --screen-width: 1920px;
+    --screen-scaling: 0.9;
+    --window-side-padding: 20px;
+    --container-width: 250px;
+    --container-margin: 16px;
+    --window-edge-offset: 50px;
+    --window-width: calc(var(--container-width) + 2*var(--window-side-padding) + 2*var(--container-margin));
+    --screen-edge-distance: calc(var(--screen-width) / var(--screen-scaling) - var(--window-width));
+}
+
+window#osd {
+  margin: 0;
+  border-radius: 6px;
+  border: 3px solid;
+  background: #{"alpha(@theme_bg_color, 0.1)"};
+  padding: 1px var(--window-side-padding);
+  margin: 0px 0px;
+  
+  #container {
+    margin: 2px;
+    padding: 100px var(--window-side-padding);
+    margin-left: calc(var(--screen-edge-distance) - var(--window-edge-offset));
+  }
+
+  image,
+  label {
+    color: #{"@theme_fg_color"};
+  }
+
+  progressbar:disabled,
+  image:disabled {
+    opacity: 0.5;
+  }
+
+  progressbar,
+  segmentedprogress {
+    min-height: 1px;
+    border-radius: 999px;
+    background: transparent;
+    border: none;
+  }
+  trough,
+  segment {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    background: #{"alpha(@theme_fg_color, 0.5)"};
+  }
+  progress,
+  segment.active {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    background: #{"@theme_fg_color"};
+  }
+
+  segment {
+    margin-left: 8px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

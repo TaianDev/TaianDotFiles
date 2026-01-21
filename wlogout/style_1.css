@@ -1,0 +1,120 @@
+/* 1. Importamos los colores generados por Matugen */
+@import url("${HOME}/.config/wlogout/colors.css");
+
+* {
+    background-image: none;
+    font-size: ${fntSize}px; /* Variable mantenida */
+}
+
+window {
+    /* Usamos el fondo definido en Matugen (con transparencia) */
+    background-color: @wl-window-bg;
+}
+
+button {
+    /* 2. Adaptación a Matugen */
+    color: @wl-button-fg;           /* Reemplaza ${BtnCol} para consistencia */
+    background-color: alpha(@wl-button-bg, 0.7);  /* Reemplaza @main-bg */
+    
+    outline-style: none;
+    border: none;
+    border-width: 0px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    
+    /* Animación original conservada */
+    animation: gradient_f 20s ease-in infinite;
+}
+
+button:focus {
+    background-color: alpha(@wl-button-active, 0.7); /* Reemplaza @wb-act-bg */
+    background-size: 50%;
+}
+
+button:hover {
+    background-color: alpha(@wl-button-active, 0.7); /* Reemplaza @wb-hvr-bg */
+    background-size: 55%;
+    
+    /* Variables de script mantenidas */
+    border-radius: ${active_rad}px;
+    
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
+}
+
+/* --- MÁRGENES Y RADIOS (Variables de script) --- */
+
+button:hover#lock {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px ${mgn}px;
+}
+
+button:hover#logout {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#suspend {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#shutdown {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#hibernate {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#reboot {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px ${mgn}px ${hvr}px 0px;
+}
+
+/* --- ICONOS Y BORDES --- */
+/* 3. Rutas adaptadas a las estándar del sistema */
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+    border-radius: ${button_rad}px 0px 0px ${button_rad}px;
+    margin : ${mgn}px 0px ${mgn}px ${mgn}px;
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+    border-radius: 0px ${button_rad}px ${button_rad}px 0px;
+    margin : ${mgn}px ${mgn}px ${mgn}px 0px;
+}

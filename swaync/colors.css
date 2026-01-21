@@ -1,0 +1,49 @@
+/* ~/.config/matugen/templates/swaync-colors.css */
+
+/* --- FONDOS --- */
+/* Fondo del Centro de Control (Panel principal) */
+/* Usamos opacidad F2 (95%) para que sea sólido pero no bloquee totalmente */
+/*@define-color cc-bg #111318F2;*/
+
+/* Fondo de las notificaciones individuales y widgets */
+/*@define-color widget-bg #1e2025B3;*/
+
+/* --- BORDES (CONSISTENCIA WAYBAR) --- */
+/* Este es el color "mix" que usamos en Rofi y Waybar */
+/*@define-color border-col #d7e2ff;*/
+
+/* --- TEXTO --- */
+/*@define-color text #e2e2e9;
+@define-color text-dim #c4c6d0;*/
+
+/* --- ACENTOS (Sliders, botones) --- */
+/*@define-color accent #abc7ff;
+@define-color accent-fg #0d2f5f;*/
+
+/* ~/.config/matugen/templates/swaync-colors.css */
+
+/* --- FONDOS --- */
+/* Fondo del Centro de Control (Panel principal) */
+/* Debe coincidir con 'mb-background' de Waybar (surface) */
+/* Mantengo F2 (95%) para evitar que se vea como un bloque sólido plano */
+@define-color cc-bg #111318F2;
+
+/* Fondo de las notificaciones individuales y widgets */
+/* CAMBIO: Usamos 'surface_variant' para que sea IDÉNTICO al fondo 
+   de tus módulos de Waybar (#workspaces, #clock, etc.) */
+@define-color widget-bg #44474eB3; 
+
+/* --- BORDES (CONSISTENCIA WAYBAR) --- */
+/* CAMBIO: Usamos 'primary' en lugar de 'fixed' para coincidir con 
+   el borde activo y las sombras de tu Waybar */
+@define-color border-col #abc7ff;
+
+/* --- TEXTO --- */
+/* Coincide con mb-text */
+@define-color text #e2e2e9;
+/* Coincide con mb-text-dim */
+@define-color text-dim #c4c6d0;
+
+/* --- ACENTOS (Sliders, botones) --- */
+@define-color accent #abc7ff;
+@define-color accent-fg #0d2f5f;

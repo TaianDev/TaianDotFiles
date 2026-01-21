@@ -1,172 +1,201 @@
+@import url('colors.css');
 @import url('../../.cache/wal/colors-waybar.css');
 
-* {
-    font-family: "Fira Sans Semibold";
-    border: none;
-    border-radius: 0px;
+/* --- General ---*/
+*{
+  font-family: "JetBrainsMono Nerd Font, monospace";
+  font-size: 14px;
+  min-height: 0px;
+  border: none;
+  border-radius: 0;
 }
 
 window#waybar {
-  background-color: alpha(@background, 0.5);
-  box-shadow: inset 0 -2px alpha(@foreground, 1); 
+  background: transparent;
+}
+
+
+/* --- Left modules --- */
+#custom-notifications {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+    border-radius: 10px;
+/*    border: solid 3px;
+    border-color: mix(@mb-primary, #ffffff, 0.3);*/
+    box-shadow: inset 0 -4px 1px mix(@mb-primary, #ffffff, 0.3);
+    transition: background 0.3s ease;
+	  border-radius: 11px;
+    color: @mb-text-dim;
+    background: @mb-surface-variant;
 }
 
 #workspaces {
- margin: 4px 2px 8px 2px;
- font-size: 12px;
- background: rgba(12, 12, 12, 1);
- box-shadow: inset 0 -3px @foreground;
- border-radius: 8px;
- padding: 0px 4px;
- min-height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+/*    border-radius: 5px 20px 5px 20px;
+    border: solid 3px;
+    border-color: mix(@mb-primary, #ffffff, 0.3);*/
+    box-shadow: inset 0 -4px 1px mix(@mb-primary, #ffffff, 0.3);
+    transition: background 0.3s ease;
+	  border-radius: 10px;
+    color: @mb-text-dim;
+    background: @mb-surface-variant;
+    transition: all 0.3s ease;
 }
 
 #workspaces button {
- background: rgba(12, 12, 12, 0);
- border: 0px solid rgba(255, 255, 255, 0.2);
- margin: 0px 0px 0px 0px;
- border-radius: 1px;
- margin-left: 0px;
- margin-right: 0px;
- padding: 1px 6px; 
- color: rgba(255, 255, 255, 1);
- transition: all 0.1s ease-in-out;
+  padding: 0px;
+  min-width: 20px;
+  min-height: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background: alpha(@foreground, 0.4);
+  border-radius: 50%;
+  transition: all 0.1s ease;
 }
 
 #workspaces button.active {
-/* background: rgba(132, 126, 142, 1);*/
- background: alpha(@foreground, 0.7);
- border-radius: 4px;
- padding: 1px 13px;
- border: 0px solid rgba(255, 255, 255, 0.7);  
+  background: @foreground;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 13%;
 }
 
 #workspaces button:not(.empty) {
- box-shadow: inset 0 -7px alpha(@foreground, 0.5);
+   box-shadow: inset 0 -6px alpha(@foreground, 0.8);
 }
 
-#custom-notifications {
- font-size: 15px;
- margin: 4px 0px 8px 4px; 
- /*border: 3px solid @foreground;*/
- background: rgba(12, 12, 12, 1);
- box-shadow: inset 0 -3px @foreground;
- border-radius: 8px;
- padding: 0px 13px 0px 10px;
+#workspaces button.urgent:not(.active) {
+  border-radius: 13%;
 }
 
-#custom-target {
- font-size: 14px;
-/*border: 3px solid @foreground;*/
- box-shadow: inset 0 -3px @foreground;
- border-radius: 8px;
- padding: 3px 13px; 
- margin: 4px 0px 8px 0px;
- background: rgba(12, 12, 12, 1);
- transition: all 0.1s ease-in-out;
+#leftmodules {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+/*    border-radius: 5px 20px 5px 20px;
+    border: solid 3px;*/
+/*    border-color: mix(@mb-primary, #ffffff, 0.3);*/
+    box-shadow: inset 0 -4px 1px mix(@mb-primary, #ffffff, 0.3);
+    transition: background 0.3s ease;
+	  border-radius: 10px;
+    color: @mb-text-dim;
+    background: @mb-surface-variant;
+}
+
+/* --- Center modules --- */
+#clock {
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+    border-radius: 10px;
+/*    border: solid 0px;
+    border-color: mix(@mb-primary, #ffffff, 0.3);*/
+    box-shadow: inset 0 -4px 1px mix(@mb-primary, #ffffff, 0.3);
+    transition: background 0.3s ease;
+    color: @mb-text-dim;
+    background: @mb-surface-variant;
+}
+
+
+
+/* --- Right modules --- */
+#tray {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+/*    border-radius: 20px 5px 20px 5px;*/
+/*    border: solid 3px;
+    border-color:  mix(@mb-primary, #ffffff, 0.3);*/
+    border-radius: 10px;
+    box-shadow: inset 0 -4px 1px mix(@mb-primary, #ffffff, 0.3);
+    transition: background 0.3s ease, border-radius 0.3s ease;
+    color: @mb-text-dim;
+    background: @mb-surface-variant;
+}
+
+#taskbar {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 11px;
+    border: solid 3px;
+    border-color: alpha(@mb-primary, 0);
+    transition: background 0.3s ease, border-radius 0.3s ease;
+    color: #ffffff;
+    background: alpha(@mb-background, 0.4);
 }
 
 #taskbar button {
- background: rgba(255, 255, 255, 0.05231);
- margin: 4px 3px 8px 0px;
- border-radius: 8px;
- border: 0px solid rgba(255, 255, 255, 0.5);
- transition: all 0.1s ease-in-out;
+  background: alpha(@mb-background, 0.07);
+  padding: 3;
+  border-radius: 50%;
+  transition: all 0.3s ease;
 }
 
 #taskbar button.active {
-  box-shadow: inset 0 -3px @foreground;
+  box-shadow: inset 0 -3px 0 0 mix(@mb-primary, #ffffff, 0.3);
 }
 
-#clock {
- margin: 4px 0px 8px 0px;
- padding: 0px 13px 0px 13px;
- /*background: rgba(255, 255, 255, 0.05231);*/
- background: rgba(12, 12, 12, 1);
- border-radius: 8px;
- box-shadow: inset 0 -3px @foreground;
- transition: all 0.1s ease-in-out;
-}
-
-#system {
- margin: 4px 2px 8px 2px;
- font-size: 15px;
- padding: 0px 10px 0px 10px;
- background: rgba(12, 12, 12, 1);
-/*border: 3px solid alpha(@foreground, 1);*/
- box-shadow: 
-  inset 0 -3px @foreground;
- border-radius: 8px;
-}
-
-#temperature{
- margin: 0px 8px 0px 0px;
- border-radius: 6px;
- background: alpha(@foreground, 0);
- padding: 0px 4px 0px 0px;
-}
-
-#cpu {
- margin: 0px 7px 0px 0px;
- border-radius: 6px;
- background: alpha(@foreground, 0);
- padding: 0px 2px 0px 2px;
-}
-
-#memory {
- margin: 0px 0px 0px 0px;
- border-radius: 6px;
- background: alpha(@foreground, 0);
- padding: 0px 0px 0px 0px;
-}
-
-#custom-cava_mviz {
-/*border: 3px solid alpha(@foreground, 1);*/
- box-shadow: inset 0 -3px @foreground;
- border-radius: 8px;
- margin: 4px 0px 8px 0px;
- padding: 0px 2px 0px 2px;
- background: rgba(12, 12, 12, 1);
+#taskbar.empty {
+  background: transparent; 
 }
 
 #network {
- background: rgba(12, 12, 12, 1);
- margin: 4px 3px 8px 0px;
- border-radius: 8px;
- border: 0px solid rgba(255, 255, 255, 0.5);
- transition: all 0.1s ease-in-out;
- box-shadow: inset 0 -3px @foreground;
- padding: 0px 5px 0px 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px 5px 20px 5px;
+    border: solid 3px;
+    border-color: mix(@mb-primary, #ffffff, 0.3);
+    transition: background 0.3s ease,
+	  border-radius 0.3s ease;
+    color: #ffffff;
+    background: @mb-background;
 }
 
-#bluetooth {
- background: rgba(12, 12, 12, 1);
- margin: 4px 3px 8px 0px;
- border-radius: 8px;
- border: 0px solid rgba(255, 255, 255, 0.5);
- transition: all 0.1s ease-in-out;
- box-shadow: inset 0 -3px @foreground;
- padding: 0px 8px 0px 8px;
+#cpu, #memory, #temperature {
+  background: transparent;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
-#battery {
-/*background: rgba(255, 255, 255, 0.05231);*/
- background: rgba(12, 12, 12, 1);
- margin: 4px 3px 8px 0px;
- border-radius: 8px;
- border: 0px solid rgba(255, 255, 255, 0.5);
- transition: all 0.1s ease-in-out;
- box-shadow: inset 0 -3px @foreground;
- padding: 0px 7px 0px 7px;
+#system {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+/*    border-radius: 20px 5px 20px 5px;
+    border: solid 3px;
+    border-color: mix(@mb-primary, #ffffff, 0.3);*/
+    transition: background 0.3s ease;
+	  border-radius: 10px;
+    box-shadow: inset 0 -4px 1px mix(@mb-primary, #ffffff, 0.3);
+    color: @mb-text-dim;
+    background: @mb-surface-variant;
 }
-
 
 #custom-power {
- font-size: 15px;
- margin: 4px 4px 8px 0px;
-/*border: 3px solid @foreground;*/
- box-shadow: inset 0 -3px @foreground;
- background: rgba(12, 12, 12, 1);
- border-radius: 8px;
- padding: 0px 10px 0px 10px;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+/*    border-radius: 20px 5px 20px 5px;
+    border: solid 3px;
+    border-color: mix(@mb-primary, #ffffff, 0.3);*/
+    transition: background 0.3s ease;
+	  border-radius: 10px;
+    box-shadow: inset 0 -4px 1px mix(@mb-primary, #ffffff, 0.3);
+    color: @mb-text-dim;
+    background: @mb-surface-variant;
 }
+
+
+

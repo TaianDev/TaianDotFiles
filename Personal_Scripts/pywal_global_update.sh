@@ -7,15 +7,18 @@
 set -e
 
 if [ -z "$1" ]; then
-    echo "No wallpaper path provided. Won't update pywal and walcord colors."
+  echo "No wallpaper path provided. Won't update pywal and walcord colors."
 else
-	WALLPAPER_PATH="$1"
-	echo "Setting new theme from: $WALLPAPER_PATH"
-	swww img "$WALLPAPER_PATH" --transition-type wave --transition-fps 60 --transition-duration 2
-	wal -q -i "$WALLPAPER_PATH"
-	
+  WALLPAPER_PATH="$1"
+  echo "Setting new theme from: $WALLPAPER_PATH"
+  swww img "$WALLPAPER_PATH" --transition-type wave --transition-fps 60 --transition-duration 2
+  wal -qst -i "$WALLPAPER_PATH"
+  matugen image "$WALLPAPER_PATH"
+  ln -sf "$WALLPAPER_PATH" "$HOME/.config/rofi/current_wall"
+  ln -sf "$WALLPAPER_PATH" "$HOME/.config/hypr/current_wall"
+  killall -SIGUSR1 kitty
 #	echo "Updating Vesktop walcord theme..."
-#	walcord -i $WALLPAPER_PATH -t ~/.config/vesktop/themes/midnight-vesktop.template.css -o ~/.config/vesktop/themes/midnight-vesktop.theme.css 
+#	walcord -i $WALLPAPER_PATH -t ~/.config/vesktop/themes/midnight-vesktop.template.css -o ~/.config/vesktop/themes/midnight-vesktop.theme.css
 fi
 
 #echo "Reloading Wayland notification daemon..."

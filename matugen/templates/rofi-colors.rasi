@@ -1,0 +1,24 @@
+/* Plantilla Matugen para Rofi - Consistencia con Waybar */
+
+* {
+    /* --- 1. FONDOS --- */
+    background:     {{colors.surface.default.hex}}E6;
+
+    /* Coincide con: @define-color mb-container / mb-surface-variant */
+    background-alt: {{colors.surface_container_high.default.hex}}E6;
+
+    /* --- 2. TEXTO --- */
+    foreground:     {{colors.on_surface.default.hex}};
+
+    /* --- 3. ACENTOS Y ESTADOS --- */
+    selected:       {{colors.primary.default.hex}}4D;
+
+    /* Coincide con: @define-color mb-secondary */
+    active:         {{colors.secondary.default.hex}}66;
+
+    /* Urgente */
+    urgent:         {{colors.error.default.hex}}66;
+
+    /* --- 4. BORDES (Simulación de tu MIX) --- */
+    border-col:     {{colors.primary_fixed.default.hex}};
+}

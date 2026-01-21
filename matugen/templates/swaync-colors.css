@@ -1,0 +1,49 @@
+/* ~/.config/matugen/templates/swaync-colors.css */
+
+/* --- FONDOS --- */
+/* Fondo del Centro de Control (Panel principal) */
+/* Usamos opacidad F2 (95%) para que sea sólido pero no bloquee totalmente */
+/*@define-color cc-bg {{colors.surface.default.hex}}F2;*/
+
+/* Fondo de las notificaciones individuales y widgets */
+/*@define-color widget-bg {{colors.surface_container.default.hex}}B3;*/
+
+/* --- BORDES (CONSISTENCIA WAYBAR) --- */
+/* Este es el color "mix" que usamos en Rofi y Waybar */
+/*@define-color border-col {{colors.primary_fixed.default.hex}};*/
+
+/* --- TEXTO --- */
+/*@define-color text {{colors.on_surface.default.hex}};
+@define-color text-dim {{colors.on_surface_variant.default.hex}};*/
+
+/* --- ACENTOS (Sliders, botones) --- */
+/*@define-color accent {{colors.primary.default.hex}};
+@define-color accent-fg {{colors.on_primary.default.hex}};*/
+
+/* ~/.config/matugen/templates/swaync-colors.css */
+
+/* --- FONDOS --- */
+/* Fondo del Centro de Control (Panel principal) */
+/* Debe coincidir con 'mb-background' de Waybar (surface) */
+/* Mantengo F2 (95%) para evitar que se vea como un bloque sólido plano */
+@define-color cc-bg {{colors.surface.default.hex}}F2;
+
+/* Fondo de las notificaciones individuales y widgets */
+/* CAMBIO: Usamos 'surface_variant' para que sea IDÉNTICO al fondo 
+   de tus módulos de Waybar (#workspaces, #clock, etc.) */
+@define-color widget-bg {{colors.surface_variant.default.hex}}B3; 
+
+/* --- BORDES (CONSISTENCIA WAYBAR) --- */
+/* CAMBIO: Usamos 'primary' en lugar de 'fixed' para coincidir con 
+   el borde activo y las sombras de tu Waybar */
+@define-color border-col {{colors.primary.default.hex}};
+
+/* --- TEXTO --- */
+/* Coincide con mb-text */
+@define-color text {{colors.on_surface.default.hex}};
+/* Coincide con mb-text-dim */
+@define-color text-dim {{colors.on_surface_variant.default.hex}};
+
+/* --- ACENTOS (Sliders, botones) --- */
+@define-color accent {{colors.primary.default.hex}};
+@define-color accent-fg {{colors.on_primary.default.hex}};

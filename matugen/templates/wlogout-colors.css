@@ -1,0 +1,15 @@
+/* ~/.config/matugen/templates/wlogout-colors.css */
+
+/* Fondo de pantalla completa (Overlay) - Usamos scrim o negro con transparencia */
+@define-color wl-window-bg rgba(0, 0, 0, 0.2);
+
+/* El color de la "Barra" (Botones en estado normal) */
+@define-color wl-button-bg {{colors.surface_container.default.hex}};
+@define-color wl-button-fg {{colors.on_surface.default.hex}};
+
+/* El color del botón ACTIVO/HOVER (El que resalta) */
+@define-color wl-button-active {{colors.primary.default.hex}};
+@define-color wl-button-active-fg {{colors.on_primary.default.hex}};
+
+/* Bordes sutiles para separar botones si es necesario */
+@define-color wl-border {{colors.outline_variant.default.hex}};

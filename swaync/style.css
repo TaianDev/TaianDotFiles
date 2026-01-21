@@ -1,79 +1,113 @@
-@import url('../../.cache/wal/colors-waybar.css');
-
-@define-color cc-bg rgba(12, 12, 12, 0.75);
-@define-color noti-border-color black;
-@define-color noti-bg rgba(12, 12, 12, 0.40);
-@define-color noti-bg-opaque rgba(12, 12, 12, 0.75);
-@define-color noti-bg-darker rgba(12, 12, 12, 0.75);
-@define-color noti-bg-hover rgba(12, 12, 12, 0.75);
-@define-color noti-bg-hover-opaque rgba(12, 12, 12, 0.75);
-@define-color noti-bg-focus rgba(68, 68, 68, 0.2);
+@import "colors.css";
 
 * {
-font-family: "Fira Sans Semibold";
+    font-family: "JetBrains Mono Nerd Font";
+    font-size: 14px;
 }
+
+/* --- PANEL PRINCIPAL --- */
 .control-center {
-  background: alpha(@cc-bg, 0.6);
- /* box-shadow:
-    inset 0 3px rgba(255, 255, 255, 0.8),
-    inset 0 -3px rgba(255, 255, 255, 0.8),
-    inset 2px 0 rgba(255, 255, 255, 0.8),
-    inset -2px 0 rgba(255, 255, 255, 0.8); */
-    box-shadow:
-      inset 0 4px @foreground,
-      inset 0 -4px @foreground,
-      inset 2px 0 @foreground,
-      inset -2px 0 @foreground;
+    background: mix(@cc-bg, #ffffff, 0.1);
+    border: 3px solid @border-col;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 10px; 
 }
+
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background: alpha(@text, 0); 
+    border-radius: 10px;
+    min-width: 4px; 
+    min-height: 4px;
+    margin: 0px;
+    border: none;
+}
+
+scrollbar trough {
+    background: transparent;
+    border: none;
+    min-width: 4px;
+}
+
+scrolledwindow {
+    box-shadow: none;
+}
+
+.widget-notifications { 
+    background: @widget-bg;
+    border-radius: 10px;
+    border: 1px solid alpha(@border-col, 0); 
+}
+
+/* --- WIDGETS GENÉRICOS --- */
 
 .widget-title {
-  background: alpha(@cc-bg, 0.6);
-  border-radius: 8px;
-  box-shadow:
-    inset 0 3px alpha(@foreground, 0.3),
-    inset 0 -3px alpha(@foreground, 0.3);
-  margin-right: 13px;
-  margin-left: 13px;
-  margin-top: 20px;
+    background: @widget-bg;
+    border-radius: 12px;
+    margin: 3px 5px;
+    padding: 8px;   
+    border: 1px solid alpha(@border-col, 0);
 }
 
-.widget-notifications{
- border-radius: 8px;
- box-shadow:
-  inset 0 3px alpha(@foreground, 0.3),
-  inset 0 -3px alpha(@foreground, 0.3);
- background: alpha(@cc-bg, 0.6);
+.widget-title > button,
+.widget-inhibitors > button {
+    background: @accent;
+    color: @accent-fg;
+    border-radius: 10px;
 }
 
 .widget-dnd {
-  background: alpha(@cc-bg, 0.6);
-  border-radius: 8px;
-  box-shadow: 
-    inset 0 3px alpha(@foreground, 0.3),
-    inset 0 -3px alpha(@foreground, 0.3);
-  margin-right: 13px; 
-  margin-left: 13px;
+    background: @widget-bg;
+    border-radius: 12px;
+    margin: 3px 5px;
+    padding: 8px;    
+    border: 1px solid alpha(@border-col, 0);
 }
 
-.widget-buttons-grid {
- margin-left: 55px;
- margin-top: 0px;
+.widget-dnd > switch {
+    background: alpha(@text, 0.2);
+    color: @text;
+    border-radius: 10px;
+    box-shadow: none;
 }
 
-.notification-row .notification-background {
-  border-radius: 8px;
-  padding: 20px 20px;
+.widget-dnd > switch:checked {
+    background: @accent;
+    color: @accent-fg;
 }
 
-.notification-row .notification-background .notification {
-  background: @noti-bg;
+/* --- NOTIFICACIONES --- */
+.notification-row {
+    outline: none;
+    margin: 2px 5px; 
 }
 
-.notification-row .notification-background .notification .notification-action,
-.notification-row .notification-background .notification .notification-default-action {
-  padding: 4px 4px;
-  margin: 2px;
-  background: @noti-bg;
-  color: @text-color;
-  border-radius: 8px;
+.notification {
+    background: @widget-bg;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 8px;
+    box-shadow: none;
+}
+
+.notification.critical {
+    border: 2px solid @accent;
+}
+
+.notification-content, .summary, .body {
+    color: @text;
+}
+
+.time {
+    color: @text-dim;
+}
+
+/* --- LABEL "NO NOTIFICATIONS" --- */
+
+.blank-window {
+    background: transparent;
 }
