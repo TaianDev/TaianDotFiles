@@ -1,0 +1,109 @@
+/* =================================================================
+   GTK GLASSMORPHIC - SINTAXIS NATIVA (Opacidad 0.6)
+   ================================================================= */
+
+/* --- Variables de Matugen --- */
+@define-color bg_color {{colors.surface.default.hex}};
+@define-color fg_color {{colors.on_surface.default.hex}};
+@define-color accent {{colors.primary.default.hex}};
+
+/* El cristal base al 60% */
+@define-color glass_bg alpha(@bg_color, 0.6);
+
+/* --- ELIMINACIÓN DEL BLOQUE OSCURO --- */
+/* Target específico para Blueman: el treeview y sus contenedores */
+treeview,
+treeview.view,
+scrolledwindow,
+viewport,
+list,
+row,
+grid,
+stack {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+}
+
+/* --- VENTANA PRINCIPAL --- */
+window,
+.background,
+window.main-window {
+    background-color: @glass_bg;
+    color: @fg_color;
+    /* Borde sutil para dar definición al cristal */
+    border: 1px solid alpha(@fg_color, 0.1);
+}
+
+/* --- BARRAS SUPERIORES (Header y Toolbar) --- */
+headerbar,
+toolbar {
+    background-color: transparent;
+    background-image: none;
+    border-bottom: 1px solid alpha(@fg_color, 0.1);
+    box-shadow: none;
+}
+
+/* --- CORRECCIÓN DE POPUPS (MENÚS) --- */
+/* Para que se vean correctamente y no sean invisibles */
+popover,
+.popover,
+menu,
+.menu {
+    background-color: alpha(@bg_color, 1);
+    border: 1px solid alpha(@accent, 0.3);
+    color: @fg_color;
+    border-radius: 1px;
+}
+
+/* --- ELEMENTOS SELECCIONADOS --- */
+/* Para resaltar el dispositivo Bluetooth */
+treeview:selected,
+row:selected,
+.view:selected {
+    background-color: alpha(@accent, 0.4);
+    color: @fg_color;
+    border-radius: 0px;
+}
+
+/* --- BOTONES --- */
+button {
+    background-color: alpha(@accent, 0.1);
+    border: 1px solid alpha(@accent, 0.15);
+}
+
+button:hover {
+    background-color: alpha(@accent, 0.25);
+}
+
+/* --- ESTILO DEL SWITCH (INTERRUPTOR) --- */
+
+switch {
+    /* Fondo del switch cuando está APAGADO */
+    background-color: alpha(@fg_color, 0.15);
+    border: 1px solid alpha(@fg_color, 0.2);
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+switch:checked {
+    /* Fondo del switch cuando está ENCENDIDO (el azul que quieres quitar) */
+    background-color: @accent;
+    border-color: @accent;
+}
+
+switch slider {
+    /* El círculo que se mueve */
+    background-color: @fg_color;
+    border: none
+    border-radius: 100%;
+    margin: 2px;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+switch:checked slider {
+    /* El círculo cuando está encendido */
+    background-color: {{colors.on_primary.default.hex}};
+    border-color: transparent;
+}

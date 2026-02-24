@@ -1,0 +1,108 @@
+# Yazi Theme - Matugen High Contrast Neon
+# Author: Generated for Hyprland Rice
+
+# --- MANAGER (Panel de archivos) ---
+[manager]
+# Directorio actual: Cyan/Verde Neón (Secondary Fixed)
+cwd = { fg = "#{{colors.secondary_fixed.default.hex_stripped}}" }
+
+# Al pasar el ratón (Hover): Fondo Azul Neón, Texto Oscuro (Máximo contraste)
+hover = { fg = "#{{colors.on_primary_fixed.default.hex_stripped}}", bg = "#{{colors.primary_fixed.default.hex_stripped}}" }
+
+# Vista previa
+preview_hover = { underline = true }
+
+# Búsqueda
+find_keyword = { fg = "#{{colors.tertiary_fixed.default.hex_stripped}}", italic = true }
+find_position = { fg = "#{{colors.on_primary.default.hex_stripped}}", bg = "#{{colors.primary.default.hex_stripped}}", italic = true }
+
+# Marcadores (Markers) - Colores sólidos brillantes
+marker_copied = { fg = "#{{colors.secondary_fixed.default.hex_stripped}}", bg = "#{{colors.secondary_fixed.default.hex_stripped}}" }
+marker_cut    = { fg = "#{{colors.tertiary_fixed.default.hex_stripped}}", bg = "#{{colors.tertiary_fixed.default.hex_stripped}}" }
+marker_selected = { fg = "#{{colors.primary_fixed.default.hex_stripped}}", bg = "#{{colors.primary_fixed.default.hex_stripped}}" }
+
+# Pestañas
+tab_active   = { fg = "#{{colors.on_primary_container.default.hex_stripped}}", bg = "#{{colors.primary_container.default.hex_stripped}}" }
+tab_inactive = { fg = "#{{colors.on_surface_variant.default.hex_stripped}}", bg = "#{{colors.surface_container_high.default.hex_stripped}}" }
+tab_width    = 1
+
+# BORDES (El fix del gris)
+# Usamos 'primary_fixed' (Azul Neón) para que se vea claro sobre el fondo oscuro
+border_symbol = "│"
+border_style  = { fg = "#{{colors.primary_fixed_dim.default.hex_stripped}}" }
+
+# --- STATUS BAR (Barra inferior) ---
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#{{colors.surface_container_highest.default.hex_stripped}}", bg = "#{{colors.surface_container_highest.default.hex_stripped}}" }
+
+# Modo Normal (Azul Intenso)
+mode_normal = { fg = "#{{colors.on_primary.default.hex_stripped}}", bg = "#{{colors.primary.default.hex_stripped}}", bold = true }
+
+# Modo Selección (Verde Intenso)
+mode_select = { fg = "#{{colors.on_secondary.default.hex_stripped}}", bg = "#{{colors.secondary.default.hex_stripped}}", bold = true }
+
+# Modo Unset (Rosa/Naranja Intenso)
+mode_unset  = { fg = "#{{colors.on_tertiary.default.hex_stripped}}", bg = "#{{colors.tertiary.default.hex_stripped}}", bold = true }
+
+# Progreso
+progress_label = { fg = "#{{colors.on_surface.default.hex_stripped}}", bold = true }
+progress_normal = { fg = "#{{colors.primary_fixed.default.hex_stripped}}", bg = "#{{colors.surface_container_highest.default.hex_stripped}}" }
+progress_error  = { fg = "#{{colors.tertiary_fixed.default.hex_stripped}}", bg = "#{{colors.surface_container_highest.default.hex_stripped}}" }
+
+# --- INPUT (Cuadros de texto) ---
+[input]
+border   = { fg = "#{{colors.primary_fixed.default.hex_stripped}}" }
+title    = { fg = "#{{colors.on_surface.default.hex_stripped}}" }
+value    = { fg = "#{{colors.primary_fixed.default.hex_stripped}}" }
+selected = { fg = "#{{colors.on_secondary_fixed.default.hex_stripped}}", bg = "#{{colors.secondary_fixed.default.hex_stripped}}" }
+
+# --- SELECT (Menús) ---
+[select]
+border   = { fg = "#{{colors.secondary_fixed.default.hex_stripped}}" }
+active   = { fg = "#{{colors.on_secondary_fixed.default.hex_stripped}}", bg = "#{{colors.secondary_fixed.default.hex_stripped}}" }
+inactive = { fg = "#{{colors.on_surface.default.hex_stripped}}" }
+
+# --- TASKS ---
+[tasks]
+border  = { fg = "#{{colors.primary_fixed.default.hex_stripped}}" }
+title   = { fg = "#{{colors.on_surface.default.hex_stripped}}" }
+hovered = { fg = "#{{colors.on_secondary_fixed.default.hex_stripped}}", bg = "#{{colors.secondary_fixed.default.hex_stripped}}" }
+
+# --- WHICH (Ayuda de teclas) ---
+[which]
+cols            = 3
+mask            = { bg = "#{{colors.surface_container_lowest.default.hex_stripped}}" }
+cand            = { fg = "#{{colors.secondary_fixed.default.hex_stripped}}" }
+rest            = { fg = "#{{colors.on_surface_variant.default.hex_stripped}}" }
+desc            = { fg = "#{{colors.primary_fixed.default.hex_stripped}}" }
+separator       = " ➜ "
+separator_style = { fg = "#{{colors.surface_container_highest.default.hex_stripped}}" }
+
+# --- FILE TYPES (Colores brillantes para archivos) ---
+[filetype]
+
+rules = [
+	# Imagenes (Verde/Teal Neón)
+	{ mime = "image/*", fg = "#{{colors.secondary_fixed.default.hex_stripped}}" },
+
+	# Videos (Rosa/Naranja Neón)
+	{ mime = "video/*", fg = "#{{colors.tertiary_fixed.default.hex_stripped}}" },
+
+	# Audio
+	{ mime = "audio/*", fg = "#{{colors.tertiary_fixed.default.hex_stripped}}" },
+
+	# Archivos Comprimidos (Acento Brillante)
+	{ mime = "application/*zip", fg = "#{{colors.tertiary_fixed.default.hex_stripped}}" },
+	{ mime = "application/x-tar", fg = "#{{colors.tertiary_fixed.default.hex_stripped}}" },
+
+	# Documentos (Azul Neón)
+	{ mime = "application/pdf", fg = "#{{colors.primary_fixed.default.hex_stripped}}" },
+
+    # Directorios (Azul Neón + Negrita) - ¡Para que resalten!
+    { is_dir = true, fg = "#{{colors.primary_fixed.default.hex_stripped}}", bold = true },
+
+    # Ejecutables (Verde Neón + Negrita)
+    { is_exec = true, fg = "#{{colors.secondary_fixed.default.hex_stripped}}", bold = true },
+]

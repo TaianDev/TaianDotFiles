@@ -26,17 +26,17 @@
 /* Fondo del Centro de Control (Panel principal) */
 /* Debe coincidir con 'mb-background' de Waybar (surface) */
 /* Mantengo F2 (95%) para evitar que se vea como un bloque sólido plano */
-@define-color cc-bg {{colors.surface.default.hex}}F2;
+@define-color cc-bg {{colors.surface.default.hex}}A6;
 
 /* Fondo de las notificaciones individuales y widgets */
 /* CAMBIO: Usamos 'surface_variant' para que sea IDÉNTICO al fondo 
    de tus módulos de Waybar (#workspaces, #clock, etc.) */
-@define-color widget-bg {{colors.surface_variant.default.hex}}B3; 
+@define-color widget-bg {{colors.surface_variant.default.hex}}CC; 
 
 /* --- BORDES (CONSISTENCIA WAYBAR) --- */
 /* CAMBIO: Usamos 'primary' en lugar de 'fixed' para coincidir con 
    el borde activo y las sombras de tu Waybar */
-@define-color border-col {{colors.primary.default.hex}};
+@define-color border-col {{colors.primary.default.hex}}66;
 
 /* --- TEXTO --- */
 /* Coincide con mb-text */

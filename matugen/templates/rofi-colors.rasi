@@ -2,7 +2,7 @@
 
 * {
     /* --- 1. FONDOS --- */
-    background:     {{colors.surface.default.hex}}E6;
+    background:     {{colors.surface.default.hex}}8C;
 
     /* Coincide con: @define-color mb-container / mb-surface-variant */
     background-alt: {{colors.surface_container_high.default.hex}}E6;
