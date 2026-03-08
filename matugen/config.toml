@@ -12,6 +12,10 @@ output_path = "~/.config/rofi/colors.rasi"
 input_path = "~/.config/matugen/templates/swaync-colors.css"
 output_path = "~/.config/swaync/colors.css"
 
+[templates.kitty]
+input_path = "~/.config/matugen/templates/kitty-colors.conf"
+output_path = "~/.config/kitty/colors.conf"
+
 [templates.hyprland]
 input_path = "~/.config/matugen/templates/hyprland-colors.conf"
 output_path = "~/.config/hypr/colors.conf"
@@ -21,16 +25,14 @@ input_path = "~/.config/matugen/templates/hyprlock.conf"
 output_path = "~/.config/hypr/hyprlock.conf"
 
 [templates.gtk3]
-input_path = "~/.config/matugen/templates/gtk3.template"
-output_path = "~/.config/gtk-3.0/gtk.css"
+input_path = "~/.config/matugen/templates/gtk-colors.css"
+output_path = '~/.config/gtk-3.0/gtk.css'
+#post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme " "; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "" && gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark "'
 
-#[templates.gtk4]
-#input_path = "~/.config/matugen/templates/gtk3.template"
-#output_path = "~/.config/gtk-4.0/gtk.css"
-
-[templates.kitty]
-input_path = "~/.config/matugen/templates/kitty-colors.conf"
-output_path = "~/.config/kitty/colors.conf"
+[templates.gtk4]
+input_path = '~/.config/matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/gtk.css'
 
 [templates.wlogout]
 input_path = "~/.config/matugen/templates/wlogout-colors.css"
@@ -47,3 +49,14 @@ output_path = "~/.config/btop/themes/custom.theme"
 [templates.yazi]
 input_path = "~/.config/matugen/templates/yazi.toml"
 output_path = "~/.config/yazi/theme.toml"
+
+[templates.vscode]
+input_path = "~/.config/matugen/templates/vscode.json"
+output_path = "/tmp/matugen-vscode.json"
+post_hook = "jq -s '.[0] * .[1]' ~/.config/Code/User/settings.json /tmp/matugen-vscode.json > /tmp/merged.json && mv /tmp/merged.json ~/.config/Code/User/settings.json"
+
+
+[templates.obsidian_htb]
+input_path  = '~/.config/matugen/templates/obsidian.css'
+output_path = '/home/taian/Obsidian/Hack The Box/.obsidian/snippets/matugen.css'
+

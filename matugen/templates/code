@@ -1,0 +1,37 @@
+{
+  "editor.semanticHighlighting.enabled": true,
+  "window.dialogStyle": "custom",
+  
+  "material-code.customCSS": ".monaco-workbench .part.sidebar { border-right: 1px solid var(--vscode-sideBar-border) !important; background-color: var(--vscode-sideBar-background) !important; } .mtk1, .mtk8, .mtk6 { font-weight: 500; } .view-lines { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; } body { --radius: 5px; }",
+
+  "material-code.colors": {
+    "card": "{{colors.surface_container_low.dark.hex}}",
+    "popover": "{{colors.surface_container_low.dark.hex}}", 
+
+    "background": "{{colors.surface_container.dark.hex}}", 
+
+    "primary": "{{colors.primary.dark.hex}}",
+    "foreground": "{{colors.on_surface.dark.hex}}",
+    "mutedForeground": "{{colors.on_surface_variant.dark.hex}}",
+    "border": "{{colors.outline_variant.dark.hex}}",
+    "hover": "{{colors.surface_container_highest.dark.hex}}",
+    
+    "syntax.comment": "{{colors.outline.dark.hex}}",
+
+    "syntax.keyword": "{{colors.primary.dark.hex}}",   
+    "syntax.function": "{{colors.secondary.dark.hex}}", 
+
+    "syntax.string": "{{colors.tertiary.dark.hex}}",    
+
+    "syntax.variable": "{{colors.on_surface.dark.hex}}", 
+
+    "syntax.constant": "{{colors.secondary_fixed.dark.hex}}",
+    "syntax.property": "{{colors.primary.dark.hex}}",
+    "syntax.attribute": "{{colors.tertiary.dark.hex}}",
+
+    "syntax.bracket1": "{{colors.primary.dark.hex}}",
+    "syntax.bracket2": "{{colors.secondary.dark.hex}}",
+    "syntax.bracket3": "{{colors.tertiary.dark.hex}}",
+    "syntax.bracket4": "{{colors.primary_fixed.dark.hex}}"
+  }
+}

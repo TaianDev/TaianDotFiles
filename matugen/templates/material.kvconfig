@@ -1,0 +1,21 @@
+[General]
+theme=MaterialCustom
+
+[Colors]
+# Colores principales extraídos por Matugen
+Window={{colors.surface.default.hex}}
+WindowText={{colors.on_surface.default.hex}}
+Base={{colors.surface_container.default.hex}}
+AltBase={{colors.surface_container_high.default.hex}}
+Button={{colors.primary_container.default.hex}}
+ButtonText={{colors.on_primary_container.default.hex}}
+Highlight={{colors.primary.default.hex}}
+HighlightedText={{colors.on_primary.default.hex}}
+Link={{colors.tertiary.default.hex}}
+LinkVisited={{colors.tertiary_container.default.hex}}
+
+[Opacity]
+# Aplicando el 65% de opacidad que buscas
+Window=0.65
+Menu=0.85
+ToolTip=0.90
