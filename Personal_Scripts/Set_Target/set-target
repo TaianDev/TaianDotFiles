@@ -1,0 +1,16 @@
+#!/bin/bash
+
+TARGET="$HOME/.config/swaync/scripts/target.txt"
+
+if [[ -n "$1" ]]; then
+  notify-send -h int:transient:1 -t 1200 -i "find-location-symbolic" "Target :)" "Objetivo selccionado [$1] - Dirección copiada al portapapeles"
+  wl-copy $1
+  echo "$1" >$TARGET
+else
+  if [[ -s $TARGET ]]; then
+    notify-send -h int:transient:1 -t 1200 -i "find-location-symbolic" "Target :)" "Objetivo actual > [$(cat $TARGET)] - Dirección copiada al portapapeles"
+    wl-copy $(cat $TARGET)
+  else
+    notify-send -h int:transient:1 -t 1200 -i "find-location-symbolic" "Target :)" "No hay ningún objetivo en la lista :("
+  fi
+fi

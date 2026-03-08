@@ -1,0 +1,6 @@
+#!/bin/bash
+
+TARGET="$HOME/.config/swaync/scripts/target.txt"
+
+notify-send -h int:transient:1 -i "find-location-symbolic" "Localización" "Objetivo limpiado :)"
+rm -rf $TARGET
