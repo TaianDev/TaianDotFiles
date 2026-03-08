@@ -1,23 +1,224 @@
+/* ── 1. Importación y Reset ──────────────────────────────────────── */
 @import "colors.css";
 
 * {
-    font-family: "JetBrains Mono Nerd Font";
-    font-size: 14px;
+  font-family: "JetBrains Mono Nerd Font", sans-serif;
+  font-size: 14px;
+  color: @text;
+  border: none;
+  border-radius: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  text-shadow: none;
+  outline: none;
 }
 
-/* --- PANEL PRINCIPAL --- */
+/* ── 2. Panel Principal (Glassmorphism) ───────────────────────────── */
 .control-center {
-    background: mix(@cc-bg, #ffffff, 0.1);
-    border: 3px solid @border-col;
-    border-radius: 10px;
-    padding: 10px;
-    min-height: 10px; 
+  /* Usamos directamente el color con alpha embebido — sin doble reducción */
+  background-color: mix(@cc-bg, #ffffff, 0.1);
+  border: 1px solid alpha(@border-col, 0.3);
+  border-top: 1px solid alpha(@border-col, 0.3);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.7);
+  /*min-width: 300px;*/
 }
 
-scrollbar {
-    background-color: transparent;
+/* ── 3. Módulos Genéricos ────────────────────────────────────────── */
+.widget-mpris,
+.widget-volume,
+.widget-backlight,
+.widget-buttons-grid,
+.control-center-list > box > *:not(.widget-title) {
+  /* Color directo sin alpha() extra — el hex ya lleva D9 (85%) */
+  background-color: alpha(@widget-bg, 0.4);
+  border-radius: 12px;
+  padding: 14px 14px;
+  margin-bottom: 10px;
+  border: 1px solid alpha(@border-col, 0.4);
 }
 
+.widget-buttons-grid > flowbox {
+  margin-left: 45px;
+}
+
+.widget-buttons-grid {
+  background-color: alpha(@border-col, 0.1);
+}
+
+.widget-volume,
+.widget-backlight {
+  background-color: alpha(@border-col, 0.1);
+  min-height: 20px;
+  overflow: hidden;
+}
+
+.widget-mpris-player{
+  background-color: alpha(@widget-bg, 0.95);
+}
+
+/* ── 4. Widgets Específicos ──────────────────────────────────────── */
+
+/* Título */
+.widget-title {
+  padding: 4px 6px 12px 6px;
+  margin-bottom: 4px;
+  background: transparent;
+  border: none;
+}
+.widget-title label {
+  font-size: 15px;
+  font-weight: bold;
+  color: @accent;
+}
+.widget-title button {
+  background-color: alpha(@accent, 0.2);
+  color: @text;
+  border-radius: 8px;
+  padding: 4px 12px;
+  transition: all 0.2s ease;
+}
+.widget-title button:hover {
+  background-color: alpha(@accent, 0.4);
+  color: @accent-fg;
+}
+
+/* Sliders (Brillo y Volumen) */
+.widget-volume,
+.widget-backlight {
+  padding: 10px 14px;
+}
+.widget-volume label,
+.widget-backlight label {
+  font-size: 18px;
+  color: @accent;
+  margin-right: 12px;
+}
+
+scale {
+  padding: 4px 0;
+  min-height: 20px;
+}
+scale trough {
+  min-height: 6px;
+  border-radius: 3px;
+  /* Fondo del riel — oscuro y opaco para que contraste con el progreso */
+  background-color: alpha(@text, 0.08);
+  border: 1px solid alpha(@text, 0.15);
+}
+
+scale trough highlight,
+scale trough progress {
+  border-radius: 3px;
+  /* Progreso en cyan sólido — completamente visible */
+  /* Tono del borde semi-transparente — más sutil que el accent puro */
+  background-color: @border-col;
+  min-height: 6px;
+}
+scale slider {
+  min-width: 16px;
+  min-height: 16px;
+  background-color: @text;
+  border-radius: 50%;
+  border: 2px solid alpha(@border-col, 0.8);
+  margin: -5px 0;
+}
+
+/* Grid de Botones */
+.widget-buttons-grid {
+  padding: 5px;
+}
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  background-color: alpha(@text, 0.07);
+  border-radius: 10px;
+  padding: 9px;
+  margin: 4px;
+  color: @text;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border: 1px solid alpha(@border-col, 0.15);
+}
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  background-color: alpha(@accent, 0.3);
+  /*border: 1px solid @accent;*/
+  border: 1px solid alpha(@border-col, 0.15);
+  color: @accent;
+}
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+  background-color: alpha(@accent, 0.5);
+  color: @accent-fg;
+  border: 1px solid @accent;
+}
+
+/* ── 5. Notificaciones ───────────────────────────────────────────── */
+.notification-row {
+  margin-bottom: 8px;
+}
+.notification-background {
+  background-color: alpha(@widget-bg, 0.6);
+  border: 1px solid alpha(@border-col, 0.2);
+  padding: 12px;
+  border-radius: 12px;
+}
+.notification-row:hover .notification-background {
+  background-color: alpha(@widget-bg, 0.95);
+  border: 1px solid @accent;
+}
+.notification .summary {
+  font-weight: bold;
+  color: @accent;
+  font-size: 14px;
+}
+.notification .body {
+  color: @text;
+  font-size: 13px;
+}
+.notification .time {
+  color: @text-dim;
+  font-size: 11px;
+  margin-right: 30px;
+}
+
+.floating-notifications {
+  margin-top: 25px;  
+  margin-left: 20px;
+}
+
+/* ── 6. MPRIS ────────────────────────────────────────────────────── */
+.widget-mpris {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+.widget-mpris-player {
+  background-color: @widget-bg;
+  border-radius: 12px;
+  border: 1px solid alpha(@border-col, 0.3);
+  padding: 12px;
+}
+.widget-mpris-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: @accent;
+}
+.widget-mpris-subtitle {
+  font-size: 13px;
+  color: @text-dim;
+}
+.widget-mpris-player button {
+  color: @text;
+  font-size: 18px;
+  padding: 4px;
+}
+.widget-mpris-player button:hover {
+  color: @accent;
+}
+
+/* ── 7. Scrollbar ────────────────────────────────────────────────── */
+/* Ocultamos la scrollbar para que no se superponga al contenido */
 scrollbar slider {
     background: alpha(@text, 0); 
     border-radius: 10px;
@@ -37,77 +238,6 @@ scrolledwindow {
     box-shadow: none;
 }
 
-.widget-notifications { 
-    background: @widget-bg;
-    border-radius: 10px;
-    border: 1px solid alpha(@border-col, 0); 
-}
-
-/* --- WIDGETS GENÉRICOS --- */
-
-.widget-title {
-    background: @widget-bg;
-    border-radius: 12px;
-    margin: 3px 5px;
-    padding: 8px;   
-    border: 1px solid alpha(@border-col, 0);
-}
-
-.widget-title > button,
-.widget-inhibitors > button {
-    background: @accent;
-    color: @accent-fg;
-    border-radius: 10px;
-}
-
-.widget-dnd {
-    background: @widget-bg;
-    border-radius: 12px;
-    margin: 3px 5px;
-    padding: 8px;    
-    border: 1px solid alpha(@border-col, 0);
-}
-
-.widget-dnd > switch {
-    background: alpha(@text, 0.2);
-    color: @text;
-    border-radius: 10px;
-    box-shadow: none;
-}
-
-.widget-dnd > switch:checked {
-    background: @accent;
-    color: @accent-fg;
-}
-
-/* --- NOTIFICACIONES --- */
-.notification-row {
-    outline: none;
-    margin: 2px 5px; 
-}
-
-.notification {
-    background: @widget-bg;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    padding: 8px;
-    box-shadow: none;
-}
-
-.notification.critical {
-    border: 2px solid @accent;
-}
-
-.notification-content, .summary, .body {
-    color: @text;
-}
-
-.time {
-    color: @text-dim;
-}
-
-/* --- LABEL "NO NOTIFICATIONS" --- */
-
-.blank-window {
-    background: transparent;
+.image {
+  margin: 10px 20px 10px 0px;
 }
