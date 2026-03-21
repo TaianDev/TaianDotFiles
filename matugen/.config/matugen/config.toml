@@ -52,9 +52,8 @@ output_path = "~/.config/yazi/theme.toml"
 
 [templates.vscode]
 input_path = "~/.config/matugen/templates/vscode.json"
-output_path = "/tmp/matugen-vscode.json"
-post_hook = "jq -s '.[0] * .[1]' ~/.config/Code/User/settings.json /tmp/matugen-vscode.json > /tmp/merged.json && mv /tmp/merged.json ~/.config/Code/User/settings.json"
-
+#output_path = "~/.config/Code/User/settings.json"
+output_path = "/tmp/vscode-matugen.json"
 
 [templates.obsidian_htb]
 input_path  = '~/.config/matugen/templates/obsidian.css'
