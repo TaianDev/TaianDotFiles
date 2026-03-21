@@ -55,7 +55,7 @@ input_path = "~/.config/matugen/templates/vscode.json"
 #output_path = "~/.config/Code/User/settings.json"
 output_path = "/tmp/vscode-matugen.json"
 
-[templates.obsidian_htb]
-input_path  = '~/.config/matugen/templates/obsidian.css'
-output_path = '/home/taian/Obsidian/Hack The Box/.obsidian/snippets/matugen.css'
+#[templates.obsidian_htb]
+#input_path  = '~/.config/matugen/templates/obsidian.css'
+#output_path = '/home/taian/Obsidian/Hack The Box/.obsidian/snippets/matugen.css'
 
