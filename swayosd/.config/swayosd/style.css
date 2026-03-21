@@ -13,9 +13,9 @@
 
 window#osd {
   margin: 0;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 3px solid;
-  background: #{"alpha(@theme_bg_color, 0.1)"};
+  background: alpha(@theme_bg_color, 1);
   padding: 1px var(--window-side-padding);
   margin: 0px 0px;
   
