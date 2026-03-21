@@ -2,23 +2,23 @@
 
 * {
     /* --- 1. FONDOS --- */
-    background:     #111318E6;
+    background:     #0f15128C;
 
     /* Coincide con: @define-color mb-container / mb-surface-variant */
-    background-alt: #282a2fE6;
+    background-alt: #252b29E6;
 
     /* --- 2. TEXTO --- */
-    foreground:     #e2e2e9;
+    foreground:     #dee4df;
 
     /* --- 3. ACENTOS Y ESTADOS --- */
-    selected:       #abc7ff4D;
+    selected:       #88d6bb4D;
 
     /* Coincide con: @define-color mb-secondary */
-    active:         #bec6dc66;
+    active:         #b2ccc166;
 
     /* Urgente */
     urgent:         #ffb4ab66;
 
     /* --- 4. BORDES (Simulación de tu MIX) --- */
-    border-col:     #d7e2ff;
+    border-col:     #a3f2d7;
 }
