@@ -1,4 +1,5 @@
 {
+ "on-sigusr1": "toggle",
  "layer": "top",
  "position": "top",
  "reload_style_on_change": true,
