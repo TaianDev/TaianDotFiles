@@ -20,7 +20,13 @@ ln -sf "$WALLPAPER_PATH" "$HOME/.config/hypr/current_wall"
 # Generamos los colores con wal y matugen, y la imagen de Rofi.
 # Esto debe terminar ANTES de recargar las apps, para que lean los archivos correctos.
 wal -qste -i "$WALLPAPER_PATH"
-matugen image "$WALLPAPER_PATH"
+matugen image "$WALLPAPER_PATH" --source-color-index 0
+
+jq -s '.[0] * .[1]' \
+  ~/.config/Code/User/settings.json \
+  /tmp/vscode-matugen.json \
+  >/tmp/vscode-merged.json &&
+  mv /tmp/vscode-merged.json ~/.config/Code/User/settings.json
 
 magick "$WALLPAPER_PATH" \
   -resize 1280x720^ \
