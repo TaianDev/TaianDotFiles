@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directorio de tus fondos
-DIR="/home/taian/Imágenes/Fondos"
+DIR="$HOME/Imágenes/Fondos"
 
 # Si no hay argumentos, Rofi está pidiendo la lista
 if [ -z "$@" ]; then

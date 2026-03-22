@@ -22,14 +22,9 @@ install_pkgs() {
 }
 
 dotfiles_install() {
+  list_config=("Code" "Fonts" "clipse" "fastfetch", "gtk-3.0" "gtk-4.0" "hypr" "hyprwave" "kitty" "matugen" "nvim" "rofi" "scripts" "swaync" "swayosd" "waybar" "wlogout" "zsh" "wallpapers")
   echo "[+] Starting the dotfile linking process using GNU stow"
-  for dir in */; do
-    pkg="${dir%/}"
-
-    if [ "$pkg" == ".git" ]; then
-      continue
-    fi
-
+  for pkg in "${list_config[@]}"; do
     if [ -e "$HOME/.config/$pkg" ] && [ ! -L "$HOME/.config/$pkg" ]; then
       echo "[!] Existing configuration found for $pkg. Backing up to $pkg.bak..."
       mv "$HOME/.config/$pkg" "$HOME/.config/$pkg.bak"
@@ -39,19 +34,13 @@ dotfiles_install() {
       echo "[!] Existing .zshrc found. Backing up..."
       mv "$HOME/.zshrc" "$HOME/.zshrc.bak"
     fi
-
-    if [ "$pkg" == "starship" ] && [ -e "$HOME/.config/starship.toml" ] && [ ! -L "$HOME/.config/starship.toml" ]; then
-      echo "[!] Existing starship.toml found. Backing up..."
-      mv "$HOME/.config/starship.toml" "$HOME/.config/starship.toml.bak"
-    fi
-
     echo "[+] --> Linking package $pkg"
     stow "$pkg"
   done
-  echo "[+] Configuration applied successfully"
+  starship preset bracketed-segments -o ~/.config/starship.toml
 }
 
-# Spiner
+# Spiner (DONT'T USE)
 spiner() {
   local PID=$1
   local DELAY=0.1
@@ -96,9 +85,8 @@ main() {
     sudo pacman -S yay
   fi
 
-  install_pkgs &
+  install_pkgs
   INSTALL_PID=$!
-  spiner "$INSTALL_PID"
   dotfiles_install
 }
 
