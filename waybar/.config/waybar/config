@@ -6,7 +6,7 @@
  "spacing": 10,
  "margin": "4 5 0 5",
  "include": [
-  "/home/taian/.config/waybar/modules.json"
+  "~/.config/waybar/modules.json"
  ],
 
  "modules-left": [
