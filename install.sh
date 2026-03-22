@@ -24,6 +24,8 @@ install_pkgs() {
 dotfiles_install() {
   list_config=("Code" "Fonts" "clipse" "fastfetch", "gtk-3.0" "gtk-4.0" "hypr" "hyprwave" "kitty" "matugen" "nvim" "rofi" "scripts" "swaync" "swayosd" "waybar" "wlogout" "zsh" "wallpapers")
   echo "[+] Starting the dotfile linking process using GNU stow"
+  bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+  wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
   for pkg in "${list_config[@]}"; do
     if [ -e "$HOME/.config/$pkg" ] && [ ! -L "$HOME/.config/$pkg" ]; then
       echo "[!] Existing configuration found for $pkg. Backing up to $pkg.bak..."
@@ -38,6 +40,7 @@ dotfiles_install() {
     stow "$pkg"
   done
   starship preset bracketed-segments -o ~/.config/starship.toml
+  chsh -s $(which zsh)
 }
 
 # Spiner (DONT'T USE)
