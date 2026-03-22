@@ -98,7 +98,7 @@
 "custom/power": {
   "format": "⏻",
   "tooltip": false,
-  "on-click": "/home/taian/.config/wlogout/launcher.sh"
+  "on-click": "~/.config/wlogout/launcher.sh"
 }
 
 }
