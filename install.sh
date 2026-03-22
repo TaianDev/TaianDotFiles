@@ -41,6 +41,7 @@ dotfiles_install() {
   done
   starship preset bracketed-segments -o ~/.config/starship.toml
   chsh -s $(which zsh)
+  bash -c '~/Personal_Scripts/pywal_global_update.sh ~/Imágenes/Fondos/tree.jpg'
 }
 
 # Spiner (DONT'T USE)
