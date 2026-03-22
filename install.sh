@@ -30,10 +30,25 @@ dotfiles_install() {
       continue
     fi
 
+    if [ -e "$HOME/.config/$pkg" ] && [ ! -L "$HOME/.config/$pkg" ]; then
+      echo "[!] Existing configuration found for $pkg. Backing up to $pkg.bak..."
+      mv "$HOME/.config/$pkg" "$HOME/.config/$pkg.bak"
+    fi
+
+    if [ "$pkg" == "zsh" ] && [ -e "$HOME/.zshrc" ] && [ ! -L "$HOME/.zshrc" ]; then
+      echo "[!] Existing .zshrc found. Backing up..."
+      mv "$HOME/.zshrc" "$HOME/.zshrc.bak"
+    fi
+
+    if [ "$pkg" == "starship" ] && [ -e "$HOME/.config/starship.toml" ] && [ ! -L "$HOME/.config/starship.toml" ]; then
+      echo "[!] Existing starship.toml found. Backing up..."
+      mv "$HOME/.config/starship.toml" "$HOME/.config/starship.toml.bak"
+    fi
+
     echo "[+] --> Linking package $pkg"
     stow "$pkg"
   done
-  echo "[+]Configuration applied successfully"
+  echo "[+] Configuration applied successfully"
 }
 
 # Spiner
