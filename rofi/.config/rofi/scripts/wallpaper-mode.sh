@@ -20,5 +20,5 @@ else
   SELECCION="$DIR/$@"
 
   # Ejecuta tu script de actualización (sin abrir terminal ni bloquear)
-  /home/taian/Personal_Scripts/pywal_global_update.sh "$SELECCION" >/dev/null 2>&1 &
+  "$HOME/Personal_Scripts/pywal_global_update.sh" "$SELECCION" >/dev/null 2>&1 &
 fi
