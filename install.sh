@@ -92,6 +92,7 @@ main() {
   install_pkgs
   INSTALL_PID=$!
   dotfiles_install
+  echo "[+] It's necessary reboot the system to apply changes"
 }
 
 # EXECUTION
