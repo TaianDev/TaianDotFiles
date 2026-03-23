@@ -22,7 +22,7 @@ install_pkgs() {
 }
 
 dotfiles_install() {
-  list_config=("Code" "Fonts" "clipse" "fastfetch", "gtk-3.0" "gtk-4.0" "hypr" "hyprwave" "kitty" "matugen" "nvim" "rofi" "scripts" "swaync" "swayosd" "waybar" "wlogout" "zsh" "wallpapers")
+  list_config=("Code" "Fonts" "clipse" "fastfetch" "gtk-3.0" "gtk-4.0" "hypr" "hyprwave" "kitty" "matugen" "nvim" "rofi" "scripts" "swaync" "swayosd" "waybar" "wlogout" "zsh" "wallpapers")
   echo "[+] Starting the dotfile linking process using GNU stow"
   bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
   wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
@@ -66,7 +66,7 @@ spiner() {
 clean_cursor() {
   tput cnorm
   echo -e "\n "
-  kill "$INSTALL_PID" >/dev/null
+  #kill "$INSTALL_PID" >/dev/null
   echo "[+] Exit signal detected..."
   exit
 }
@@ -90,7 +90,7 @@ main() {
   fi
 
   install_pkgs
-  INSTALL_PID=$!
+  #INSTALL_PID=$!
   dotfiles_install
   echo "[+] It's necessary reboot the system to apply changes"
 }
