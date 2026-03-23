@@ -41,7 +41,7 @@ dotfiles_install() {
   done
   starship preset bracketed-segments -o ~/.config/starship.toml
   chsh -s $(which zsh)
-  bash -c '~/Personal_Scripts/pywal_global_update.sh ~/Imágenes/Fondos/tree.jpg'
+  "$HOME/Personal_Scripts/pywal_global_update.sh" "$HOME/Imágenes/Fondos/tree.jpg" >/dev/null 2>&1
 }
 
 # Spiner (DONT'T USE)
@@ -93,8 +93,10 @@ main() {
   #INSTALL_PID=$!
   dotfiles_install
   echo "[+] It's necessary reboot the system to apply changes"
+  echo -e "\n"
+  echo -e "\n"
+  echo -e "\n"
 }
 
-# EXECUTION
 trap clean_cursor SIGINT EXIT
 main
