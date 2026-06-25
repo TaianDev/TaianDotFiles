@@ -4,12 +4,12 @@
 @define-color wl-window-bg rgba(0, 0, 0, 0.2);
 
 /* El color de la "Barra" (Botones en estado normal) */
-@define-color wl-button-bg #1b211e;
-@define-color wl-button-fg #dee4df;
+@define-color wl-button-bg #1e1f25;
+@define-color wl-button-fg #e2e2e9;
 
 /* El color del botón ACTIVO/HOVER (El que resalta) */
-@define-color wl-button-active #88d6bb;
-@define-color wl-button-active-fg #00382b;
+@define-color wl-button-active #adc6ff;
+@define-color wl-button-active-fg #112f60;
 
 /* Bordes sutiles para separar botones si es necesario */
-@define-color wl-border #3f4945;
+@define-color wl-border #44474f;

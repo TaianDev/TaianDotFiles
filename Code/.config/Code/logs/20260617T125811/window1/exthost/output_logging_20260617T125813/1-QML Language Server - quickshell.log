@@ -1,0 +1,68 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+Argument "/usr/lib/x86_64-linux-gnu/qt6/qml" passed to -I does not exist.
+Using import directories passed by -I: "/usr/lib/qt6/qml", "/usr/lib/x86_64-linux-gnu/qt6/qml".
+Using 1 job for CMake, you can increase that value with the QMLLS_CMAKE_JOBS environment variable or the --cmake-jobs option.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 12)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:279:57: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  9 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:279:57: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:279:57: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  11 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  12 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  14 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  16 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:279:57: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  19 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:279:57: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  20 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 56)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:279:57: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  21 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  22 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  24 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  26 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  28 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  37 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  38 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  39 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:277:34: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  40 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:208:34: [Dom][QmlFile][Parsing] Error: Expected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  44 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:208:34: [Dom][QmlFile][Parsing] Error: Expected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  46 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 118)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 123)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 130)

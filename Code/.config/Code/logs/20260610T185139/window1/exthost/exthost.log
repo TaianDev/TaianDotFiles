@@ -1,0 +1,14 @@
+2026-06-10 18:51:42.225 [info] Extension host with pid 79672 started
+2026-06-10 18:51:42.225 [info] Skipping acquiring lock for /home/taianlux/.config/Code/User/workspaceStorage/13278b0d57eff5743a7348ba25f8769c.
+2026-06-10 18:51:42.865 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-10 18:51:42.896 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-10 18:51:42.931 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-06-10 18:51:43.197 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-10 18:51:43.364 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-10 18:51:43.410 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-10 18:51:43.495 [info] Eager extensions activated
+2026-06-10 18:51:43.534 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-06-10 18:51:44.654 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-10 18:51:44.659 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-10 18:51:44.677 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-06-10 18:51:45.033 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'

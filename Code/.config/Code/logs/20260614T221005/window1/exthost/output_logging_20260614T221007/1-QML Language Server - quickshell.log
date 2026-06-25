@@ -1,0 +1,362 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+Argument "/usr/lib/x86_64-linux-gnu/qt6/qml" passed to -I does not exist.
+Using import directories passed by -I: "/usr/lib/qt6/qml", "/usr/lib/x86_64-linux-gnu/qt6/qml".
+Using 1 job for CMake, you can increase that value with the QMLLS_CMAKE_JOBS environment variable or the --cmake-jobs option.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 5)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 35)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  9 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+/home/taianlux/.config/quickshell/Translate/translate.qml:275:17: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  11 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 140)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  12 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  13 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  14 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  15 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  16 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  17 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  18 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/Translate/translate.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+/home/taianlux/.config/quickshell/Translate/translate.qml:275:17: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  19 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+/home/taianlux/.config/quickshell/Translate/translate.qml:275:17: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  20 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  21 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  22 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  23 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  24 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  25 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  26 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  27 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  28 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  29 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  30 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  31 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  32 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  33 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/Translate/translate.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  34 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  35 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  36 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  37 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  38 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  39 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  40 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  41 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  42 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  43 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  44 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  45 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  46 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  47 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  48 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  49 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  50 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  51 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  52 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  53 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  54 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  55 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  56 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 192)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  57 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  58 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  59 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  60 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+[Error - 10:32:47 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 10:32:48 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 226)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  61 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  62 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  63 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  64 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  65 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  66 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  67 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  68 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  69 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:287:26: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  70 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:281:35: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+/home/taianlux/.config/quickshell/Translate/translate.qml:279:17: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  71 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  72 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  73 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  74 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  75 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  76 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  77 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  78 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  79 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  80 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  81 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  82 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/Translate/translate.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  83 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  84 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  85 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  86 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  87 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  88 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  89 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  90 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 297)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  91 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  92 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  93 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  94 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  95 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  96 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  97 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  98 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.completions: Patching invalid document: adding a semicolon after '.' for  "file:///home/taianlux/.config/quickshell/Translate/translate.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  99 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  100 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  101 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  102 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  103 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  104 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  105 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  106 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:280:25: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  107 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  108 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 335)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  109 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+[Error - 10:35:23 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 10:35:23 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  110 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  111 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+/home/taianlux/.config/quickshell/Translate/translate.qml:281:21: [Dom][QmlFile][Parsing] Error: Unexpected token `]' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  112 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:281:21: [Dom][QmlFile][Parsing] Error: Unexpected token `]' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  113 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+/home/taianlux/.config/quickshell/Translate/translate.qml:281:21: [Dom][QmlFile][Parsing] Error: Unexpected token `]' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  114 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/Translate/translate.qml/home/taianlux/.config/quickshell/Translate/translate.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  115 of document "file:///home/taianlux/.config/quickshell/Translate/translate.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 418)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 432)

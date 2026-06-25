@@ -1,0 +1,14 @@
+2026-06-07 19:26:11.651 [info] Started local extension host with pid 7919.
+2026-06-07 19:26:12.418 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-07 19:26:12.908 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-07 19:26:13.650 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-07 19:26:13.919 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-07 19:26:14.466 [error] [Extension Host] (node:7919) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-07 19:26:14.539 [info] [perf] Render performance baseline is 20ms
+2026-06-07 19:26:18.087 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-07 19:26:18.650 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-07 19:26:25.873 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-07 19:44:30.569 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-06-07 19:44:30.569 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-06-07 19:44:30.569 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

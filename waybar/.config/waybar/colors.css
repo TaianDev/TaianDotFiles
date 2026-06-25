@@ -1,57 +1,57 @@
 /* --- 1. BASES Y FONDOS --- */
 /* Tu variable original */
-@define-color mb-background #0f1512;
+@define-color mb-background #111318;
 
 /* NUEVO: Un fondo más profundo/oscuro. Útil si 'surface' es muy claro */
-@define-color mb-bg-base #0f1512; 
+@define-color mb-bg-base #111318; 
 
 /* Tu variable original (ideal para módulos inactivos) */
-@define-color mb-container #1b211e;
+@define-color mb-container #1e1f25;
 
 /* NUEVO: Una variante de superficie. Útil para diferenciar tipos de módulos */
-@define-color mb-surface-variant #3f4945;
+@define-color mb-surface-variant #44474f;
 
 
 /* --- 2. ACENTOS PRINCIPALES (Para lo importante) --- */
 /* Tu variable original */
-@define-color mb-primary #88d6bb;
+@define-color mb-primary #adc6ff;
 
 /* Tu variable original (Texto sobre color primario) */
-@define-color mb-on-primary #00382b;
+@define-color mb-on-primary #112f60;
 
 /* NUEVO: Primary Container. 
    CRUCIAL PARA CONSISTENCIA: Es un color "pastel" derivado del primario.
    Úsalo de fondo en módulos activos (workspaces) para que sea legible pero colorido. */
-@define-color mb-primary-container #00513f;
-@define-color mb-on-primary-container #a3f2d7;
+@define-color mb-primary-container #2b4678;
+@define-color mb-on-primary-container #d8e2ff;
 
 
 /* --- 3. ACENTOS SECUNDARIOS (Para detalles) --- */
 /* NUEVO: Secondary. Usa esto cuando el Primario sea demasiado agresivo */
-@define-color mb-secondary #b2ccc1;
-@define-color mb-on-secondary #1e352d;
-@define-color mb-secondary-container #344c43;
-@define-color mb-on-secondary-container #cee9dd;
+@define-color mb-secondary #bfc6dc;
+@define-color mb-on-secondary #293041;
+@define-color mb-secondary-container #3f4759;
+@define-color mb-on-secondary-container #dbe2f9;
 
 
 /* --- 4. TEXTOS E ICONOS --- */
 /* Tu variable original */
-@define-color mb-text #dee4df;
+@define-color mb-text #e2e2e9;
 
 /* NUEVO: Texto variante. Úsalo para símbolos, unidades (%, °C) o separadores. 
    Es menos brillante que el blanco puro. */
-@define-color mb-text-dim #bfc9c3;
+@define-color mb-text-dim #c4c6d0;
 
 
 /* --- COLORES VIBRANTES (FIXED) --- */
 /* Estos colores NO cambian a pastel en modo oscuro. Son el color puro. */
 
 /* El color dominante real (fuerte) */
-@define-color mb-primary-fixed #a3f2d7;
+@define-color mb-primary-fixed #d8e2ff;
 
 /* El color secundario real (fuerte) */
-@define-color mb-secondary-fixed #cee9dd;
+@define-color mb-secondary-fixed #dbe2f9;
 
 /* El color terciario real (fuerte - ya no será blanco) */
-@define-color mb-tertiary-fixed #c4e7ff;
+@define-color mb-tertiary-fixed #fcd7fb;
 

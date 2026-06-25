@@ -3,22 +3,22 @@
 /* --- FONDOS --- */
 /* Fondo del Centro de Control (Panel principal) */
 /* Usamos opacidad F2 (95%) para que sea sólido pero no bloquee totalmente */
-/*@define-color cc-bg #0f1512F2;*/
+/*@define-color cc-bg #111318F2;*/
 
 /* Fondo de las notificaciones individuales y widgets */
-/*@define-color widget-bg #1b211eB3;*/
+/*@define-color widget-bg #1e1f25B3;*/
 
 /* --- BORDES (CONSISTENCIA WAYBAR) --- */
 /* Este es el color "mix" que usamos en Rofi y Waybar */
-/*@define-color border-col #a3f2d7;*/
+/*@define-color border-col #d8e2ff;*/
 
 /* --- TEXTO --- */
-/*@define-color text #dee4df;
-@define-color text-dim #bfc9c3;*/
+/*@define-color text #e2e2e9;
+@define-color text-dim #c4c6d0;*/
 
 /* --- ACENTOS (Sliders, botones) --- */
-/*@define-color accent #88d6bb;
-@define-color accent-fg #00382b;*/
+/*@define-color accent #adc6ff;
+@define-color accent-fg #112f60;*/
 
 /* ~/.config/matugen/templates/swaync-colors.css */
 
@@ -26,24 +26,24 @@
 /* Fondo del Centro de Control (Panel principal) */
 /* Debe coincidir con 'mb-background' de Waybar (surface) */
 /* Mantengo F2 (95%) para evitar que se vea como un bloque sólido plano */
-@define-color cc-bg #0f151280;
+@define-color cc-bg #11131880;
 
 /* Fondo de las notificaciones individuales y widgets */
 /* CAMBIO: Usamos 'surface_variant' para que sea IDÉNTICO al fondo 
    de tus módulos de Waybar (#workspaces, #clock, etc.) */
-@define-color widget-bg #3f4945CC; 
+@define-color widget-bg #44474fCC; 
 
 /* --- BORDES (CONSISTENCIA WAYBAR) --- */
 /* CAMBIO: Usamos 'primary' en lugar de 'fixed' para coincidir con 
    el borde activo y las sombras de tu Waybar */
-@define-color border-col #88d6bb;
+@define-color border-col #adc6ff;
 
 /* --- TEXTO --- */
 /* Coincide con mb-text */
-@define-color text #dee4df;
+@define-color text #e2e2e9;
 /* Coincide con mb-text-dim */
-@define-color text-dim #bfc9c3;
+@define-color text-dim #c4c6d0;
 
 /* --- ACENTOS (Sliders, botones) --- */
-@define-color accent #88d6bb;
-@define-color accent-fg #00382b;
+@define-color accent #adc6ff;
+@define-color accent-fg #112f60;

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Leave the program if they don't provide whith your arguments
+if [ $# = 0 ]; then
+  echo "Write something :)"
+  exit 1
+fi
+
+# Language detection is set to "automatic". The default translation engine is "google"
+# Expected order of arguments => source-language (automatic per default) | target-language | words | engine (google per default)
+# Four arguments in total
+
+# VARIABLES
+SOURCE=""
+TARGET="es"
+ENGINE="google"
+
+if [ ! "$1" == "$SOURCE" ]; then
+  SOURCE=$1
+fi
+
+if [ ! "$2" == "$TARGET" ]; then
+  TARGET=$2
+fi
+
+if [ ! "$3" == "$ENGINE" ]; then
+  ENGINE=$3
+fi
+
+WORDS=$4
+
+# TRANSLATE ORDER
+trans -e "$ENGINE" -b "$SOURCE:$TARGET" "$WORDS"

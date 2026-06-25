@@ -1,0 +1,938 @@
+2026-06-07 19:44:36.664 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-06-07 19:44:36.664 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-06-07 19:44:36.664 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-06-07 19:44:36.664 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-06-07 19:44:36.795 [info] Logged in as TaianDev
+2026-06-07 19:44:36.798 [info] Using the Electron fetcher.
+2026-06-07 19:44:39.050 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-06-07 19:44:39.546 [info] Got Copilot token for TaianDev
+2026-06-07 19:44:39.547 [info] Copilot Chat: 0.51.0, VS Code: 1.123.0
+2026-06-07 19:44:39.571 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-06-07 19:44:39.572 [info] activationBlocker from 'languageModelAccess' took for 558ms
+2026-06-07 19:45:10.577 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-06-07 19:45:10.665 [info] [CopilotCLIChatSessionContentProvider] listSessions took 31051.767053000003ms
+2026-06-07 19:45:10.666 [info] [CopilotCLIChatSessionContentProvider] listSessions took 22.408025999997335ms
+2026-06-07 19:45:10.727 [info] Fetched model metadata in 31705ms 6c9258c6-e52d-474e-b289-3f4be4bebc66
+2026-06-07 19:45:10.863 [info] Latest entry: ccreq:latest.copilotmd
+2026-06-07 19:45:10.864 [info] ccreq:27032f27.copilotmd | markdown
+2026-06-07 19:45:10.966 [info] [CopilotCLI] MCP server started. Lock file: /home/taianlux/.local/state/.copilot/ide/fc092012-d7b2-46c6-9771-5c409eb2b9ac.lock
+2026-06-07 19:45:10.966 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-E7jMEK/mcp.sock#%2Fmcp
+2026-06-07 19:45:11.090 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-07 19:45:11.090 [info] copilot token sku: free_limited_copilot
+2026-06-07 19:45:11.090 [info] ConversationFeature: Activating contributions
+2026-06-07 19:45:11.090 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-06-07 19:45:11.105 [info] Registering default platform agent...
+2026-06-07 19:45:11.121 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-06-07 19:45:11.121 [info] BYOK: fetching known models list
+2026-06-07 19:45:11.121 [info] activationBlocker from 'conversationFeature' took for 32102ms
+2026-06-07 19:45:11.255 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-06-07 19:45:11.358 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-06-07 19:45:11.362 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-06-07 19:45:11.465 [info] Fetched model metadata in 221ms 6f9381d9-90dc-49ec-9e8d-a321b45317c9
+2026-06-07 19:45:11.562 [info] ccreq:187b0627.copilotmd | markdown
+2026-06-07 19:45:11.587 [info] ConversationFeature: BYOK models available
+2026-06-07 19:45:11.587 [info] copilot token sku: free_limited_copilot
+2026-06-07 19:48:16.924 [info] ccreq:0a5b7c6b.copilotmd | markdown
+2026-06-07 19:48:16.935 [warning] [relatedFiles] unknown language qml
+2026-06-07 19:48:16.977 [info] ccreq:3aecffb3.copilotmd | markdown
+2026-06-07 19:48:17.834 [info] [fetchCompletions] Request d6cadebd-9470-4ca5-bac3-5987db169e5b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 876.0013169999875ms
+2026-06-07 19:48:18.054 [info] ccreq:b6bc3f76.copilotmd | markdown
+2026-06-07 19:48:18.153 [info] ccreq:2e258d43.copilotmd | markdown
+2026-06-07 19:48:18.161 [info] ccreq:c205ba87.copilotmd | markdown
+2026-06-07 19:48:18.176 [info] ccreq:5cc25c40.copilotmd | markdown
+2026-06-07 19:48:18.542 [info] [fetchCompletions] Request 458f716e-8661-43ad-b875-f6abc54a868b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 376.4856119999895ms
+2026-06-07 19:48:18.646 [info] ccreq:a5d2eb32.copilotmd | markdown
+2026-06-07 19:48:20.713 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:20.713 [info] request done: requestId: [67b71a24-96e3-411f-b150-9392b63ebe00] model deployment ID: []
+2026-06-07 19:48:20.932 [info] ccreq:53687622.copilotmd | success | nes-callisto-003 | 651ms | [XtabProvider]
+2026-06-07 19:48:21.533 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:21.533 [info] request done: requestId: [6d45d5a6-4b02-4711-b40f-18d1c63beba1] model deployment ID: []
+2026-06-07 19:48:21.536 [info] ccreq:b211759d.copilotmd | markdown
+2026-06-07 19:48:21.547 [info] ccreq:dd6f122c.copilotmd | markdown
+2026-06-07 19:48:21.670 [info] ccreq:6919c788.copilotmd | success | copilot-suggestions-prod-himalia-004 | 734ms | [nes.nextCursorPosition]
+2026-06-07 19:48:21.924 [info] [fetchCompletions] Request 5e7dfdee-9e04-4fd2-87af-8fe2aed3a94e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 380.6284840000153ms
+2026-06-07 19:48:21.941 [info] ccreq:453d15f5.copilotmd | markdown
+2026-06-07 19:48:21.946 [info] ccreq:0f5b921f.copilotmd | markdown
+2026-06-07 19:48:21.947 [error] [AsyncCompletionManager] [5e7dfdee-9e04-4fd2-87af-8fe2aed3a94e] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:121:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:521:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:608:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:509:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:509:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-06-07 19:48:21.958 [info] ccreq:0bff6c91.copilotmd | markdown
+2026-06-07 19:48:22.287 [info] [fetchCompletions] Request be9a10eb-16c8-4735-adf2-5768598dd92b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 336.90585499998997ms
+2026-06-07 19:48:22.335 [info] ccreq:c4334d70.copilotmd | markdown
+2026-06-07 19:48:24.396 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:24.396 [info] request done: requestId: [1eb49e01-6fdd-448f-b5ca-65f11e3d1d02] model deployment ID: []
+2026-06-07 19:48:24.398 [info] ccreq:b9fee1a5.copilotmd | success | nes-callisto-003 | 344ms | [XtabProvider]
+2026-06-07 19:48:24.793 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:24.794 [info] request done: requestId: [343c8da6-50ce-4ee8-9a7d-ece4400b9612] model deployment ID: []
+2026-06-07 19:48:24.795 [info] ccreq:476c135c.copilotmd | success | copilot-suggestions-prod-himalia-004 | 395ms | [nes.nextCursorPosition]
+2026-06-07 19:48:25.206 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:25.210 [info] request done: requestId: [1eb49e01-6fdd-448f-b5ca-65f11e3d1d02] model deployment ID: []
+2026-06-07 19:48:25.213 [info] ccreq:8c29daa3.copilotmd | success | nes-callisto-003 | 409ms | [XtabProvider]
+2026-06-07 19:48:38.619 [info] ccreq:c0fdfd88.copilotmd | markdown
+2026-06-07 19:48:38.640 [info] ccreq:9dd2b0a5.copilotmd | markdown
+2026-06-07 19:48:38.961 [info] [fetchCompletions] Request 19dd109b-c3b6-4104-a939-2fa5de362c2c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 334.6321460000181ms
+2026-06-07 19:48:39.331 [info] ccreq:6b29453e.copilotmd | markdown
+2026-06-07 19:48:41.222 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:41.223 [info] request done: requestId: [2b8a76b0-6610-4527-b382-2e2c5eb9bb8d] model deployment ID: []
+2026-06-07 19:48:41.405 [info] ccreq:bfaa3ebd.copilotmd | success | nes-callisto-003 | 669ms | [XtabProvider]
+2026-06-07 19:48:42.011 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:42.011 [info] request done: requestId: [d4ed14ce-5d25-4403-a0ad-08d5e66f654a] model deployment ID: []
+2026-06-07 19:48:42.130 [info] ccreq:e5035c38.copilotmd | success | copilot-suggestions-prod-himalia-004 | 723ms | [nes.nextCursorPosition]
+2026-06-07 19:48:42.619 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:42.619 [info] request done: requestId: [2b8a76b0-6610-4527-b382-2e2c5eb9bb8d] model deployment ID: []
+2026-06-07 19:48:42.621 [info] ccreq:ac1e1ecd.copilotmd | success | nes-callisto-003 | 485ms | [XtabProvider]
+2026-06-07 19:48:43.464 [info] ccreq:173ddaee.copilotmd | markdown
+2026-06-07 19:48:44.168 [info] ccreq:140db7a1.copilotmd | markdown
+2026-06-07 19:48:44.187 [info] ccreq:bfd96282.copilotmd | markdown
+2026-06-07 19:48:44.549 [info] ccreq:72cf584e.copilotmd | markdown
+2026-06-07 19:48:44.565 [info] ccreq:0879ad67.copilotmd | markdown
+2026-06-07 19:48:44.630 [info] [fetchCompletions] Request 62559e3a-dfe0-46dd-8c42-76fb684e3d42 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 453.62159300001804ms
+2026-06-07 19:48:44.633 [info] ccreq:87416317.copilotmd | markdown
+2026-06-07 19:48:45.064 [info] [fetchCompletions] Request 5dcfc4bc-d80e-45bb-b07d-c6cee866de6d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 428.64312700001756ms
+2026-06-07 19:48:45.072 [info] ccreq:af98b0a3.copilotmd | markdown
+2026-06-07 19:48:45.078 [info] ccreq:0c727d68.copilotmd | markdown
+2026-06-07 19:48:45.078 [error] [AsyncCompletionManager] [5dcfc4bc-d80e-45bb-b07d-c6cee866de6d] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:121:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:521:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:608:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:509:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:509:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-06-07 19:48:45.095 [info] ccreq:76bac4d3.copilotmd | markdown
+2026-06-07 19:48:45.375 [info] [fetchCompletions] Request 39997a9c-f37d-4251-aefa-3a6f842fc6b5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.7259110000159ms
+2026-06-07 19:48:45.473 [info] ccreq:975d85a9.copilotmd | markdown
+2026-06-07 19:48:45.615 [info] ccreq:b248fa84.copilotmd | markdown
+2026-06-07 19:48:46.104 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:46.105 [info] request done: requestId: [312b8201-e853-4e52-b70a-11db56d446ce] model deployment ID: []
+2026-06-07 19:48:46.108 [info] ccreq:ba70b0e7.copilotmd | success | nes-callisto-003 | 395ms | [XtabProvider]
+2026-06-07 19:48:46.510 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:48:46.511 [info] request done: requestId: [e59bb6ff-98dc-4480-a51d-6105462e8599] model deployment ID: []
+2026-06-07 19:48:46.514 [info] ccreq:47bd7334.copilotmd | success | copilot-suggestions-prod-himalia-004 | 403ms | [nes.nextCursorPosition]
+2026-06-07 19:48:58.253 [info] ccreq:bcf79bde.copilotmd | markdown
+2026-06-07 19:48:58.270 [info] ccreq:85c76934.copilotmd | markdown
+2026-06-07 19:48:58.683 [info] [fetchCompletions] Request 06199ca1-3481-40b8-92a1-e015458c05f4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 423.7715839999728ms
+2026-06-07 19:48:58.688 [info] ccreq:6288ceb7.copilotmd | markdown
+2026-06-07 19:49:00.777 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:00.777 [info] request done: requestId: [edf765d2-a506-45d6-95c3-4d1225f394b4] model deployment ID: []
+2026-06-07 19:49:00.779 [info] ccreq:6a3b7052.copilotmd | success | nes-callisto-003 | 413ms | [XtabProvider]
+2026-06-07 19:49:01.391 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:01.391 [info] request done: requestId: [23c2637b-a03f-4a20-aa5c-fadbe24c26e7] model deployment ID: []
+2026-06-07 19:49:01.393 [info] ccreq:77deb280.copilotmd | success | copilot-suggestions-prod-himalia-004 | 611ms | [nes.nextCursorPosition]
+2026-06-07 19:49:01.761 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:01.762 [info] request done: requestId: [edf765d2-a506-45d6-95c3-4d1225f394b4] model deployment ID: []
+2026-06-07 19:49:01.764 [info] ccreq:4fdb6f42.copilotmd | success | nes-callisto-003 | 364ms | [XtabProvider]
+2026-06-07 19:49:03.647 [info] ccreq:fedb4bd5.copilotmd | markdown
+2026-06-07 19:49:04.226 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:04.227 [info] request done: requestId: [19c5f9a0-4cc9-4375-b5cf-cc0f0c50c575] model deployment ID: []
+2026-06-07 19:49:04.229 [info] ccreq:7dce68bc.copilotmd | success | nes-callisto-003 | 485ms | [XtabProvider]
+2026-06-07 19:49:04.839 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:04.840 [info] request done: requestId: [283de6f5-d416-4132-b0e7-f6056ee10fec] model deployment ID: []
+2026-06-07 19:49:04.843 [info] ccreq:9f03f107.copilotmd | success | copilot-suggestions-prod-himalia-004 | 610ms | [nes.nextCursorPosition]
+2026-06-07 19:49:07.268 [info] ccreq:71053acf.copilotmd | markdown
+2026-06-07 19:49:07.278 [info] ccreq:7998a854.copilotmd | markdown
+2026-06-07 19:49:07.611 [info] ccreq:15d31350.copilotmd | markdown
+2026-06-07 19:49:07.614 [info] ccreq:f4e33ff5.copilotmd | markdown
+2026-06-07 19:49:07.837 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:07.839 [info] request done: requestId: [58334dfd-4118-43b4-a8b3-22414f117ed9] model deployment ID: []
+2026-06-07 19:49:07.841 [info] ccreq:6cda0684.copilotmd | success | nes-callisto-003 | 467ms | [XtabProvider]
+2026-06-07 19:49:08.333 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:08.334 [info] request done: requestId: [b676539b-67c4-49ba-a001-9ce9d7826b0c] model deployment ID: []
+2026-06-07 19:49:08.335 [info] ccreq:b090691a.copilotmd | success | nes-callisto-003 | 390ms | [XtabProvider]
+2026-06-07 19:49:08.828 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:49:08.828 [info] request done: requestId: [de23bc4a-f8af-4e79-8614-ce09f7625536] model deployment ID: []
+2026-06-07 19:49:08.830 [info] ccreq:d82b2894.copilotmd | success | copilot-suggestions-prod-himalia-004 | 492ms | [nes.nextCursorPosition]
+2026-06-07 19:49:09.934 [info] ccreq:4da88cc6.copilotmd | markdown
+2026-06-07 19:50:12.797 [info] ccreq:56187958.copilotmd | markdown
+2026-06-07 19:50:12.816 [info] ccreq:ca171382.copilotmd | markdown
+2026-06-07 19:50:13.235 [info] [fetchCompletions] Request 767713c0-5a37-4a39-8289-caaed0808aea at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 429.47921399999177ms
+2026-06-07 19:50:13.344 [info] ccreq:80a40bde.copilotmd | markdown
+2026-06-07 19:50:15.297 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:15.297 [info] request done: requestId: [bfd139dc-7651-4aab-a362-b9ff8fa9d020] model deployment ID: []
+2026-06-07 19:50:15.401 [info] ccreq:ca0ac8c3.copilotmd | markdown
+2026-06-07 19:50:15.409 [info] ccreq:21a386f5.copilotmd | markdown
+2026-06-07 19:50:15.519 [info] ccreq:9d4120a7.copilotmd | success | nes-callisto-003 | 610ms | [XtabProvider]
+2026-06-07 19:50:15.791 [info] [fetchCompletions] Request 779d52ba-169e-4f14-91f5-8c82eea8437a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 384.7255749999895ms
+2026-06-07 19:50:15.794 [info] ccreq:ff938342.copilotmd | markdown
+2026-06-07 19:50:16.273 [info] ccreq:2ee68020.copilotmd | markdown
+2026-06-07 19:50:16.287 [info] ccreq:70c964a0.copilotmd | markdown
+2026-06-07 19:50:16.716 [info] [fetchCompletions] Request b78c176b-4747-4212-821a-e9111b5a9cbf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 437.12359400000423ms
+2026-06-07 19:50:16.931 [info] ccreq:3922e063.copilotmd | markdown
+2026-06-07 19:50:17.279 [info] ccreq:d60a9908.copilotmd | markdown
+2026-06-07 19:50:17.283 [info] ccreq:8af5187c.copilotmd | markdown
+2026-06-07 19:50:17.294 [info] ccreq:cd01bc58.copilotmd | markdown
+2026-06-07 19:50:17.631 [info] ccreq:e8a41487.copilotmd | markdown
+2026-06-07 19:50:17.637 [info] ccreq:29bf51eb.copilotmd | markdown
+2026-06-07 19:50:17.650 [info] ccreq:899dffe7.copilotmd | markdown
+2026-06-07 19:50:18.046 [info] [fetchCompletions] Request 4c1425c8-1528-4668-81a1-6390997533c9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 394.18195300002117ms
+2026-06-07 19:50:18.250 [info] ccreq:ffb85843.copilotmd | markdown
+2026-06-07 19:50:20.106 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:20.108 [info] request done: requestId: [cc94e0fe-5fb3-406d-bc8d-5b66aeb2a9a6] model deployment ID: []
+2026-06-07 19:50:20.109 [info] ccreq:6bfa612f.copilotmd | success | nes-callisto-003 | 362ms | [XtabProvider]
+2026-06-07 19:50:20.515 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:20.515 [info] request done: requestId: [a6c0c828-cea6-48c8-8f79-03f2a4105d4e] model deployment ID: []
+2026-06-07 19:50:20.632 [info] ccreq:03dd996b.copilotmd | success | copilot-suggestions-prod-himalia-004 | 521ms | [nes.nextCursorPosition]
+2026-06-07 19:50:23.102 [info] ccreq:d42a387c.copilotmd | markdown
+2026-06-07 19:50:23.114 [info] ccreq:f61710a1.copilotmd | markdown
+2026-06-07 19:50:23.377 [info] ccreq:e89d3772.copilotmd | markdown
+2026-06-07 19:50:23.388 [info] ccreq:7336e9d1.copilotmd | markdown
+2026-06-07 19:50:23.473 [info] [fetchCompletions] Request 0acbd159-c55e-40c7-8bac-f63a67a2a96e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 366.2823839999619ms
+2026-06-07 19:50:23.575 [info] ccreq:13c0a398.copilotmd | markdown
+2026-06-07 19:50:25.558 [info] [code-referencing] Calling twirp/github.snippy.v1.SnippyAPI/Match
+2026-06-07 19:50:25.568 [info] ccreq:7ce3dcb8.copilotmd | markdown
+2026-06-07 19:50:25.583 [info] ccreq:aa111693.copilotmd | markdown
+2026-06-07 19:50:25.932 [info] [fetchCompletions] Request 25ae69cb-770e-4dea-a6e5-dc1fe7cf27a6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 347.34113899996737ms
+2026-06-07 19:50:26.033 [info] ccreq:9318283d.copilotmd | markdown
+2026-06-07 19:50:26.136 [info] [code-referencing] No match found
+2026-06-07 19:50:26.423 [info] ccreq:4989e711.copilotmd | markdown
+2026-06-07 19:50:26.869 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:26.869 [info] request done: requestId: [259a9502-395a-481e-8a64-ef3c51130023] model deployment ID: []
+2026-06-07 19:50:26.872 [info] ccreq:4520945f.copilotmd | success | nes-callisto-003 | 354ms | [XtabProvider]
+2026-06-07 19:50:26.905 [info] ccreq:44f1b64a.copilotmd | markdown
+2026-06-07 19:50:27.137 [info] ccreq:9a936cf7.copilotmd | markdown
+2026-06-07 19:50:27.278 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:27.278 [info] request done: requestId: [b0a487d4-d117-416e-a893-411f7259fe4f] model deployment ID: []
+2026-06-07 19:50:27.280 [info] ccreq:97ab0d3d.copilotmd | success | copilot-suggestions-prod-himalia-004 | 405ms | [nes.nextCursorPosition]
+2026-06-07 19:50:27.778 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:27.783 [info] request done: requestId: [259a9502-395a-481e-8a64-ef3c51130023] model deployment ID: []
+2026-06-07 19:50:27.785 [info] ccreq:aa23ce5e.copilotmd | success | nes-callisto-003 | 499ms | [XtabProvider]
+2026-06-07 19:50:30.298 [info] ccreq:9b11ac7c.copilotmd | markdown
+2026-06-07 19:50:30.311 [info] ccreq:45f0568c.copilotmd | markdown
+2026-06-07 19:50:30.503 [info] ccreq:e1d5ebf2.copilotmd | markdown
+2026-06-07 19:50:30.510 [info] ccreq:5829c3c0.copilotmd | markdown
+2026-06-07 19:50:30.518 [info] ccreq:81a96023.copilotmd | markdown
+2026-06-07 19:50:30.706 [info] ccreq:7eae73df.copilotmd | markdown
+2026-06-07 19:50:30.711 [info] ccreq:9717ff9b.copilotmd | markdown
+2026-06-07 19:50:30.718 [info] ccreq:c3ba9b10.copilotmd | markdown
+2026-06-07 19:50:30.909 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:30.911 [info] request done: requestId: [2e922dc6-01ce-4338-9c15-2cb947ef2a98] model deployment ID: []
+2026-06-07 19:50:30.911 [info] ccreq:fded86ed.copilotmd | success | nes-callisto-003 | 504ms | [XtabProvider]
+2026-06-07 19:50:30.925 [info] ccreq:97e317c8.copilotmd | markdown
+2026-06-07 19:50:30.929 [info] ccreq:7e77fe73.copilotmd | markdown
+2026-06-07 19:50:30.938 [info] ccreq:eaabb8d9.copilotmd | markdown
+2026-06-07 19:50:31.151 [info] ccreq:d4299d38.copilotmd | markdown
+2026-06-07 19:50:31.155 [info] ccreq:299526c4.copilotmd | markdown
+2026-06-07 19:50:31.162 [info] ccreq:b1225d6d.copilotmd | markdown
+2026-06-07 19:50:31.362 [info] ccreq:04cd15fc.copilotmd | markdown
+2026-06-07 19:50:31.366 [info] ccreq:cccca19e.copilotmd | markdown
+2026-06-07 19:50:31.371 [info] ccreq:69022580.copilotmd | markdown
+2026-06-07 19:50:31.382 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:31.382 [info] request done: requestId: [308bbc26-9bd8-4e3a-b07a-f609c65d759c] model deployment ID: []
+2026-06-07 19:50:31.386 [info] ccreq:ca37208a.copilotmd | success | nes-callisto-003 | 351ms | [XtabProvider]
+2026-06-07 19:50:31.563 [info] ccreq:d386669c.copilotmd | markdown
+2026-06-07 19:50:31.567 [info] ccreq:e96f3f3a.copilotmd | markdown
+2026-06-07 19:50:31.574 [info] ccreq:d897c542.copilotmd | markdown
+2026-06-07 19:50:31.761 [info] ccreq:9347b104.copilotmd | markdown
+2026-06-07 19:50:31.764 [info] ccreq:c2356abf.copilotmd | markdown
+2026-06-07 19:50:31.770 [info] ccreq:b37bbd78.copilotmd | markdown
+2026-06-07 19:50:31.914 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:31.917 [info] request done: requestId: [cdabd8ef-e0b3-4b10-9e9f-5fef84ca8b3e] model deployment ID: []
+2026-06-07 19:50:31.918 [info] ccreq:e94dc671.copilotmd | success | nes-callisto-003 | 430ms | [XtabProvider]
+2026-06-07 19:50:31.934 [info] ccreq:5e278bd4.copilotmd | markdown
+2026-06-07 19:50:31.939 [info] ccreq:dc4400bd.copilotmd | markdown
+2026-06-07 19:50:31.952 [info] ccreq:9eade3b3.copilotmd | markdown
+2026-06-07 19:50:32.114 [info] ccreq:f51a3097.copilotmd | markdown
+2026-06-07 19:50:32.119 [info] ccreq:5a6f8288.copilotmd | markdown
+2026-06-07 19:50:32.125 [info] ccreq:618b3caa.copilotmd | markdown
+2026-06-07 19:50:32.293 [info] ccreq:3d3c989e.copilotmd | markdown
+2026-06-07 19:50:32.298 [info] ccreq:373c17e8.copilotmd | markdown
+2026-06-07 19:50:32.308 [info] ccreq:2a9cef37.copilotmd | markdown
+2026-06-07 19:50:32.456 [info] ccreq:015e3a49.copilotmd | markdown
+2026-06-07 19:50:32.461 [info] ccreq:90693ee6.copilotmd | markdown
+2026-06-07 19:50:32.475 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:32.475 [info] request done: requestId: [4135f3cd-49c9-433f-8619-28826dbcc6b3] model deployment ID: []
+2026-06-07 19:50:32.478 [info] ccreq:c04af869.copilotmd | markdown
+2026-06-07 19:50:32.481 [info] ccreq:80286aab.copilotmd | success | nes-callisto-003 | 434ms | [XtabProvider]
+2026-06-07 19:50:32.703 [info] ccreq:2ca24732.copilotmd | markdown
+2026-06-07 19:50:32.707 [info] ccreq:c8e536db.copilotmd | markdown
+2026-06-07 19:50:32.715 [info] ccreq:e17d7c10.copilotmd | markdown
+2026-06-07 19:50:32.924 [info] ccreq:ea24c6aa.copilotmd | markdown
+2026-06-07 19:50:32.930 [info] ccreq:80625d96.copilotmd | markdown
+2026-06-07 19:50:32.934 [info] ccreq:850ccfcb.copilotmd | markdown
+2026-06-07 19:50:33.104 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:33.107 [info] request done: requestId: [9e7f6244-0825-4501-af75-6e2adc6054a5] model deployment ID: []
+2026-06-07 19:50:33.108 [info] ccreq:35a5164d.copilotmd | success | nes-callisto-003 | 524ms | [XtabProvider]
+2026-06-07 19:50:33.274 [info] ccreq:50fd6bae.copilotmd | markdown
+2026-06-07 19:50:33.279 [info] ccreq:ad40b965.copilotmd | markdown
+2026-06-07 19:50:33.284 [info] ccreq:3825bc90.copilotmd | markdown
+2026-06-07 19:50:33.724 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:33.725 [info] request done: requestId: [fbcffcad-3d82-4ed7-aee7-b310cbb87463] model deployment ID: []
+2026-06-07 19:50:33.728 [info] ccreq:73aeebd4.copilotmd | success | nes-callisto-003 | 514ms | [XtabProvider]
+2026-06-07 19:50:33.735 [info] [fetchCompletions] Request 25c21df3-0889-4560-b009-3cb81f850126 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 450.7084789999644ms
+2026-06-07 19:50:33.741 [info] ccreq:77ec4807.copilotmd | markdown
+2026-06-07 19:50:33.871 [info] ccreq:b15db9c7.copilotmd | markdown
+2026-06-07 19:50:33.876 [info] ccreq:52e57301.copilotmd | markdown
+2026-06-07 19:50:33.889 [info] ccreq:cbd9f575.copilotmd | markdown
+2026-06-07 19:50:34.122 [info] ccreq:afc36393.copilotmd | markdown
+2026-06-07 19:50:34.126 [info] ccreq:6bb944f3.copilotmd | markdown
+2026-06-07 19:50:34.352 [info] [fetchCompletions] Request e32fa7de-e653-4035-b546-61cb9bdd0ebc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 469.50892100000056ms
+2026-06-07 19:50:34.385 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:34.386 [info] request done: requestId: [02c47038-eefa-49d3-870e-f2d89b2ae4ef] model deployment ID: []
+2026-06-07 19:50:34.388 [info] ccreq:b658d1b1.copilotmd | success | nes-callisto-003 | 402ms | [XtabProvider]
+2026-06-07 19:50:34.437 [info] ccreq:35ccaab3.copilotmd | markdown
+2026-06-07 19:50:34.660 [info] [fetchCompletions] Request 6fdbf33e-f8f5-424f-8914-1264ecb41067 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 333.78979399998207ms
+2026-06-07 19:50:34.742 [info] ccreq:64e319ab.copilotmd | markdown
+2026-06-07 19:50:35.045 [info] [fetchCompletions] Request 9d5a485e-dd06-4a23-89e4-9fd969a5fbd2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 394.7239760000375ms
+2026-06-07 19:50:35.281 [info] ccreq:940503f8.copilotmd | markdown
+2026-06-07 19:50:36.135 [info] ccreq:78d9be9f.copilotmd | markdown
+2026-06-07 19:50:36.145 [info] ccreq:c577ac2c.copilotmd | markdown
+2026-06-07 19:50:36.446 [info] ccreq:1026be97.copilotmd | markdown
+2026-06-07 19:50:36.452 [info] ccreq:f41eb4b5.copilotmd | markdown
+2026-06-07 19:50:36.591 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:36.591 [info] request done: requestId: [cbc36e4d-8ad5-4262-a14c-e77f12605a29] model deployment ID: []
+2026-06-07 19:50:36.594 [info] ccreq:c3708d53.copilotmd | success | nes-callisto-003 | 351ms | [XtabProvider]
+2026-06-07 19:50:36.710 [info] ccreq:5cc5b707.copilotmd | markdown
+2026-06-07 19:50:36.722 [info] ccreq:d5426ae3.copilotmd | markdown
+2026-06-07 19:50:36.789 [info] [fetchCompletions] Request 54a00d9f-ad03-42f6-b771-735db81f4087 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 438.98373999999603ms
+2026-06-07 19:50:36.886 [info] ccreq:221df022.copilotmd | markdown
+2026-06-07 19:50:36.932 [info] ccreq:9931ed41.copilotmd | markdown
+2026-06-07 19:50:36.939 [info] ccreq:8b048e10.copilotmd | markdown
+2026-06-07 19:50:37.121 [info] ccreq:f8202756.copilotmd | markdown
+2026-06-07 19:50:37.132 [info] ccreq:8f4d68f6.copilotmd | markdown
+2026-06-07 19:50:37.322 [info] ccreq:7f2dac11.copilotmd | markdown
+2026-06-07 19:50:37.337 [info] ccreq:381c731e.copilotmd | markdown
+2026-06-07 19:50:37.498 [info] ccreq:96c99aa8.copilotmd | markdown
+2026-06-07 19:50:37.513 [info] ccreq:b6c159e6.copilotmd | markdown
+2026-06-07 19:50:38.016 [info] ccreq:b34d9c6a.copilotmd | markdown
+2026-06-07 19:50:39.383 [info] ccreq:94c2d47c.copilotmd | markdown
+2026-06-07 19:50:39.393 [info] ccreq:18f7db43.copilotmd | markdown
+2026-06-07 19:50:39.857 [info] [fetchCompletions] Request ffe3dc02-fd79-4d85-b2ec-74abade41ea0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 462.1783140000189ms
+2026-06-07 19:50:39.862 [info] ccreq:5358b137.copilotmd | markdown
+2026-06-07 19:50:40.005 [info] ccreq:c4bbe77c.copilotmd | markdown
+2026-06-07 19:50:40.021 [info] ccreq:4fd5af7b.copilotmd | markdown
+2026-06-07 19:50:40.400 [info] [fetchCompletions] Request 0a697141-df28-4469-a7b3-d08547e8acfe at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 386.54187699995236ms
+2026-06-07 19:50:40.416 [info] ccreq:7913d6f1.copilotmd | markdown
+2026-06-07 19:50:40.527 [info] ccreq:b12d5363.copilotmd | markdown
+2026-06-07 19:50:42.974 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:42.978 [info] request done: requestId: [7e6ace97-8dc1-4231-9143-51194ab71eef] model deployment ID: []
+2026-06-07 19:50:42.979 [info] ccreq:09c69603.copilotmd | success | nes-callisto-003 | 353ms | [XtabProvider]
+2026-06-07 19:50:43.451 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:50:43.452 [info] request done: requestId: [f3891956-8496-4430-9fc2-06e868925b8c] model deployment ID: []
+2026-06-07 19:50:43.599 [info] ccreq:037b3eab.copilotmd | success | copilot-suggestions-prod-himalia-004 | 616ms | [nes.nextCursorPosition]
+2026-06-07 19:55:40.962 [info] ccreq:ca4a5372.copilotmd | markdown
+2026-06-07 19:55:40.982 [info] ccreq:bcd492c9.copilotmd | markdown
+2026-06-07 19:55:42.140 [info] ccreq:4814876f.copilotmd | markdown
+2026-06-07 19:55:42.152 [info] ccreq:f69c322c.copilotmd | markdown
+2026-06-07 19:55:42.156 [info] [fetchCompletions] Request 7248ce96-ec56-49e8-a57f-e92f62ef4efa at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1186.422222000081ms
+2026-06-07 19:55:42.160 [info] ccreq:dd425c75.copilotmd | markdown
+2026-06-07 19:55:42.553 [info] [fetchCompletions] Request 663380c9-b595-4203-b2a9-eb886c53003a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 390.36819800001103ms
+2026-06-07 19:55:42.656 [info] ccreq:e3071412.copilotmd | markdown
+2026-06-07 19:55:45.132 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:45.133 [info] request done: requestId: [4284ebe9-7fd0-4193-99c3-001bb7487828] model deployment ID: []
+2026-06-07 19:55:45.348 [info] ccreq:5ea14301.copilotmd | success | nes-callisto-003 | 1097ms | [XtabProvider]
+2026-06-07 19:55:45.949 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:45.950 [info] request done: requestId: [f384b1e9-414c-46b3-b3c5-b2dd0483030d] model deployment ID: []
+2026-06-07 19:55:45.977 [info] ccreq:8bc22c3c.copilotmd | markdown
+2026-06-07 19:55:46.084 [info] ccreq:8d0c38d8.copilotmd | success | copilot-suggestions-prod-himalia-004 | 733ms | [nes.nextCursorPosition]
+2026-06-07 19:55:46.327 [info] ccreq:6cedb3f0.copilotmd | markdown
+2026-06-07 19:55:46.863 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:46.863 [info] request done: requestId: [9a416670-c387-4f4e-a864-d10c1d5cc35b] model deployment ID: []
+2026-06-07 19:55:46.865 [info] ccreq:d2bbe41c.copilotmd | success | nes-callisto-003 | 442ms | [XtabProvider]
+2026-06-07 19:55:47.276 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:47.277 [info] request done: requestId: [bab011db-29f6-4537-b30a-dc0bef6e543b] model deployment ID: []
+2026-06-07 19:55:47.280 [info] ccreq:01bba2a6.copilotmd | success | copilot-suggestions-prod-himalia-004 | 411ms | [nes.nextCursorPosition]
+2026-06-07 19:55:50.170 [info] ccreq:34b28995.copilotmd | markdown
+2026-06-07 19:55:50.179 [info] ccreq:b06f09e1.copilotmd | markdown
+2026-06-07 19:55:50.515 [info] ccreq:543263b3.copilotmd | markdown
+2026-06-07 19:55:50.519 [info] ccreq:bcb3d0a2.copilotmd | markdown
+2026-06-07 19:55:50.719 [info] ccreq:d6bd266a.copilotmd | markdown
+2026-06-07 19:55:50.722 [info] ccreq:12cff952.copilotmd | markdown
+2026-06-07 19:55:50.893 [info] ccreq:baae0b10.copilotmd | markdown
+2026-06-07 19:55:50.897 [info] ccreq:55056bac.copilotmd | markdown
+2026-06-07 19:55:50.940 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:50.941 [info] request done: requestId: [851ece87-5fb1-49e0-82f1-a69ddb947d43] model deployment ID: []
+2026-06-07 19:55:50.942 [info] ccreq:594268d0.copilotmd | success | nes-callisto-003 | 666ms | [XtabProvider]
+2026-06-07 19:55:51.068 [info] ccreq:b0e095bc.copilotmd | markdown
+2026-06-07 19:55:51.072 [info] ccreq:bc010f74.copilotmd | markdown
+2026-06-07 19:55:51.258 [info] ccreq:e973508b.copilotmd | markdown
+2026-06-07 19:55:51.261 [info] ccreq:1fe35a63.copilotmd | markdown
+2026-06-07 19:55:51.466 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:51.466 [info] request done: requestId: [6a0292bf-ba10-4b85-8231-41a231461fd6] model deployment ID: []
+2026-06-07 19:55:51.469 [info] ccreq:6d349ead.copilotmd | success | nes-callisto-003 | 423ms | [XtabProvider]
+2026-06-07 19:55:51.495 [info] ccreq:8db62b01.copilotmd | markdown
+2026-06-07 19:55:51.498 [info] ccreq:5781e0b4.copilotmd | markdown
+2026-06-07 19:55:51.829 [info] ccreq:7dcb9a41.copilotmd | markdown
+2026-06-07 19:55:51.834 [info] ccreq:7a7c2072.copilotmd | markdown
+2026-06-07 19:55:52.091 [info] ccreq:a348358a.copilotmd | markdown
+2026-06-07 19:55:52.095 [info] ccreq:97475445.copilotmd | markdown
+2026-06-07 19:55:52.286 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:52.289 [info] request done: requestId: [2bb5cdcb-4a78-4048-b864-bf935df2a79a] model deployment ID: []
+2026-06-07 19:55:52.290 [info] ccreq:441ba141.copilotmd | success | nes-callisto-003 | 655ms | [XtabProvider]
+2026-06-07 19:55:52.307 [info] ccreq:47d7d517.copilotmd | markdown
+2026-06-07 19:55:52.314 [info] ccreq:e823031d.copilotmd | markdown
+2026-06-07 19:55:52.498 [info] ccreq:c35c64d8.copilotmd | markdown
+2026-06-07 19:55:52.506 [info] ccreq:30819935.copilotmd | markdown
+2026-06-07 19:55:52.666 [info] ccreq:0e46a714.copilotmd | markdown
+2026-06-07 19:55:52.669 [info] ccreq:b5d2a485.copilotmd | markdown
+2026-06-07 19:55:52.951 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:52.952 [info] request done: requestId: [bdb07a2e-fefb-424f-91c6-287dca909d82] model deployment ID: []
+2026-06-07 19:55:52.955 [info] ccreq:518993f0.copilotmd | success | nes-callisto-003 | 353ms | [XtabProvider]
+2026-06-07 19:55:53.038 [info] ccreq:67526b3c.copilotmd | markdown
+2026-06-07 19:55:53.047 [info] ccreq:48d46b77.copilotmd | markdown
+2026-06-07 19:55:53.730 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:53.731 [info] request done: requestId: [30176593-86ca-430a-a3e4-12b4720fb0ee] model deployment ID: []
+2026-06-07 19:55:53.737 [info] ccreq:950ae4e8.copilotmd | success | nes-callisto-003 | 594ms | [XtabProvider]
+2026-06-07 19:55:54.140 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:54.140 [info] request done: requestId: [4482aac0-d6fa-4501-bc09-f74c7361756a] model deployment ID: []
+2026-06-07 19:55:54.142 [info] ccreq:da57425e.copilotmd | success | copilot-suggestions-prod-himalia-004 | 402ms | [nes.nextCursorPosition]
+2026-06-07 19:55:54.454 [info] ccreq:d47c52b0.copilotmd | markdown
+2026-06-07 19:55:54.467 [info] ccreq:8c95397f.copilotmd | markdown
+2026-06-07 19:55:55.166 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:55.167 [info] request done: requestId: [c5705461-a69d-459f-9506-2620168b8e91] model deployment ID: []
+2026-06-07 19:55:55.170 [info] ccreq:097fee56.copilotmd | success | nes-callisto-003 | 610ms | [XtabProvider]
+2026-06-07 19:55:55.396 [info] ccreq:df714b11.copilotmd | markdown
+2026-06-07 19:55:55.399 [info] ccreq:9d2cfd4d.copilotmd | markdown
+2026-06-07 19:55:55.749 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:55.749 [info] request done: requestId: [3348708c-5d1d-432d-b42b-cf86c5a4038b] model deployment ID: []
+2026-06-07 19:55:55.753 [info] ccreq:5046d260.copilotmd | success | copilot-suggestions-prod-himalia-004 | 580ms | [nes.nextCursorPosition]
+2026-06-07 19:55:56.393 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:56.394 [info] request done: requestId: [052803c6-ac99-476d-9414-9a2b501cca2e] model deployment ID: []
+2026-06-07 19:55:56.394 [info] ccreq:d623837b.copilotmd | success | nes-callisto-003 | 538ms | [XtabProvider]
+2026-06-07 19:55:56.801 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:56.801 [info] request done: requestId: [1eac8b3a-32d8-4db6-9892-f26d30f53409] model deployment ID: []
+2026-06-07 19:55:56.804 [info] ccreq:d8a11c42.copilotmd | success | copilot-suggestions-prod-himalia-004 | 407ms | [nes.nextCursorPosition]
+2026-06-07 19:55:57.289 [info] ccreq:ba8ed75c.copilotmd | markdown
+2026-06-07 19:55:57.298 [info] ccreq:e34e2f99.copilotmd | markdown
+2026-06-07 19:55:57.683 [info] ccreq:4d7eec05.copilotmd | markdown
+2026-06-07 19:55:57.686 [info] ccreq:0c4f4a83.copilotmd | markdown
+2026-06-07 19:55:58.032 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:58.032 [info] request done: requestId: [571e9295-ccd3-40fb-b859-3892dcb362be] model deployment ID: []
+2026-06-07 19:55:58.034 [info] ccreq:1568e3d0.copilotmd | success | nes-callisto-003 | 641ms | [XtabProvider]
+2026-06-07 19:55:58.128 [info] ccreq:7045e968.copilotmd | markdown
+2026-06-07 19:55:58.137 [info] ccreq:3779a0b9.copilotmd | markdown
+2026-06-07 19:55:58.587 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:58.587 [info] request done: requestId: [e75ddf78-2a11-44c0-822a-a1980f1f9df3] model deployment ID: []
+2026-06-07 19:55:58.590 [info] ccreq:4d02c873.copilotmd | success | nes-callisto-003 | 357ms | [XtabProvider]
+2026-06-07 19:55:58.625 [info] ccreq:59441e69.copilotmd | markdown
+2026-06-07 19:55:58.981 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:55:58.982 [info] request done: requestId: [22ea1476-c9d1-4eb1-8c95-a46d4b2085e5] model deployment ID: []
+2026-06-07 19:55:58.985 [info] ccreq:d804ba4f.copilotmd | success | copilot-suggestions-prod-himalia-004 | 390ms | [nes.nextCursorPosition]
+2026-06-07 19:55:59.042 [info] ccreq:97bf5e91.copilotmd | markdown
+2026-06-07 19:56:00.469 [info] ccreq:30cf46f8.copilotmd | markdown
+2026-06-07 19:56:00.483 [info] ccreq:f3c3b734.copilotmd | markdown
+2026-06-07 19:56:00.762 [info] ccreq:63cb937b.copilotmd | markdown
+2026-06-07 19:56:00.768 [info] ccreq:bac06119.copilotmd | markdown
+2026-06-07 19:56:00.957 [info] ccreq:d8eb4ade.copilotmd | markdown
+2026-06-07 19:56:00.964 [info] ccreq:4bd62c82.copilotmd | markdown
+2026-06-07 19:56:00.990 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:00.990 [info] request done: requestId: [8716dcb0-3a71-4145-8a2a-d6a5085cbe08] model deployment ID: []
+2026-06-07 19:56:00.992 [info] ccreq:d39cee10.copilotmd | success | nes-callisto-003 | 411ms | [XtabProvider]
+2026-06-07 19:56:00.999 [info] [fetchCompletions] Request 4622b59a-5abc-44db-bf0d-e654a3bb9b70 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 524.1430260000052ms
+2026-06-07 19:56:01.096 [info] ccreq:735d18b9.copilotmd | markdown
+2026-06-07 19:56:01.342 [info] ccreq:559b2106.copilotmd | markdown
+2026-06-07 19:56:01.352 [info] ccreq:fd7559c4.copilotmd | markdown
+2026-06-07 19:56:01.510 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:01.511 [info] request done: requestId: [60314c2e-c019-4c40-b415-0dd0442ef8b5] model deployment ID: []
+2026-06-07 19:56:01.513 [info] ccreq:75e7b280.copilotmd | success | nes-callisto-003 | 415ms | [XtabProvider]
+2026-06-07 19:56:01.783 [info] ccreq:fc3148fe.copilotmd | markdown
+2026-06-07 19:56:01.793 [info] ccreq:fb467fda.copilotmd | markdown
+2026-06-07 19:56:02.228 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:02.228 [info] request done: requestId: [c2ad3113-4d9e-4710-8a21-41083c0f43c9] model deployment ID: []
+2026-06-07 19:56:02.231 [info] ccreq:282a81b9.copilotmd | success | nes-callisto-003 | 614ms | [XtabProvider]
+2026-06-07 19:56:02.664 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:02.666 [info] request done: requestId: [9cede938-821a-48c9-9b18-446e8783061d] model deployment ID: []
+2026-06-07 19:56:02.667 [info] ccreq:3ba5e862.copilotmd | success | nes-callisto-003 | 332ms | [XtabProvider]
+2026-06-07 19:56:03.166 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:03.168 [info] request done: requestId: [b4d5fea3-7f03-4672-8907-cb4dc1a8476a] model deployment ID: []
+2026-06-07 19:56:03.168 [info] ccreq:1cb240e1.copilotmd | success | copilot-suggestions-prod-himalia-004 | 499ms | [nes.nextCursorPosition]
+2026-06-07 19:56:03.249 [info] ccreq:057c190b.copilotmd | markdown
+2026-06-07 19:56:05.318 [info] ccreq:1422d790.copilotmd | markdown
+2026-06-07 19:56:05.356 [info] ccreq:68986ce4.copilotmd | markdown
+2026-06-07 19:56:05.548 [info] ccreq:dae71eed.copilotmd | markdown
+2026-06-07 19:56:05.572 [info] ccreq:c3c26dbc.copilotmd | markdown
+2026-06-07 19:56:05.735 [info] ccreq:e6785ff0.copilotmd | markdown
+2026-06-07 19:56:05.756 [info] ccreq:e39026ea.copilotmd | markdown
+2026-06-07 19:56:05.915 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:05.916 [info] request done: requestId: [91d270ce-2a76-4930-a7dc-f7dd4d13b721] model deployment ID: []
+2026-06-07 19:56:05.919 [info] ccreq:8e78a817.copilotmd | success | nes-callisto-003 | 469ms | [XtabProvider]
+2026-06-07 19:56:05.955 [info] ccreq:8b042d5c.copilotmd | markdown
+2026-06-07 19:56:05.986 [info] ccreq:d18befd1.copilotmd | markdown
+2026-06-07 19:56:06.270 [info] ccreq:0141d7a2.copilotmd | markdown
+2026-06-07 19:56:06.296 [info] ccreq:ed9ea326.copilotmd | markdown
+2026-06-07 19:56:06.733 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:06.733 [info] request done: requestId: [3c960242-1923-4319-ae01-97d5daece1b9] model deployment ID: []
+2026-06-07 19:56:06.736 [info] ccreq:28ab04d0.copilotmd | success | nes-callisto-003 | 655ms | [XtabProvider]
+2026-06-07 19:56:07.348 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:07.349 [info] request done: requestId: [39583eb4-3a4b-458e-bafe-f04adb7699b2] model deployment ID: []
+2026-06-07 19:56:07.351 [info] ccreq:5c93dcb6.copilotmd | success | nes-callisto-003 | 512ms | [XtabProvider]
+2026-06-07 19:56:07.938 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:07.938 [info] request done: requestId: [7e9b792d-d2d8-4f5a-b6b6-a4c38d14cf7b] model deployment ID: []
+2026-06-07 19:56:07.940 [info] ccreq:c6b7f381.copilotmd | success | copilot-suggestions-prod-himalia-004 | 585ms | [nes.nextCursorPosition]
+2026-06-07 19:56:08.368 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:08.369 [info] request done: requestId: [39583eb4-3a4b-458e-bafe-f04adb7699b2] model deployment ID: []
+2026-06-07 19:56:08.370 [info] ccreq:b784f1ae.copilotmd | success | nes-callisto-003 | 425ms | [XtabProvider]
+2026-06-07 19:56:09.723 [info] ccreq:655e120a.copilotmd | markdown
+2026-06-07 19:56:12.468 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:12.469 [info] request done: requestId: [b4345997-e61a-43bb-a233-54a69fa4ae11] model deployment ID: []
+2026-06-07 19:56:12.472 [info] ccreq:bfe18070.copilotmd | success | nes-callisto-003 | 649ms | [XtabProvider]
+2026-06-07 19:56:12.876 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:12.877 [info] request done: requestId: [b488af87-cddb-4c3d-84fe-29dab631f41b] model deployment ID: []
+2026-06-07 19:56:12.880 [info] ccreq:7da5212b.copilotmd | success | copilot-suggestions-prod-himalia-004 | 406ms | [nes.nextCursorPosition]
+2026-06-07 19:56:13.287 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:13.289 [info] request done: requestId: [b4345997-e61a-43bb-a233-54a69fa4ae11] model deployment ID: []
+2026-06-07 19:56:13.290 [info] ccreq:b043fd00.copilotmd | success | nes-callisto-003 | 402ms | [XtabProvider]
+2026-06-07 19:56:14.143 [info] ccreq:a544e9d6.copilotmd | markdown
+2026-06-07 19:56:23.394 [info] ccreq:6aca971a.copilotmd | markdown
+2026-06-07 19:56:23.409 [info] ccreq:2f365356.copilotmd | markdown
+2026-06-07 19:56:24.230 [info] ccreq:1184b63d.copilotmd | markdown
+2026-06-07 19:56:24.243 [info] ccreq:051c90f5.copilotmd | markdown
+2026-06-07 19:56:24.436 [info] [fetchCompletions] Request c11e99cb-8d5b-4a70-a2f3-c3a94f683554 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1035.6082320000278ms
+2026-06-07 19:56:25.052 [info] [fetchCompletions] Request 8712fa2c-540e-46c3-af49-b4fbb763afec at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 611.170763000031ms
+2026-06-07 19:56:25.058 [info] ccreq:13170f2e.copilotmd | markdown
+2026-06-07 19:56:27.010 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:27.011 [info] request done: requestId: [4aaa5694-8912-4582-8f64-28d141731e13] model deployment ID: []
+2026-06-07 19:56:27.013 [info] ccreq:f59903f5.copilotmd | success | nes-callisto-003 | 671ms | [XtabProvider]
+2026-06-07 19:56:27.103 [info] ccreq:e02c02c7.copilotmd | markdown
+2026-06-07 19:56:27.723 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:27.724 [info] request done: requestId: [aee685f2-ac92-4c10-a505-3fb2dd9e37bf] model deployment ID: []
+2026-06-07 19:56:27.729 [info] ccreq:1642be5b.copilotmd | success | copilot-suggestions-prod-himalia-004 | 713ms | [nes.nextCursorPosition]
+2026-06-07 19:56:31.857 [info] ccreq:6b9d30e8.copilotmd | markdown
+2026-06-07 19:56:33.129 [info] ccreq:ee902343.copilotmd | markdown
+2026-06-07 19:56:33.147 [info] ccreq:4bc9a362.copilotmd | markdown
+2026-06-07 19:56:33.862 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:33.862 [info] request done: requestId: [0ddbc6dd-f571-4e80-939a-4b2b0a8f948b] model deployment ID: []
+2026-06-07 19:56:33.865 [info] ccreq:5797b02e.copilotmd | success | nes-callisto-003 | 622ms | [XtabProvider]
+2026-06-07 19:56:33.870 [info] [fetchCompletions] Request b743dcd5-7c86-49cb-a684-52d063a36532 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 735.7630330000538ms
+2026-06-07 19:56:34.217 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:34.218 [info] request done: requestId: [f6a01e10-75e7-4e0b-836d-2a8130c3056b] model deployment ID: []
+2026-06-07 19:56:34.221 [info] ccreq:308fcedc.copilotmd | success | copilot-suggestions-prod-himalia-004 | 355ms | [nes.nextCursorPosition]
+2026-06-07 19:56:34.609 [info] ccreq:b3986497.copilotmd | markdown
+2026-06-07 19:56:34.614 [info] ccreq:9539e851.copilotmd | markdown
+2026-06-07 19:56:34.615 [error] [AsyncCompletionManager] [b743dcd5-7c86-49cb-a684-52d063a36532] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:121:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:521:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:608:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:509:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:509:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-06-07 19:56:34.624 [info] ccreq:4f0a515d.copilotmd | markdown
+2026-06-07 19:56:35.087 [info] [fetchCompletions] Request 74789d69-d4a7-4ef0-b07f-02e4a20165bc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 468.9158999999054ms
+2026-06-07 19:56:35.262 [info] ccreq:cf56e38b.copilotmd | markdown
+2026-06-07 19:56:35.272 [info] ccreq:bd0efc91.copilotmd | markdown
+2026-06-07 19:56:36.091 [info] [fetchCompletions] Request 4140af94-9891-425d-a624-ce8ed9a181d3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 623.2024149999488ms
+2026-06-07 19:56:36.178 [info] ccreq:ad5bd39c.copilotmd | markdown
+2026-06-07 19:56:36.181 [info] ccreq:7dece4e2.copilotmd | markdown
+2026-06-07 19:56:36.182 [error] [AsyncCompletionManager] [4140af94-9891-425d-a624-ce8ed9a181d3] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:121:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:521:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:608:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:509:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:509:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-06-07 19:56:36.189 [info] ccreq:4a650f98.copilotmd | markdown
+2026-06-07 19:56:36.726 [info] [fetchCompletions] Request c1bd8ef0-3328-475f-9b8e-001173f90d26 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 343.1173890000209ms
+2026-06-07 19:56:37.056 [info] ccreq:fcd63e7c.copilotmd | markdown
+2026-06-07 19:56:37.072 [info] ccreq:b3cb85ad.copilotmd | markdown
+2026-06-07 19:56:37.462 [info] ccreq:b4a81734.copilotmd | markdown
+2026-06-07 19:56:37.854 [info] [fetchCompletions] Request 314c67dc-5176-4b7d-be98-8198f647472b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 590.5706250000512ms
+2026-06-07 19:56:37.860 [info] ccreq:8b0f0095.copilotmd | markdown
+2026-06-07 19:56:39.638 [info] ccreq:ef585034.copilotmd | markdown
+2026-06-07 19:56:39.646 [info] ccreq:b42ee5f4.copilotmd | markdown
+2026-06-07 19:56:39.700 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:39.700 [info] request done: requestId: [8e66212a-4884-4495-a03d-adb118b5f0f6] model deployment ID: []
+2026-06-07 19:56:39.703 [info] ccreq:d07d6390.copilotmd | success | nes-callisto-003 | 535ms | [XtabProvider]
+2026-06-07 19:56:39.919 [info] ccreq:bcea9803.copilotmd | markdown
+2026-06-07 19:56:39.925 [info] ccreq:9a9b5e7a.copilotmd | markdown
+2026-06-07 19:56:39.936 [info] ccreq:103743f0.copilotmd | markdown
+2026-06-07 19:56:40.133 [info] ccreq:081f45a8.copilotmd | markdown
+2026-06-07 19:56:40.144 [info] ccreq:1c43d68b.copilotmd | markdown
+2026-06-07 19:56:40.351 [info] ccreq:22b7ccd1.copilotmd | markdown
+2026-06-07 19:56:40.361 [info] ccreq:da8f3953.copilotmd | markdown
+2026-06-07 19:56:40.646 [info] ccreq:ceab2cbd.copilotmd | markdown
+2026-06-07 19:56:40.650 [info] ccreq:b1e31146.copilotmd | markdown
+2026-06-07 19:56:40.658 [info] ccreq:cdb5b4c0.copilotmd | markdown
+2026-06-07 19:56:40.720 [info] ccreq:e70caec0.copilotmd | markdown
+2026-06-07 19:56:41.538 [info] [fetchCompletions] Request 946f5be3-0039-4d75-8814-db904274c9cd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 816.0386350000044ms
+2026-06-07 19:56:41.542 [info] ccreq:2a3a4733.copilotmd | markdown
+2026-06-07 19:56:43.423 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:43.424 [info] request done: requestId: [0bef9c79-8828-4d4a-8cb3-5112b609ad1b] model deployment ID: []
+2026-06-07 19:56:43.426 [info] ccreq:c025e4b9.copilotmd | success | nes-callisto-003 | 670ms | [XtabProvider]
+2026-06-07 19:56:44.040 [info] message 0 returned. finish reason: [stop]
+2026-06-07 19:56:44.040 [info] request done: requestId: [f73c33b5-1329-44bf-a460-29858b570d8d] model deployment ID: []
+2026-06-07 19:56:44.042 [info] ccreq:86c9635d.copilotmd | success | copilot-suggestions-prod-himalia-004 | 614ms | [nes.nextCursorPosition]
+2026-06-07 20:00:07.094 [info] ccreq:4ac8f315.copilotmd | markdown
+2026-06-07 20:00:07.110 [info] ccreq:9c004b85.copilotmd | markdown
+2026-06-07 20:00:07.453 [info] ccreq:9c803d0b.copilotmd | markdown
+2026-06-07 20:00:07.465 [info] ccreq:63f1a7fe.copilotmd | markdown
+2026-06-07 20:00:07.572 [info] ccreq:bbb530b0.copilotmd | markdown
+2026-06-07 20:00:07.584 [info] ccreq:ae2d181b.copilotmd | markdown
+2026-06-07 20:00:07.911 [info] [fetchCompletions] Request 203c82be-ec8a-41b6-93a5-635947c6ebe2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 812.8144340000581ms
+2026-06-07 20:00:07.980 [info] ccreq:8a428a50.copilotmd | markdown
+2026-06-07 20:00:08.216 [info] [fetchCompletions] Request 0ebfb2b5-4b7f-4430-998d-4fb118c73311 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 440.50955199997406ms
+2026-06-07 20:00:08.230 [info] ccreq:384ea434.copilotmd | markdown
+2026-06-07 20:00:08.595 [info] [fetchCompletions] Request 09166e6c-66ce-4272-9610-5c550f47534f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 356.2910329999868ms
+2026-06-07 20:00:08.697 [info] ccreq:0344b03a.copilotmd | markdown
+2026-06-07 20:00:08.875 [info] ccreq:eb88c728.copilotmd | markdown
+2026-06-07 20:00:08.889 [info] ccreq:b4aa07b3.copilotmd | markdown
+2026-06-07 20:00:09.247 [info] [fetchCompletions] Request 314b3a99-7e86-475f-95e7-f575fed60cde at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 367.69928199995775ms
+2026-06-07 20:00:09.255 [info] ccreq:67e63ec1.copilotmd | markdown
+2026-06-07 20:00:49.791 [info] ccreq:f3bc5773.copilotmd | markdown
+2026-06-07 20:00:49.801 [info] ccreq:0a565d7f.copilotmd | markdown
+2026-06-07 20:00:50.325 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:00:50.326 [info] request done: requestId: [b18ac7c5-0606-45f4-b3f5-545700b6f2bd] model deployment ID: []
+2026-06-07 20:00:50.522 [info] ccreq:1aea1159.copilotmd | success | nes-callisto-003 | 627ms | [XtabProvider]
+2026-06-07 20:00:50.926 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:00:50.926 [info] request done: requestId: [42db6bd6-66e1-44f3-adf3-b2e9a02ef2e0] model deployment ID: []
+2026-06-07 20:00:51.058 [info] ccreq:a202f9fd.copilotmd | success | copilot-suggestions-prod-himalia-004 | 534ms | [nes.nextCursorPosition]
+2026-06-07 20:00:51.268 [info] ccreq:717b99fb.copilotmd | markdown
+2026-06-07 20:00:51.278 [info] ccreq:a78ede53.copilotmd | markdown
+2026-06-07 20:00:51.803 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:00:51.804 [info] request done: requestId: [9dede755-8c22-41f4-894f-bea0610b0d83] model deployment ID: []
+2026-06-07 20:00:51.809 [info] ccreq:302ed009.copilotmd | success | nes-callisto-003 | 434ms | [XtabProvider]
+2026-06-07 20:00:52.231 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:00:52.232 [info] request done: requestId: [49d1991d-7833-4d99-8fc9-7ebe246f3ccb] model deployment ID: []
+2026-06-07 20:00:52.235 [info] ccreq:676b1539.copilotmd | success | copilot-suggestions-prod-himalia-004 | 423ms | [nes.nextCursorPosition]
+2026-06-07 20:00:56.360 [info] ccreq:bcdf1e51.copilotmd | markdown
+2026-06-07 20:04:08.436 [info] ccreq:ec6fb3e8.copilotmd | markdown
+2026-06-07 20:04:08.451 [info] ccreq:9e0d30e0.copilotmd | markdown
+2026-06-07 20:04:08.593 [info] ccreq:9c204833.copilotmd | markdown
+2026-06-07 20:04:08.596 [info] ccreq:959f4b70.copilotmd | markdown
+2026-06-07 20:04:08.756 [info] ccreq:b6efa4da.copilotmd | markdown
+2026-06-07 20:04:08.760 [info] ccreq:0f880f9a.copilotmd | markdown
+2026-06-07 20:04:08.923 [info] ccreq:b9472722.copilotmd | markdown
+2026-06-07 20:04:08.927 [info] ccreq:1368d6ec.copilotmd | markdown
+2026-06-07 20:04:09.100 [info] ccreq:955a2add.copilotmd | markdown
+2026-06-07 20:04:09.103 [info] ccreq:b2d5e191.copilotmd | markdown
+2026-06-07 20:04:09.259 [info] ccreq:1672486a.copilotmd | markdown
+2026-06-07 20:04:09.263 [info] ccreq:38018837.copilotmd | markdown
+2026-06-07 20:04:09.474 [info] ccreq:832cb8e8.copilotmd | markdown
+2026-06-07 20:04:09.482 [info] ccreq:321690b5.copilotmd | markdown
+2026-06-07 20:04:09.536 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:09.536 [info] request done: requestId: [0586c510-aa2c-431e-82ba-3da0403c6d4b] model deployment ID: []
+2026-06-07 20:04:09.705 [info] ccreq:25244418.copilotmd | success | nes-callisto-003 | 1162ms | [XtabProvider]
+2026-06-07 20:04:09.743 [info] ccreq:b45aa10a.copilotmd | markdown
+2026-06-07 20:04:09.751 [info] ccreq:26b86014.copilotmd | markdown
+2026-06-07 20:04:10.471 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:10.472 [info] request done: requestId: [dff008e0-25bf-48ba-b348-1117a5eeecfe] model deployment ID: []
+2026-06-07 20:04:10.474 [info] ccreq:9dc4206b.copilotmd | success | nes-callisto-003 | 624ms | [XtabProvider]
+2026-06-07 20:04:13.670 [info] ccreq:c0c0ad90.copilotmd | markdown
+2026-06-07 20:04:13.679 [info] ccreq:b5a6d6d6.copilotmd | markdown
+2026-06-07 20:04:13.724 [info] ccreq:b2fbe471.copilotmd | markdown
+2026-06-07 20:04:13.728 [info] ccreq:96e71c0d.copilotmd | markdown
+2026-06-07 20:04:14.466 [info] ccreq:93a5ddc8.copilotmd | markdown
+2026-06-07 20:04:14.469 [info] ccreq:6cdbcd1c.copilotmd | markdown
+2026-06-07 20:04:14.565 [info] ccreq:55d24115.copilotmd | markdown
+2026-06-07 20:04:14.568 [info] ccreq:2f56528f.copilotmd | markdown
+2026-06-07 20:04:14.918 [info] ccreq:7d96ca5f.copilotmd | markdown
+2026-06-07 20:04:14.921 [info] ccreq:fdc9570f.copilotmd | markdown
+2026-06-07 20:04:14.973 [info] ccreq:e5c4411a.copilotmd | markdown
+2026-06-07 20:04:14.976 [info] ccreq:88870384.copilotmd | markdown
+2026-06-07 20:04:15.487 [info] ccreq:d11871fa.copilotmd | markdown
+2026-06-07 20:04:15.490 [info] ccreq:7943f2ee.copilotmd | markdown
+2026-06-07 20:04:15.756 [info] ccreq:b01d90c0.copilotmd | markdown
+2026-06-07 20:04:15.760 [info] ccreq:d0af21f2.copilotmd | markdown
+2026-06-07 20:04:15.866 [info] ccreq:c60ab161.copilotmd | markdown
+2026-06-07 20:04:15.875 [info] ccreq:6835fcbe.copilotmd | markdown
+2026-06-07 20:04:16.029 [info] ccreq:03d99278.copilotmd | markdown
+2026-06-07 20:04:16.032 [info] ccreq:47cdb9f8.copilotmd | markdown
+2026-06-07 20:04:16.443 [info] ccreq:95fef6fd.copilotmd | markdown
+2026-06-07 20:04:16.448 [info] ccreq:b88170f5.copilotmd | markdown
+2026-06-07 20:04:16.584 [info] ccreq:86488084.copilotmd | markdown
+2026-06-07 20:04:16.591 [info] ccreq:db09ec38.copilotmd | markdown
+2026-06-07 20:04:16.605 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:16.606 [info] request done: requestId: [af32c8d5-956e-4fba-84a6-791802eaf369] model deployment ID: []
+2026-06-07 20:04:16.607 [info] ccreq:e633fb94.copilotmd | success | nes-callisto-003 | 632ms | [XtabProvider]
+2026-06-07 20:04:17.434 [info] ccreq:b26d7796.copilotmd | markdown
+2026-06-07 20:04:17.437 [info] ccreq:23109dea.copilotmd | markdown
+2026-06-07 20:04:17.599 [info] ccreq:79c5d35b.copilotmd | markdown
+2026-06-07 20:04:17.602 [info] ccreq:5a5918d2.copilotmd | markdown
+2026-06-07 20:04:17.706 [info] ccreq:c1526e9d.copilotmd | markdown
+2026-06-07 20:04:17.714 [info] ccreq:8048033a.copilotmd | markdown
+2026-06-07 20:04:17.720 [info] ccreq:4f735783.copilotmd | markdown
+2026-06-07 20:04:17.728 [info] ccreq:b75890d8.copilotmd | markdown
+2026-06-07 20:04:18.280 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:18.281 [info] request done: requestId: [7c7b8620-15fe-4cb9-ae36-77e53f62ba03] model deployment ID: []
+2026-06-07 20:04:18.281 [info] ccreq:feb07587.copilotmd | success | nes-callisto-003 | 455ms | [XtabProvider]
+2026-06-07 20:04:19.087 [info] ccreq:138b1a7b.copilotmd | markdown
+2026-06-07 20:04:19.097 [info] ccreq:ce089a5c.copilotmd | markdown
+2026-06-07 20:04:19.252 [info] ccreq:64e1e0e2.copilotmd | markdown
+2026-06-07 20:04:19.256 [info] ccreq:27fd56c2.copilotmd | markdown
+2026-06-07 20:04:19.894 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:19.897 [info] request done: requestId: [66321557-b580-46ef-b52e-49dd5ed7cee6] model deployment ID: []
+2026-06-07 20:04:19.898 [info] ccreq:2b62d17c.copilotmd | success | nes-callisto-003 | 705ms | [XtabProvider]
+2026-06-07 20:04:22.353 [info] ccreq:e8850ab1.copilotmd | markdown
+2026-06-07 20:04:22.359 [info] ccreq:bf35b827.copilotmd | markdown
+2026-06-07 20:04:22.473 [info] ccreq:0ae3aaf4.copilotmd | markdown
+2026-06-07 20:04:22.478 [info] ccreq:db267841.copilotmd | markdown
+2026-06-07 20:04:22.695 [info] ccreq:b94e9421.copilotmd | markdown
+2026-06-07 20:04:22.698 [info] ccreq:284c9861.copilotmd | markdown
+2026-06-07 20:04:22.814 [info] ccreq:b23660c8.copilotmd | markdown
+2026-06-07 20:04:22.817 [info] ccreq:b344c543.copilotmd | markdown
+2026-06-07 20:04:23.503 [info] ccreq:f8fca6e1.copilotmd | markdown
+2026-06-07 20:04:23.507 [info] ccreq:0104a4bc.copilotmd | markdown
+2026-06-07 20:04:24.113 [info] ccreq:c4d42e10.copilotmd | markdown
+2026-06-07 20:04:24.116 [info] ccreq:49d914e2.copilotmd | markdown
+2026-06-07 20:04:24.261 [info] ccreq:3d6aeb38.copilotmd | markdown
+2026-06-07 20:04:24.264 [info] ccreq:b5885aed.copilotmd | markdown
+2026-06-07 20:04:24.341 [info] ccreq:c255a539.copilotmd | markdown
+2026-06-07 20:04:24.344 [info] ccreq:b0db693d.copilotmd | markdown
+2026-06-07 20:04:24.512 [info] ccreq:24ee7bf8.copilotmd | markdown
+2026-06-07 20:04:24.515 [info] ccreq:f40f8429.copilotmd | markdown
+2026-06-07 20:04:24.748 [info] ccreq:1eeb1812.copilotmd | markdown
+2026-06-07 20:04:24.751 [info] ccreq:9cc62210.copilotmd | markdown
+2026-06-07 20:04:24.918 [info] ccreq:69e9d1c7.copilotmd | markdown
+2026-06-07 20:04:24.922 [info] ccreq:4fcf5ebc.copilotmd | markdown
+2026-06-07 20:04:24.966 [info] ccreq:c82a12b8.copilotmd | markdown
+2026-06-07 20:04:24.970 [info] ccreq:614dec95.copilotmd | markdown
+2026-06-07 20:04:25.216 [info] ccreq:f40ae512.copilotmd | markdown
+2026-06-07 20:04:25.222 [info] ccreq:c8415717.copilotmd | markdown
+2026-06-07 20:04:34.067 [info] ccreq:246e3625.copilotmd | markdown
+2026-06-07 20:04:34.075 [info] ccreq:353f14bd.copilotmd | markdown
+2026-06-07 20:04:34.266 [info] ccreq:14bb250b.copilotmd | markdown
+2026-06-07 20:04:34.269 [info] ccreq:a96495ef.copilotmd | markdown
+2026-06-07 20:04:34.637 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:34.638 [info] request done: requestId: [f1b17f13-fa96-4268-a4a3-319a285f0de7] model deployment ID: []
+2026-06-07 20:04:34.639 [info] ccreq:31715303.copilotmd | success | nes-callisto-003 | 465ms | [XtabProvider]
+2026-06-07 20:04:35.385 [info] ccreq:4bf8931f.copilotmd | markdown
+2026-06-07 20:04:35.396 [info] ccreq:fa35d83d.copilotmd | markdown
+2026-06-07 20:04:35.874 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:35.877 [info] request done: requestId: [f40e6020-552d-40ae-ad06-dd59b4f02ee9] model deployment ID: []
+2026-06-07 20:04:35.878 [info] ccreq:d8fd2c27.copilotmd | success | nes-callisto-003 | 405ms | [XtabProvider]
+2026-06-07 20:04:36.368 [info] ccreq:5b9c91d4.copilotmd | markdown
+2026-06-07 20:04:37.004 [info] ccreq:70a22264.copilotmd | markdown
+2026-06-07 20:04:37.023 [info] ccreq:4bf63957.copilotmd | markdown
+2026-06-07 20:04:37.404 [info] ccreq:fa2e8aef.copilotmd | markdown
+2026-06-07 20:04:37.720 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:37.721 [info] request done: requestId: [931a5e54-175b-4fef-972a-2065e66f908a] model deployment ID: []
+2026-06-07 20:04:37.724 [info] ccreq:9bc2c9e7.copilotmd | success | nes-callisto-003 | 643ms | [XtabProvider]
+2026-06-07 20:04:38.438 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:38.439 [info] request done: requestId: [5911d2d9-b10e-47b4-9c33-ca8ad2616a51] model deployment ID: []
+2026-06-07 20:04:38.561 [info] ccreq:4379b8ca.copilotmd | success | copilot-suggestions-prod-himalia-004 | 835ms | [nes.nextCursorPosition]
+2026-06-07 20:04:39.181 [info] ccreq:55ae86bc.copilotmd | markdown
+2026-06-07 20:04:39.287 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:04:39.287 [info] request done: requestId: [931a5e54-175b-4fef-972a-2065e66f908a] model deployment ID: []
+2026-06-07 20:04:39.290 [info] ccreq:8f99afc3.copilotmd | success | nes-callisto-003 | 723ms | [XtabProvider]
+2026-06-07 20:04:48.135 [info] ccreq:dcc333c1.copilotmd | markdown
+2026-06-07 20:06:55.118 [info] ccreq:b4e6da17.copilotmd | markdown
+2026-06-07 20:06:55.138 [info] ccreq:5fb8dabc.copilotmd | markdown
+2026-06-07 20:06:55.207 [info] Logged in as TaianDev
+2026-06-07 20:06:55.262 [info] ccreq:da97534d.copilotmd | markdown
+2026-06-07 20:06:55.269 [info] ccreq:df19dba4.copilotmd | markdown
+2026-06-07 20:06:55.277 [info] ccreq:14d70e79.copilotmd | markdown
+2026-06-07 20:06:55.439 [info] ccreq:40573e30.copilotmd | markdown
+2026-06-07 20:06:55.446 [info] ccreq:e643e2b2.copilotmd | markdown
+2026-06-07 20:06:55.452 [info] ccreq:fdfde90e.copilotmd | markdown
+2026-06-07 20:06:55.790 [info] ccreq:57378047.copilotmd | markdown
+2026-06-07 20:06:55.798 [info] ccreq:067024ff.copilotmd | markdown
+2026-06-07 20:06:55.809 [info] ccreq:1fcf1cb0.copilotmd | markdown
+2026-06-07 20:06:55.812 [info] Got Copilot token for TaianDev
+2026-06-07 20:06:55.812 [info] Copilot Chat: 0.51.0, VS Code: 1.123.0
+2026-06-07 20:06:55.841 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-07 20:06:55.841 [info] copilot token sku: free_limited_copilot
+2026-06-07 20:06:55.842 [info] [code-referencing] Public code references are enabled.
+2026-06-07 20:06:56.373 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:06:56.373 [info] request done: requestId: [22cacf80-0fea-4ce7-a274-21314a91805d] model deployment ID: []
+2026-06-07 20:06:56.376 [info] [fetchCompletions] Request f2e38c33-b521-422a-9cda-c5d1c50c34f0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 569.968792000087ms
+2026-06-07 20:06:56.385 [info] ccreq:6a638372.copilotmd | markdown
+2026-06-07 20:06:56.458 [info] Fetched model metadata in 617ms 13029eb5-0817-4a88-ac8c-7492bb2bd2ee
+2026-06-07 20:06:56.565 [info] ccreq:8e271637.copilotmd | markdown
+2026-06-07 20:06:56.592 [info] ccreq:f1a7978f.copilotmd | success | nes-callisto-003 | 1390ms | [XtabProvider]
+2026-06-07 20:08:00.145 [info] ccreq:17a8dc96.copilotmd | markdown
+2026-06-07 20:08:00.158 [info] ccreq:d8030413.copilotmd | markdown
+2026-06-07 20:08:00.966 [info] ccreq:11292439.copilotmd | markdown
+2026-06-07 20:08:00.982 [info] ccreq:c65bb7c4.copilotmd | markdown
+2026-06-07 20:08:00.983 [info] [fetchCompletions] Request 1e99fefa-9569-42a3-a8c0-739165179969 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 824.4545759998728ms
+2026-06-07 20:08:01.180 [info] ccreq:90857bba.copilotmd | markdown
+2026-06-07 20:08:01.793 [info] [fetchCompletions] Request c175a01b-79ad-4533-96b3-d73fc1e28c1a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 619.5718389998656ms
+2026-06-07 20:08:01.800 [info] ccreq:817f43d0.copilotmd | markdown
+2026-06-07 20:08:02.926 [info] ccreq:6a3daa80.copilotmd | markdown
+2026-06-07 20:08:03.367 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:03.367 [info] request done: requestId: [1678039c-764f-43aa-9eea-65ffb7661868] model deployment ID: []
+2026-06-07 20:08:03.589 [info] ccreq:22b0fef3.copilotmd | success | nes-callisto-003 | 591ms | [XtabProvider]
+2026-06-07 20:08:04.161 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:04.161 [info] request done: requestId: [b66751a8-f008-4a95-a9ce-cd6b2b9a6a2c] model deployment ID: []
+2026-06-07 20:08:04.289 [info] ccreq:efbcedf6.copilotmd | success | copilot-suggestions-prod-himalia-004 | 697ms | [nes.nextCursorPosition]
+2026-06-07 20:08:04.521 [info] ccreq:d69ebc33.copilotmd | markdown
+2026-06-07 20:08:04.534 [info] ccreq:987a86ea.copilotmd | markdown
+2026-06-07 20:08:05.080 [info] ccreq:69e52020.copilotmd | markdown
+2026-06-07 20:08:05.084 [info] ccreq:4f892bf3.copilotmd | markdown
+2026-06-07 20:08:05.096 [info] ccreq:43f8447c.copilotmd | markdown
+2026-06-07 20:08:05.602 [info] [fetchCompletions] Request e4563461-fa36-4585-96ba-b239dcdc08a4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 513.6725320001133ms
+2026-06-07 20:08:05.920 [info] ccreq:d18e89bd.copilotmd | markdown
+2026-06-07 20:08:06.374 [info] ccreq:65236a86.copilotmd | markdown
+2026-06-07 20:08:07.631 [info] ccreq:1eeae169.copilotmd | markdown
+2026-06-07 20:08:08.156 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:08.157 [info] request done: requestId: [43f4c3d6-590c-4e9b-90ab-737028448a82] model deployment ID: []
+2026-06-07 20:08:08.159 [info] ccreq:320b49e2.copilotmd | success | nes-callisto-003 | 459ms | [XtabProvider]
+2026-06-07 20:08:08.567 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:08.567 [info] request done: requestId: [8752b061-73e2-41d7-a41b-648442878575] model deployment ID: []
+2026-06-07 20:08:08.569 [info] ccreq:f7079c2a.copilotmd | success | copilot-suggestions-prod-himalia-004 | 408ms | [nes.nextCursorPosition]
+2026-06-07 20:08:08.620 [info] ccreq:cecc3793.copilotmd | markdown
+2026-06-07 20:08:08.642 [info] ccreq:ab406692.copilotmd | markdown
+2026-06-07 20:08:09.062 [info] ccreq:85e88663.copilotmd | markdown
+2026-06-07 20:08:09.065 [info] ccreq:eda94911.copilotmd | markdown
+2026-06-07 20:08:09.169 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:09.169 [info] request done: requestId: [eb04257f-202d-4df8-a448-2dd5d9e7ae35] model deployment ID: []
+2026-06-07 20:08:09.171 [info] ccreq:f7b348f2.copilotmd | success | nes-callisto-003 | 461ms | [XtabProvider]
+2026-06-07 20:08:09.593 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:09.594 [info] request done: requestId: [3b699ddc-bf59-48de-97a3-6e29fa965d13] model deployment ID: []
+2026-06-07 20:08:09.596 [info] ccreq:dc04856c.copilotmd | success | nes-callisto-003 | 348ms | [XtabProvider]
+2026-06-07 20:08:09.856 [info] ccreq:d192cf1a.copilotmd | markdown
+2026-06-07 20:08:10.097 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:10.097 [info] request done: requestId: [98cc0e7e-c0b0-41a6-838f-d8fd927c3120] model deployment ID: []
+2026-06-07 20:08:10.100 [info] ccreq:d70fd1f5.copilotmd | success | copilot-suggestions-prod-himalia-004 | 501ms | [nes.nextCursorPosition]
+2026-06-07 20:08:10.173 [info] ccreq:3c7cc716.copilotmd | markdown
+2026-06-07 20:08:10.186 [info] ccreq:3cc2bce5.copilotmd | markdown
+2026-06-07 20:08:10.458 [info] ccreq:379e279a.copilotmd | markdown
+2026-06-07 20:08:10.467 [info] ccreq:dd142248.copilotmd | markdown
+2026-06-07 20:08:10.575 [info] [fetchCompletions] Request 7a0ad5fd-c6e1-4464-af49-04eb2bb3adc7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 397.1280690000858ms
+2026-06-07 20:08:10.679 [info] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Filtered out solution matching next line
+2026-06-07 20:08:10.679 [info] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Filtered out solution matching next line
+2026-06-07 20:08:10.688 [info] ccreq:1d0b4beb.copilotmd | markdown
+2026-06-07 20:08:10.814 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:10.815 [info] request done: requestId: [63a18607-0736-4235-8fed-84278b8ac450] model deployment ID: []
+2026-06-07 20:08:10.817 [info] ccreq:6bb58e30.copilotmd | success | nes-callisto-003 | 560ms | [XtabProvider]
+2026-06-07 20:08:11.111 [info] [fetchCompletions] Request 07044056-625f-464e-bb1d-054985fa76d6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 445.1082719999831ms
+2026-06-07 20:08:11.155 [info] ccreq:b2f0518c.copilotmd | markdown
+2026-06-07 20:08:11.328 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:11.328 [info] request done: requestId: [549aced1-8a20-4048-b7ba-4933432ba0b9] model deployment ID: []
+2026-06-07 20:08:11.331 [info] ccreq:5cf6b16d.copilotmd | success | nes-callisto-003 | 437ms | [XtabProvider]
+2026-06-07 20:08:11.745 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:11.746 [info] request done: requestId: [bff998d3-4a1d-418d-9c85-97bd2daffaf8] model deployment ID: []
+2026-06-07 20:08:11.748 [info] ccreq:9e819c93.copilotmd | success | copilot-suggestions-prod-himalia-004 | 415ms | [nes.nextCursorPosition]
+2026-06-07 20:08:12.014 [info] ccreq:ed6d10c1.copilotmd | markdown
+2026-06-07 20:08:12.017 [info] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Filtered out solution matching next line
+2026-06-07 20:08:12.018 [info] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Filtered out solution matching next line
+2026-06-07 20:08:12.030 [info] ccreq:d94ff59d.copilotmd | markdown
+2026-06-07 20:08:12.454 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:12.455 [info] request done: requestId: [18993cbc-bf20-4554-9f8d-a67455632008] model deployment ID: []
+2026-06-07 20:08:12.458 [info] ccreq:12e55ef5.copilotmd | success | nes-callisto-003 | 358ms | [XtabProvider]
+2026-06-07 20:08:12.866 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:12.869 [info] request done: requestId: [d1f03f64-e397-4bfa-bb1d-8ca16d267d7f] model deployment ID: []
+2026-06-07 20:08:12.870 [info] ccreq:393ddf28.copilotmd | success | copilot-suggestions-prod-himalia-004 | 409ms | [nes.nextCursorPosition]
+2026-06-07 20:08:13.273 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:13.274 [info] request done: requestId: [18993cbc-bf20-4554-9f8d-a67455632008] model deployment ID: []
+2026-06-07 20:08:13.276 [info] ccreq:1aa6357a.copilotmd | success | nes-callisto-003 | 398ms | [XtabProvider]
+2026-06-07 20:08:13.383 [info] ccreq:d446c0cf.copilotmd | markdown
+2026-06-07 20:08:14.365 [info] ccreq:4758e0fa.copilotmd | markdown
+2026-06-07 20:08:14.373 [info] ccreq:6a043df0.copilotmd | markdown
+2026-06-07 20:08:14.616 [info] ccreq:b2131b0a.copilotmd | markdown
+2026-06-07 20:08:14.619 [info] ccreq:e10526d5.copilotmd | markdown
+2026-06-07 20:08:14.809 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:14.810 [info] request done: requestId: [7a8d6161-20a1-4045-a5a2-7d2f96798493] model deployment ID: []
+2026-06-07 20:08:14.813 [info] ccreq:f38da7e7.copilotmd | success | nes-callisto-003 | 367ms | [XtabProvider]
+2026-06-07 20:08:15.231 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:15.232 [info] request done: requestId: [aedac4a8-4bcb-4747-ba25-a0faf4c06428] model deployment ID: []
+2026-06-07 20:08:15.233 [info] ccreq:de3ceef2.copilotmd | success | nes-callisto-003 | 343ms | [XtabProvider]
+2026-06-07 20:08:15.316 [info] ccreq:271c936d.copilotmd | markdown
+2026-06-07 20:08:15.627 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:15.627 [info] request done: requestId: [eff18c35-8164-4213-969d-9479a2ab5a63] model deployment ID: []
+2026-06-07 20:08:15.632 [info] ccreq:2a1d979e.copilotmd | success | copilot-suggestions-prod-himalia-004 | 397ms | [nes.nextCursorPosition]
+2026-06-07 20:08:16.212 [info] ccreq:8308dc7e.copilotmd | markdown
+2026-06-07 20:08:16.220 [info] ccreq:789f93f6.copilotmd | markdown
+2026-06-07 20:08:16.966 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:16.967 [info] request done: requestId: [37122045-6af0-4d9d-92e6-e85db8117f52] model deployment ID: []
+2026-06-07 20:08:16.969 [info] ccreq:06e54cca.copilotmd | success | nes-callisto-003 | 677ms | [XtabProvider]
+2026-06-07 20:08:17.573 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:17.573 [info] request done: requestId: [f006c32d-916d-47be-9238-d214a2bb5a04] model deployment ID: []
+2026-06-07 20:08:17.575 [info] ccreq:eae8c006.copilotmd | success | copilot-suggestions-prod-himalia-004 | 603ms | [nes.nextCursorPosition]
+2026-06-07 20:08:18.028 [info] ccreq:89ccd66f.copilotmd | markdown
+2026-06-07 20:08:18.035 [info] ccreq:cdc1f8e1.copilotmd | markdown
+2026-06-07 20:08:18.337 [info] ccreq:9a27ac5a.copilotmd | markdown
+2026-06-07 20:08:18.802 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:18.802 [info] request done: requestId: [2318f510-eb5b-4709-a344-035b74946c6a] model deployment ID: []
+2026-06-07 20:08:18.805 [info] ccreq:a484f801.copilotmd | success | nes-callisto-003 | 396ms | [XtabProvider]
+2026-06-07 20:08:19.212 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:19.213 [info] request done: requestId: [d292a497-c4a0-43ba-8ee3-b6497d3cda39] model deployment ID: []
+2026-06-07 20:08:19.215 [info] ccreq:6c98289d.copilotmd | success | copilot-suggestions-prod-himalia-004 | 407ms | [nes.nextCursorPosition]
+2026-06-07 20:08:20.857 [info] ccreq:edd8f63c.copilotmd | markdown
+2026-06-07 20:08:20.871 [info] ccreq:fd901e1e.copilotmd | markdown
+2026-06-07 20:08:21.168 [info] ccreq:b24fd1ae.copilotmd | markdown
+2026-06-07 20:08:21.172 [info] ccreq:c965a202.copilotmd | markdown
+2026-06-07 20:08:21.362 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:21.363 [info] request done: requestId: [8527de7e-a37e-4ea5-8360-2925ba2713b6] model deployment ID: []
+2026-06-07 20:08:21.365 [info] ccreq:c005f0ca.copilotmd | success | nes-callisto-003 | 425ms | [XtabProvider]
+2026-06-07 20:08:21.978 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:21.978 [info] request done: requestId: [cb4d94e6-06af-41ec-9d35-73f52b07228f] model deployment ID: []
+2026-06-07 20:08:21.981 [info] ccreq:cd536ab7.copilotmd | success | nes-callisto-003 | 537ms | [XtabProvider]
+2026-06-07 20:08:22.331 [info] ccreq:2c0f5db8.copilotmd | markdown
+2026-06-07 20:08:22.384 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:22.384 [info] request done: requestId: [9f0be850-d83c-4bcc-b936-4da170b58625] model deployment ID: []
+2026-06-07 20:08:22.387 [info] ccreq:9dfcc805.copilotmd | success | copilot-suggestions-prod-himalia-004 | 403ms | [nes.nextCursorPosition]
+2026-06-07 20:08:22.545 [info] ccreq:ac8e2050.copilotmd | markdown
+2026-06-07 20:08:23.864 [info] ccreq:4d3d1e54.copilotmd | markdown
+2026-06-07 20:08:26.379 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:26.380 [info] request done: requestId: [54df6738-1b1d-40b1-84ed-ac3d29d09b36] model deployment ID: []
+2026-06-07 20:08:26.385 [info] ccreq:3b1aa7c4.copilotmd | success | nes-callisto-003 | 451ms | [XtabProvider]
+2026-06-07 20:08:26.892 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:26.892 [info] request done: requestId: [07ede51d-e684-401b-b771-db519ae8e1dc] model deployment ID: []
+2026-06-07 20:08:26.894 [info] ccreq:ef473f7f.copilotmd | success | copilot-suggestions-prod-himalia-004 | 507ms | [nes.nextCursorPosition]
+2026-06-07 20:08:27.303 [info] message 0 returned. finish reason: [stop]
+2026-06-07 20:08:27.303 [info] request done: requestId: [54df6738-1b1d-40b1-84ed-ac3d29d09b36] model deployment ID: []
+2026-06-07 20:08:27.306 [info] ccreq:ee280f15.copilotmd | success | nes-callisto-003 | 405ms | [XtabProvider]
+2026-06-07 20:08:27.551 [info] ccreq:01bc2f2c.copilotmd | markdown
+2026-06-07 22:29:54.352 [info] Logged in as TaianDev
+2026-06-07 22:29:54.354 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-06-07 22:29:54.361 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-06-07 22:29:54.432 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-06-07 22:29:54.463 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-06-07 22:29:54.505 [info] FetcherService: node-http failed with error: getaddrinfo EAI_AGAIN api.github.com
+2026-06-07 22:29:54.505 [warning] Failed to get copilot token due to fetch throwing: net::ERR_INTERNET_DISCONNECTED
+2026-06-07 22:29:54.535 [info] FetcherService: node-http failed with error: getaddrinfo EAI_AGAIN api.github.com
+2026-06-07 22:29:54.645 [error] Error: net::ERR_INTERNET_DISCONNECTED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10658)
+	at SimpleURLLoaderWrapper.emit (node:events:509:28)
+  {"is_request_error":true,"network_process_crashed":false}
+2026-06-07 22:29:54.647 [info] Logged in as TaianDev
+2026-06-07 22:29:54.648 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-06-07 22:29:54.678 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-06-07 22:29:54.707 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-06-07 22:29:54.732 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-06-07 22:29:54.759 [info] FetcherService: node-http failed with error: getaddrinfo EAI_AGAIN api.github.com
+2026-06-07 22:29:54.759 [warning] Failed to get copilot token due to fetch throwing: net::ERR_INTERNET_DISCONNECTED
+2026-06-07 22:29:54.764 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: false
+2026-06-07 22:29:54.765 [info] BYOK: unregistered providers due to enterprise policy.
+2026-06-07 22:29:54.804 [info] FetcherService: node-http failed with error: getaddrinfo EAI_AGAIN api.github.com
+2026-06-07 22:29:54.818 [info] Logged in as TaianDev
+2026-06-07 22:29:54.886 [error] [CopilotCLI] Error fetching copilot user: TypeError: fetch failed

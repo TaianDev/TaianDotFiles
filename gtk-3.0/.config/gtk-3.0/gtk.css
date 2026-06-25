@@ -5,66 +5,66 @@
  */
 
 /* ─── ACENTO PRINCIPAL ──────────────────────────────────────────────────── */
-@define-color accent_color          #88d6bb;
-@define-color accent_fg_color       #00382b;
-@define-color accent_bg_color       #88d6bb;
+@define-color accent_color          #adc6ff;
+@define-color accent_fg_color       #112f60;
+@define-color accent_bg_color       #adc6ff;
 
 /* ─── VENTANA PRINCIPAL — sólido ────────────────────────────────────────── */
-@define-color window_bg_color       #1b211e;
-@define-color window_fg_color       #dee4df;
+@define-color window_bg_color       #1e1f25;
+@define-color window_fg_color       #e2e2e9;
 
 /* ─── HEADERBAR — sólido ────────────────────────────────────────────────── */
-@define-color headerbar_bg_color        #252b29;
-@define-color headerbar_fg_color        #dee4df;
-@define-color headerbar_border_color    #3f4945;
-@define-color headerbar_backdrop_color  #171d1a;
+@define-color headerbar_bg_color        #282a2f;
+@define-color headerbar_fg_color        #e2e2e9;
+@define-color headerbar_border_color    #44474f;
+@define-color headerbar_backdrop_color  #1a1b20;
 @define-color headerbar_shade_color     alpha(#000000, 0.30);
 
 /* ─── VISTA DE CONTENIDO — sólido ───────────────────────────────────────── */
-@define-color view_bg_color         #171d1a;
-@define-color view_fg_color         #dee4df;
+@define-color view_bg_color         #1a1b20;
+@define-color view_fg_color         #e2e2e9;
 
 /* ─── TARJETAS — sólido ─────────────────────────────────────────────────── */
-@define-color card_bg_color         #1b211e;
-@define-color card_fg_color         #dee4df;
+@define-color card_bg_color         #1e1f25;
+@define-color card_fg_color         #e2e2e9;
 @define-color card_shade_color      alpha(#000000, 0.20);
 
 /* ─── POPOVER / MENÚS — ligera transparencia, efecto "flotante" ─────────── */
-@define-color popover_bg_color      alpha(#252b29, 0.95);
-@define-color popover_fg_color      #dee4df;
+@define-color popover_bg_color      alpha(#282a2f, 0.95);
+@define-color popover_fg_color      #e2e2e9;
 @define-color popover_shade_color   alpha(#000000, 0.25);
 
 /* ─── BARRA LATERAL — sólido ────────────────────────────────────────────── */
-@define-color sidebar_bg_color          #171d1a;
-@define-color sidebar_fg_color          #bfc9c3;
-@define-color sidebar_border_color      #3f4945;
-@define-color sidebar_backdrop_color    #0f1512;
-@define-color sidebar_selected_bg       #344c43;
-@define-color sidebar_selected_fg       #cee9dd;
+@define-color sidebar_bg_color          #1a1b20;
+@define-color sidebar_fg_color          #c4c6d0;
+@define-color sidebar_border_color      #44474f;
+@define-color sidebar_backdrop_color    #111318;
+@define-color sidebar_selected_bg       #3f4759;
+@define-color sidebar_selected_fg       #dbe2f9;
 
 /* ─── TEXTO ──────────────────────────────────────────────────────────────── */
-@define-color secondary_fg_color    #bfc9c3;
-@define-color disabled_fg_color     alpha(#dee4df, 0.38);
-@define-color placeholder_fg_color  alpha(#dee4df, 0.50);
+@define-color secondary_fg_color    #c4c6d0;
+@define-color disabled_fg_color     alpha(#e2e2e9, 0.38);
+@define-color placeholder_fg_color  alpha(#e2e2e9, 0.50);
 
 /* ─── SELECCIÓN ─────────────────────────────────────────────────────────── */
-@define-color selected_bg_color     #00513f;
-@define-color selected_fg_color     #a3f2d7;
+@define-color selected_bg_color     #2b4678;
+@define-color selected_fg_color     #d8e2ff;
 
 /* ─── HOVER Y ACTIVE — transparencia sobre lo que hay debajo ────────────── */
-@define-color hover_bg_color        alpha(#dee4df, 0.08);
-@define-color active_bg_color       alpha(#dee4df, 0.14);
-@define-color checked_bg_color      #344c43;
-@define-color checked_fg_color      #cee9dd;
-@define-color focus_color           alpha(#88d6bb, 0.30);
-@define-color focus_border_color    #88d6bb;
+@define-color hover_bg_color        alpha(#e2e2e9, 0.08);
+@define-color active_bg_color       alpha(#e2e2e9, 0.14);
+@define-color checked_bg_color      #3f4759;
+@define-color checked_fg_color      #dbe2f9;
+@define-color focus_color           alpha(#adc6ff, 0.30);
+@define-color focus_border_color    #adc6ff;
 
 /* ─── BORDES ─────────────────────────────────────────────────────────────── */
-@define-color borders_color         #3f4945;
-@define-color borders_edge          alpha(#89938e, 0.50);
-@define-color unfocused_borders     alpha(#3f4945, 0.70);
+@define-color borders_color         #44474f;
+@define-color borders_edge          alpha(#8e9099, 0.50);
+@define-color unfocused_borders     alpha(#44474f, 0.70);
 @define-color shade_color           alpha(#000000, 0.20);
-@define-color scrollbar_outline_color alpha(#3f4945, 0.60);
+@define-color scrollbar_outline_color alpha(#44474f, 0.60);
 
 /* ─── SOMBRAS — siempre transparentes ───────────────────────────────────── */
 @define-color shadow_color          alpha(#000000, 0.40);
@@ -72,84 +72,84 @@
 @define-color menu_shadow           alpha(#000000, 0.35);
 
 /* ─── THUMBNAILS ─────────────────────────────────────────────────────────── */
-@define-color thumbnail_bg_color    #1b211e;
-@define-color thumbnail_fg_color    #dee4df;
+@define-color thumbnail_bg_color    #1e1f25;
+@define-color thumbnail_fg_color    #e2e2e9;
 
 /* ─── NOTEBOOK / TABS ────────────────────────────────────────────────────── */
-@define-color notebook_bg_color         #1b211e;
-@define-color tab_bg_color              #171d1a;
-@define-color tab_fg_color              #bfc9c3;
-@define-color tab_selected_bg_color     #252b29;
-@define-color tab_selected_fg_color     #dee4df;
+@define-color notebook_bg_color         #1e1f25;
+@define-color tab_bg_color              #1a1b20;
+@define-color tab_fg_color              #c4c6d0;
+@define-color tab_selected_bg_color     #282a2f;
+@define-color tab_selected_fg_color     #e2e2e9;
 
 /* ─── ENTRADAS DE TEXTO ──────────────────────────────────────────────────── */
-@define-color entry_bg_color        #303633;
-@define-color entry_fg_color        #dee4df;
-@define-color entry_border_color    #89938e;
-@define-color entry_focus_border    #88d6bb;
+@define-color entry_bg_color        #33353a;
+@define-color entry_fg_color        #e2e2e9;
+@define-color entry_border_color    #8e9099;
+@define-color entry_focus_border    #adc6ff;
 @define-color entry_error_border    #ffb4ab;
-@define-color entry_warning_border  #b2ccc1;
+@define-color entry_warning_border  #bfc6dc;
 
 /* ─── BOTONES ────────────────────────────────────────────────────────────── */
-@define-color button_bg_color           #252b29;
-@define-color button_fg_color           #dee4df;
-@define-color button_border_color       #3f4945;
-@define-color button_hover_bg_color     #303633;
-@define-color button_active_bg_color    #344c43;
-@define-color button_checked_bg_color   #00513f;
-@define-color button_checked_fg_color   #a3f2d7;
+@define-color button_bg_color           #282a2f;
+@define-color button_fg_color           #e2e2e9;
+@define-color button_border_color       #44474f;
+@define-color button_hover_bg_color     #33353a;
+@define-color button_active_bg_color    #3f4759;
+@define-color button_checked_bg_color   #2b4678;
+@define-color button_checked_fg_color   #d8e2ff;
 
 /* ─── TOOLBAR ────────────────────────────────────────────────────────────── */
-@define-color toolbar_bg_color      #252b29;
-@define-color toolbar_fg_color      #dee4df;
-@define-color toolbar_border_color  #3f4945;
+@define-color toolbar_bg_color      #282a2f;
+@define-color toolbar_fg_color      #e2e2e9;
+@define-color toolbar_border_color  #44474f;
 
 /* ─── STATUSBAR ──────────────────────────────────────────────────────────── */
-@define-color statusbar_bg_color    #1b211e;
-@define-color statusbar_fg_color    #bfc9c3;
+@define-color statusbar_bg_color    #1e1f25;
+@define-color statusbar_fg_color    #c4c6d0;
 
 /* ─── MENÚ CONTEXTUAL — sombra + leve transparencia ─────────────────────── */
-@define-color menu_bg_color         alpha(#252b29, 0.97);
-@define-color menu_fg_color         #dee4df;
-@define-color menu_border_color     #3f4945;
-@define-color menu_selected_bg      #00513f;
-@define-color menu_selected_fg      #a3f2d7;
-@define-color menu_separator_color  #3f4945;
+@define-color menu_bg_color         alpha(#282a2f, 0.97);
+@define-color menu_fg_color         #e2e2e9;
+@define-color menu_border_color     #44474f;
+@define-color menu_selected_bg      #2b4678;
+@define-color menu_selected_fg      #d8e2ff;
+@define-color menu_separator_color  #44474f;
 
 /* ─── TOOLTIPS — semitransparente, efecto floating ──────────────────────── */
-@define-color tooltip_bg_color      alpha(#303633, 0.92);
-@define-color tooltip_fg_color      #dee4df;
-@define-color tooltip_borders_color alpha(#89938e, 0.60);
+@define-color tooltip_bg_color      alpha(#33353a, 0.92);
+@define-color tooltip_fg_color      #e2e2e9;
+@define-color tooltip_borders_color alpha(#8e9099, 0.60);
 
 /* ─── NOTIFICACIONES / OSD — transparencia moderada ─────────────────────── */
-@define-color osd_bg_color          alpha(#303633, 0.88);
-@define-color osd_fg_color          #dee4df;
-@define-color osd_border_color      alpha(#3f4945, 0.70);
+@define-color osd_bg_color          alpha(#33353a, 0.88);
+@define-color osd_fg_color          #e2e2e9;
+@define-color osd_border_color      alpha(#44474f, 0.70);
 
 /* ─── SWITCH / TOGGLE ────────────────────────────────────────────────────── */
-@define-color switch_bg_color           #303633;
-@define-color switch_checked_color      #88d6bb;
-@define-color switch_checked_fg_color   #00382b;
-@define-color switch_border_color       #89938e;
+@define-color switch_bg_color           #33353a;
+@define-color switch_checked_color      #adc6ff;
+@define-color switch_checked_fg_color   #112f60;
+@define-color switch_border_color       #8e9099;
 
 /* ─── PROGRESS BAR ───────────────────────────────────────────────────────── */
-@define-color progressbar_bg_color      #303633;
-@define-color progressbar_fg_color      #88d6bb;
-@define-color progressbar_trough_color  #252b29;
+@define-color progressbar_bg_color      #33353a;
+@define-color progressbar_fg_color      #adc6ff;
+@define-color progressbar_trough_color  #282a2f;
 
 /* ─── SLIDER / SCALE ─────────────────────────────────────────────────────── */
-@define-color slider_bg_color       #88d6bb;
-@define-color slider_trough_color   #303633;
-@define-color slider_mark_color     #89938e;
+@define-color slider_bg_color       #adc6ff;
+@define-color slider_trough_color   #33353a;
+@define-color slider_mark_color     #8e9099;
 
 /* ─── ESTADOS SEMÁNTICOS — sólidos siempre ───────────────────────────────── */
-@define-color success_color         #a8cbe2;
-@define-color success_fg_color      #0d3446;
-@define-color success_bg_color      #284b5d;
+@define-color success_color         #debcdf;
+@define-color success_fg_color      #402843;
+@define-color success_bg_color      #583e5b;
 
-@define-color warning_color         #b2ccc1;
-@define-color warning_fg_color      #1e352d;
-@define-color warning_bg_color      #344c43;
+@define-color warning_color         #bfc6dc;
+@define-color warning_fg_color      #293041;
+@define-color warning_bg_color      #3f4759;
 
 @define-color error_color           #ffb4ab;
 @define-color error_fg_color        #690005;
@@ -161,19 +161,19 @@
 @define-color destructive_bg_color  #93000a;
 
 /* ─── LINKS ──────────────────────────────────────────────────────────────── */
-@define-color link_color            #88d6bb;
-@define-color link_visited_color    #a8cbe2;
+@define-color link_color            #adc6ff;
+@define-color link_visited_color    #debcdf;
 
 /* ─── BADGE / CONTADOR ───────────────────────────────────────────────────── */
-@define-color badge_bg_color        #88d6bb;
-@define-color badge_fg_color        #00382b;
+@define-color badge_bg_color        #adc6ff;
+@define-color badge_fg_color        #112f60;
 
 /* ─── DRAG AND DROP ──────────────────────────────────────────────────────── */
-@define-color drop_target_color     #88d6bb;
-@define-color drop_target_bg        alpha(#88d6bb, 0.15);
+@define-color drop_target_color     #adc6ff;
+@define-color drop_target_bg        alpha(#adc6ff, 0.15);
 
 /* ─── BACKDROP (ventana sin foco) — ligeramente apagado ─────────────────── */
-@define-color backdrop_bg_color         #0f1512;
-@define-color backdrop_fg_color         alpha(#dee4df, 0.65);
-@define-color backdrop_headerbar_color  #171d1a;
-@define-color backdrop_border_color     alpha(#3f4945, 0.60);
+@define-color backdrop_bg_color         #111318;
+@define-color backdrop_fg_color         alpha(#e2e2e9, 0.65);
+@define-color backdrop_headerbar_color  #1a1b20;
+@define-color backdrop_border_color     alpha(#44474f, 0.60);

@@ -180,3 +180,5 @@ eval "$(starship init zsh)"
 
 autoload -Uz compinit && compinit
 zinit cdreplay -q
+
+export PATH=$PATH:/home/taianlux/.spicetify

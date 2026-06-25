@@ -1,0 +1,21 @@
+2026-06-14 15:50:41.429 [info] Extension host with pid 173913 started
+2026-06-14 15:50:41.429 [info] Skipping acquiring lock for /home/taianlux/.config/Code/User/workspaceStorage/13278b0d57eff5743a7348ba25f8769c.
+2026-06-14 15:50:42.050 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-14 15:50:42.086 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-14 15:50:42.371 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-14 15:50:42.684 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-14 15:50:42.764 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-14 15:50:42.895 [info] Eager extensions activated
+2026-06-14 15:50:42.962 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-06-14 15:50:44.656 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-14 15:50:44.660 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-14 15:50:44.681 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-06-14 15:50:45.214 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-06-14 22:08:55.899 [error] Error: Failed to get copilot token. reason: RequestFailed
+	at xie._authShowWarnings (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1743:19160)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async xie.getCopilotToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1743:16681)
+	at async Lhe.getCopilotToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1400:8800)
+	at async lme.updateCachedToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3194:8746)
+2026-06-14 22:09:10.252 [info] Extension host terminating: received terminate message from renderer
+2026-06-14 22:09:10.297 [info] Extension host with pid 173913 exiting with code 0

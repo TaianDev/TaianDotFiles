@@ -1,0 +1,13 @@
+#!/bin/bash
+PATH_WIDGET="$HOME/.config/quickshell/Translate/translate.qml"
+BUFFER_FILE="/tmp/translate_buffer_input.txt"
+
+if pgrep -f "quickshell.*translate.qml" > /dev/null || [[ -z "$(wl-paste -p)" ]]; then
+    # wl-copy -pc 
+    pkill -f "quickshell.*translate.qml"
+    exit 0
+else
+    SELECT_TEXT=$(wl-paste -p)
+    printf "%s" "$SELECT_TEXT" > "$BUFFER_FILE"
+    quickshell -p "$PATH_WIDGET" & disown
+fi

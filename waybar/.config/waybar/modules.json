@@ -6,19 +6,21 @@
     "on-click": "swaync-client -t"
  }, 
  
-"hyprland/workspaces": {
-    "format" : "{icon}",
+ "hyprland/workspaces": {
+    "format": "{icon}",
     "format-icons": {
-      "active": "  ",
-      "urgent": "󰵙",
-      "default": " "
+        "active": " ", // O el icono que prefieras para el estado activo
+        "urgent": "󰵙",
+        "default": " "
     },
     "on-click": "activate",
-    "persistent-workspaces" : {
-      "*" : 5
-   }
-  },
- 
+    "all-outputs": false, // Crucial: evita que se mezclen los workspaces entre monitores
+    "persistent-workspaces": {
+        "HDMI-A-1": [1, 2, 3, 4, 5],
+        "eDP-1": [6, 7, 8, 9, 10]
+    }
+},
+
  "battery": {
     "states": {
         "warning": 30,
@@ -44,8 +46,8 @@
 
 
 "clock": {
- "format": "{:L%A %d/%m - %I:%M %p}",
- "format-alt": "{:L%I:%M:%S %p}",
+ "format": "{:L%A %d/%m - %H:%M}",
+"format-alt": "{:L%H:%M:%S}",
  "tooltip" : false,
  "interval": 1,
  "smooth-scrolling-threshold": 0.01,

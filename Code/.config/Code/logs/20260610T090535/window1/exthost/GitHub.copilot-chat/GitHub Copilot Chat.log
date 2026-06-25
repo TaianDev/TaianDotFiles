@@ -1,0 +1,127 @@
+2026-06-10 09:05:40.991 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-06-10 09:05:40.991 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-06-10 09:05:40.991 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-06-10 09:05:40.991 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-06-10 09:05:41.141 [info] Logged in as TaianDev
+2026-06-10 09:05:41.144 [info] Using the Electron fetcher.
+2026-06-10 09:05:41.507 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-06-10 09:05:42.128 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-06-10 09:05:42.201 [info] Got Copilot token for TaianDev
+2026-06-10 09:05:42.201 [info] Copilot Chat: 0.52.0, VS Code: 1.124.0
+2026-06-10 09:05:42.241 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-06-10 09:05:42.243 [info] activationBlocker from 'languageModelAccess' took for 775ms
+2026-06-10 09:05:42.262 [info] [CopilotCLIChatSessionContentProvider] listSessions took 138.27352700000029ms
+2026-06-10 09:05:42.262 [info] [CopilotCLIChatSessionContentProvider] listSessions took 66.66295999999966ms
+2026-06-10 09:05:42.281 [info] [CopilotCLI] Cleaned up 1 stale lock file(s).
+2026-06-10 09:05:42.282 [info] [CopilotCLI] MCP server started. Lock file: /home/taianlux/.local/state/.copilot/ide/ec2c3cc1-1342-4e56-a862-73515095c162.lock
+2026-06-10 09:05:42.282 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-o2AoVb/mcp.sock#%2Fmcp
+2026-06-10 09:05:42.353 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-10 09:05:42.353 [info] copilot token sku: free_limited_copilot
+2026-06-10 09:05:42.353 [info] ConversationFeature: Activating contributions
+2026-06-10 09:05:42.353 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-06-10 09:05:42.369 [info] Registering default platform agent...
+2026-06-10 09:05:42.381 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-06-10 09:05:42.381 [info] BYOK: fetching known models list
+2026-06-10 09:05:42.381 [info] activationBlocker from 'conversationFeature' took for 909ms
+2026-06-10 09:05:42.676 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-06-10 09:05:42.735 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-06-10 09:05:42.736 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-06-10 09:05:43.199 [info] Fetched model metadata in 1723ms 4f1152ba-01a0-4972-b941-aae00a00b4d6
+2026-06-10 09:05:43.321 [info] Latest entry: ccreq:latest.copilotmd
+2026-06-10 09:05:43.321 [info] ccreq:1f509cd8.copilotmd | markdown
+2026-06-10 09:05:43.652 [info] ConversationFeature: BYOK models available
+2026-06-10 09:05:43.652 [info] copilot token sku: free_limited_copilot
+2026-06-10 10:00:43.358 [info] Logged in as TaianDev
+2026-06-10 10:00:44.599 [info] Got Copilot token for TaianDev
+2026-06-10 10:00:44.599 [info] Copilot Chat: 0.52.0, VS Code: 1.124.0
+2026-06-10 10:00:44.630 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-10 10:00:44.630 [info] copilot token sku: free_limited_copilot
+2026-06-10 10:00:44.632 [info] [code-referencing] Public code references are enabled.
+2026-06-10 10:00:45.242 [info] Fetched model metadata in 612ms 7a5e5c09-4f9c-4c69-84e1-a55ff46273cc
+2026-06-10 10:00:45.452 [info] ccreq:390cc82f.copilotmd | markdown
+2026-06-10 10:56:44.650 [info] Logged in as TaianDev
+2026-06-10 10:56:45.697 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:45.743 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:46.821 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:56:46.862 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:56:48.003 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-06-10 10:56:48.570 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-06-10 10:56:48.577 [warning] Failed to get copilot token due to status 401 
+2026-06-10 10:56:48.577 [warning] Failed to get copilot token due to 401 status
+2026-06-10 10:56:48.674 [info] Logged in as TaianDev
+2026-06-10 10:56:49.570 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:49.592 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:50.462 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:56:50.501 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:56:50.771 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-06-10 10:56:51.690 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-06-10 10:56:51.693 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-06-10 10:56:51.699 [warning] Failed to get copilot token due to status 401 
+2026-06-10 10:56:51.699 [warning] Failed to get copilot token due to 401 status
+2026-06-10 10:56:51.711 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: false
+2026-06-10 10:56:51.712 [info] BYOK: unregistered providers due to enterprise policy.
+2026-06-10 10:56:51.727 [info] Logged in as TaianDev
+2026-06-10 10:56:52.615 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:52.624 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:53.257 [error] [CopilotCLIModels] Failed to fetch available models: GitHubApiError: Failed to fetch Copilot user info: 401 Unauthorized: { "message": "Requires authentication", "documentation_url": "https://docs.github.com/rest", "status": "401" }
+2026-06-10 10:56:53.467 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:56:53.532 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:56:54.965 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-06-10 10:56:55.928 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-06-10 10:56:55.932 [warning] Failed to get copilot token due to status 401 
+2026-06-10 10:56:55.932 [warning] Failed to get copilot token due to 401 status
+2026-06-10 10:56:55.939 [error] GitHub Copilot could not connect to server. Extension activation failed: "Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again."
+2026-06-10 10:56:55.939 [info] [context keys] Setting context key: github.copilot.interactiveSession.invalidToken
+2026-06-10 10:56:55.939 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-06-10 10:56:55.939 [error] Error: Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again.
+	at xie._authShowWarnings (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1743:18892)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async xie.getCopilotToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1743:16681)
+	at async Lhe.getCopilotToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1400:8800)
+	at async Are._getToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1710:9387)
+	at async r (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1710:8668)
+2026-06-10 10:56:55.939 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-06-10 10:56:55.939 [error] Error: Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again.
+	at xie._authShowWarnings (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1743:18892)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async xie.getCopilotToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1743:16681)
+	at async Lhe.getCopilotToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1400:8800)
+	at async Are._getToken (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1710:9387)
+	at async Are._provideLanguageModelChatInfo (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1710:3246)
+	at async Od.$provideLanguageModelChatInfo (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:536:41733)
+2026-06-10 10:56:55.951 [info] Logged in as TaianDev
+2026-06-10 10:56:57.230 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:57.250 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:56:58.868 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:56:58.907 [info] FetcherService: node-fetch failed with status: 401 
+2026-06-10 10:57:05.939 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:57:05.942 [info] FetcherService: using node-http from now on
+2026-06-10 10:57:06.178 [info] FetcherService: electron-fetch failed with status: 401 
+2026-06-10 10:57:06.180 [info] FetcherService: using node-http from now on
+2026-06-10 10:57:06.183 [info] Got Copilot token for TaianDev
+2026-06-10 10:57:06.183 [info] Copilot Chat: 0.52.0, VS Code: 1.124.0
+2026-06-10 10:57:06.332 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-10 10:57:06.332 [info] copilot token sku: free_limited_copilot
+2026-06-10 10:57:06.333 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-06-10 10:57:06.333 [info] [code-referencing] Public code references are enabled.
+2026-06-10 10:57:06.338 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-06-10 10:57:07.368 [info] Fetched model metadata in 1150ms 3f6a9c09-68e8-498c-bda0-6622ac725536
+2026-06-10 10:57:09.118 [info] ccreq:0443be48.copilotmd | markdown
+2026-06-10 11:47:52.263 [info] ccreq:f683eeec.copilotmd | markdown
+2026-06-10 11:47:52.274 [warning] [relatedFiles] unknown language shellscript
+2026-06-10 11:47:52.348 [info] ccreq:e7d8d1b0.copilotmd | markdown
+2026-06-10 11:47:52.656 [info] ccreq:74c8591b.copilotmd | markdown
+2026-06-10 11:47:52.662 [info] [fetchCompletions] Request 9969092e-f314-4548-8bbb-9979c574ac48 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 401 status after 364.5118899997324ms
+2026-06-10 11:47:52.689 [warning] [fetchCompletions] Response status was 401: unauthorized: token expired
+
+2026-06-10 11:47:52.948 [info] Logged in as TaianDev
+2026-06-10 11:47:54.201 [info] Got Copilot token for TaianDev
+2026-06-10 11:47:54.201 [info] Copilot Chat: 0.52.0, VS Code: 1.124.0
+2026-06-10 11:47:54.230 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-10 11:47:54.230 [info] copilot token sku: free_limited_copilot
+2026-06-10 11:47:54.231 [info] [code-referencing] Public code references are enabled.
+2026-06-10 11:47:54.466 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-10 11:47:54.466 [info] copilot token sku: free_limited_copilot
+2026-06-10 11:47:54.469 [info] [code-referencing] Public code references are enabled.
+2026-06-10 11:47:56.466 [info] Fetched model metadata in 2237ms 55e1d55e-7257-4eef-9f9f-33af0b68d791
+2026-06-10 11:47:57.274 [info] ccreq:907d9708.copilotmd | markdown
