@@ -1,0 +1,509 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+Argument "/usr/lib/x86_64-linux-gnu/qt6/qml" passed to -I does not exist.
+Using import directories passed by -I: "/usr/lib/qt6/qml", "/usr/lib/x86_64-linux-gnu/qt6/qml".
+Using 1 job for CMake, you can increase that value with the QMLLS_CMAKE_JOBS environment variable or the --cmake-jobs option.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 3)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 7)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 8)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 9)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 10)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 13)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 14)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 15)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 11)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 16)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 43)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:13:5: [Dom][QmlFile][Parsing] Error: Expected token `:' for .currentItem
+/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:12:42: [Dom][QmlFile][Parsing] Error: Unexpected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 63)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/SmallToggle.qml/home/taianlux/.config/quickshell/components/network/popup/SmallToggle.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/network/popup/SmallToggle.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml/home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml/home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  3 of document "file:///home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:14:14: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'process.hpp'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml/home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  5 of document "file:///home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  16 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 190)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 191)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  18 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  12 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.server: Version 27 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 34 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" is not the latest anymore
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 258)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 259)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 260)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 274)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  62 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlvaluetype_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickanimation_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  70 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  72 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 357)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 359)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 365)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  76 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Unexpected token `' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  77 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  78 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  79 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  80 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  81 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  82 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  83 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: Patching invalid document: adding a semicolon after '.' for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: Version 2 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Error - 11:32:56 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 11:32:56 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 11:32:56 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:110:1: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  84 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  85 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 452)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  91 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Wayland.Anchor  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.utils: "Couldn't find the C++ file 'popupwindow.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'popupwindow.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  93 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  97 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  99 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  101 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  103 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  105 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.server: Version 14 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" is not the latest anymore
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 589)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:84: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  26 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:85: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  27 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:79: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  28 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:79: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  29 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:79: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  30 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:79: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  31 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:79: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  32 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:80: [Dom][QmlFile][Parsing] Error: Unexpected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  42 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:80: [Dom][QmlFile][Parsing] Error: Unexpected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  43 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:80: [Dom][QmlFile][Parsing] Error: Unexpected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  44 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:80: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  46 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:81: [Dom][QmlFile][Parsing] Error: Unexpected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  48 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:82: [Dom][QmlFile][Parsing] Error: Unexpected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  49 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:82: [Dom][QmlFile][Parsing] Error: Unexpected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  53 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:82: [Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  54 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:161:82: [Dom][QmlFile][Parsing] Error: Unexpected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  55 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 691)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 707)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 826)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 846)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 849)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 850)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 872)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 899)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml/home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  7 of document "file:///home/taianlux/.config/quickshell/components/network/popup/CustomSlider.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:239:1: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  137 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+[Error - 11:57:53 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 11:57:53 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 11:57:53 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 11:57:53 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 11:57:53 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquicklayout_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquicklayout_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquicklayout_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:158:9: [Dom][QmlFile][Parsing] Error: Unterminated regular expression literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  142 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1007)
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbind_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'bluez.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qml.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'enums.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltinfunctions_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltinfunctions_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/BluetoothModule.qml/home/taianlux/.config/quickshell/components/network/BluetoothModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/network/BluetoothModule.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickimplicitsizeitem_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/ScrollingText.qml/home/taianlux/.config/quickshell/components/network/ScrollingText.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/network/ScrollingText.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/BluetoothModule.qml/home/taianlux/.config/quickshell/components/network/BluetoothModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/components/network/BluetoothModule.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickanchors_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/BluetoothModule.qml/home/taianlux/.config/quickshell/components/network/BluetoothModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/components/network/BluetoothModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/BluetoothModule.qml/home/taianlux/.config/quickshell/components/network/BluetoothModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/components/network/BluetoothModule.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/components/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitemview_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/components/launcher/LauncherTrigger.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/launcher/LauncherTrigger.qml" as it is invalid
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher'
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/shell.qml/home/taianlux/.config/quickshell/shell.qml:15:8: [Dom][QmlFile][Parsing] Error: Expected a qualified name id for .currentItem
+/home/taianlux/.config/quickshell/shell.qml:15:1: [Dom][QmlFile][Parsing] Error: Unexpected token `import' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/shell.qml" as it is invalid
+[Error - 4:29:14 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickanimation_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1531)
+qt.languageserver.server: Version 8 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" is not the latest anymore
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1533)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:24:16: [Dom][QmlFile][Parsing] Error: Unexpected token `.' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  11 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1541)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1549)
+qt.languageserver.server: Version 18 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" is not the latest anymore
+qt.languageserver.server: Version 20 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:24:16: [Dom][QmlFile][Parsing] Error: Unexpected token `.' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  21 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1553)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:27:22: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:25:5: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  29 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:29:33: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  31 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:29:33: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  32 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:27:22: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:25:5: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  33 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.server: Version 42 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" is not the latest anymore
+qt.languageserver.server: Version 50 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:27:22: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:25:5: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  53 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1650)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:27:22: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:25:5: [Dom][QmlFile][Parsing] Error: Unexpected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  58 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  67 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  9 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  11 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  12 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  13 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  14 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+[Dom] Error: Non existing path to load: ''
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/L'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/La'
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1757)
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/Lau'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/Laun'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/Launc'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/Launch'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/Launche'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/Launcher'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherT'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTr'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTri'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrig'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigg'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigge'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger'
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  71 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  35 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  37 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  38 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  39 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  40 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  41 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  42 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  43 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  44 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:50:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  45 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1847)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  73 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  75 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitemview_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitemview_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  90 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:46:19: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  92 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:46:20: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  93 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2008)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2009)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:48:9: [Dom][QmlFile][Parsing] Error: Unexpected token `?' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  96 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:48:9: [Dom][QmlFile][Parsing] Error: Unterminated regular expression literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  98 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:32:13: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  102 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:2:16: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  104 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  105 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+[Error - 5:25:17 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 5:25:18 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 5:25:18 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 5:25:18 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:2:16: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  106 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:2:16: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  108 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+[Error - 5:26:36 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  109 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml/home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  47 of document "file:///home/taianlux/.config/quickshell/modules/launcher/LauncherTrigger.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  111 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'panelinterface.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitemview_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  113 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."

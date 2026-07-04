@@ -1,0 +1,60 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+Argument "/usr/lib/x86_64-linux-gnu/qt6/qml" passed to -I does not exist.
+Using import directories passed by -I: "/usr/lib/qt6/qml", "/usr/lib/x86_64-linux-gnu/qt6/qml".
+Using 1 job for CMake, you can increase that value with the QMLLS_CMAKE_JOBS environment variable or the --cmake-jobs option.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 5)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 6)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 7)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 9)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 10)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 11)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 12)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 13)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 17)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 18)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/date/CalendarTab.qml/home/taianlux/.config/quickshell/components/date/CalendarTab.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/date/CalendarTab.qml/home/taianlux/.config/quickshell/components/date/CalendarTab.qml:[Dom][QmlFile][Parsing] Error: Syntax error for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  3 of document "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/date/CalendarTab.qml/home/taianlux/.config/quickshell/components/date/CalendarTab.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 27)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/date/CalendarTab.qml/home/taianlux/.config/quickshell/components/date/CalendarTab.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/date/CalendarTab.qml/home/taianlux/.config/quickshell/components/date/CalendarTab.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml" as it is invalid
+[Error - 1:21:09 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 1:21:09 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 1:21:09 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/date/CalendarTab.qml/home/taianlux/.config/quickshell/components/date/CalendarTab.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  9 of document "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml" as it is invalid
+[Error - 1:21:09 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 1:21:09 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 1:21:10 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 1:21:10 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/date/CalendarTab.qml/home/taianlux/.config/quickshell/components/date/CalendarTab.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/components/date/CalendarTab.qml" as it is invalid

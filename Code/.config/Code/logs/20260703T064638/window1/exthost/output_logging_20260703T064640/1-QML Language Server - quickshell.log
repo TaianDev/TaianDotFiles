@@ -1,0 +1,25 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+Argument "/usr/lib/x86_64-linux-gnu/qt6/qml" passed to -I does not exist.
+Using import directories passed by -I: "/usr/lib/qt6/qml", "/usr/lib/x86_64-linux-gnu/qt6/qml".
+Using 1 job for CMake, you can increase that value with the QMLLS_CMAKE_JOBS environment variable or the --cmake-jobs option.
+qt.languageserver.server: Ignoring update to closed document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml"
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 9)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 14)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml/home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/modules/launcher/AppLauncher.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/WallpaperSelector.qml/home/taianlux/.config/quickshell/components/WallpaperSelector.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/WallpaperSelector.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 63)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'variants.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qmlglobal.hpp'."

@@ -1,0 +1,97 @@
+2026-07-01 08:08:01.813 [info] Started local extension host with pid 29616.
+2026-07-01 08:08:02.583 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-01 08:08:03.615 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-01 08:08:03.853 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-01 08:08:04.318 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-07-01 08:08:04.401 [error] [Extension Host] (node:29616) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-07-01 08:08:05.110 [info] [perf] Render performance baseline is 37ms
+2026-07-01 08:08:05.853 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-01 08:08:05.873 [info] Auto updating outdated extensions. ms-vscode-remote.remote-containers
+2026-07-01 08:08:08.853 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-01 08:08:09.035 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-01 09:00:57.836 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-01 09:31:03.755 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:32:46.248 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:32:57.805 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:32.320 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:33.371 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:35.580 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:57.457 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:50:20.676 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+    at onErrorNT (node:internal/child_process:508:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-07-01 10:05:41.016 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-07-01 10:05:41.036 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-07-01 10:05:41.057 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-07-01 10:05:43.922 [error] An unknown error occurred. Please consult the log for more details.
+2026-07-01 10:06:38.561 [error] An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","reasonDetail":"net::ERR_INTERNET_DISCONNECTED: : {\"is_request_error\":true,\"network_process_crashed\":false}","requestId":"3843e637-f1b3-4987-a03a-4a71abd63598"}: Error: An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","reasonDetail":"net::ERR_INTERNET_DISCONNECTED: : {\"is_request_error\":true,\"network_process_crashed\":false}","requestId":"3843e637-f1b3-4987-a03a-4a71abd63598"}
+	at Object.n [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1697:11515)
+	at xhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2815:13381)
+	at ng._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:14886)
+	at async ng._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:15464)
+	at async ng.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:13392)
+	at async ng.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:12845)
+	at async ng.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:9260)
+	at async ng.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:5356)
+	at async z2._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:14762)
+	at async z2.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:10410)
+	at async z2._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:4772)
+	at async z2.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:2550)
+2026-07-01 10:07:00.249 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-01 10:48:38.991 [error] Offline: Offline: Offline: Offline: Offline
+    at cst.getLatestRawGalleryExtension (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1907:53298)
+    at async cst.getLatestRawGalleryExtensionWithFallback (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1907:51802)
+    at async cst.getLatestGalleryExtension (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1907:40257)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1907:39345
+    at async Promise.all (index 0)
+    at async cst.getExtensionsUsingResourceApi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1907:39299)
+    at async cst.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1907:37761)
+    at async G7.checkForUpdates (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3667:35607)
+2026-07-01 11:17:17.933 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-01 12:26:07.492 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-01 12:26:13.509 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 13:16:50.964 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-07-01 13:16:50.965 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-07-01 13:16:50.965 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

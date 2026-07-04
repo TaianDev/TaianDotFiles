@@ -1,4 +1,4 @@
-@import url('colors.css');
+@import url('colorsw.css');
 @import url('../../.cache/wal/colors-waybar.css');
 
 /* --- General ---*/
@@ -14,6 +14,7 @@ window#waybar {
   background: transparent;
   transition: opacity 0.3s ease, margin-top 0.3s ease;
   opacity: 1;
+  /*box-shadow: inset 0 -2px 2px mix(@mb-primary, #ffffff, 0.3);*/
 }
 
 window#waybar.hidden {
@@ -147,7 +148,7 @@ window#waybar.hidden {
 
 #taskbar button {
   background: alpha(@mb-background, 0.07);
-  padding: 3;
+  padding: 3px;
   border-radius: 50%;
   transition: all 0.3s ease;
 }

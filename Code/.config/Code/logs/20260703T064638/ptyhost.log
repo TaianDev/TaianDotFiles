@@ -1,0 +1,6 @@
+2026-07-03 06:46:40.286 [info] Revived process, old id 13278b0d57eff5743a7348ba25f8769c-2 -> new id 1
+2026-07-03 06:46:40.856 [info] Expanding terminal instance, old id 13278b0d57eff5743a7348ba25f8769c-2 -> new id 1
+2026-07-03 06:46:41.546 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2026-07-03 06:46:41.546 [info] Persistent process reconnection "1"
+2026-07-03 06:46:41.634 [error] Failed to set sticky bit on /tmp/taianlux-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/taianlux-code-zsh'
+2026-07-03 06:46:41.650 [info] Persistent process "1": Replaying 6285 chars and 1 size events

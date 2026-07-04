@@ -1,0 +1,25 @@
+# ── Módulo de Espacios de Trabajo ──
+WorkspacePills 1.0 WorkspacePills.qml
+
+# ── Módulo de Música (MPRIS) ──
+MusicWidget 1.0 MusicWidget.qml
+MusicPopup 1.0 MusicPopup.qml
+
+# ── Módulo de Recursos del Sistema (CPU, RAM, Temp) ──
+ResourceMeter 1.0 ResourceMeter.qml
+SystemPill 1.0 SystemPill.qml
+
+# ── Módulo de Redes (Cápsula en barra) ──
+NetworkPill 1.0 NetworkPill.qml
+WifiModule 1.0 WifiModule.qml
+BluetoothModule 1.0 BluetoothModule.qml
+
+# ── Centro de Control (Popup de Redes) ──
+NetworkToggle 1.0 NetworkToggle.qml
+NetworkMainView 1.0 NetworkMainView.qml
+NetworkPopup 1.0 NetworkPopup.qml
+
+# ── Módulo de Redes (Cápsula y submódulos) ──
+WifiModule 1.0 WifiModule.qml
+BluetoothModule 1.0 network/BluetoothModule.qml
+NetworkPill 1.0 network/NetworkPill.qml

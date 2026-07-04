@@ -1,7 +1,0 @@
-2026-06-14 15:50:46.823 [info] Getting Manifest... ms-python.vscode-python-envs
-2026-06-14 15:50:47.186 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.124.2","date":"2026-06-12T00:12:36Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/taianlux/.vscode/extensions/extensions.json","path":"/home/taianlux/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
-2026-06-14 15:51:10.625 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 1356ms.
-2026-06-14 15:51:10.968 [info] Extracted extension to file:///home/taianlux/.vscode/extensions/ms-python.vscode-python-envs-1.34.0-linux-x64: ms-python.vscode-python-envs
-2026-06-14 15:51:10.977 [info] Renamed to /home/taianlux/.vscode/extensions/ms-python.vscode-python-envs-1.34.0-linux-x64
-2026-06-14 15:51:10.998 [info] Marked extension as removed ms-python.vscode-python-envs-1.30.0-linux-x64
-2026-06-14 15:51:11.010 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/taianlux/.vscode/extensions/extensions.json

@@ -1,0 +1,34 @@
+2026-06-29 10:26:03.561 [info] StorageMainService: creating application shared storage
+2026-06-29 10:26:03.620 [info] [shared storage] Creating shared storage database at '/home/taianlux/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-29 10:26:03.621 [info] [shared storage] Initializing fallback application storage (path: /home/taianlux/.config/Code/User/globalStorage/state.vscdb)
+2026-06-29 10:26:03.646 [info] [shared storage] Fallback application storage initialized with 138 items
+2026-06-29 10:26:03.647 [info] update#setState idle
+2026-06-29 10:26:33.649 [info] update#setState checking for updates
+2026-06-29 10:26:34.444 [info] update#setState idle
+2026-06-29 11:26:33.650 [info] update#setState checking for updates
+2026-06-29 11:26:34.669 [info] update#setState idle
+2026-06-29 11:32:48.160 [error] [uncaught exception in main]: TypeError: Titlebar overlay is not enabled
+2026-06-29 11:32:48.160 [error] TypeError: Titlebar overlay is not enabled
+    at Vc.updateWindowControls (file:///usr/share/code/resources/app/out/main.js:500:76087)
+    at Vc.setWin (file:///usr/share/code/resources/app/out/main.js:500:73095)
+    at Vc.doTryClaimWindow (file:///usr/share/code/resources/app/out/main.js:513:21860)
+    at Vc.tryClaimWindow (file:///usr/share/code/resources/app/out/main.js:513:21550)
+    at EventEmitter.<anonymous> (file:///usr/share/code/resources/app/out/main.js:513:23312)
+    at EventEmitter.emit (node:events:509:28)
+    at n._init (node:electron/js2c/browser_init:2:19441)
+    at openGuestWindow (node:electron/js2c/browser_init:2:113285)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:100758)
+    at WebContents.emit (node:events:509:28)
+2026-06-29 12:26:33.652 [info] update#setState checking for updates
+2026-06-29 12:26:34.871 [info] update#setState idle
+2026-06-29 13:26:33.867 [info] update#setState checking for updates
+2026-06-29 13:26:35.007 [info] update#setState idle
+2026-06-29 14:26:33.869 [info] update#setState checking for updates
+2026-06-29 14:26:35.544 [info] update#setState idle
+2026-06-29 15:26:33.872 [info] update#setState checking for updates
+2026-06-29 15:26:34.790 [info] update#setState idle
+2026-06-29 16:26:33.874 [info] update#setState checking for updates
+2026-06-29 16:26:35.712 [info] update#setState idle
+2026-06-29 17:26:33.876 [info] update#setState checking for updates
+2026-06-29 17:26:34.891 [info] update#setState idle
+2026-06-29 17:42:03.995 [info] Extension host with pid 167695 exited with code: 0, signal: unknown.

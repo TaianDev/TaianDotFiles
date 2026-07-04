@@ -1,0 +1,80 @@
+2026-06-28 06:51:25.477 [info] Started local extension host with pid 77515.
+2026-06-28 06:51:26.837 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-28 06:51:27.017 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-28 06:51:28.591 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 06:51:29.966 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-28 06:51:30.369 [error] [Extension Host] (node:77515) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-28 06:51:30.741 [info] [perf] Render performance baseline is 40ms
+2026-06-28 06:51:33.591 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 06:51:34.353 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 07:08:53.072 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 07:08:55.837 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 07:18:44.469 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-06-28 07:18:48.816 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-06-28 08:29:25.142 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 08:41:06.102 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-06-28 09:52:26.391 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 10:18:43.741 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-06-28 11:00:17.357 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 16:50:28.065 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 17:51:23.363 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 18:51:50.190 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 19:53:59.730 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 20:10:19.125 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-06-28 20:10:23.028 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-06-28 22:00:55.044 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 22:58:49.187 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-06-28 22:58:50.547 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-06-28 22:59:26.684 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.126/tools/latest.txt
+2026-06-28 22:59:26.685 [error] [Extension Host] Response status: 404, status text: 
+2026-06-28 22:59:26.983 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.126/tools/core.json
+2026-06-28 22:59:26.984 [error] [Extension Host] Response status: 404, status text: 
+2026-06-28 23:00:36.128 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-28 23:05:37.713 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-28 23:07:21.445 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-28 23:09:05.637 [info] [lifecycle]: Shutdown was prevented (id: veto.chat)
+2026-06-28 23:09:32.287 [info] [lifecycle]: Shutdown was prevented (id: veto.chat)
+2026-06-28 23:09:43.055 [error] Error while handling chat request: Canceled: Canceled: Canceled
+    at UI (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:1431)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5185:47396
+    at Array.forEach (<anonymous>)
+    at a.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5185:47304)
+    at nK.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5185:60603)
+    at o6i.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5192:10470)
+    at i6i.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5192:9610)
+    at async lSt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5191:22900)
+2026-06-28 23:09:43.087 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-06-28 23:09:43.087 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-06-28 23:09:43.087 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-06-28 23:09:43.126 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

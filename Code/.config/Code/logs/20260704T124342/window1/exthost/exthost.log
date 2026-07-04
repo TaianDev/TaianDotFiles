@@ -1,0 +1,32 @@
+2026-07-04 12:43:45.287 [info] Extension host with pid 288428 started
+2026-07-04 12:43:45.287 [info] Skipping acquiring lock for /home/taianlux/.config/Code/User/workspaceStorage/13278b0d57eff5743a7348ba25f8769c.
+2026-07-04 12:43:45.738 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-04 12:43:45.778 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-04 12:43:45.797 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'onLanguage:qml', root cause: theqtcompany.qt-qml
+2026-07-04 12:43:46.339 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'onLanguage:qml'
+2026-07-04 12:43:46.629 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-07-04 12:43:47.155 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-07-04 12:43:47.247 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-04 12:43:47.481 [info] Eager extensions activated
+2026-07-04 12:43:47.503 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-07-04 12:43:47.609 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-07-04 12:43:48.872 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-04 12:43:48.876 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-04 12:43:48.908 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-07-04 12:43:49.463 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-07-04 12:43:54.678 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-07-04 13:13:07.884 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-04 13:13:07.885 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-04 13:13:07.894 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-04 13:13:07.894 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-04 14:11:27.726 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

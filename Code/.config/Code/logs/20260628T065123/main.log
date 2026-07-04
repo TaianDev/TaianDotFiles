@@ -1,0 +1,40 @@
+2026-06-28 06:51:23.287 [info] StorageMainService: creating application shared storage
+2026-06-28 06:51:23.377 [info] [shared storage] Creating shared storage database at '/home/taianlux/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-28 06:51:23.378 [info] [shared storage] Initializing fallback application storage (path: /home/taianlux/.config/Code/User/globalStorage/state.vscdb)
+2026-06-28 06:51:23.396 [info] [shared storage] Fallback application storage initialized with 136 items
+2026-06-28 06:51:23.404 [info] update#setState idle
+2026-06-28 06:51:53.404 [info] update#setState checking for updates
+2026-06-28 06:51:53.735 [info] update#setState idle
+2026-06-28 07:51:53.405 [info] update#setState checking for updates
+2026-06-28 07:51:54.715 [info] update#setState idle
+2026-06-28 08:51:53.408 [info] update#setState checking for updates
+2026-06-28 08:51:55.091 [info] update#setState idle
+2026-06-28 09:51:53.409 [info] update#setState checking for updates
+2026-06-28 09:51:55.030 [info] update#setState idle
+2026-06-28 10:51:53.412 [info] update#setState checking for updates
+2026-06-28 10:51:54.466 [info] update#setState idle
+2026-06-28 11:51:53.587 [info] update#setState checking for updates
+2026-06-28 11:51:54.513 [info] update#setState idle
+2026-06-28 12:51:53.589 [info] update#setState checking for updates
+2026-06-28 12:51:54.564 [info] update#setState idle
+2026-06-28 13:51:53.591 [info] update#setState checking for updates
+2026-06-28 13:51:54.572 [info] update#setState idle
+2026-06-28 14:51:53.595 [info] update#setState checking for updates
+2026-06-28 14:51:54.426 [info] update#setState idle
+2026-06-28 15:51:53.601 [info] update#setState checking for updates
+2026-06-28 15:51:55.096 [info] update#setState idle
+2026-06-28 16:51:53.603 [info] update#setState checking for updates
+2026-06-28 16:51:54.488 [info] update#setState idle
+2026-06-28 17:51:53.606 [info] update#setState checking for updates
+2026-06-28 17:51:54.510 [info] update#setState idle
+2026-06-28 18:51:53.609 [info] update#setState checking for updates
+2026-06-28 18:51:54.493 [info] update#setState idle
+2026-06-28 19:51:53.612 [info] update#setState checking for updates
+2026-06-28 19:51:54.522 [info] update#setState idle
+2026-06-28 20:51:54.265 [info] update#setState checking for updates
+2026-06-28 20:51:55.310 [info] update#setState idle
+2026-06-28 21:51:54.269 [info] update#setState checking for updates
+2026-06-28 21:51:55.088 [info] update#setState idle
+2026-06-28 22:51:54.271 [info] update#setState checking for updates
+2026-06-28 22:51:55.197 [info] update#setState idle
+2026-06-28 23:09:43.114 [info] Extension host with pid 77515 exited with code: 0, signal: unknown.

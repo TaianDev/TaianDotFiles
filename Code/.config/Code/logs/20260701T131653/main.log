@@ -1,0 +1,8 @@
+2026-07-01 13:16:53.899 [info] StorageMainService: creating application shared storage
+2026-07-01 13:16:53.950 [info] [shared storage] Creating shared storage database at '/home/taianlux/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-07-01 13:16:53.950 [info] [shared storage] Initializing fallback application storage (path: /home/taianlux/.config/Code/User/globalStorage/state.vscdb)
+2026-07-01 13:16:53.978 [info] [shared storage] Fallback application storage initialized with 138 items
+2026-07-01 13:16:53.979 [info] update#setState idle
+2026-07-01 13:17:23.980 [info] update#setState checking for updates
+2026-07-01 13:17:24.323 [info] update#setState idle
+2026-07-01 13:22:00.898 [info] Extension host with pid 978137 exited with code: 0, signal: unknown.

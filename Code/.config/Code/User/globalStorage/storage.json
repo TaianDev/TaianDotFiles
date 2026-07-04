@@ -60,10 +60,10 @@
             "backupPath": "/home/taianlux/.config/Code/Backups/17ba6d1fb4603b1365c90a9b8c593745",
             "uiState": {
                 "mode": 0,
-                "x": -14,
-                "y": -10,
-                "width": 1950,
-                "height": 1121,
+                "x": -239,
+                "y": -160,
+                "width": 2400,
+                "height": 1736,
                 "zoomLevel": 1
             }
         },
@@ -75,10 +75,6 @@
             "auxiliaryBarWidth": 269,
             "workspaces": {
                 "494ef7e3f5dcee2bff05546e89fa94f0": {
-                    "sideBarVisible": true,
-                    "auxiliaryBarVisible": false
-                },
-                "13278b0d57eff5743a7348ba25f8769c": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 },
@@ -103,6 +99,10 @@
                     "auxiliaryBarVisible": true
                 },
                 "02d04e9de230418e6dc72f2edd8b4d27": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "13278b0d57eff5743a7348ba25f8769c": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

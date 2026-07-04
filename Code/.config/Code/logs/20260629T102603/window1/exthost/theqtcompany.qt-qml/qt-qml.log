@@ -1,0 +1,13 @@
+2026-06-29 10:26:07.047 [info] [installer] Installer initialized with path: /home/taianlux/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls
+2026-06-29 10:26:07.047 [info] [project] Creating project:/home/taianlux/.config/quickshell
+2026-06-29 10:26:07.047 [info] [qmlls-queue] Enqueueing start operation
+2026-06-29 10:26:07.047 [info] [qmlls] Fetching release information
+2026-06-29 10:26:07.047 [info] [qmlls-queue] Processing start operation
+2026-06-29 10:26:07.047 [info] [qmlls] Starting QML Language Server with:-I/usr/lib/qt6/qml;-I/usr/lib/x86_64-linux-gnu/qt6/qml
+2026-06-29 10:26:07.047 [info] [qmlls-queue] Completed start operation
+2026-06-29 10:26:07.047 [info] [qmlls] QML Language Server started for quickshell /home/taianlux/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls/files/qmlls
+2026-06-29 10:26:08.785 [info] [installer] Fetched release info from: https://qtccache.qt.io/QMLLS/LatestRelease
+2026-06-29 10:26:08.814 [info] [installer] Selected asset: qmllanguageserver-linux-x64-0.7.zip
+2026-06-29 10:26:08.822 [info] [qmlls] Status Check: Already Up-to-date, tag = 0.7
+2026-06-29 17:42:03.994 [info] [extension] Deactivating qt-qml
+2026-06-29 17:42:03.994 [info] [project] Disposing project:/home/taianlux/.config/quickshell

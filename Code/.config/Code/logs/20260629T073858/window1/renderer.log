@@ -1,0 +1,24 @@
+2026-06-29 07:39:00.195 [info] Started local extension host with pid 3583.
+2026-06-29 07:39:00.379 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-29 07:39:01.139 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-06-29 07:39:01.467 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-29 07:39:01.857 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-29 07:39:01.876 [error] [Extension Host] (node:3583) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-29 07:39:03.008 [info] [perf] Render performance baseline is 27ms
+2026-06-29 07:39:03.849 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-29 07:39:06.253 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-29 07:39:06.468 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-29 07:44:12.057 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-29 07:44:16.555 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-29 08:12:03.856 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-06-29 08:52:54.892 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-29 10:18:42.904 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-29 10:26:00.693 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-06-29 10:26:00.694 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-06-29 10:26:00.694 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

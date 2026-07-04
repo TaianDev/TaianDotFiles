@@ -1,0 +1,37 @@
+2026-07-04 12:43:44.528 [info] Started local extension host with pid 288428.
+2026-07-04 12:43:44.921 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-04 12:43:45.961 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-04 12:43:47.241 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-04 12:43:48.845 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-07-04 12:43:48.879 [error] [Extension Host] (node:288428) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-07-04 12:43:49.984 [info] [perf] Render performance baseline is 37ms
+2026-07-04 12:43:52.241 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-04 12:43:52.810 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 12:49:58.330 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 13:11:53.194 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-07-04 13:13:07.887 [error] Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.: Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-04 13:52:08.103 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 16:11:01.072 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 16:27:33.157 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /home/taianlux/.config/quickshell)
+2026-07-04 16:27:38.729 [error] Error: The editor could not be opened because the file was not found.
+    at pY.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3917:92407)
+    at async pY.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3917:91416)
+    at async BNe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1271:34780)
+    at async BNe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1271:32566)
+    at async BNe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1271:31514)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1383:31374
+    at async ixe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2597:41131)
+2026-07-04 16:27:41.778 [error] Error: The editor could not be opened because the file was not found.
+    at pY.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3917:92407)
+    at async pY.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3917:91416)
+    at async BNe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1271:34780)
+    at async BNe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1271:32566)
+    at async BNe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1271:31514)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1383:31374
+    at async s (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1275:60726)

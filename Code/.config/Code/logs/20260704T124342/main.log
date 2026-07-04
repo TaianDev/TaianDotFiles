@@ -1,0 +1,13 @@
+2026-07-04 12:43:42.867 [info] StorageMainService: creating application shared storage
+2026-07-04 12:43:42.963 [info] [shared storage] Creating shared storage database at '/home/taianlux/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-07-04 12:43:42.963 [info] [shared storage] Initializing fallback application storage (path: /home/taianlux/.config/Code/User/globalStorage/state.vscdb)
+2026-07-04 12:43:42.980 [info] [shared storage] Fallback application storage initialized with 139 items
+2026-07-04 12:43:42.986 [info] update#setState idle
+2026-07-04 12:44:12.988 [info] update#setState checking for updates
+2026-07-04 12:44:13.394 [info] update#setState idle
+2026-07-04 13:44:12.991 [info] update#setState checking for updates
+2026-07-04 13:44:14.007 [info] update#setState idle
+2026-07-04 14:44:12.994 [info] update#setState checking for updates
+2026-07-04 14:44:14.010 [info] update#setState idle
+2026-07-04 15:44:12.996 [info] update#setState checking for updates
+2026-07-04 15:44:13.933 [info] update#setState idle

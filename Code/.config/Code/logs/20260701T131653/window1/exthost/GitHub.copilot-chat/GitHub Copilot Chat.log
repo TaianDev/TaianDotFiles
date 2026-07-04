@@ -1,0 +1,70 @@
+2026-07-01 13:16:58.800 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-07-01 13:16:58.800 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-07-01 13:16:58.800 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-07-01 13:16:58.800 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-07-01 13:16:58.971 [info] Logged in as TaianDev
+2026-07-01 13:16:58.977 [info] Using the Electron fetcher.
+2026-07-01 13:16:59.290 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-07-01 13:16:59.707 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-07-01 13:16:59.843 [info] [CopilotCLIChatSessionContentProvider] listSessions took 138.26174999999967ms
+2026-07-01 13:16:59.855 [info] Got Copilot token for TaianDev
+2026-07-01 13:16:59.855 [info] Copilot Chat: 0.55.0, VS Code: 1.127.0
+2026-07-01 13:17:00.014 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:00.014 [info] ConversationFeature: Activating contributions
+2026-07-01 13:17:00.014 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-07-01 13:17:00.035 [info] Registering default platform agent...
+2026-07-01 13:17:00.047 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:00.047 [info] [code-referencing] Public code references are enabled.
+2026-07-01 13:17:00.047 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:00.047 [info] [code-referencing] Public code references are enabled.
+2026-07-01 13:17:00.048 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:00.048 [info] [code-referencing] Public code references are enabled.
+2026-07-01 13:17:00.048 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:00.048 [info] [code-referencing] Public code references are enabled.
+2026-07-01 13:17:00.048 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:00.048 [info] [code-referencing] Public code references are enabled.
+2026-07-01 13:17:00.051 [info] activationBlocker from 'conversationFeature' took for 792ms
+2026-07-01 13:17:00.057 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-07-01 13:17:00.057 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:00.060 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-07-01 13:17:00.060 [info] BYOK: fetching known models list
+2026-07-01 13:17:00.060 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-07-01 13:17:00.109 [info] activationBlocker from 'languageModelAccess' took for 857ms
+2026-07-01 13:17:00.119 [info] [CopilotCLIChatSessionContentProvider] listSessions took 268.8100199999999ms
+2026-07-01 13:17:00.188 [info] [CopilotCLI] MCP server started. Lock file: /home/taianlux/.local/state/.copilot/ide/98dafbcb-416e-4e33-a28d-d22f2270be00.lock
+2026-07-01 13:17:00.188 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-Wu2NMt/mcp.sock#%2Fmcp
+2026-07-01 13:17:00.263 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-07-01 13:17:00.423 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-07-01 13:17:00.426 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-07-01 13:17:00.574 [info] Fetched model metadata in 1312ms ed3f8d19-6b27-4560-b480-245e638c8dd1
+2026-07-01 13:17:00.771 [info] Latest entry: ccreq:latest.copilotmd
+2026-07-01 13:17:00.772 [info] ccreq:446dca6b.copilotmd | markdown
+2026-07-01 13:17:01.222 [info] ConversationFeature: BYOK models available
+2026-07-01 13:17:01.222 [info] copilot token sku: free_limited_copilot
+2026-07-01 13:17:01.631 [info] ccreq:35d55eb0.copilotmd | markdown
+2026-07-01 13:17:01.900 [info] ccreq:f1f807bf.copilotmd | markdown
+2026-07-01 13:17:04.840 [info] ccreq:3f299bf6.copilotmd | markdown
+2026-07-01 13:17:04.852 [info] ccreq:119a80fe.copilotmd | markdown
+2026-07-01 13:17:05.854 [info] ccreq:3625b54d.copilotmd | markdown
+2026-07-01 13:17:05.865 [info] ccreq:99c6207c.copilotmd | markdown
+2026-07-01 13:17:06.204 [info] ccreq:e2e3ca8f.copilotmd | markdown
+2026-07-01 13:17:06.209 [warning] [relatedFiles] unknown language qml
+2026-07-01 13:17:06.251 [info] ccreq:bbabb131.copilotmd | markdown
+2026-07-01 13:17:06.720 [info] [fetchCompletions] Request e2042310-81bf-40f8-a05f-789aa0611704 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 460.10905900000034ms
+2026-07-01 13:17:06.731 [info] ccreq:4fefba5b.copilotmd | markdown
+2026-07-01 13:17:08.769 [info] message 0 returned. finish reason: [stop]
+2026-07-01 13:17:08.770 [info] request done: requestId: [75624a6f-509e-4c2d-8a84-e37d1b77e59b] model deployment ID: []
+2026-07-01 13:17:08.787 [info] ccreq:990c3f1f.copilotmd | success | nes-callisto-003 | 436ms | [XtabProvider]
+2026-07-01 13:17:09.213 [info] message 0 returned. finish reason: [stop]
+2026-07-01 13:17:09.214 [info] request done: requestId: [feda49da-7fb0-44cc-a007-70fe6e7dd114] model deployment ID: []
+2026-07-01 13:17:09.359 [info] ccreq:8c2b723a.copilotmd | success | copilot-suggestions-prod-euporie-03 | 567ms | [nes.nextCursorPosition]
+2026-07-01 13:19:36.382 [info] ccreq:c58c3a3d.copilotmd | markdown
+2026-07-01 13:19:36.387 [info] ccreq:d26b548b.copilotmd | markdown
+2026-07-01 13:19:37.039 [info] ccreq:aca7417b.copilotmd | markdown
+2026-07-01 13:19:37.081 [info] ccreq:8dbf04b1.copilotmd | markdown
+2026-07-01 13:19:37.989 [info] [fetchCompletions] Request f50157e4-1249-404b-834d-335452c67f30 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 922.7838939999929ms
+2026-07-01 13:19:38.058 [info] ccreq:cbcc64be.copilotmd | markdown
+2026-07-01 13:19:39.602 [info] message 0 returned. finish reason: [stop]
+2026-07-01 13:19:39.603 [info] request done: requestId: [9250b19a-824b-4ea9-b7db-0d51290b9cb3] model deployment ID: []
+2026-07-01 13:19:39.847 [info] ccreq:e8371b8e.copilotmd | success | nes-callisto-003 | 673ms | [XtabProvider]
+2026-07-01 13:19:40.350 [info] ccreq:00bdff20.copilotmd | cancelled | copilot-suggestions-prod-euporie-03 | 500ms | [nes.nextCursorPosition]

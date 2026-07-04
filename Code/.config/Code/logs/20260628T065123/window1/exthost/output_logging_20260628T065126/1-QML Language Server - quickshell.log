@@ -1,0 +1,1710 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+Argument "/usr/lib/x86_64-linux-gnu/qt6/qml" passed to -I does not exist.
+Using import directories passed by -I: "/usr/lib/qt6/qml", "/usr/lib/x86_64-linux-gnu/qt6/qml".
+Using 1 job for CMake, you can increase that value with the QMLLS_CMAKE_JOBS environment variable or the --cmake-jobs option.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 4)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 5)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 6)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 7)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 8)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 9)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 10)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 11)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 12)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 13)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 19)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicWidget.qml/home/taianlux/.config/quickshell/components/MusicWidget.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/MusicWidget.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitemsmodule_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicWidget.qml/home/taianlux/.config/quickshell/components/MusicWidget.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/components/MusicWidget.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 91)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 97)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 109)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 129)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:74:17: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickimplicitsizeitem_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:31: [Dom][QmlFile][Parsing] Error: Unexpected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:31: [Dom][QmlFile][Parsing] Error: Unexpected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:29: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  9 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.server: Version 10 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 11 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 12 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 13 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 15 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:21: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  16 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.server: Version 17 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 18 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 19 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 21 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 23 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.languageserver.server: Version 24 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:9: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  30 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:30: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  33 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:31: [Dom][QmlFile][Parsing] Error: Unexpected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  35 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:31: [Dom][QmlFile][Parsing] Error: Unexpected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  39 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 238)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:22:9: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  42 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:22:9: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  43 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 244)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:22:9: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  45 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:22:9: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  46 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+[Error - 7:18:44 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 7:18:48 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 7:18:49 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.languageserver.server: Version 4 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 7 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 8 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 10 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 15 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 18 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 20 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 23 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 25 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 28 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 29 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 31 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 35 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 38 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 39 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 41 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 44 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 46 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 49 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 51 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 54 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 56 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.languageserver.server: Version 59 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:49:5: [Dom][QmlFile][Parsing] Error: Unterminated regular expression literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  60 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:37:35: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  72 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 318)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 361)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:38:35: [Dom][QmlFile][Parsing] Error: Expected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  94 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 382)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:20:44: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  50 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:20:44: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  51 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 415)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 416)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:20:44: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: Version 52 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:20:44: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  54 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:20:44: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  55 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml"
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 421)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:20:44: [Dom][QmlFile][Parsing] Error: Expected token `)' for .currentItem
+
+qt.languageserver.server: Version 56 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:20:44: [Dom][QmlFile][Parsing] Error: Unterminated regular expression literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  58 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:31: [Dom][QmlFile][Parsing] Error: Unexpected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  61 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 442)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:31: [Dom][QmlFile][Parsing] Error: Unexpected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  65 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicPopup.qml/home/taianlux/.config/quickshell/components/MusicPopup.qml:21:31: [Dom][QmlFile][Parsing] Error: Unexpected token `,' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  69 of document "file:///home/taianlux/.config/quickshell/components/MusicPopup.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 533)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/MusicWidget.qml/home/taianlux/.config/quickshell/components/MusicWidget.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  45 of document "file:///home/taianlux/.config/quickshell/components/MusicWidget.qml" as it is invalid
+[Error - 8:41:06 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 8:41:06 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitem_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitem_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickitem_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/ResourceMeter.qml/home/taianlux/.config/quickshell/ResourceMeter.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/ResourceMeter.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/ResourceMeter.qml/home/taianlux/.config/quickshell/ResourceMeter.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/ResourceMeter.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/ResourceMeter.qml/home/taianlux/.config/quickshell/ResourceMeter.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  3 of document "file:///home/taianlux/.config/quickshell/ResourceMeter.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  3 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  5 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+[Error - 10:18:43 a.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `}' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  7 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:96:17: [Dom][QmlFile][Parsing] Error: Unexpected token `' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  16 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 871)
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 929)
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 36 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 39 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 41 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 42 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 45 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 50 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 52 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 54 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 56 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 58 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 60 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:9:29: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: Version 62 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 63 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 64 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 66 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 68 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 71 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 72 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshel  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 75 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quicks  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 78 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Quick  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quic  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 80 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Qu  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 82 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+[Dom] Warning: Failed to find main qmldir file for Q  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Unexpected token `import' for .currentItem
+
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Version 84 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  86 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  87 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  88 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  89 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Expected token `{' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  90 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 965)
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell.Fs  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  97 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  98 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  99 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  100 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  101 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  102 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  104 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.languageserver.server: Version 108 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.server: Version 110 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.server: Version 112 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  115 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  116 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  117 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  118 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  119 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  120 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  121 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  122 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  123 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  124 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/SystemPill.qml/home/taianlux/.config/quickshell/components/SystemPill.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  126 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" as it is invalid
+qt.languageserver.server: Version 130 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.server: Version 134 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.server: Version 147 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.server: Version 150 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.server: Version 151 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.server: Version 153 of document "file:///home/taianlux/.config/quickshell/components/SystemPill.qml" is not the latest anymore
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltinfunctions_p.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1151)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1152)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquicktext_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickvaluetypes_p.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1213)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/BluetoothModule.qml/home/taianlux/.config/quickshell/components/network/BluetoothModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  2 of document "file:///home/taianlux/.config/quickshell/components/network/BluetoothModule.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1226)
+qt.languageserver.server: Ignoring update to closed document "file:///home/taianlux/.config/quickshell/components/network/SvgIcon.qml"
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickvaluetypes_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  12 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'enums.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'enums.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qml.hpp'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  14 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  16 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  18 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  20 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/WifiModule.qml/home/taianlux/.config/quickshell/components/network/WifiModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  26 of document "file:///home/taianlux/.config/quickshell/components/network/WifiModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/BluetoothModule.qml/home/taianlux/.config/quickshell/components/network/BluetoothModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  4 of document "file:///home/taianlux/.config/quickshell/components/network/BluetoothModule.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquicktext_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'bluez.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'bluez.hpp'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'bluez.hpp'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/BluetoothModule.qml/home/taianlux/.config/quickshell/components/network/BluetoothModule.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/components/network/BluetoothModule.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkToggle.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkToggle.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkToggle.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkMainView.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltinfunctions_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltinfunctions_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  124 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/Bar.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  125 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  126 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/Bar.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  127 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/Bar.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  128 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/Bar.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:9:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  129 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/modules/Bar.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/modules/Bar.qml/home/taianlux/.config/quickshell/modules/Bar.qml:9:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  130 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" as it is invalid
+[Dom] Error: Non existing path to load: ''
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../c'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../co'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../com'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../comp'
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1617)
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../compo'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../compon'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../compone'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../componen'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../component'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/n'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/ne'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/net'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/netw'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/netwo'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/networ'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/networl'
+qt.languageserver.server: Version 152 of document "file:///home/taianlux/.config/quickshell/modules/Bar.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/networlk'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/networl'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/networ'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/network/p'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/network/po'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/network/pop'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/modules/../components/network/popu'
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  1 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1659)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  3 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  5 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  6 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  7 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  9 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1720)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  11 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+[Dom] Warning: Failed to find main qmldir file for W  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Wi  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Wig  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Wigi  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Wig  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for Wi  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+[Dom] Warning: Failed to find main qmldir file for W  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  19 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+[Dom] Error: Non existing path to load: ''
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/W'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Wi'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Wif'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Wifi'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiP'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPa'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPaf'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPafe'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPaf'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPa'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPag'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPage'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPa'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/WifiPafe'
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  35 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+[Dom] Warning: Failed to find main qmldir file for Wigi  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  37 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Expected a qualified name id or a string literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  8 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Expected a qualified name id or a string literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  9 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Expected a qualified name id or a string literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  10 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Expected a qualified name id or a string literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  11 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Expected a qualified name id or a string literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  12 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Expected a qualified name id or a string literal for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  13 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:10:11: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  14 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:10:11: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  15 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  16 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  17 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 18 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 19 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:10:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  20 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1809)
+qt.languageserver.server: Version 22 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 30 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 32 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 41 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 42 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 44 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 54 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 62 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 63 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 65 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 76 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 84 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 85 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Version 87 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1831)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:11: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  100 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1851)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  39 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  40 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  41 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  42 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  43 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1890)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  44 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  45 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+[Dom] Warning: Failed to find main qmldir file for I  in /usr/lib/qt6/qml, /usr/lib/x86_64-linux-gnu/qt6/qml, /home/runner/work/qmlls-workflow/qmlls-workflow/qt-build/qtbase/qml, /usr/bin, /usr/lib/qt6/qml.
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml:5:13: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  47 of document "file:///home/taianlux/.config/quickshell/components/network/popup/NetworkPopup.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  102 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  103 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  104 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  105 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  106 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  107 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  108 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  109 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  110 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:11: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  111 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/NetworkPill.qml/home/taianlux/.config/quickshell/components/network/NetworkPill.qml:9:11: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  112 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" as it is invalid
+[Dom] Error: Non existing path to load: ''
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/E'
+[Dom] Error: Non existing path to load: ''
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/N'
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1934)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1933)
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Ne'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Net'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Netw'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Netwo'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Networ'
+qt.languageserver.server: Version 121 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Network'
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1941)
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkP'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkPo'
+qt.languageserver.server: Version 124 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkPop'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkPopu'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkPopup'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkPopu'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkPop'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkPo'
+qt.languageserver.server: Version 130 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/NetworkP'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Network'
+qt.languageserver.server: Version 132 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Netwo'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Netw'
+qt.languageserver.server: Version 135 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Net'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/Ne'
+qt.languageserver.server: Version 137 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/N'
+[Dom] Error: Non existing path to load: ''
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1964)
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/p'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/po'
+qt.languageserver.server: Version 141 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/pop'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popu'
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1968)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1974)
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/n'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/ne'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/n'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/N'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Ne'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Net'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Netw'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Netwo'
+qt.languageserver.server: Version 154 of document "file:///home/taianlux/.config/quickshell/components/network/NetworkPill.qml" is not the latest anymore
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Networ'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/Network'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/NetworkP'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/NetworkPo'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/NetworkPop'
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 1996)
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/NetworkPopu'
+[Dom] Error: Non existing path to load: '/home/taianlux/.config/quickshell/components/network/popup/NetworkPopup'
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 5 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 6 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 7 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 8 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 9 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 10 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 11 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 12 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 13 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 14 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 15 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 16 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 17 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 19 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 20 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 21 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 22 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 23 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 24 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 25 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 26 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 27 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 28 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 30 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 31 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 32 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 33 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 34 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 35 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 36 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 37 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 38 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 40 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 41 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 43 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 45 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 46 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 47 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:3:31: [Dom][QmlFile][Parsing] Error: Expected token `;' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  48 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.server: Version 49 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2031)
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 55 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 62 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 64 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 66 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 68 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 72 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 77 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 79 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 81 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 86 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 88 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 90 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Version 92 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2050)
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  98 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquicktextinput_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltins_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltinfunctions_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  100 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2076)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  102 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2095)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  104 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2101)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2100)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2102)
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmllistmodel_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  106 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  108 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 109 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  110 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 111 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  112 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  113 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 114 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  115 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  116 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  117 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  118 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  119 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  120 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  121 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  122 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  123 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  124 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  125 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  126 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 2138)
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  128 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 129 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  130 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  131 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  132 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  133 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:252:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  134 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  136 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickmousearea_p.h'."
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 138 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  139 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  140 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 141 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  142 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  143 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 144 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 145 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  146 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  147 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  148 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  149 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  150 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  151 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  152 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  153 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  154 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  155 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  156 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  157 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  158 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  159 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  160 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  161 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:299:2: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  162 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  164 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qqmlbuiltinfunctions_p.h'."
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  166 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:113:77: [Dom][QmlFile][Parsing] Error: Expected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  167 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  168 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  169 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:113:77: [Dom][QmlFile][Parsing] Error: Expected token `:' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  170 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Error - 10:58:49 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 10:58:49 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 10:58:50 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 10:58:50 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 10:58:50 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Error - 10:58:50 p.m.] Request textDocument/definition failed.
+  Message: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+  Code: 0 
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:[Dom][QmlFile][Parsing] Error: Expected token `numeric literal' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  172 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 174 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 175 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  176 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 177 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  178 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  179 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  180 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  181 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  182 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  183 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 184 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  185 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  186 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  187 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  188 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  189 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  190 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  191 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  192 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  193 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  194 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  195 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  196 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  197 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  198 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  199 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  200 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  201 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  202 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  203 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  204 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  205 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  206 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  207 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  208 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 209 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 210 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 211 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 213 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  214 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 215 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 216 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 217 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  219 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  220 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  221 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  222 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  223 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  224 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  225 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  226 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 227 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 228 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  229 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 230 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 231 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 232 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  233 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  234 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: Version 235 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" is not the latest anymore
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  236 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  237 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+qt.qmldom: Parsed invalid file /home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml/home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml:396:1: [Dom][QmlFile][Parsing] Error: Unexpected token `identifier' for .currentItem
+
+qt.languageserver.server: avoid update of validDoc to  238 of document "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml" as it is invalid
+qt.languageserver.completions: No valid document for completions for  "file:///home/taianlux/.config/quickshell/components/network/popup/WifiPage.qml"
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''
+[Dom][Universe] Error: Could not detect type of file 
+[Dom] Error: Unexpected file to load: ''

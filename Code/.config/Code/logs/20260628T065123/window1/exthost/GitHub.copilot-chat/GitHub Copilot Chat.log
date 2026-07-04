@@ -1,0 +1,267 @@
+2026-06-28 06:51:31.113 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-06-28 06:51:31.113 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-06-28 06:51:31.113 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-06-28 06:51:31.113 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-06-28 06:51:31.455 [info] Logged in as TaianDev
+2026-06-28 06:51:31.460 [info] Using the Electron fetcher.
+2026-06-28 06:51:31.682 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-06-28 06:51:32.233 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-06-28 06:51:32.404 [info] [CopilotCLIChatSessionContentProvider] listSessions took 172.8039800000006ms
+2026-06-28 06:51:32.430 [info] Got Copilot token for TaianDev
+2026-06-28 06:51:32.430 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 06:51:32.624 [info] copilot token sku: free_limited_copilot
+2026-06-28 06:51:32.624 [info] ConversationFeature: Activating contributions
+2026-06-28 06:51:32.624 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-06-28 06:51:32.653 [info] Registering default platform agent...
+2026-06-28 06:51:32.681 [info] copilot token sku: free_limited_copilot
+2026-06-28 06:51:32.682 [info] [code-referencing] Public code references are enabled.
+2026-06-28 06:51:32.683 [info] copilot token sku: free_limited_copilot
+2026-06-28 06:51:32.683 [info] [code-referencing] Public code references are enabled.
+2026-06-28 06:51:32.684 [info] copilot token sku: free_limited_copilot
+2026-06-28 06:51:32.684 [info] [code-referencing] Public code references are enabled.
+2026-06-28 06:51:32.684 [info] copilot token sku: free_limited_copilot
+2026-06-28 06:51:32.684 [info] [code-referencing] Public code references are enabled.
+2026-06-28 06:51:32.684 [info] copilot token sku: free_limited_copilot
+2026-06-28 06:51:32.684 [info] [code-referencing] Public code references are enabled.
+2026-06-28 06:51:32.688 [info] activationBlocker from 'conversationFeature' took for 1042ms
+2026-06-28 06:51:32.690 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-06-28 06:51:32.690 [info] copilot token sku: free_limited_copilot
+2026-06-28 06:51:32.695 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-06-28 06:51:32.695 [info] BYOK: fetching known models list
+2026-06-28 06:51:32.696 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-06-28 06:51:32.772 [info] activationBlocker from 'languageModelAccess' took for 1147ms
+2026-06-28 06:51:32.789 [info] [CopilotCLIChatSessionContentProvider] listSessions took 373.5221099999999ms
+2026-06-28 06:51:32.891 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-06-28 06:51:32.892 [info] [CopilotCLI] MCP server started. Lock file: /home/taianlux/.local/state/.copilot/ide/b46ff01d-d0c2-4d07-a49c-222baf49cbd8.lock
+2026-06-28 06:51:32.892 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-KCniHr/mcp.sock#%2Fmcp
+2026-06-28 06:51:33.173 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-06-28 06:51:33.175 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-06-28 06:51:33.205 [info] Fetched model metadata in 1566ms f311e717-fc1e-4c66-a500-5e0b380ee5b9
+2026-06-28 06:51:33.309 [info] Latest entry: ccreq:latest.copilotmd
+2026-06-28 06:51:33.310 [info] ccreq:15808a7e.copilotmd | markdown
+2026-06-28 06:51:33.739 [info] ConversationFeature: BYOK models available
+2026-06-28 06:51:33.739 [info] copilot token sku: free_limited_copilot
+2026-06-28 07:08:50.891 [info] ccreq:ff6681ab.copilotmd | markdown
+2026-06-28 07:08:51.753 [info] ccreq:ecfdcbc7.copilotmd | markdown
+2026-06-28 07:08:51.759 [warning] [relatedFiles] unknown language qml
+2026-06-28 07:08:52.357 [info] ccreq:2640c3ae.copilotmd | markdown
+2026-06-28 07:08:52.362 [info] [fetchCompletions] Request e9d637e8-17bc-4353-8a98-db8de7d49946 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 539.8807520000264ms
+2026-06-28 07:46:33.361 [info] Logged in as TaianDev
+2026-06-28 07:46:34.652 [info] Got Copilot token for TaianDev
+2026-06-28 07:46:34.652 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 07:46:34.680 [info] copilot token sku: free_limited_copilot
+2026-06-28 07:46:34.681 [info] [code-referencing] Public code references are enabled.
+2026-06-28 07:46:35.511 [info] Fetched model metadata in 836ms 387be9b6-edc0-41c9-ace5-32f8477c799c
+2026-06-28 07:46:36.252 [info] ccreq:f59a8646.copilotmd | markdown
+2026-06-28 08:42:33.377 [info] Logged in as TaianDev
+2026-06-28 08:42:34.648 [info] Got Copilot token for TaianDev
+2026-06-28 08:42:34.648 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 08:42:34.666 [info] copilot token sku: free_limited_copilot
+2026-06-28 08:42:34.666 [info] [code-referencing] Public code references are enabled.
+2026-06-28 08:42:35.920 [info] Fetched model metadata in 1260ms 97893546-5250-4508-9577-faeaf7338985
+2026-06-28 08:42:36.646 [info] ccreq:b9dd91ad.copilotmd | markdown
+2026-06-28 09:38:33.392 [info] Logged in as TaianDev
+2026-06-28 09:38:35.210 [info] Got Copilot token for TaianDev
+2026-06-28 09:38:35.210 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 09:38:35.233 [info] copilot token sku: free_limited_copilot
+2026-06-28 09:38:35.233 [info] [code-referencing] Public code references are enabled.
+2026-06-28 09:38:36.301 [info] Fetched model metadata in 1074ms 9860b811-2c1a-4507-84b1-b5f254e3875a
+2026-06-28 09:38:37.134 [info] ccreq:a2ee630b.copilotmd | markdown
+2026-06-28 10:17:35.941 [info] Logged in as TaianDev
+2026-06-28 10:17:36.627 [info] Got Copilot token for TaianDev
+2026-06-28 10:17:36.627 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 10:17:36.647 [info] copilot token sku: free_limited_copilot
+2026-06-28 10:17:36.647 [info] [code-referencing] Public code references are enabled.
+2026-06-28 10:17:37.255 [info] Fetched model metadata in 1340ms 50ed8e44-ad92-455f-a4b7-7a051e5c8787
+2026-06-28 10:17:37.358 [info] ccreq:b33dd109.copilotmd | markdown
+2026-06-28 10:17:38.020 [info] Request ID for failed request: d4426b02-d08f-4af5-a27d-fedc4ab1eff7
+2026-06-28 10:17:38.023 [error] Server error: 400 {"error":{"message":"The requested model is not supported.","code":"model_not_supported","param":"model","type":"invalid_request_error"}}
+2026-06-28 10:17:38.023 [error] Request Failed: 400 {"error":{"message":"The requested model is not supported.","code":"model_not_supported","param":"model","type":"invalid_request_error"}}
+2026-06-28 10:17:38.028 [info] ccreq:e4c5808b.copilotmd | failed | gpt-5-mini | 269ms | [debugCommandIdentifier]
+2026-06-28 20:14:05.017 [info] Logged in as TaianDev
+2026-06-28 20:14:05.703 [info] Got Copilot token for TaianDev
+2026-06-28 20:14:05.703 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 20:14:05.729 [info] copilot token sku: free_limited_copilot
+2026-06-28 20:14:05.729 [info] [code-referencing] Public code references are enabled.
+2026-06-28 20:14:06.320 [info] Fetched model metadata in 1345ms f9db4d8f-2963-4d02-bec1-6f1ddbfd4638
+2026-06-28 20:14:06.422 [info] ccreq:94db2f7d.copilotmd | markdown
+2026-06-28 20:14:08.680 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:14:08.684 [info] request done: requestId: [7681c292-0f82-4794-895b-bc0014fd16b4] model deployment ID: []
+2026-06-28 20:14:08.686 [info] ccreq:43e4427c.copilotmd | success | gpt-4o-mini-2024-07-18 | 1865ms | [terminalQuickFixGenerator]
+2026-06-28 20:14:08.686 [info] Terminal Quick Fix Fetch Result: [object Object]
+2026-06-28 20:14:11.848 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:14:11.851 [info] request done: requestId: [3ec26975-682d-479d-9fef-75b0f1199ad2] model deployment ID: []
+2026-06-28 20:14:11.853 [info] ccreq:e643a47d.copilotmd | success | gpt-4o-mini-2024-07-18 | 3159ms | [terminalQuickFixGenerator]
+2026-06-28 20:14:11.861 [info] Terminal QuickFix FetchResult [object Object]
+2026-06-28 20:14:37.040 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:14:37.044 [info] request done: requestId: [d5287c8b-0a98-4b38-973f-852895c7377f] model deployment ID: []
+2026-06-28 20:14:37.045 [info] ccreq:92ccb27c.copilotmd | success | gpt-4o-mini-2024-07-18 | 1597ms | [terminalQuickFixGenerator]
+2026-06-28 20:14:37.045 [info] Terminal Quick Fix Fetch Result: [object Object]
+2026-06-28 20:14:40.214 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:14:40.218 [info] request done: requestId: [7f055268-92b3-4519-a879-e9736b3d5002] model deployment ID: []
+2026-06-28 20:14:40.220 [info] ccreq:a752c847.copilotmd | success | gpt-4o-mini-2024-07-18 | 3170ms | [terminalQuickFixGenerator]
+2026-06-28 20:14:40.220 [info] Terminal QuickFix FetchResult [object Object]
+2026-06-28 20:16:08.701 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:16:08.704 [info] request done: requestId: [98305738-1b6b-40ba-bbf8-8b6c06269d5b] model deployment ID: []
+2026-06-28 20:16:08.705 [info] ccreq:af00731c.copilotmd | success | gpt-4o-mini-2024-07-18 | 794ms | [title]
+2026-06-28 20:16:09.097 [info] ccreq:99141caa.copilotmd | markdown
+2026-06-28 20:16:09.264 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:16:10.304 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:16:10.307 [info] request done: requestId: [3c58e2bf-d2e7-4641-a27b-ed0f89c8f654] model deployment ID: []
+2026-06-28 20:16:10.308 [info] ccreq:c8619f2a.copilotmd | success | gpt-4o-mini-2024-07-18 | 1091ms | [progressMessages]
+2026-06-28 20:16:10.321 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:16:10.324 [info] request done: requestId: [211d0d46-bf96-4963-89ee-6992c5b14742] model deployment ID: []
+2026-06-28 20:16:10.325 [info] ccreq:2b85dc85.copilotmd | success | gpt-4o-mini-2024-07-18 | 1100ms | [progressMessages]
+2026-06-28 20:16:13.402 [info] ccreq:f36a4952.copilotmd | success | mai-code-1-flash | 3860ms | [panel/editAgent]
+2026-06-28 20:16:13.447 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:16:22.617 [info] ccreq:1113b7ad.copilotmd | success | mai-code-1-flash | 8956ms | [panel/editAgent]
+2026-06-28 20:16:22.657 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:16:23.127 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:16:23.130 [info] request done: requestId: [0374fa5d-898d-4a6b-b8ff-6aac5822d5af] model deployment ID: []
+2026-06-28 20:16:23.131 [info] ccreq:9e2dfa3e.copilotmd | success | gpt-4o-mini-2024-07-18 | 858ms | [copilotLanguageModelWrapper]
+2026-06-28 20:16:29.375 [info] ccreq:11e3f0f3.copilotmd | success | mai-code-1-flash | 6606ms | [panel/editAgent]
+2026-06-28 20:16:29.409 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:16:35.829 [info] ccreq:f09b8189.copilotmd | success | mai-code-1-flash | 6261ms | [panel/editAgent]
+2026-06-28 20:16:35.861 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:16:46.582 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:16:46.585 [info] request done: requestId: [e5796fe1-645b-488a-afef-6a6c209d1561] model deployment ID: []
+2026-06-28 20:16:46.585 [info] ccreq:6c4734fd.copilotmd | success | gpt-4o-mini-2024-07-18 | 756ms | [copilotLanguageModelWrapper]
+2026-06-28 20:16:47.401 [info] ccreq:ef744a2d.copilotmd | success | mai-code-1-flash | 11419ms | [panel/editAgent]
+2026-06-28 20:16:47.441 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:16:48.438 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:16:48.441 [info] request done: requestId: [3416227d-21e4-4c03-9f5a-0ab332bc630c] model deployment ID: []
+2026-06-28 20:16:48.442 [info] ccreq:7ed13968.copilotmd | success | gpt-4o-mini-2024-07-18 | 709ms | [copilotLanguageModelWrapper]
+2026-06-28 20:16:48.727 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:16:48.729 [info] request done: requestId: [76598501-67de-4c27-9d93-e395e1bc7e08] model deployment ID: []
+2026-06-28 20:16:48.730 [info] ccreq:8494c83c.copilotmd | success | gpt-4o-mini-2024-07-18 | 1004ms | [copilotLanguageModelWrapper]
+2026-06-28 20:17:13.670 [info] ccreq:1e72792d.copilotmd | success | mai-code-1-flash | 5157ms | [panel/editAgent]
+2026-06-28 20:17:13.719 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:17:13.747 [warning] Error compiling input schema for tool run_in_terminal: Error: strict mode: unknown keyword: "enumDescriptions"
+2026-06-28 20:17:14.942 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:17:14.945 [info] request done: requestId: [b5e9012b-72a9-4261-ac8d-6b44e3a6d7fd] model deployment ID: []
+2026-06-28 20:17:14.946 [info] ccreq:dcd56d3b.copilotmd | success | gpt-4o-mini-2024-07-18 | 910ms | [copilotLanguageModelWrapper]
+2026-06-28 20:19:33.996 [info] ccreq:7fff78b8.copilotmd | success | mai-code-1-flash | 14832ms | [panel/editAgent]
+2026-06-28 20:19:34.179 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 20:19:34.453 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:19:34.456 [info] request done: requestId: [aebc3a8f-4926-4fb0-a920-02917d238cea] model deployment ID: []
+2026-06-28 20:19:34.457 [info] ccreq:9cfe2462.copilotmd | success | gpt-4o-mini-2024-07-18 | 788ms | [copilotLanguageModelWrapper]
+2026-06-28 20:19:35.278 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:19:35.281 [info] request done: requestId: [2e76a57a-bb4f-434f-8e8d-40e883801e37] model deployment ID: []
+2026-06-28 20:19:35.282 [info] ccreq:6d5483bd.copilotmd | success | gpt-4o-mini-2024-07-18 | 808ms | [copilotLanguageModelWrapper]
+2026-06-28 20:19:35.436 [info] message 0 returned. finish reason: [stop]
+2026-06-28 20:19:35.439 [info] request done: requestId: [11679617-22a0-4e1e-a467-ff1b3b717f6c] model deployment ID: []
+2026-06-28 20:19:35.440 [info] ccreq:f153e48e.copilotmd | success | gpt-4o-mini-2024-07-18 | 998ms | [copilotLanguageModelWrapper]
+2026-06-28 20:20:20.500 [info] [CopilotCLIChatSessionContentProvider] listSessions took 29.18640799820423ms
+2026-06-28 20:20:21.140 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6833460032939911ms
+2026-06-28 21:09:34.425 [info] Logged in as TaianDev
+2026-06-28 21:09:35.056 [info] Got Copilot token for TaianDev
+2026-06-28 21:09:35.056 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 21:09:35.077 [info] copilot token sku: free_limited_copilot
+2026-06-28 21:09:35.077 [info] [code-referencing] Public code references are enabled.
+2026-06-28 21:09:35.698 [info] Fetched model metadata in 625ms b7c1b4c8-a5ce-4f99-a952-e5582ad41a41
+2026-06-28 21:09:35.876 [info] ccreq:ce365697.copilotmd | markdown
+2026-06-28 22:00:53.990 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0018389970064163ms
+2026-06-28 22:01:32.674 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.426989994943142ms
+2026-06-28 22:01:45.887 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.7060770019888878ms
+2026-06-28 22:02:00.412 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.7562620043754578ms
+2026-06-28 22:05:34.433 [info] Logged in as TaianDev
+2026-06-28 22:05:35.084 [info] Got Copilot token for TaianDev
+2026-06-28 22:05:35.084 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 22:05:35.116 [info] copilot token sku: free_limited_copilot
+2026-06-28 22:05:35.116 [info] [code-referencing] Public code references are enabled.
+2026-06-28 22:05:35.976 [info] Fetched model metadata in 867ms 48e90994-c39b-4c2b-b79e-873e65da7804
+2026-06-28 22:05:36.079 [info] ccreq:8d43cce8.copilotmd | markdown
+2026-06-28 22:28:16.775 [info] [CopilotCLIChatSessionContentProvider] listSessions took 27.687289997935295ms
+2026-06-28 22:28:18.272 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.8436000049114227ms
+2026-06-28 22:28:19.316 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.5396599993109703ms
+2026-06-28 22:29:11.352 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8235839977860451ms
+2026-06-28 22:29:13.706 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7100730016827583ms
+2026-06-28 22:31:59.568 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0384050011634827ms
+2026-06-28 22:36:26.158 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2364769950509071ms
+2026-06-28 22:36:36.855 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8774330019950867ms
+2026-06-28 22:36:50.990 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0419550016522408ms
+2026-06-28 22:37:05.835 [info] [CopilotCLIChatSessionContentProvider] listSessions took 27.10563699901104ms
+2026-06-28 22:37:07.315 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.9121050015091896ms
+2026-06-28 22:37:41.823 [info] [CopilotCLIChatSessionContentProvider] listSessions took 14.60563599318266ms
+2026-06-28 22:37:51.473 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.7335919961333275ms
+2026-06-28 22:38:22.828 [info] Logged in as TaianDev
+2026-06-28 22:38:23.473 [info] Got Copilot token for TaianDev
+2026-06-28 22:38:23.473 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 22:38:23.509 [info] copilot token sku: free_limited_copilot
+2026-06-28 22:38:23.509 [info] [code-referencing] Public code references are enabled.
+2026-06-28 22:38:23.509 [info] copilot token sku: free_limited_copilot
+2026-06-28 22:38:23.509 [info] [code-referencing] Public code references are enabled.
+2026-06-28 22:38:24.186 [info] Fetched model metadata in 1416ms 9c215675-0ad9-4208-bf91-3abc791a59f1
+2026-06-28 22:38:24.288 [info] ccreq:6f1b1c92.copilotmd | markdown
+2026-06-28 22:38:25.317 [info] message 0 returned. finish reason: [stop]
+2026-06-28 22:38:25.320 [info] request done: requestId: [19ccecbb-44c2-43e2-9a9b-50d282e1c163] model deployment ID: []
+2026-06-28 22:38:25.321 [info] ccreq:57fdb8f8.copilotmd | success | gpt-4o-mini-2024-07-18 | 985ms | [copilotLanguageModelWrapper]
+2026-06-28 22:41:44.243 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.9391859993338585ms
+2026-06-28 22:42:36.766 [info] [CopilotCLIChatSessionContentProvider] listSessions took 11.175167001783848ms
+2026-06-28 22:44:03.103 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.6904930025339127ms
+2026-06-28 22:44:04.556 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8200640007853508ms
+2026-06-28 22:44:26.162 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2820110023021698ms
+2026-06-28 22:46:08.390 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.292334996163845ms
+2026-06-28 22:47:43.864 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.462988995015621ms
+2026-06-28 22:54:57.376 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8649509996175766ms
+2026-06-28 22:55:11.915 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.8261350020766258ms
+2026-06-28 22:55:33.956 [info] Fetched model metadata in 603ms b1bcedb0-7305-487e-9713-2998a4cb186b
+2026-06-28 22:55:34.130 [info] ccreq:8ed700ce.copilotmd | markdown
+2026-06-28 22:55:35.387 [info] [AutomaticInstructionsCollector] Core vs extension instructions mismatch:
+--- diff ---
+index: -undefined +defined
+2026-06-28 22:55:42.535 [info] ccreq:fadd05b0.copilotmd | success | mai-code-1-flash | 6854ms | [panel/editAgent]
+2026-06-28 22:55:42.574 [info] [AutomaticInstructionsCollector] Core vs extension instructions mismatch:
+--- diff ---
+index: -undefined +defined
+2026-06-28 22:55:49.423 [info] ccreq:253c643d.copilotmd | success | mai-code-1-flash | 6749ms | [panel/editAgent]
+2026-06-28 22:55:49.452 [info] [AutomaticInstructionsCollector] Core vs extension instructions mismatch:
+--- diff ---
+index: -undefined +defined
+2026-06-28 22:56:02.072 [info] [CopilotCLIChatSessionContentProvider] listSessions took 14.642849996685982ms
+2026-06-28 22:58:13.909 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.662399999797344ms
+2026-06-28 22:59:10.099 [info] message 0 returned. finish reason: [stop]
+2026-06-28 22:59:10.102 [info] request done: requestId: [47b44155-2444-470e-a76f-35496beae5fd] model deployment ID: []
+2026-06-28 22:59:10.103 [info] ccreq:3e6728f8.copilotmd | success | gpt-4o-mini-2024-07-18 | 1037ms | [copilotLanguageModelWrapper]
+2026-06-28 22:59:10.110 [info] message 0 returned. finish reason: [stop]
+2026-06-28 22:59:10.113 [info] request done: requestId: [a6ecc0eb-8e56-4921-979b-e8b80a3d7b87] model deployment ID: []
+2026-06-28 22:59:10.113 [info] ccreq:72e76681.copilotmd | success | gpt-4o-mini-2024-07-18 | 1041ms | [copilotLanguageModelWrapper]
+2026-06-28 22:59:24.307 [info] ccreq:5df3305d.copilotmd | success | mai-code-1-flash | 12852ms | [panel/editAgent]
+2026-06-28 22:59:24.487 [info] Logged in as TaianDev
+2026-06-28 22:59:24.590 [info] message 0 returned. finish reason: [stop]
+2026-06-28 22:59:24.594 [info] request done: requestId: [acca5d48-ff62-45cb-93ec-e05a385c3d39] model deployment ID: []
+2026-06-28 22:59:24.595 [info] ccreq:291fe1ad.copilotmd | success | gpt-4o-mini-2024-07-18 | 760ms | [copilotLanguageModelWrapper]
+2026-06-28 22:59:25.026 [info] Got Copilot token for TaianDev
+2026-06-28 22:59:25.026 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-06-28 22:59:25.058 [info] copilot token sku: free_limited_copilot
+2026-06-28 22:59:25.058 [info] [code-referencing] Public code references are enabled.
+2026-06-28 22:59:25.058 [info] copilot token sku: free_limited_copilot
+2026-06-28 22:59:25.058 [info] [code-referencing] Public code references are enabled.
+2026-06-28 22:59:25.255 [info] Fetched model metadata in 207ms e9479398-21f0-4440-a916-6957cf4606bd
+2026-06-28 22:59:25.260 [info] ccreq:61986fae.copilotmd | markdown
+2026-06-28 22:59:26.019 [info] message 0 returned. finish reason: [stop]
+2026-06-28 22:59:26.023 [info] request done: requestId: [7bc2560f-0182-4ac1-93fc-3a881dc6488b] model deployment ID: []
+2026-06-28 22:59:26.024 [info] ccreq:cbe3c1b9.copilotmd | success | gpt-4o-mini-2024-07-18 | 716ms | [copilotLanguageModelWrapper]
+2026-06-28 22:59:27.328 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 22:59:30.420 [info] ccreq:2f2490f9.copilotmd | success | mai-code-1-flash | 3019ms | [panel/editAgent]
+2026-06-28 22:59:30.464 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 22:59:39.843 [info] ccreq:93a35487.copilotmd | success | mai-code-1-flash | 9246ms | [panel/editAgent]
+2026-06-28 22:59:39.881 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 22:59:39.896 [info] message 0 returned. finish reason: [stop]
+2026-06-28 22:59:39.899 [info] request done: requestId: [c7e1b534-f35c-4cec-8ddd-7872b1ceded4] model deployment ID: []
+2026-06-28 22:59:39.900 [info] ccreq:fbf48f50.copilotmd | success | gpt-4o-mini-2024-07-18 | 765ms | [copilotLanguageModelWrapper]
+2026-06-28 22:59:42.655 [info] ccreq:4f2231ea.copilotmd | success | mai-code-1-flash | 2598ms | [panel/editAgent]
+2026-06-28 22:59:42.707 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-06-28 22:59:43.604 [info] message 0 returned. finish reason: [stop]
+2026-06-28 22:59:43.607 [info] request done: requestId: [f73041a1-67aa-4731-ac82-5ee96abff4aa] model deployment ID: []
+2026-06-28 22:59:43.608 [info] ccreq:73165f94.copilotmd | success | gpt-4o-mini-2024-07-18 | 735ms | [copilotLanguageModelWrapper]
+2026-06-28 23:00:21.614 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.4621529951691628ms
+2026-06-28 23:00:22.408 [info] [CopilotCLIChatSessionContentProvider] listSessions took 10.139815002679825ms
+2026-06-28 23:07:19.970 [info] [CopilotCLIChatSessionContentProvider] listSessions took 32.17024900019169ms
+2026-06-28 23:07:51.315 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13.366034001111984ms
+2026-06-28 23:08:57.087 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.0696889981627464ms
+2026-06-28 23:09:02.290 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8426430001854897ms
+2026-06-28 23:09:03.755 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6139820069074631ms
+2026-06-28 23:09:06.171 [info] [CopilotCLIChatSessionContentProvider] listSessions took 11.5295480042696ms
+2026-06-28 23:09:32.837 [info] [CopilotCLIChatSessionContentProvider] listSessions took 9.301143996417522ms
+2026-06-28 23:09:40.541 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6529910042881966ms

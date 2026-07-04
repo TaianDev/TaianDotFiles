@@ -1,0 +1,210 @@
+2026-07-01 08:08:02.570 [info] Extension host with pid 29616 started
+2026-07-01 08:08:02.570 [info] Skipping acquiring lock for /home/taianlux/.config/Code/User/workspaceStorage/13278b0d57eff5743a7348ba25f8769c.
+2026-07-01 08:08:03.077 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-01 08:08:03.111 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-01 08:08:03.248 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-07-01 08:08:03.254 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-07-01 08:08:03.335 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-07-01 08:08:03.391 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-01 08:08:03.486 [info] Eager extensions activated
+2026-07-01 08:08:03.545 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-07-01 08:08:04.403 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-01 08:08:04.405 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-01 08:08:04.426 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-07-01 08:08:04.866 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-07-01 08:36:43.805 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'onLanguage:qml', root cause: theqtcompany.qt-qml
+2026-07-01 08:36:44.076 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'onLanguage:qml'
+2026-07-01 09:31:03.753 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:31:03.754 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:31:03.775 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:31:03.775 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:31:03.793 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:31:03.793 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:31:03.836 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:31:03.836 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:31:03.939 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:31:03.940 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:31:03.948 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:31:03.948 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:31:03.989 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:31:03.989 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:32:46.246 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:32:46.246 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:32:57.803 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:32:57.803 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:32.306 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:34:32.306 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:33.366 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:34:33.366 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:33.496 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:34:33.496 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:33.538 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:34:33.538 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:35.577 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:34:35.577 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 09:34:57.444 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 09:34:57.444 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 10:05:43.919 [error] Error: An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","reasonDetail":"net::ERR_INTERNET_DISCONNECTED: : {\"is_request_error\":true,\"network_process_crashed\":false}","requestId":"3843e637-f1b3-4987-a03a-4a71abd63598"}
+
+Error: An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","reasonDetail":"net::ERR_INTERNET_DISCONNECTED: : {\"is_request_error\":true,\"network_process_crashed\":false}","requestId":"3843e637-f1b3-4987-a03a-4a71abd63598"}
+	at Object.n [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1697:11515)
+	at xhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2815:13381)
+	at ng._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:14886)
+	at async ng._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:15464)
+	at async ng.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:13392)
+	at async ng.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:12845)
+	at async ng.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:9260)
+	at async ng.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:5356)
+	at async z2._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:14762)
+	at async z2.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:10410)
+	at async z2._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:4772)
+	at async z2.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:2550)
+	at Timeout._onTimeout (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3:12)
+	at listOnTimeout (node:internal/timers:605:17)
+	at process.processTimers (node:internal/timers:541:7)
+2026-07-01 10:05:44.919 [error] Error: An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","reasonDetail":"net::ERR_INTERNET_DISCONNECTED: : {\"is_request_error\":true,\"network_process_crashed\":false}","requestId":"3843e637-f1b3-4987-a03a-4a71abd63598"}
+	at Object.n [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1697:11515)
+	at xhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2815:13381)
+	at ng._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:14886)
+	at async ng._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:15464)
+	at async ng.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:13392)
+	at async ng.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:12845)
+	at async ng.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:9260)
+	at async ng.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:5356)
+	at async z2._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:14762)
+	at async z2.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:10410)
+	at async z2._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:4772)
+	at async z2.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:2550)
+2026-07-01 10:06:38.547 [error] [GitHub.copilot-chat] provider FAILED
+2026-07-01 10:06:38.547 [error] Error: An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","reasonDetail":"net::ERR_INTERNET_DISCONNECTED: : {\"is_request_error\":true,\"network_process_crashed\":false}","requestId":"3843e637-f1b3-4987-a03a-4a71abd63598"}
+	at Object.n [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1697:11515)
+	at xhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2815:13381)
+	at ng._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:14886)
+	at async ng._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:15464)
+	at async ng.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:13392)
+	at async ng.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:12845)
+	at async ng.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:9260)
+	at async ng.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2813:5356)
+	at async z2._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:14762)
+	at async z2.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:10410)
+	at async z2._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:4772)
+	at async z2.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2666:2550)
+2026-07-01 12:26:13.505 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 12:26:13.505 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 12:26:13.512 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 12:26:13.512 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 12:26:13.566 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 12:26:13.566 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 12:26:13.586 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 12:26:13.586 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 12:26:13.796 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 12:26:13.796 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 12:26:14.414 [error] [theqtcompany.qt-qml] provider FAILED
+2026-07-01 12:26:14.414 [error] Error: Cannot proceed: current QML document is invalid! Fix all the errors in your QML code and try again.
+	at Et (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:59:235)
+	at tt (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6253)
+	at ft (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6379)
+	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-07-01 13:16:50.922 [info] Extension host terminating: received terminate message from renderer
+2026-07-01 13:16:50.974 [info] Extension host with pid 29616 exiting with code 0
