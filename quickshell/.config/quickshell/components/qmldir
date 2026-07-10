@@ -2,36 +2,51 @@
 WorkspacePills 1.0 WorkspacePills.qml
 
 # ── Módulo de Música (MPRIS) ──
-MusicWidget 1.0 MusicWidget.qml
-MusicPopup 1.0 MusicPopup.qml
+MusicWidget 1.0 music/MusicWidget.qml
+MusicPopup 1.0 music/MusicPopup.qml
+CavaBackdrop 1.0 music/CavaBackdrop.qml
+MusicSvgButton 1.0 music/MusicSvgButton.qml
+MusicVolumePanel 1.0 music/MusicVolumePanel.qml
+MusicFadePanel 1.0 music/MusicFadePanel.qml
 
-# ── Módulo de Recursos del Sistema (CPU, RAM, Temp) ──
+# ── Módulo de Recursos del Sistema ──
 ResourceMeter 1.0 ResourceMeter.qml
 SystemPill 1.0 SystemPill.qml
+ScreenshotPill 1.0 ScreenshotPill.qml
+BatteryPill 1.0 BatteryPill.qml
+ArchLogo 1.0 ArchLogo.qml
+PowerPill 1.0 PowerPill.qml
 
-# ── Módulo de Redes (Cápsula en barra) ──
+# ── Módulo de Redes ──
 NetworkPill 1.0 NetworkPill.qml
-WifiModule 1.0 WifiModule.qml
-BluetoothModule 1.0 BluetoothModule.qml
+WifiModule 1.0 network/WifiModule.qml
+BluetoothModule 1.0 network/BluetoothModule.qml
 
 # ── Centro de Control (Popup de Redes) ──
-NetworkToggle 1.0 NetworkToggle.qml
-NetworkMainView 1.0 NetworkMainView.qml
-NetworkPopup 1.0 NetworkPopup.qml
+NetworkToggle 1.0 network/popup/NetworkToggle.qml
+NetworkMainView 1.0 network/popup/NetworkMainView.qml
+NetworkPopup 1.0 network/popup/NetworkPopup.qml
+WifiPage 1.0 network/popup/WifiPage.qml
+SmallToggle 1.0 network/popup/SmallToggle.qml
+CustomSlider 1.0 network/popup/CustomSlider.qml
 
-# ── Módulo de Redes (Cápsula y submódulos) ──
-WifiModule 1.0 WifiModule.qml
-BluetoothModule 1.0 BluetoothModule.qml
-NetworkPill 1.0 NetworkPill.qml
-WifiPage 1.0 WifiPage.qml
+# ── Módulo de Fecha ──
+DateWidget 1.0 date/DateWidget.qml
+DatePopup 1.0 date/DatePopup.qml
+CalendarTab 1.0 date/CalendarTab.qml
+StopwatchTab 1.0 date/StopwatchTab.qml
+TimerTab 1.0 date/TimerTab.qml
 
-SmallToggle 1.0 SmallToggle.qml
-CustomSlider 1.0 CustomSlider.qml
+# ── System Tray ──
+TrayWidget 1.0 tray/TrayWidget.qml
+TrayPopup 1.0 tray/TrayPopup.qml
 
-DateWidget 1.0 DateWidget.qml
-DatePopup 1.0 DatePopup.qml
-CalendarTab 1.0 CalendarTab.qml
-StopwatchTab 1.0 StopwatchTab.qml
-TimerTab 1.0 TimerTab.qml
-Screenshot 1.0 Screenshot.qml
-ThemeChanger 1.0 ThemeChanger.qml
+# ── Notificaciones ──
+NotificationPill 1.0 notifications/NotificationPill.qml
+NotificationPanel 1.0 notifications/NotificationPanel.qml
+NotificationPopups 1.0 notifications/NotificationPopups.qml
+NotificationPopupToast 1.0 notifications/NotificationPopupToast.qml
+NotificationCard 1.0 notifications/NotificationCard.qml
+
+# ── Temas ──
+ThemeChanger 1.0 theme/ThemeChanger.qml

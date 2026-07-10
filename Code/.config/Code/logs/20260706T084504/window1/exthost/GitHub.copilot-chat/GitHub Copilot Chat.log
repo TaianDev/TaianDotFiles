@@ -1,0 +1,59 @@
+2026-07-06 08:45:11.205 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-07-06 08:45:11.205 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-07-06 08:45:11.205 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-07-06 08:45:11.205 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-07-06 08:45:11.474 [info] Logged in as TaianDev
+2026-07-06 08:45:11.479 [info] Using the Electron fetcher.
+2026-07-06 08:45:11.711 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-07-06 08:45:12.225 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-07-06 08:45:12.322 [info] [CopilotCLIChatSessionContentProvider] listSessions took 595.5661209999998ms
+2026-07-06 08:45:12.364 [info] Got Copilot token for TaianDev
+2026-07-06 08:45:12.364 [info] Copilot Chat: 0.55.0, VS Code: 1.127.0
+2026-07-06 08:45:12.702 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.702 [info] ConversationFeature: Activating contributions
+2026-07-06 08:45:12.702 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-07-06 08:45:12.733 [info] Registering default platform agent...
+2026-07-06 08:45:12.759 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.760 [info] [code-referencing] Public code references are enabled.
+2026-07-06 08:45:12.760 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.760 [info] [code-referencing] Public code references are enabled.
+2026-07-06 08:45:12.762 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.762 [info] [code-referencing] Public code references are enabled.
+2026-07-06 08:45:12.762 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.762 [info] [code-referencing] Public code references are enabled.
+2026-07-06 08:45:12.762 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.762 [info] [code-referencing] Public code references are enabled.
+2026-07-06 08:45:12.763 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.763 [info] [code-referencing] Public code references are enabled.
+2026-07-06 08:45:12.773 [info] activationBlocker from 'conversationFeature' took for 1104ms
+2026-07-06 08:45:12.782 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-07-06 08:45:12.782 [info] copilot token sku: free_limited_copilot
+2026-07-06 08:45:12.788 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-07-06 08:45:12.788 [info] BYOK: fetching known models list
+2026-07-06 08:45:12.788 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-07-06 08:45:12.889 [info] activationBlocker from 'languageModelAccess' took for 1245ms
+2026-07-06 08:45:12.915 [info] [CopilotCLIChatSessionContentProvider] listSessions took 566.4889309999999ms
+2026-07-06 08:45:13.047 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-07-06 08:45:13.052 [info] [CopilotCLI] MCP server started. Lock file: /home/taianlux/.local/state/.copilot/ide/55fd6133-7f3c-4fa2-8530-a88b3a8d9769.lock
+2026-07-06 08:45:13.053 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-zU0ysi/mcp.sock#%2Fmcp
+2026-07-06 08:45:13.368 [info] Fetched model metadata in 1707ms 35c0e148-5d63-412b-8347-62d26ef31941
+2026-07-06 08:45:13.397 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-07-06 08:45:13.401 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-07-06 08:45:13.584 [info] Latest entry: ccreq:latest.copilotmd
+2026-07-06 08:45:13.585 [info] ccreq:eaabdac0.copilotmd | markdown
+2026-07-06 08:45:13.841 [info] ConversationFeature: BYOK models available
+2026-07-06 08:45:13.841 [info] copilot token sku: free_limited_copilot
+2026-07-06 09:40:13.633 [info] Logged in as TaianDev
+2026-07-06 09:40:14.636 [info] Got Copilot token for TaianDev
+2026-07-06 09:40:14.636 [info] Copilot Chat: 0.55.0, VS Code: 1.127.0
+2026-07-06 09:40:14.671 [info] copilot token sku: free_limited_copilot
+2026-07-06 09:40:14.671 [info] [code-referencing] Public code references are enabled.
+2026-07-06 09:40:15.428 [info] Fetched model metadata in 767ms c8684365-9bac-47ab-ad7c-b53947eb5472
+2026-07-06 09:40:16.002 [info] ccreq:6c4f479c.copilotmd | markdown
+2026-07-06 10:36:13.650 [info] Logged in as TaianDev
+2026-07-06 10:36:14.510 [info] Got Copilot token for TaianDev
+2026-07-06 10:36:14.510 [info] Copilot Chat: 0.55.0, VS Code: 1.127.0
+2026-07-06 10:36:14.538 [info] copilot token sku: free_limited_copilot
+2026-07-06 10:36:14.538 [info] [code-referencing] Public code references are enabled.
+2026-07-06 10:36:15.486 [info] Fetched model metadata in 953ms 2b33c6a8-1914-4567-a453-156ef75a593d
+2026-07-06 10:36:16.285 [info] ccreq:0bbdd3d9.copilotmd | markdown

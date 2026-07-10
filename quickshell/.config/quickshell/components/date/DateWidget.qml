@@ -3,18 +3,26 @@ import QtQuick.Layouts
 import Qt5Compat.GraphicalEffects
 import Quickshell
 import Quickshell.Io
+import "../../core"
+import "../../services"
+import "../network"
 
 Rectangle {
     id: root
     
-    height: 32 
-    implicitWidth: mainLayout.width + 28
+    height: 28
+    implicitWidth: mainLayout.width + 24
     radius: height / 2
-    color: widgetMa.containsMouse ? Qt.rgba(1, 1, 1, 0.15) : Qt.rgba(1, 1, 1, 0.08) 
+    color: widgetMa.containsMouse
+        ? Theme.alpha(Theme.surfaceVariant, 0.72)
+        : Theme.barPillBackgroundColor()
+    border.width: Theme.barPillBorderWidth
+    border.color: Theme.barPillBorderColor()
     Behavior on color { ColorAnimation { duration: 150 } }
 
     property string tempString: "..."
     property string iconsPath: Qt.resolvedUrl("../../assets/icons/")
+    property var hostWindow: null
 
     // ─── INSTANCIAS / CONCURRENCIA DE LA ISLAND ───
     property int activeInstance: 1 // 1 = Cronómetro, 2 = Temporizador
@@ -135,7 +143,12 @@ Rectangle {
             
             // 🌟 Clic Derecho: Uso exclusivo para abrir/cerrar el popup principal
             if (mouse.button === Qt.RightButton) {
-                datePopup.isOpened = !datePopup.isOpened
+                if (datePopup.isOpened) {
+                    datePopup.isOpened = false
+                } else {
+                    PopupManager.openExclusive(PopupManager.dateId)
+                    Qt.callLater(() => datePopup.isOpened = true)
+                }
             } 
             // 🌟 Clic Izquierdo: Uso exclusivo para la Dynamic Island
             else {
@@ -169,7 +182,7 @@ Rectangle {
     Item {
         id: mainLayout
         anchors.centerIn: parent
-        height: 32
+        height: 28
         
         width: currentViewState === "notification" ? notificationView.implicitWidth :
                currentViewState === "stopwatch" ? swView.implicitWidth :
@@ -193,7 +206,7 @@ Rectangle {
                 // Punto Rojo (Cronómetro)
                 Rectangle {
                     id: swDotIndicator
-                    width: 8; height: 8; radius: 4; color: "#e06c75"
+                    width: 8; height: 8; radius: 4; color: Theme.err
                     visible: root.swElapsedMs > 0
 
                     SequentialAnimation {
@@ -220,7 +233,7 @@ Rectangle {
                         sourceSize.height: 12
                         fillMode: Image.PreserveAspectFit
                         layer.enabled: true
-                        layer.effect: ColorOverlay { color: "#ffffff" }
+                        layer.effect: ColorOverlay { color: Theme.inkSurf }
                     }
 
                     SequentialAnimation {
@@ -235,8 +248,8 @@ Rectangle {
             }
 
             Text {
-                text: Qt.formatDateTime(sysClock.date, "HH:mm • ddd, dd/MM") + " • " + root.tempString
-                color: "#e5e5e5"; font.pixelSize: 12; font.bold: true
+                text: sysClock.date.toLocaleString("en_US", "HH:mm • ddd, dd/MM") + " • " + root.tempString
+                color: Theme.inkSurf; font.pixelSize: 12; font.bold: true
             }
         }
 
@@ -251,7 +264,7 @@ Rectangle {
 
             Rectangle {
                 id: swActiveDot
-                width: 8; height: 8; radius: 4; color: "#e06c75"
+                width: 8; height: 8; radius: 4; color: Theme.err
                 SequentialAnimation {
                     running: root.swRunning && root.currentViewState === "stopwatch"
                     loops: Animation.Infinite
@@ -263,24 +276,24 @@ Rectangle {
 
             Text { 
                 text: root.formatPillSW(root.swElapsedMs)
-                color: "#ffffff"
+                color: Theme.inkSurf
                 font.pixelSize: 14
                 font.bold: true
                 font.family: "monospace" 
             }
             
-            // Botón Eliminar
+            // Botón Stop
             Rectangle { 
                 width: 24
                 height: 24
                 radius: 6
                 color: Qt.rgba(1, 1, 1, 0.1)
                 
-                Text { 
+                SvgIcon {
                     anchors.centerIn: parent
-                    text: "🗑"
-                    color: "#ffffff"
-                    font.pixelSize: 11 
+                    source: root.iconsPath + "stop.svg"
+                    size: 12
+                    tint: Theme.inkSurf
                 }
                 
                 MouseArea { 
@@ -300,11 +313,11 @@ Rectangle {
                 radius: 6
                 color: Qt.rgba(224/255, 108/255, 117/255, 0.2)
                 
-                Text { 
+                SvgIcon {
                     anchors.centerIn: parent
-                    text: root.swRunning ? "⏸" : "▶"
-                    color: "#e06c75"
-                    font.pixelSize: 11 
+                    source: root.iconsPath + (root.swRunning ? "pause.svg" : "play.svg")
+                    size: 12
+                    tint: Theme.err
                 }
                 
                 MouseArea { 
@@ -331,12 +344,12 @@ Rectangle {
                 sourceSize.height: 14
                 fillMode: Image.PreserveAspectFit
                 layer.enabled: true
-                layer.effect: ColorOverlay { color: "#ffffff" }
+                layer.effect: ColorOverlay { color: Theme.inkSurf }
             }
 
             Text { 
                 text: root.formatPillTM(root.tmTotalSecs)
-                color: "#ffffff"
+                color: Theme.inkSurf
                 font.pixelSize: 14
                 font.bold: true
                 font.family: "monospace" 
@@ -352,7 +365,7 @@ Rectangle {
                 Text { 
                     anchors.centerIn: parent
                     text: "✕"
-                    color: "#ffffff"
+                    color: Theme.inkSurf
                     font.pixelSize: 11 
                 }
                 
@@ -377,7 +390,7 @@ Rectangle {
                 Text { 
                     anchors.centerIn: parent
                     text: root.tmRunning ? "⏸" : "▶"
-                    color: "#b4db92"
+                    color: Theme.primary
                     font.pixelSize: 11 
                 }
                 
@@ -405,20 +418,31 @@ Rectangle {
                 sourceSize.height: 16
                 fillMode: Image.PreserveAspectFit
                 layer.enabled: true
-                layer.effect: ColorOverlay { color: "#ffffff" }
+                layer.effect: ColorOverlay { color: Theme.inkSurf }
             }
             
             Text { 
                 text: "Time's up!"
-                color: "#e06c75"
+                color: Theme.err
                 font.pixelSize: 14
                 font.bold: true 
             }
         }
     }
 
-    DatePopup { 
+    function togglePopup() {
+        if (datePopup.isOpened) {
+            datePopup.isOpened = false
+        } else {
+            PopupManager.openExclusive(PopupManager.dateId)
+            Qt.callLater(() => datePopup.isOpened = true)
+        }
+    }
+
+    DatePopup {
         id: datePopup
-        widgetRef: root 
+        widgetRef: root
+        anchorItem: root
+        parentWindow: root.hostWindow
     }
 }

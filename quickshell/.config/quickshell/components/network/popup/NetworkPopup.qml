@@ -1,101 +1,150 @@
 import QtQuick
 import Quickshell
-import Quickshell.Wayland
+import "../../../core"
+import "../../../services"
+import "../../shell"
 
 PopupWindow {
     id: popup
     color: "transparent"
     implicitWidth: 360
-    implicitHeight: 440 // Altura encogida perfecta
+    implicitHeight: 440
 
     property var hostWindow
-    property int currentPage: 0 
+    property var anchorItem
+    property int currentPage: 0
+    property bool isOpened: false
 
-    anchor {
-        window: popup.hostWindow
-        rect: Qt.rect(popup.hostWindow ? popup.hostWindow.width - 380 : 0, 40, 360, popup.implicitHeight) 
-        edges: AnchorEdge.Top | AnchorEdge.Right
+    visible: isOpened || shell.exitRunning
+
+    grabFocus: isOpened
+
+    Connections {
+        target: PopupManager
+        function onCloseRequested(id) {
+            if (id === PopupManager.networkId)
+                popup.isOpened = false
+        }
+    }
+
+    function reposition() {
+        if (!hostWindow || !anchorItem)
+            return
+
+        const pos = anchorItem.mapToItem(hostWindow.contentItem, 0, anchorItem.height)
+        const ax = hostWindow.width - implicitWidth - 20
+        anchor.window = hostWindow
+        anchor.rect = Qt.rect(ax, pos.y + 8, implicitWidth, implicitHeight)
+        anchor.updateAnchor()
+    }
+
+    function toggle() {
+        if (popup.isOpened) {
+            popup.isOpened = false
+        } else {
+            PopupManager.openExclusive(PopupManager.networkId)
+            Qt.callLater(() => popup.isOpened = true)
+        }
+    }
+
+    onIsOpenedChanged: {
+        if (!isOpened)
+            PopupManager.notifyClosed(PopupManager.networkId)
+
+        if (isOpened) {
+            reposition()
+            shell.active = true
+            mainView.refresh()
+        } else {
+            shell.active = false
+            currentPage = 0
+        }
     }
 
     onVisibleChanged: {
-        if (!visible) currentPage = 0 
+        if (visible) {
+            reposition()
+        } else if (popup.isOpened && !shell.exitRunning) {
+            popup.isOpened = false
+        }
     }
 
-    Rectangle {
-        anchors.fill: parent
-        radius: 20
-        color: Qt.rgba(0.1, 0.1, 0.1, 0.95) 
-        border.width: 1
-        border.color: Qt.rgba(1, 1, 1, 0.1)
-        clip: true // 🌟 Corta todo lo que salga del rectángulo
+    PopupEscCapture {
+        active: popup.isOpened
+        popupId: PopupManager.networkId
 
-        // ── 1. Cabecera Fija (Solo aparece en submenús) ──
-        Item {
+        PopupEnterExit {
+            id: shell
+            anchors.fill: parent
+            active: popup.isOpened
+            cornerRadius: 16
+
+            Item {
             id: header
             width: parent.width
             height: 40
-            z: 10 // Siempre arriba del carrusel
-            
+            z: 10
             opacity: popup.currentPage !== 0 ? 1 : 0
             visible: opacity > 0
             Behavior on opacity { NumberAnimation { duration: 250 } }
 
             Text {
-                x: 16; anchors.verticalCenter: parent.verticalCenter
-                text: "‹ Volver"
-                color: "#0a84ff"
-                font.pixelSize: 14; font.bold: true
+                x: 16
+                anchors.verticalCenter: parent.verticalCenter
+                text: "‹ Back"
+                color: Theme.primary
+                font.pixelSize: 14
+                font.bold: true
                 MouseArea {
-                    anchors.fill: parent; anchors.margins: -10
+                    anchors.fill: parent
+                    anchors.margins: -10
                     cursorShape: Qt.PointingHandCursor
-                    onClicked: popup.currentPage = 0 
+                    onClicked: popup.currentPage = 0
                 }
             }
             Text {
                 anchors.centerIn: parent
-                text: popup.currentPage === 1 ? "Redes Wi-Fi" : "Dispositivos Bluetooth"
-                color: "#ffffff"
-                font.pixelSize: 14; font.bold: true
+                text: popup.currentPage === 1 ? "Wi-Fi Networks" : "Bluetooth Devices"
+                color: Theme.inkSurf
+                font.pixelSize: 14
+                font.bold: true
             }
             Rectangle {
                 anchors.bottom: parent.bottom
-                width: parent.width; height: 1
-                color: Qt.rgba(1,1,1,0.1)
+                width: parent.width
+                height: 1
+                color: Theme.alpha(Theme.outline, 0.35)
             }
         }
 
-        // ── 2. EL CARRUSEL (Track) ──
         Item {
             id: carrusel
-            width: popup.width * 2  // Mide el doble de la ventana
+            width: popup.implicitWidth * 2
             height: parent.height
-            
-            // Si es 0 (Main), está en x=0. Si es 1 o 2, se desplaza a la izquierda (-360)
-            x: popup.currentPage === 0 ? 0 : -popup.width
+            x: popup.currentPage === 0 ? 0 : -popup.implicitWidth
             Behavior on x { NumberAnimation { duration: 350; easing.type: Easing.OutQuart } }
 
-            // 🌟 LADO IZQUIERDO: Panel Principal
             Item {
-                width: popup.width
+                width: popup.implicitWidth
                 height: parent.height
-                x: 0 // Posición inicial
+                x: 0
 
                 NetworkMainView {
+                    id: mainView
                     anchors.fill: parent
-                    anchors.margins: 14 // Los márgenes del panel principal
-                    onRequestPage: (page) => popup.currentPage = page
+                    anchors.margins: 14
+                    onRequestPage: page => popup.currentPage = page
                 }
             }
 
-            // 🌟 LADO DERECHO: Submenús (Wi-Fi y Bluetooth)
             Item {
-                width: popup.width
+                width: popup.implicitWidth
                 height: parent.height
-                x: popup.width // Empieza fuera de la pantalla por la derecha
+                x: popup.implicitWidth
 
                 Item {
                     anchors.fill: parent
-                    anchors.topMargin: 44 // Deja espacio para la cabecera
+                    anchors.topMargin: 44
                     anchors.leftMargin: 14
                     anchors.rightMargin: 14
                     anchors.bottomMargin: 14
@@ -112,5 +161,6 @@ PopupWindow {
                 }
             }
         }
+    }
     }
 }

@@ -1,79 +1,83 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import QtQuick.Shapes
 import Qt.labs.folderlistmodel
+import Qt5Compat.GraphicalEffects
 import Quickshell
 import Quickshell.Io
 import Quickshell.Wayland
+import Quickshell.Hyprland
+import "../../core"
+import "../../services"
+import "../network"
+import "../../components/shell"
 
 PanelWindow {
     id: themeChanger
     color: "transparent"
-
-    // Altura ajustada para dar espacio a la escala de las tarjetas
     implicitHeight: 480
 
-    anchors {
-        bottom: true
-        left: true
-        right: true
-    }
+    property string iconsPath: Qt.resolvedUrl("../../assets/icons/")
 
+    anchors { bottom: true; left: true; right: true }
     exclusiveZone: 0
-    WlrLayershell.namespace: "theme_changer"
+    surfaceFormat.opaque: false
+    WlrLayershell.namespace: "flare_theme"
     WlrLayershell.layer: WlrLayer.Top
     WlrLayershell.keyboardFocus: isOpened ? WlrKeyboardFocus.OnDemand : WlrKeyboardFocus.None
 
     property bool isOpened: false
-    property color themeBg: "#1a1a1e"
-    property color themeAccent: "#f9e2af"
-
-    property string homeDir: ""
-    property string basePath: ""
     property string currentPath: ""
     property string activeWallpaperPath: ""
     property bool folderBrowserOpen: false
 
+    visible: isOpened
+
+    WallpaperService {
+        id: wallpaperService
+    }
+
     IpcHandler {
         target: "theme_panel"
         function toggle(): void {
-            themeChanger.isOpened = !themeChanger.isOpened
+            if (themeChanger.isOpened)
+                themeChanger.isOpened = false
+            else {
+                PopupManager.openExclusive(PopupManager.themeId)
+                Qt.callLater(() => themeChanger.isOpened = true)
+            }
         }
     }
 
-    visible: isOpened
+    Connections {
+        target: PopupManager
+        function onCloseRequested(id) {
+            if (id === PopupManager.themeId)
+                themeChanger.isOpened = false
+        }
+    }
 
     onIsOpenedChanged: {
+        if (!isOpened)
+            PopupManager.notifyClosed(PopupManager.themeId)
+
         if (isOpened) {
             folderBrowserOpen = false
-            if (themeChanger.homeDir === "") {
-                homeResolver.running = true
-            } else {
-                if (currentPath === "") currentPath = basePath
-            }
+            if (currentPath === "" && AppPaths.homeDir !== "")
+                currentPath = AppPaths.wallpapersPath
             searchInput.forceActiveFocus()
         }
     }
 
-    onCurrentPathChanged: {
-        wallList.currentIndex = -1 
-    }
-
-    Process {
-        id: homeResolver
-        command: ["bash", "-c", "echo -n \"$HOME\""]
-        running: true
-        stdout: StdioCollector {
-            onStreamFinished: {
-                themeChanger.homeDir = this.text.trim()
-                themeChanger.basePath = themeChanger.homeDir + "/Imágenes/Fondos"
-                if (themeChanger.isOpened && themeChanger.currentPath === "") {
-                    themeChanger.currentPath = themeChanger.basePath
-                }
-            }
+    Connections {
+        target: AppPaths
+        function onHomeDirChanged() {
+            if (themeChanger.currentPath === "" && AppPaths.homeDir !== "")
+                themeChanger.currentPath = AppPaths.wallpapersPath
         }
     }
+
+    onCurrentPathChanged: wallList.currentIndex = -1
 
     FolderListModel {
         id: wallpaperFolderModel
@@ -98,10 +102,9 @@ PanelWindow {
     function updateSearchFilter(query) {
         const exts = ["jpg", "jpeg", "png", "webp", "bmp"]
         const q = (query && query.length > 0) ? ("*" + query + "*") : "*"
-        let filters = []
+        const filters = []
         for (let e of exts) filters.push(q + "." + e)
         wallpaperFolderModel.nameFilters = filters
-        
         if (wallpaperFolderModel.count > 0) {
             wallList.currentIndex = 0
             wallList.positionViewAtIndex(0, ListView.Contain)
@@ -109,7 +112,7 @@ PanelWindow {
     }
 
     function parentOf(path) {
-        let idx = path.lastIndexOf('/')
+        const idx = path.lastIndexOf('/')
         return idx > 0 ? path.substring(0, idx) : path
     }
 
@@ -119,82 +122,62 @@ PanelWindow {
 
     function moveSelection(delta) {
         if (wallpaperFolderModel.count === 0) return
-        
         let newIndex = wallList.currentIndex + delta
         if (newIndex < 0) newIndex = 0
         if (newIndex >= wallpaperFolderModel.count) newIndex = wallpaperFolderModel.count - 1
-        
         wallList.currentIndex = newIndex
         wallList.positionViewAtIndex(newIndex, ListView.Contain)
     }
 
     function applySelected() {
-        if (wallList.currentIndex < 0 && wallpaperFolderModel.count > 0) {
+        if (wallList.currentIndex < 0 && wallpaperFolderModel.count > 0)
             wallList.currentIndex = 0
-        }
         if (wallList.currentItem) {
             themeChanger.activeWallpaperPath = wallList.currentItem.myPath
             applyWallpaper(wallList.currentItem.myPath)
         }
     }
 
+    function applyWallpaper(path) {
+        wallpaperService.apply(path)
+    }
+
     Item {
-        id: contentItem
         anchors.fill: parent
 
-        Item {
-            id: mainBody
-            width: 900
-            height: parent.height
+        PopupEscCapture {
+            active: themeChanger.isOpened
+            popupId: PopupManager.themeId
+
+            ConcaveBottomPanel {
+            panelWidth: 900
+            panelHeight: parent.height
             anchors.bottom: parent.bottom
             anchors.horizontalCenter: parent.horizontalCenter
-
-            Shape {
-                anchors.fill: parent
-                anchors.leftMargin: -20
-                anchors.rightMargin: -20
-                antialiasing: true; layer.enabled: true; layer.samples: 8
-
-                ShapePath {
-                    fillColor: themeChanger.themeBg
-                    strokeWidth: 0
-                    startX: 0; startY: mainBody.height
-                    PathQuad { x: 20; y: mainBody.height - 20; controlX: 20; controlY: mainBody.height }
-                    PathLine { x: 20; y: 20 }
-                    PathArc { x: 40; y: 0; radiusX: 20; radiusY: 20; useLargeArc: false; direction: PathArc.Clockwise }
-                    PathLine { x: 900; y: 0 }
-                    PathArc { x: 920; y: 20; radiusX: 20; radiusY: 20; useLargeArc: false; direction: PathArc.Clockwise }
-                    PathLine { x: 920; y: mainBody.height - 20 }
-                    PathQuad { x: 940; y: mainBody.height; controlX: 920; controlY: mainBody.height }
-                    PathLine { x: 0; y: mainBody.height }
-                }
-                ShapePath {
-                    fillColor: "transparent"
-                    strokeColor: Qt.rgba(1, 1, 1, 0.1)
-                    strokeWidth: 1
-                    startX: 0; startY: mainBody.height
-                    PathQuad { x: 20; y: mainBody.height - 20; controlX: 20; controlY: mainBody.height }
-                    PathLine { x: 20; y: 20 }
-                    PathArc { x: 40; y: 0; radiusX: 20; radiusY: 20; useLargeArc: false; direction: PathArc.Clockwise }
-                    PathLine { x: 900; y: 0 }
-                    PathArc { x: 920; y: 20; radiusX: 20; radiusY: 20; useLargeArc: false; direction: PathArc.Clockwise }
-                    PathLine { x: 920; y: mainBody.height - 20 }
-                    PathQuad { x: 940; y: mainBody.height; controlX: 920; controlY: mainBody.height }
-                }
-            }
 
             ColumnLayout {
                 anchors.fill: parent
                 anchors.margins: 24
                 spacing: 16
 
-                Text {
+                RowLayout {
                     Layout.fillWidth: true
-                    visible: themeChanger.currentPath !== "" && themeChanger.currentPath !== themeChanger.basePath
-                    text: "📁 " + themeChanger.currentPath.replace(themeChanger.basePath, "Fondos")
-                    color: Qt.rgba(1, 1, 1, 0.55)
-                    font.pixelSize: 11
-                    elide: Text.ElideMiddle
+                    visible: themeChanger.currentPath !== "" && themeChanger.currentPath !== AppPaths.wallpapersPath
+                    spacing: 6
+
+                    SvgIcon {
+                        source: themeChanger.iconsPath + "files.svg"
+                        size: 12
+                        tint: Theme.inkSurfVar
+                    }
+
+                    Text {
+                        Layout.fillWidth: true
+                        text: themeChanger.currentPath.replace(AppPaths.wallpapersPath, "Wallpapers")
+                        color: Theme.inkSurfVar
+                        font.pixelSize: 11
+                        elide: Text.ElideMiddle
+                    }
                 }
 
                 ListView {
@@ -202,11 +185,11 @@ PanelWindow {
                     Layout.fillWidth: true
                     Layout.fillHeight: true
                     orientation: ListView.Horizontal
-                    spacing: 0 // El espaciado lo manejamos ahora con los márgenes internos
+                    spacing: 0
                     model: wallpaperFolderModel
                     clip: true
                     ScrollBar.horizontal: ScrollBar { policy: ScrollBar.AlwaysOff }
-                    highlight: null 
+                    highlight: null
 
                     Behavior on contentX {
                         enabled: !wallList.moving && !wallList.dragging
@@ -215,44 +198,50 @@ PanelWindow {
 
                     MouseArea {
                         anchors.fill: parent
-                        acceptedButtons: Qt.NoButton 
+                        acceptedButtons: Qt.NoButton
                         onWheel: (wheel) => {
-                            if (wheel.angleDelta.y > 0 || wheel.angleDelta.x > 0) moveSelection(-1) 
-                            else moveSelection(1)  
+                            if (wheel.angleDelta.y > 0 || wheel.angleDelta.x > 0) moveSelection(-1)
+                            else moveSelection(1)
                         }
                     }
 
                     delegate: Item {
                         id: wallDelegate
-                        // Ancho ampliado para absorber los márgenes de seguridad laterales
                         width: 186
                         height: wallList.height
-
                         z: isSelected || itemMa.containsMouse ? 1 : 0
 
                         property string myPath: filePath
                         property string myName: fileName
                         property bool isActive: myPath === themeChanger.activeWallpaperPath
-                        property bool isSelected: index === wallList.currentIndex 
+                        property bool isSelected: index === wallList.currentIndex
 
                         Item {
                             anchors.fill: parent
-                            // 🌟 MÁRGENES DE SEGURIDAD: Evitan el rebanado de bordes al escalar
                             anchors.topMargin: 16
                             anchors.bottomMargin: 16
                             anchors.leftMargin: 8
                             anchors.rightMargin: 8
-                            
                             scale: (isSelected && !isActive) || (itemMa.containsMouse && !isActive) ? 1.04 : 1.0
                             Behavior on scale { NumberAnimation { duration: 150; easing.type: Easing.OutCubic } }
 
-                            // 🌟 CAPA 1: EL RECORTADOR MÁGICO
-                            // Al ponerle color: "#000000", forzamos a QML a crear una máscara curva perfecta.
-                            Rectangle {
+                            Item {
+                                id: thumbFrame
                                 anchors.fill: parent
-                                radius: 12
-                                color: "#000000" 
-                                clip: true
+
+                                layer.enabled: true
+                                layer.effect: OpacityMask {
+                                    maskSource: Rectangle {
+                                        width: thumbFrame.width
+                                        height: thumbFrame.height
+                                        radius: 12
+                                    }
+                                }
+
+                                Rectangle {
+                                    anchors.fill: parent
+                                    color: "#000000"
+                                }
 
                                 Image {
                                     anchors.fill: parent
@@ -264,10 +253,11 @@ PanelWindow {
 
                                 Rectangle {
                                     anchors.bottom: parent.bottom
-                                    width: parent.width; height: 40
+                                    width: parent.width
+                                    height: 40
                                     gradient: Gradient {
                                         GradientStop { position: 0.0; color: "transparent" }
-                                        GradientStop { position: 1.0; color: Qt.rgba(0, 0, 0, 0.9) }
+                                        GradientStop { position: 1.0; color: Theme.alpha(Theme.colorShadow, 0.9) }
                                     }
                                 }
 
@@ -277,39 +267,38 @@ PanelWindow {
                                     anchors.bottomMargin: 8
                                     width: parent.width - 16
                                     text: wallDelegate.myName
-                                    color: "#ffffff"
+                                    color: Theme.inkSurf
                                     font.pixelSize: 11
                                     elide: Text.ElideRight
                                     horizontalAlignment: Text.AlignHCenter
                                 }
                             }
 
-                            // 🌟 CAPA 2: EL BORDE NÍTIDO
                             Rectangle {
                                 anchors.fill: parent
                                 radius: 12
                                 color: "transparent"
                                 border.width: isActive || isSelected ? 2 : (itemMa.containsMouse ? 1 : 0)
-                                border.color: isActive ? themeChanger.themeAccent : 
-                                              isSelected ? "#ffffff" : 
-                                              itemMa.containsMouse ? Qt.rgba(1, 1, 1, 0.4) : "transparent"
+                                border.color: isActive ? Theme.primary
+                                              : isSelected ? Theme.inkSurf
+                                              : itemMa.containsMouse ? Theme.alpha(Theme.outline, 0.6) : "transparent"
                             }
 
-                            // 🌟 CAPA 3: BADGE "ACTIVE"
                             Rectangle {
                                 visible: isActive
                                 anchors.top: parent.top
                                 anchors.right: parent.right
                                 anchors.margins: 6
-                                width: 44; height: 20
+                                width: 44
+                                height: 20
                                 radius: 10
-                                color: themeChanger.themeAccent
-                                Text { 
+                                color: Theme.primary
+                                Text {
                                     anchors.centerIn: parent
                                     text: "Active"
-                                    color: "#1a1a1e"
+                                    color: Theme.inkPrim
                                     font.pixelSize: 10
-                                    font.bold: true 
+                                    font.bold: true
                                 }
                             }
 
@@ -337,59 +326,43 @@ PanelWindow {
                         Layout.preferredWidth: 44
                         Layout.preferredHeight: 44
                         radius: 12
-                        color: Qt.rgba(0, 0, 0, 0.5)
+                        color: Theme.alpha(Theme.surfaceVariant, 0.6)
                         border.width: 1
-                        border.color: folderBrowserOpen ? themeChanger.themeAccent : Qt.rgba(1, 1, 1, 0.15)
-
-                        Text { anchors.centerIn: parent; text: "📁"; font.pixelSize: 18 }
+                        border.color: folderBrowserOpen ? Theme.primary : Theme.alpha(Theme.outline, 0.35)
+                        SvgIcon {
+                            anchors.centerIn: parent
+                            source: themeChanger.iconsPath + "files.svg"
+                            size: 18
+                            tint: folderBrowserOpen ? Theme.primary : Theme.inkSurf
+                        }
                         MouseArea {
-                            anchors.fill: parent; cursorShape: Qt.PointingHandCursor
+                            anchors.fill: parent
+                            cursorShape: Qt.PointingHandCursor
                             onClicked: themeChanger.folderBrowserOpen = !themeChanger.folderBrowserOpen
                         }
                     }
 
-                    TextField {
+                    SearchBar {
                         id: searchInput
-                        Layout.fillWidth: true
-                        Layout.preferredHeight: 48
-
-                        placeholderText: "🔍 Buscar fondos..."
-                        color: "#ffffff"
-                        placeholderTextColor: Qt.rgba(1, 1, 1, 0.5)
-                        font.pixelSize: 15
-                        activeFocusOnPress: true
-
-                        background: Rectangle {
-                            radius: 14
-                            color: Qt.rgba(0, 0, 0, 0.5)
-                            border.width: 1
-                            border.color: searchInput.activeFocus ? themeChanger.themeAccent : Qt.rgba(1, 1, 1, 0.15)
-                        }
-
+                        placeholderText: "Search wallpapers..."
                         onTextChanged: updateSearchFilter(text)
-                        
                         Keys.onShortcutOverride: (event) => {
-                            if (event.key === Qt.Key_Left || event.key === Qt.Key_Right) {
-                                event.accepted = true 
-                            }
+                            if (event.key === Qt.Key_Left || event.key === Qt.Key_Right)
+                                event.accepted = true
                         }
-
                         Keys.onPressed: (event) => {
                             if (event.key === Qt.Key_Escape) {
-                                if (themeChanger.folderBrowserOpen) { themeChanger.folderBrowserOpen = false } 
-                                else { themeChanger.isOpened = false }
+                                if (themeChanger.folderBrowserOpen) themeChanger.folderBrowserOpen = false
+                                else themeChanger.isOpened = false
                                 event.accepted = true
-                            } 
-                            else if (event.key === Qt.Key_Left) {
+                            } else if (event.key === Qt.Key_Left) {
                                 moveSelection(-1)
-                                event.accepted = true 
-                            } 
-                            else if (event.key === Qt.Key_Right) {
+                                event.accepted = true
+                            } else if (event.key === Qt.Key_Right) {
                                 moveSelection(1)
-                                event.accepted = true 
+                                event.accepted = true
                             }
                         }
-
                         Keys.onReturnPressed: applySelected()
                         Keys.onEnterPressed: applySelected()
                     }
@@ -398,14 +371,17 @@ PanelWindow {
                         Layout.preferredWidth: 100
                         Layout.preferredHeight: 44
                         radius: 12
-                        color: themeChanger.themeAccent
-
+                        color: Theme.primary
                         Text {
-                            anchors.centerIn: parent; text: "Apply"
-                            font.pixelSize: 14; font.bold: true; color: "#1a1a1e"
+                            anchors.centerIn: parent
+                            text: "Apply"
+                            font.pixelSize: 14
+                            font.bold: true
+                            color: Theme.inkPrim
                         }
                         MouseArea {
-                            anchors.fill: parent; cursorShape: Qt.PointingHandCursor
+                            anchors.fill: parent
+                            cursorShape: Qt.PointingHandCursor
                             onClicked: applySelected()
                         }
                     }
@@ -413,72 +389,148 @@ PanelWindow {
             }
 
             Rectangle {
-                anchors.fill: parent; radius: 20; color: Qt.rgba(0, 0, 0, 0.75)
+                anchors.fill: parent
+                radius: 20
+                color: Theme.alpha(Theme.colorShadow, 0.75)
                 visible: themeChanger.folderBrowserOpen
                 MouseArea { anchors.fill: parent; onClicked: themeChanger.folderBrowserOpen = false }
+
                 Rectangle {
-                    width: 460; height: 360; anchors.centerIn: parent
-                    radius: 16; color: "#1a1a1e"; border.width: 1; border.color: Qt.rgba(1, 1, 1, 0.15)
+                    width: 460
+                    height: 360
+                    anchors.centerIn: parent
+                    radius: 16
+                    color: Theme.alpha(Theme.background, 0.90)
+                    border.width: 1
+                    border.color: Theme.alpha(Theme.outlineVariant, 0.55)
                     MouseArea { anchors.fill: parent; onClicked: {} }
+
                     ColumnLayout {
-                        anchors.fill: parent; anchors.margins: 16; spacing: 10
+                        anchors.fill: parent
+                        anchors.margins: 16
+                        spacing: 10
+
                         RowLayout {
                             Layout.fillWidth: true
-                            Text { Layout.fillWidth: true; text: "Navegar carpetas"; color: "#ffffff"; font.pixelSize: 14; font.bold: true }
                             Text {
-                                text: "✕"; color: Qt.rgba(1, 1, 1, 0.6); font.pixelSize: 14
-                                MouseArea { anchors.fill: parent; anchors.margins: -6; cursorShape: Qt.PointingHandCursor; onClicked: themeChanger.folderBrowserOpen = false }
+                                Layout.fillWidth: true
+                                text: "Browse folders"
+                                color: Theme.inkSurf
+                                font.pixelSize: 14
+                                font.bold: true
+                            }
+                            Text {
+                                text: "✕"
+                                color: Theme.inkSurfVar
+                                font.pixelSize: 14
+                                MouseArea {
+                                    anchors.fill: parent
+                                    anchors.margins: -6
+                                    cursorShape: Qt.PointingHandCursor
+                                    onClicked: themeChanger.folderBrowserOpen = false
+                                }
                             }
                         }
+
                         Text {
-                            Layout.fillWidth: true; text: themeChanger.currentPath.replace(themeChanger.basePath, "Fondos")
-                            color: Qt.rgba(1, 1, 1, 0.55); font.pixelSize: 10; elide: Text.ElideMiddle
+                            Layout.fillWidth: true
+                            text: themeChanger.currentPath.replace(AppPaths.wallpapersPath, "Wallpapers")
+                            color: Theme.inkSurfVar
+                            font.pixelSize: 10
+                            elide: Text.ElideMiddle
                         }
+
                         ListView {
                             id: dirList
-                            Layout.fillWidth: true; Layout.fillHeight: true; clip: true; model: dirFolderModel; spacing: 4
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+                            clip: true
+                            model: dirFolderModel
+                            spacing: 4
+
                             header: Rectangle {
-                                width: dirList.width; height: themeChanger.currentPath !== themeChanger.basePath ? 38 : 0
-                                visible: themeChanger.currentPath !== themeChanger.basePath; radius: 8
-                                color: upMa.containsMouse ? Qt.rgba(1, 1, 1, 0.08) : "transparent"
+                                width: dirList.width
+                                height: themeChanger.currentPath !== AppPaths.wallpapersPath ? 38 : 0
+                                visible: themeChanger.currentPath !== AppPaths.wallpapersPath
+                                radius: 8
+                                color: upMa.containsMouse ? Theme.alpha(Theme.inkSurf, 0.08) : "transparent"
                                 RowLayout {
-                                    anchors.fill: parent; anchors.leftMargin: 10; anchors.rightMargin: 10; spacing: 8
+                                    anchors.fill: parent
+                                    anchors.leftMargin: 10
+                                    anchors.rightMargin: 10
+                                    spacing: 8
                                     Text { text: "⬆"; font.pixelSize: 14 }
-                                    Text { Layout.fillWidth: true; text: ".. (carpeta superior)"; color: "#ffffff"; font.pixelSize: 12 }
+                                    Text {
+                                        Layout.fillWidth: true
+                                        text: ".. (parent folder)"
+                                        color: Theme.inkSurf
+                                        font.pixelSize: 12
+                                    }
                                 }
-                                MouseArea { id: upMa; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor; onClicked: navigateToDirectory(parentOf(themeChanger.currentPath)) }
+                                MouseArea {
+                                    id: upMa
+                                    anchors.fill: parent
+                                    hoverEnabled: true
+                                    cursorShape: Qt.PointingHandCursor
+                                    onClicked: navigateToDirectory(parentOf(themeChanger.currentPath))
+                                }
                             }
+
                             delegate: Rectangle {
-                                width: dirList.width; height: 38; radius: 8
-                                color: dirMa.containsMouse ? Qt.rgba(1, 1, 1, 0.08) : "transparent"
+                                width: dirList.width
+                                height: 38
+                                radius: 8
+                                color: dirMa.containsMouse ? Theme.alpha(Theme.inkSurf, 0.08) : "transparent"
                                 RowLayout {
-                                    anchors.fill: parent; anchors.leftMargin: 10; anchors.rightMargin: 10; spacing: 8
-                                    Text { text: "📁"; font.pixelSize: 14 }
-                                    Text { Layout.fillWidth: true; text: fileName; color: "#ffffff"; font.pixelSize: 12; elide: Text.ElideRight }
+                                    anchors.fill: parent
+                                    anchors.leftMargin: 10
+                                    anchors.rightMargin: 10
+                                    spacing: 8
+                                    SvgIcon {
+                                        source: themeChanger.iconsPath + "files.svg"
+                                        size: 14
+                                        tint: Theme.inkSurf
+                                    }
+                                    Text {
+                                        Layout.fillWidth: true
+                                        text: fileName
+                                        color: Theme.inkSurf
+                                        font.pixelSize: 12
+                                        elide: Text.ElideRight
+                                    }
                                 }
-                                MouseArea { id: dirMa; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor; onClicked: navigateToDirectory(filePath) }
+                                MouseArea {
+                                    id: dirMa
+                                    anchors.fill: parent
+                                    hoverEnabled: true
+                                    cursorShape: Qt.PointingHandCursor
+                                    onClicked: navigateToDirectory(filePath)
+                                }
                             }
                         }
+
                         Rectangle {
-                            Layout.fillWidth: true; Layout.preferredHeight: 38; radius: 10; color: themeChanger.themeAccent
-                            Text { anchors.centerIn: parent; text: "Usar esta carpeta"; font.pixelSize: 12; font.bold: true; color: "#1a1a1e" }
-                            MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: themeChanger.folderBrowserOpen = false }
+                            Layout.fillWidth: true
+                            Layout.preferredHeight: 38
+                            radius: 10
+                            color: Theme.primary
+                            Text {
+                                anchors.centerIn: parent
+                                text: "Use this folder"
+                                font.pixelSize: 12
+                                font.bold: true
+                                color: Theme.inkPrim
+                            }
+                            MouseArea {
+                                anchors.fill: parent
+                                cursorShape: Qt.PointingHandCursor
+                                onClicked: themeChanger.folderBrowserOpen = false
+                            }
                         }
                     }
                 }
             }
         }
-    }
-
-    Process {
-        id: themeRunner
-        property string targetWallpaper: ""
-        command: ["bash", "-c", "~/Personal_Scripts/pywal_global_update.sh \"" + targetWallpaper + "\""]
-    }
-
-    function applyWallpaper(path) {
-        themeRunner.targetWallpaper = path
-        themeRunner.running = false
-        themeRunner.running = true
+        }
     }
 }

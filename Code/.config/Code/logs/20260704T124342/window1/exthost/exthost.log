@@ -30,3 +30,5 @@
 	at Immediate.<anonymous> (/home/taianlux/.vscode/extensions/theqtcompany.qt-qml-1.14.0/out/extension.js:58:6140)
 	at process.processImmediate (node:internal/timers:504:21)
 2026-07-04 14:11:27.726 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-07-04 23:03:28.687 [info] Extension host terminating: received terminate message from renderer
+2026-07-04 23:03:28.779 [info] Extension host with pid 288428 exiting with code 0

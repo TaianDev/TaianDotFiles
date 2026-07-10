@@ -9,3 +9,5 @@
 2026-07-04 12:43:47.597 [info] [installer] Fetched release info from: https://qtccache.qt.io/QMLLS/LatestRelease
 2026-07-04 12:43:49.341 [info] [installer] Selected asset: qmllanguageserver-linux-x64-0.7.zip
 2026-07-04 12:43:49.351 [info] [qmlls] Status Check: Already Up-to-date, tag = 0.7
+2026-07-04 23:03:28.778 [info] [extension] Deactivating qt-qml
+2026-07-04 23:03:28.778 [info] [project] Disposing project:/home/taianlux/.config/quickshell

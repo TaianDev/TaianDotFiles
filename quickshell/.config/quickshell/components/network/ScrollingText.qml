@@ -1,13 +1,12 @@
 import QtQuick
+import "../../core"
 
-// ScrollingText — texto animado contenido en maxWidth
-// Si el texto cabe, se muestra estático. Si no, hace scroll en loop.
 Item {
     id: root
 
     property string text:        ""
     property int    maxWidth:    60
-    property color  color:       "#ffffff"
+    property color  color:       Theme.inkSurf
     property int    fontSize:    11
     property int    scrollSpeed: 38   // px/segundo
 

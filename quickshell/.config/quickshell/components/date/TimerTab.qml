@@ -1,6 +1,8 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import "../../core"
+import "../../services"
 
 Item {
     id: root
@@ -70,7 +72,7 @@ Item {
                 spacing: 16
 
                 Text { 
-                    text: "Inicio rápido"
+                    text: "Quick start"
                     color: root.textMain
                     font.bold: true
                     Layout.alignment: Qt.AlignHCenter 
@@ -110,7 +112,7 @@ Item {
                 }
 
                 Text { 
-                    text: "Establecer temporizador"
+                    text: "Set timer"
                     color: root.textMain
                     font.bold: true
                     Layout.alignment: Qt.AlignHCenter
@@ -176,6 +178,8 @@ TextField {
                                     Component.onCompleted: text = stateText
                                     
                                     onStateTextChanged: { if (!activeFocus) text = stateText }
+
+                                    Keys.onEscapePressed: PopupManager.closeActive()
                                     
                                     // 🌟 SOLUCIÓN AL BUG DEL TEXTO EN BLANCO
                                     onEditingFinished: {
@@ -238,13 +242,13 @@ TextField {
                     height: 40
                     radius: 20
                     
-                    color: empMa.containsMouse ? Qt.lighter("#7287a3", 1.15) : "#7287a3"
+                    color: empMa.containsMouse ? Theme.alpha(Theme.secondary, 0.9) : Theme.secondaryContainer
                     Behavior on color { ColorAnimation { duration: 150 } }
                     
                     Text { 
                         anchors.centerIn: parent
-                        text: "Empezar"
-                        color: "#ffffff"
+                        text: "Start"
+                        color: Theme.inkSecCont
                         font.bold: true 
                     }
                     
@@ -303,8 +307,8 @@ TextField {
                         
                         Text { 
                             anchors.centerIn: parent
-                            text: root.isRunning ? "Pausar" : "Reanudar"
-                            color: "#ffffff"
+                            text: root.isRunning ? "Pause" : "Resume"
+                            color: Theme.inkSecCont
                             font.bold: true 
                         }
                         
@@ -322,13 +326,13 @@ TextField {
                         height: 40
                         radius: 20
                         
-                        color: canMa.containsMouse ? Qt.lighter("#e06c75", 1.15) : "#e06c75"
+                        color: canMa.containsMouse ? Theme.alpha(Theme.err, 0.9) : Theme.errContainer
                         Behavior on color { ColorAnimation { duration: 150 } }
                         
                         Text { 
                             anchors.centerIn: parent
-                            text: "Cancelar"
-                            color: "#ffffff"
+                            text: "Cancel"
+                            color: Theme.inkSecCont
                             font.bold: true 
                         }
                         

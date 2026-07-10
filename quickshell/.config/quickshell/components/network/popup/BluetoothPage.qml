@@ -5,12 +5,13 @@ import Qt5Compat.GraphicalEffects
 import Quickshell
 import Quickshell.Io
 import Quickshell.Bluetooth
+import "../../../core"
 
 Item {
     id: root
     anchors.fill: parent
 
-    property string iconsPath: "file:///home/taianlux/.config/quickshell/assets/icons/"
+    property string iconsPath: AppPaths.iconsDir
 
     property string connectingMac: ""
     property string errorMac:      ""
@@ -181,7 +182,7 @@ Item {
                             }
                             ColorOverlay {
                                 anchors.fill: btIcn; source: btIcn
-                                color: model.connected ? "#0a84ff" : "#ffffff"
+                                color: model.connected ? Theme.primary : Theme.inkSurf
                             }
                         }
 
@@ -193,7 +194,7 @@ Item {
 
                             Text {
                                 text:  model.name
-                                color: model.connected ? "#0a84ff" : "#ffffff"
+                                color: model.connected ? Theme.primary : Theme.inkSurf
                                 font.pixelSize: 13
                                 font.bold: model.connected
                                 elide: Text.ElideRight
@@ -201,13 +202,13 @@ Item {
                             }
                             Text {
                                 visible: isConnecting || hasError || model.connected || model.paired
-                                text: isConnecting     ? (model.connected ? "Desconectando..." : "Conectando...")
-                                      : hasError       ? "Falló la conexión"
-                                      : model.connected? "Conectado"
-                                      : model.paired   ? "Vinculado"
+                                text: isConnecting     ? (model.connected ? "Disconnecting..." : "Connecting...")
+                                      : hasError       ? "Connection failed"
+                                      : model.connected? "Connected"
+                                      : model.paired   ? "Paired"
                                       : ""
-                                color: hasError        ? "#ff3b30"
-                                       : model.connected ? "#0a84ff"
+                                color: hasError        ? Theme.err
+                                       : model.connected ? Theme.primary
                                        : Qt.rgba(1,1,1,0.5)
                                 font.pixelSize: 11
                             }
@@ -222,8 +223,8 @@ Item {
                             color: Qt.rgba(1, 0.2, 0.2, 0.15)
 
                             Text {
-                                text: "Olvidar"
-                                color: "#ff3b30"
+                                text: "Forget"
+                                color: Theme.err
                                 font.pixelSize: 11
                                 font.bold: true
                                 anchors.centerIn: parent

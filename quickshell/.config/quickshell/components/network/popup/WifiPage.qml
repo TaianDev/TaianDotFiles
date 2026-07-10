@@ -4,12 +4,13 @@ import QtQuick.Controls
 import Qt5Compat.GraphicalEffects
 import Quickshell
 import Quickshell.Io
+import "../../../core"
 
 Item {
     id: root
     anchors.fill: parent
 
-    property string iconsPath: "file:///home/taianlux/.config/quickshell/assets/icons/"
+    property string iconsPath: AppPaths.iconsDir
 
     property string connectingSsid: ""
     property string errorSsid:      ""
@@ -212,7 +213,7 @@ Item {
                             }
                             ColorOverlay {
                                 anchors.fill: wifiIcn; source: wifiIcn
-                                color: model.active ? "#0a84ff" : "#ffffff"
+                                color: model.active ? Theme.primary : Theme.inkSurf
                             }
                         }
 
@@ -223,7 +224,7 @@ Item {
 
                             Text {
                                 text:  model.ssid
-                                color: model.active ? "#0a84ff" : "#ffffff"
+                                color: model.active ? Theme.primary : Theme.inkSurf
                                 font.pixelSize: 13
                                 font.bold: model.active
                                 elide: Text.ElideRight
@@ -231,13 +232,13 @@ Item {
                             }
                             Text {
                                 visible: isConnecting || hasError || model.active || model.saved
-                                text: isConnecting   ? "Autenticando..."
-                                      : hasError     ? "Falló la autenticación"
-                                      : model.active ? "Conectado"
-                                      : model.saved  ? "Guardada"
+                                text: isConnecting   ? "Authenticating..."
+                                      : hasError     ? "Authentication failed"
+                                      : model.active ? "Connected"
+                                      : model.saved  ? "Saved"
                                       : ""
-                                color: hasError      ? "#ff3b30"
-                                       : model.active? "#0a84ff"
+                                color: hasError      ? Theme.err
+                                       : model.active? Theme.primary
                                        : Qt.rgba(1,1,1,0.5)
                                 font.pixelSize: 11
                             }
@@ -266,8 +267,8 @@ Item {
                             color: Qt.rgba(1, 0.2, 0.2, 0.15)
 
                             Text {
-                                text: "Olvidar"
-                                color: "#ff3b30"
+                                text: "Forget"
+                                color: Theme.err
                                 font.pixelSize: 11
                                 font.bold: true
                                 anchors.centerIn: parent

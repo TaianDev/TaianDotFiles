@@ -1,0 +1,2 @@
+2026-07-05 19:50:12.954 [error] #181: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2026-07-05 19:50:17.620 [error] #182: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED

@@ -1,11 +1,14 @@
 import QtQuick
 import QtQuick.Layouts
+import "../../core"
+import "../network"
 
 Item {
     id: root
     
     property color textMain: "#ffffff"
     property color bgLighter: "#2d2d2d"
+    property string iconsPath: widgetRef ? widgetRef.iconsPath : Qt.resolvedUrl("../../assets/icons/")
     
     // 🌟 Recibe la referencia centralizada
     property var widgetRef: null
@@ -48,11 +51,11 @@ Item {
                 color: playMa.containsMouse ? Qt.lighter(root.bgLighter, 1.4) : root.bgLighter
                 Behavior on color { ColorAnimation { duration: 150 } }
                 
-                Text { 
+                SvgIcon {
                     anchors.centerIn: parent
-                    text: root.running ? "⏸" : "▶"
-                    color: root.textMain
-                    font.pixelSize: 20 
+                    source: root.iconsPath + (root.running ? "pause.svg" : "play.svg")
+                    size: 20
+                    tint: root.textMain
                 }
                 
                 MouseArea {
@@ -70,14 +73,14 @@ Item {
                 width: 48; height: 48; radius: 24
                 
                 // Efecto hover: Pasa del gris al rojo destructivo para indicar "Detener/Borrar"
-                color: stopMa.containsMouse ? "#e06c75" : root.bgLighter
+                color: stopMa.containsMouse ? Theme.err : root.bgLighter
                 Behavior on color { ColorAnimation { duration: 150 } }
                 
-                Text { 
+                SvgIcon {
                     anchors.centerIn: parent
-                    text: "⏹"
-                    color: root.textMain
-                    font.pixelSize: 20 
+                    source: root.iconsPath + "stop.svg"
+                    size: 20
+                    tint: root.textMain
                 }
                 
                 MouseArea {

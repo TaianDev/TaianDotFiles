@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Bluetooth
+import "../../core"
 
 Item {
     id: root
@@ -43,7 +44,7 @@ Item {
             text:    root.deviceName
             maxWidth: 52
             fontSize: 11
-            color:   "#ffffff"
+            color: Theme.inkSurf
         }
 
         // Texto estático cuando no hay dispositivo o BT apagado — sin scroll

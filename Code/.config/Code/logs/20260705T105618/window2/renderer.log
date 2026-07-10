@@ -1,0 +1,5 @@
+2026-07-05 10:56:26.383 [info] Started local extension host with pid 3071.
+2026-07-05 10:56:26.511 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-05 10:56:26.897 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-05 10:56:27.251 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-05 10:56:27.613 [info] Settings Sync: Account status changed from uninitialized to unavailable

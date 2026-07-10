@@ -8,3 +8,5 @@
 2026-07-04 12:43:46.336 [info] [project] Setting Qt installation root for /home/taianlux/.config/quickshell to: 
 2026-07-04 12:43:46.336 [info] [project] Setting additional Qt paths for /home/taianlux/.config/quickshell to: 
 2026-07-04 12:43:46.336 [info] [project] Config values initialized for:/home/taianlux/.config/quickshell
+2026-07-04 23:03:28.778 [info] [extension] Deactivating qt-core
+2026-07-04 23:03:28.778 [info] [project] Disposing project:/home/taianlux/.config/quickshell

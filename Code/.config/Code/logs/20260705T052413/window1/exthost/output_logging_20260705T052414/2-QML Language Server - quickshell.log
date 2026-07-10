@@ -1,0 +1,21 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+Argument "/usr/lib/x86_64-linux-gnu/qt6/qml" passed to -I does not exist.
+Using import directories passed by -I: "/usr/lib/qt6/qml", "/usr/lib/x86_64-linux-gnu/qt6/qml".
+Using 1 job for CMake, you can increase that value with the QMLLS_CMAKE_JOBS environment variable or the --cmake-jobs option.
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 10)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 33)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 49)
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickmousearea_p.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 58)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 66)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 93)
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 96)
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 102)
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.server: Ignoring cancellation of non in progress request QJsonValue(double, 117)
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'qquickitem.h'."
+qt.languageserver.utils: "Couldn't find the C++ file 'private/qquickrectangle_p.h'."

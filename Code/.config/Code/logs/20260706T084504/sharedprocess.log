@@ -1,0 +1,7 @@
+2026-07-06 08:45:11.417 [info] Getting Manifest... vscjava.vscode-gradle
+2026-07-06 08:45:11.645 [info] Installing extension: vscjava.vscode-gradle {"productVersion":{"version":"1.127.0","date":"2026-06-30T10:52:33+02:00"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/taianlux/.vscode/extensions/extensions.json","path":"/home/taianlux/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-07-06 08:45:14.857 [info] Extension signature verification result for vscjava.vscode-gradle: Success. Internal Code: 0. Executed: true. Duration: 1022ms.
+2026-07-06 08:45:15.278 [info] Extracted extension to file:///home/taianlux/.vscode/extensions/vscjava.vscode-gradle-3.18.0: vscjava.vscode-gradle
+2026-07-06 08:45:15.284 [info] Renamed to /home/taianlux/.vscode/extensions/vscjava.vscode-gradle-3.18.0
+2026-07-06 08:45:15.298 [info] Marked extension as removed vscjava.vscode-gradle-3.17.3
+2026-07-06 08:45:15.317 [info] Extension installed successfully: vscjava.vscode-gradle vscode-userdata:/home/taianlux/.vscode/extensions/extensions.json

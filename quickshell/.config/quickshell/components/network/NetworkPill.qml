@@ -4,6 +4,7 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Io
+import "../../core"
 import "popup"
 
 Rectangle {
@@ -11,9 +12,11 @@ Rectangle {
     height: 28
     width:  contentRow.implicitWidth + 24
     radius: height / 2
-    color:  Qt.rgba(1, 1, 1, 0.08)
-    border.width: 0.5
-    border.color: Qt.rgba(1, 1, 1, 0.12)
+    color: Theme.barPillBackgroundColor()
+    border.width: Theme.barPillBorderWidth
+    border.color: Theme.barPillBorderColor()
+
+    property var hostWindow: null
 
     property string iconsPath: Qt.resolvedUrl("../../assets/icons/")
 
@@ -80,7 +83,7 @@ Rectangle {
         // Separador
         Rectangle {
             width: 1; height: 14
-            color: Qt.rgba(1,1,1,0.15)
+            color: Theme.alpha(Theme.outline, 0.4)
         }
 
         BluetoothModule {
@@ -89,17 +92,20 @@ Rectangle {
     }
 
     // ── Interacción: Abrir Centro de Control (Solo Clic Derecho) ──
+    function togglePopup() {
+        netPopup.toggle()
+    }
+
     MouseArea {
         anchors.fill: parent
         acceptedButtons: Qt.RightButton
         cursorShape: Qt.PointingHandCursor
-        onClicked: netPopup.visible = !netPopup.visible
+        onClicked: root.togglePopup()
     }
 
-    // ── Instancia del Popup ──
     NetworkPopup {
         id: netPopup
-        hostWindow: flareBar // Conectado a la ID de tu ventana principal de la barra
-        visible: false
+        hostWindow: root.hostWindow
+        anchorItem: root
     }
 }

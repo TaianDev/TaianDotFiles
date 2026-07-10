@@ -1,15 +1,15 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import "../../core"
 
 Item {
     id: root
 
-    // Propiedades inyectadas desde el padre
-    property color textMain: "#ffffff"
-    property color textMuted: "#888888"
-    property color accentGreen: "#b4db92"
-    property color bgDark: "#1e1e1e"
+    property color textMain: Theme.inkSurf
+    property color textMuted: Theme.inkSurfVar
+    property color accentGreen: Theme.primary
+    property color bgDark: Theme.surface
 
     property int dYear: new Date().getFullYear()
     property int dMonth: new Date().getMonth()
@@ -49,8 +49,8 @@ Item {
 
     // Modelos para los combos
     property var monthNames: [
-        "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-        "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
     ]
     property var yearModel: {
         let arr = []
@@ -221,7 +221,7 @@ Item {
         RowLayout {
             Layout.fillWidth: true
             Repeater {
-                model: ["Lu", "Ma", "Mi", "Ju", "Vi", "Sa", "Do"]
+                model: ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]
                 Text {
                     Layout.fillWidth: true
                     text: modelData

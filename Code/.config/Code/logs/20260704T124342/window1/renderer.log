@@ -35,3 +35,11 @@
     at async BNe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1271:31514)
     at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1383:31374
     at async s (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1275:60726)
+2026-07-04 18:11:02.738 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 19:11:42.165 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 20:12:00.424 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 21:51:13.885 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 22:53:18.880 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-04 23:03:28.725 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-07-04 23:03:28.725 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-07-04 23:03:28.725 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

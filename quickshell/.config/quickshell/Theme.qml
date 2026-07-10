@@ -2,40 +2,41 @@ pragma Singleton
 import QtQuick
 
 QtObject {
-    // ─── BACKGROUND & SURFACE (Fondos principales, paneles y tarjetas) ───
-    readonly property color background: "#111318"
-    readonly property color onBackground: "#e2e2e9"
-    readonly property color surface: "#111318"
-    readonly property color onSurface: "#e2e2e9"
-    readonly property color surfaceVariant: "#44474f"
-    readonly property color onSurfaceVariant: "#c4c6d0"
+    // ─── FONDOS PRINCIPALES (El alma del look de imagen.jpg) ───
+    // Base profunda, oscura pero inundada del color del wallpaper (Fondo de ventanas)
+    readonly property color background: "#1e1f25"
     
-    // ─── PRIMARY (Acento principal: botones, barras activas, selecciones) ───
+    // Superficie ligeramente más clara/vibrante para paneles internos, barras laterales o inputs
+    readonly property color surface: "#282a2f"
+    readonly property color surfaceHeader: "#33353a"
+
+    // ─── TEXTO Y LEGIBILIDAD ───
+    // Blanco tiza / lavanda pálido para máxima legibilidad sobre fondos oscuros
+    readonly property color onBackground: "#e2e2e9"
+    // Texto secundario o descriptivo (más tenue)
+    readonly property color onBackgroundMuted: "#c4c6d0"
+
+    // ─── ACENTOS VIBRANTES (Para botones activos, badges y selección) ───
+    // El lavanda pastel brillante que vemos en los botones destacados de la imagen
     readonly property color primary: "#adc6ff"
     readonly property color onPrimary: "#112f60"
+    
+    // Contenedores secundarios (como pastillas de estados o botones secundarios)
     readonly property color primaryContainer: "#2b4678"
     readonly property color onPrimaryContainer: "#d8e2ff"
-    
-    // ─── SECONDARY (Acento suave: elementos de UI menos destacables) ───
+
+    // ─── TONOS SECUNDARIOS Y CONTRASSTE (Detalles finos) ───
     readonly property color secondary: "#bfc6dc"
     readonly property color onSecondary: "#293041"
-    readonly property color secondaryContainer: "#3f4759"
-    readonly property color onSecondaryContainer: "#dbe2f9"
-    
-    // ─── TERTIARY (Contraste vibrante: switches, badges, iconos destacados) ───
     readonly property color tertiary: "#debcdf"
-    readonly property color onTertiary: "#402843"
-    readonly property color tertiaryContainer: "#583e5b"
-    readonly property color onTertiaryContainer: "#fcd7fb"
 
-    // ─── ERROR (Acciones destructivas: eliminar, alertas, cancelar) ───
+    // ─── BORDES Y SEPARADORES (Crucial para el look refinado de las ventanas) ───
+    // Líneas divisorias sutiles que delimitan los componentes sin sobrecargar
+    readonly property color outline: "#44474f"
+    // Borde enfocado o activo
+    readonly property color outlineActive: "#8e9099"
+
+    // ─── ESTADOS DE ERROR / ALERTAS ───
     readonly property color error: "#ffb4ab"
     readonly property color onError: "#690005"
-    readonly property color errorContainer: "#93000a"
-    readonly property color onErrorContainer: "#ffdad6"
-    
-    // ─── EXTRAS (Bordes, divisores y sombras) ───
-    readonly property color outline: "#8e9099"
-    readonly property color outlineVariant: "#44474f"
-    readonly property color shadow: "#000000"
 }

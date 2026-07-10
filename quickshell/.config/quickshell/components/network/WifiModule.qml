@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Networking
+import "../../core"
 
 Item {
     id: root
@@ -61,12 +62,12 @@ Item {
         // SSID con ancho fijo — nunca desborda
         ScrollingText {
             text: root.connected ? root.ssid
-                : (root.enabled ? "Sin red" : "WiFi Off")
+                : (root.enabled ? "No network" : "WiFi Off")
             // Ancho fijo pequeño: si no hay velocidades, puede ser más ancho
             Layout.preferredWidth: root.connected ? 52 : 52
             maxWidth: 52
             fontSize: 11
-            color: root.connected ? "#ffffff" : Qt.rgba(1,1,1,0.45)
+            color: root.connected ? Theme.inkSurf : Theme.alpha(Theme.inkSurfVar, 0.7)
         }
 
         // Velocidades — ancho fijo para que no empujen el layout
@@ -79,13 +80,13 @@ Item {
                 spacing: 2
                 SvgIcon {
                     source: root.iconsPath + "receive.svg"
-                    size: 10; tint: "#89dceb"
+                    size: 10; tint: Theme.primary
                     anchors.verticalCenter: parent.verticalCenter
                 }
                 Text {
                     width: 38
                     text:  root.formatSpeed(root.rxSpeed)
-                    color: "#89dceb"
+                    color: Theme.primary
                     font.pixelSize: 10
                     horizontalAlignment: Text.AlignRight
                 }
@@ -96,13 +97,13 @@ Item {
                 spacing: 2
                 SvgIcon {
                     source: root.iconsPath + "transmit.svg"
-                    size: 10; tint: "#a6e3a1"
+                    size: 10; tint: Theme.secondary
                     anchors.verticalCenter: parent.verticalCenter
                 }
                 Text {
                     width: 38
                     text:  root.formatSpeed(root.txSpeed)
-                    color: "#a6e3a1"
+                    color: Theme.secondary
                     font.pixelSize: 10
                     horizontalAlignment: Text.AlignRight
                 }

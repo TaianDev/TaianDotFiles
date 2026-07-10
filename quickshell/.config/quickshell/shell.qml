@@ -1,35 +1,32 @@
+//@ pragma IconTheme Papirus-Dark
+
 import QtQuick
 import Quickshell
+import "core"
+import "services"
 import "./modules"
 import "modules/launcher"
 import "components/theme"
 
 ShellRoot {
-  Variants {
-    model: Quickshell.screens
-    
-    Bar {
-      required property var modelData
-      screen: modelData
+    ThemeLoader { }
+
+    Item {
+        visible: false
+        Component.onCompleted: NetworkStatusService.refresh()
     }
-  }
-  // ── 2. El Lanzador de Aplicaciones (Instancia única y global) ──
+
+    Variants {
+        model: Quickshell.screens
+
+        Bar { }
+    }
+
     AppLauncher {
         id: globalLauncher
     }
 
-    ThemeChanger { 
-        id: themeChanger 
-    }
-    
-    // ── 3. El Gatillo Invisible (Uno en la base de cada monitor) ──
-    Variants {
-        model: Quickshell.screens
-        
-        LauncherTrigger {
-            required property var modelData
-            screen: modelData
-            targetLauncher: globalLauncher
-        }
+    ThemeChanger {
+        id: themeChanger
     }
 }

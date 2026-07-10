@@ -2,25 +2,23 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Io
+import "../core"
 
 Rectangle {
     id: root
     height: 28
     width: contentRow.implicitWidth + 24
     radius: height / 2
-    color: Qt.rgba(1, 1, 1, 0.08)
-    border.width: 0.5
-    border.color: Qt.rgba(1, 1, 1, 0.12)
+    color: Theme.barPillBackgroundColor()
+    border.width: Theme.barPillBorderWidth
+    border.color: Theme.barPillBorderColor()
 
     property int cpuUsage:  0
     property int ramUsage:  0
     property int tempValue: 0
-
-    // Estado interno CPU
     property int _lastTotal: 0
     property int _lastIdle:  0
 
-    // ── FileViews — uno por archivo del sistema ───────────────
     FileView {
         id: memFile
         path: "/proc/meminfo"
@@ -42,7 +40,6 @@ Rectangle {
         watchChanges: false
     }
 
-    // ── Timer de actualización ────────────────────────────────
     Timer {
         interval: 2000
         running: true
@@ -53,7 +50,6 @@ Rectangle {
             cpuFile.reload()
             tempFile.reload()
 
-            // 1. RAM
             const memLines = memFile.text().split('\n')
             var memTotal = 1, memAvail = 0
             for (var i = 0; i < memLines.length; i++) {
@@ -65,7 +61,6 @@ Rectangle {
             }
             root.ramUsage = Math.round(((memTotal - memAvail) / memTotal) * 100)
 
-            // 2. CPU
             const cpuLine = cpuFile.text().split('\n')[0]
             const parts = cpuLine.match(/\d+/g)
             if (parts && parts.length >= 4) {
@@ -83,14 +78,12 @@ Rectangle {
                 root._lastIdle  = idle
             }
 
-            // 3. Temperatura
             const tempRaw = tempFile.text().trim()
             if (tempRaw.length > 0)
                 root.tempValue = Math.round(parseInt(tempRaw) / 1000)
         }
     }
 
-    // ── Contenido ─────────────────────────────────────────────
     RowLayout {
         id: contentRow
         anchors.centerIn: parent
@@ -99,21 +92,20 @@ Rectangle {
         ResourceMeter {
             value: root.cpuUsage
             iconPath: Qt.resolvedUrl("../assets/icons/cpu.svg")
-            activeColor: "#89b4fa"
+            activeColor: Theme.primary
             suffix: "%"
         }
         ResourceMeter {
             value: root.ramUsage
             iconPath: Qt.resolvedUrl("../assets/icons/ram.svg")
-            activeColor: "#a6e3a1"
+            activeColor: Theme.secondary
             suffix: "%"
         }
         ResourceMeter {
             value: root.tempValue
             iconPath: Qt.resolvedUrl("../assets/icons/temperature.svg")
-            activeColor: "#f38ba8"
+            activeColor: Theme.tertiary
             suffix: "°"
         }
     }
 }
-                                                                                
