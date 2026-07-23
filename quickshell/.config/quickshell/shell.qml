@@ -4,29 +4,29 @@ import QtQuick
 import Quickshell
 import "core"
 import "services"
-import "./modules"
+import "utils"
+import "./components"
+import "modules/bar"
 import "modules/launcher"
-import "components/theme"
+import "modules/theme"
 
 ShellRoot {
     ThemeLoader { }
 
     Item {
         visible: false
-        Component.onCompleted: NetworkStatusService.refresh()
+        Component.onCompleted: {
+            NetworkStatusService.refresh()
+            SystemMonitorService.refresh()
+        }
     }
 
     Variants {
         model: Quickshell.screens
-
         Bar { }
     }
 
-    AppLauncher {
-        id: globalLauncher
-    }
+    AppLauncher { id: globalLauncher }
 
-    ThemeChanger {
-        id: themeChanger
-    }
+    ThemeChanger { id: themeChanger }
 }

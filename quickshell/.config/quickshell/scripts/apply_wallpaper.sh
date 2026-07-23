@@ -14,15 +14,6 @@ WALLPAPER_PATH="$1"
 wal -qste -i "$WALLPAPER_PATH"
 matugen image "$WALLPAPER_PATH" --source-color-index 0
 
-#magick "$WALLPAPER_PATH" \
-#  -resize 1280x720^ \
-#  -gravity center \
-#  -extent 1280x720 \
-#  -strip \
-#  -sampling-factor 4:2:0 \
-#  -quality 20 \
-#  "$HOME/.config/rofi/rofi_bg.jpg"
-
 # 3. APLICAR FONDO DE PANTALLA
 swww img "$WALLPAPER_PATH" --transition-type wave --transition-fps 60 --transition-duration 2 &
 

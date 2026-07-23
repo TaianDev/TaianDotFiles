@@ -25,7 +25,7 @@ Item {
             layer.samples: 8
 
             ShapePath {
-                fillColor: Theme.alpha(Theme.background, 0.78)
+                fillColor: Theme.alpha(Theme.background, 0.9)
                 strokeWidth: 0
                 startX: 0; startY: mainBody.height
                 PathQuad { x: 20; y: mainBody.height - 20; controlX: 20; controlY: mainBody.height }
@@ -40,8 +40,8 @@ Item {
 
             ShapePath {
                 fillColor: "transparent"
-                strokeColor: Theme.alpha(Theme.outlineVariant, 0.55)
-                strokeWidth: 1
+                strokeColor: Theme.alpha(Theme.outlineVariant, 0.9)
+                strokeWidth: 1.2
                 startX: 0; startY: mainBody.height
                 PathQuad { x: 20; y: mainBody.height - 20; controlX: 20; controlY: mainBody.height }
                 PathLine { x: 20; y: 20 }

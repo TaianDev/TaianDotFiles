@@ -37,6 +37,15 @@ QtObject {
     property color outlineVariant: "#44474f"
     property color colorShadow: "#000000"
 
+    property color inkBgMuted: "#9a9ca6"
+
+    // Aliases for semantic color names used across modules
+    readonly property alias onBackground: root.inkBg
+    readonly property alias onPrimary: root.inkPrim
+    readonly property alias onPrimaryContainer: root.inkPrimCont
+    readonly property alias error: root.err
+    readonly property alias onBackgroundMuted: root.inkBgMuted
+
     function alpha(baseColor, opacity) {
         return Qt.rgba(baseColor.r, baseColor.g, baseColor.b, opacity)
     }
@@ -77,6 +86,7 @@ QtObject {
         if (colors.outline !== undefined) outline = colors.outline
         if (colors.outlineVariant !== undefined) outlineVariant = colors.outlineVariant
         if (colors.shadow !== undefined) colorShadow = colors.shadow
+        if (colors.onBackgroundMuted !== undefined) inkBgMuted = colors.onBackgroundMuted
         themeUpdated()
     }
 }

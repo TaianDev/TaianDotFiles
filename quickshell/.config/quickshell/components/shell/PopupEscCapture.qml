@@ -1,7 +1,7 @@
 import QtQuick
+import QtQuick.Controls
 import "../../services"
 
-// Content wrapper for bar popups. Escape is handled by PopupManager (hyprctl bind).
 Item {
     id: root
 
@@ -11,6 +11,13 @@ Item {
     default property alias content: contentHost.data
 
     anchors.fill: parent
+
+    Shortcut {
+        sequences: ["Escape"]
+        onActivated: PopupManager.closeActive()
+        enabled: root.active
+        context: Qt.ApplicationShortcut
+    }
 
     Item {
         id: contentHost

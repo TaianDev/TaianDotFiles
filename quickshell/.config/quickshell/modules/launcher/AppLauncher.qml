@@ -118,7 +118,7 @@ PanelWindow {
 
                     delegate: Rectangle {
                         width: appList.width
-                        height: 52
+                        height: 64
                         radius: 12
 
                         property bool isSelected: appList.currentIndex === index
@@ -139,12 +139,31 @@ PanelWindow {
                                 sourceSize: Qt.size(28, 28)
                             }
 
-                            Text {
+                            ColumnLayout {
                                 Layout.fillWidth: true
-                                text: model.name
-                                color: isSelected ? Theme.primary : Theme.inkSurf
-                                font.pixelSize: 14
-                                font.bold: isSelected
+                                Layout.fillHeight: true
+                                spacing: 2
+
+                                Text {
+                                    Layout.fillWidth: true
+                                    text: model.name
+                                    color: isSelected ? Theme.primary : Theme.inkSurf
+                                    font.pixelSize: 14
+                                    font.bold: isSelected
+                                    elide: Text.ElideRight
+                                    maximumLineCount: 1
+                                }
+
+                                Text {
+                                    Layout.fillWidth: true
+                                    text: model.comment || ""
+                                    color: Theme.inkSurfVar
+                                    font.pixelSize: 11
+                                    opacity: 0.7
+                                    elide: Text.ElideRight
+                                    maximumLineCount: 1
+                                    clip: true
+                                }
                             }
                         }
 
@@ -165,7 +184,7 @@ PanelWindow {
 
     Process {
         id: appScanner
-        command: ["bash", "-c", "awk -F= 'BEGIN {IGNORECASE = 1} FNR==1 { if (name != \"\" && no_display != \"true\" && type == \"Application\") { sub(/%[a-zA-Z]/, \"\", exec); print name \"|\" icon \"|\" exec } name=\"\"; icon=\"\"; exec=\"\"; no_display=\"\"; type=\"\" } /^Name=/ && name==\"\" {name=$2} /^Icon=/ && icon==\"\" {icon=$2} /^Exec=/ && exec==\"\" {exec=$2} /^NoDisplay=/ {no_display=tolower($2)} /^Type=/ {type=$2} END { if (name != \"\" && no_display != \"true\" && type == \"Application\") { sub(/%[a-zA-Z]/, \"\", exec); print name \"|\" icon \"|\" exec } }' /usr/share/applications/*.desktop ~/.local/share/applications/*.desktop 2>/dev/null | sort -u -t'|' -k1,1"]
+        command: ["bash", "-c", "awk -F= 'BEGIN {IGNORECASE = 1} FNR==1 { if (name != \"\" && no_display != \"true\" && type == \"Application\") { sub(/%[a-zA-Z]/, \"\", exec); print name \"|\" icon \"|\" exec \"|\" comment } name=\"\"; icon=\"\"; exec=\"\"; no_display=\"\"; type=\"\"; comment=\"\" } /^Name=/ && name==\"\" {name=$2} /^Comment=/ && comment==\"\" {comment=$2} /^Icon=/ && icon==\"\" {icon=$2} /^Exec=/ && exec==\"\" {exec=$2} /^NoDisplay=/ {no_display=tolower($2)} /^Type=/ {type=$2} END { if (name != \"\" && no_display != \"true\" && type == \"Application\") { sub(/%[a-zA-Z]/, \"\", exec); print name \"|\" icon \"|\" exec \"|\" comment } }' /usr/share/applications/*.desktop ~/.local/share/applications/*.desktop 2>/dev/null | sort -u -t'|' -k1,1"]
 
         stdout: StdioCollector {
             onStreamFinished: {
@@ -175,7 +194,7 @@ PanelWindow {
                     if (!line) continue
                     const parts = line.split('|')
                     if (parts.length >= 3)
-                        launcherPopup.allApps.push({ name: parts[0], icon: parts[1], exec: parts[2].trim() })
+                        launcherPopup.allApps.push({ name: parts[0], icon: parts[1], exec: parts[2].trim(), comment: parts[3]?.trim() || "" })
                 }
                 filterApps("")
             }
@@ -197,7 +216,7 @@ PanelWindow {
     Process {
         id: runner
         property string execCommand: ""
-        command: ["hyprctl", "dispatch", "exec", "--", execCommand]
+        command: ["hyprctl", "dispatch", "hl.dsp.exec_cmd(\"" + execCommand + "\")"]
     }
 
     function runApp(cmd) {

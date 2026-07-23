@@ -4,3 +4,6 @@ singleton NotificationService 1.0 NotificationService.qml
 singleton NetworkStatusService 1.0 NetworkStatusService.qml
 singleton PopupManager 1.0 PopupManager.qml
 singleton HyprlandData 1.0 HyprlandData.qml
+singleton SystemMonitorService 1.0 SystemMonitorService.qml
+singleton AudioService 1.0 AudioService.qml
+singleton SessionService 1.0 SessionService.qml

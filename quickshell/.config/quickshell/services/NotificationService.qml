@@ -5,6 +5,7 @@ import Quickshell
 import Quickshell.Io
 import Quickshell.Services.Notifications
 import "../core"
+import "../utils"
 
 Item {
     id: root
@@ -27,192 +28,108 @@ Item {
 
     IpcHandler {
         target: "notifications_panel"
-        function toggle(): void {
-            root.togglePanel()
-        }
+        function toggle(): void { root.togglePanel() }
     }
 
     function togglePanel() {
-        if (root.panelOpen)
-            root.closePanel()
-        else
-            root.openPanel()
+        root.panelOpen ? root.closePanel() : root.openPanel()
     }
 
     function openPanel() {
         PopupManager.openExclusive(PopupManager.notificationsId)
-        Qt.callLater(() => {
-            root.panelOpen = true
-            root.unreadCount = 0
-        })
+        Qt.callLater(() => { root.panelOpen = true; root.unreadCount = 0 })
     }
 
-    function closePanel() {
-        root.panelOpen = false
-    }
+    function closePanel() { root.panelOpen = false }
 
     onPanelOpenChanged: {
-        if (!root.panelOpen)
-            PopupManager.notifyClosed(PopupManager.notificationsId)
+        if (!root.panelOpen) PopupManager.notifyClosed(PopupManager.notificationsId)
     }
 
     Connections {
         target: PopupManager
         function onCloseRequested(id) {
-            if (id === PopupManager.notificationsId)
-                root.panelOpen = false
+            if (id === PopupManager.notificationsId) root.panelOpen = false
         }
     }
 
-    function dismiss(notif) {
-        if (notif)
-            notif.dismiss()
-    }
+    function dismiss(notif) { if (notif) notif.dismiss() }
 
     function dismissAll() {
         const list = root.notifications.values.slice()
-        for (let i = 0; i < list.length; i++)
-            list[i].dismiss()
+        for (let i = 0; i < list.length; i++) list[i].dismiss()
     }
 
     function invokeAction(notif, action) {
-        if (notif && action)
-            action.invoke()
+        if (notif && action) action.invoke()
     }
 
-    function receivedAt(notif) {
-        return root.timestamps[notif?.id] ?? 0
-    }
+    function receivedAt(notif) { return root.timestamps[notif?.id] ?? 0 }
 
-    function formatTimeAgo(ms) {
-        if (!ms || ms <= 0)
-            return ""
-
-        const diff = Math.max(0, Date.now() - ms)
-        const mins = Math.floor(diff / 60000)
-        if (mins < 1)
-            return "now"
-        if (mins < 60)
-            return mins + "m"
-        const hrs = Math.floor(mins / 60)
-        if (hrs < 24)
-            return hrs + "h"
-        return Math.floor(hrs / 24) + "d"
-    }
+    function formatTimeAgo(ms) { return TimeUtils.formatTimeAgo(ms) }
 
     function sanitizePathText(text) {
-        if (!text)
-            return ""
-
+        if (!text) return ""
         let out = text.replace(/`/g, "").replace(/([^:])\/{2,}/g, "$1/")
         const home = AppPaths.homeDir
-        if (home !== "" && out.indexOf(home) === 0)
-            out = "~" + out.slice(home.length)
+        if (home !== "" && out.indexOf(home) === 0) out = "~" + out.slice(home.length)
         return out
     }
 
-    function formatBody(body) {
-        return root.sanitizePathText(body ?? "")
-    }
+    function formatBody(body) { return root.sanitizePathText(body ?? "") }
 
     function resolveImage(notif) {
         const raw = notif?.image ?? ""
-        if (raw === "")
-            return ""
-
+        if (raw === "") return ""
         if (raw.startsWith("file://") || raw.startsWith("http://") || raw.startsWith("https://")
                 || raw.startsWith("data:"))
             return raw
-
-        if (raw.startsWith("/"))
-            return "file://" + raw
-
+        if (raw.startsWith("/")) return "file://" + raw
         return raw
     }
 
-    function resolveIcon(notif) {
-        if (!notif)
-            return ""
-
-        const names = []
-        const seen = {}
-
-        function add(name) {
-            if (!name || seen[name])
-                return
-            seen[name] = true
-            names.push(name)
-        }
-
-        add(notif.appIcon)
-        add(notif.desktopEntry)
-        if (notif.appName)
-            add(notif.appName.toLowerCase().replace(/\s+/g, "-"))
-
-        for (let i = 0; i < names.length; i++) {
-            const name = names[i]
-            if (Quickshell.hasThemeIcon(name)) {
-                const path = Quickshell.iconPath(name)
-                if (path !== "")
-                    return path
-            }
-            const path = Quickshell.iconPath(name)
-            if (path !== "")
-                return path
-        }
-        return ""
-    }
+    function resolveIcon(notif) { return IconResolver.notificationIcon(notif) }
 
     function bumpList() {
-        Qt.callLater(() => {
-            root.listVersion++
-            root.listChanged()
-        })
+        Qt.callLater(() => { root.listVersion++; root.listChanged() })
     }
 
     function applyPopups(next) {
         Qt.callLater(() => {
-            root.popups = next
+            root.popups.splice(0, root.popups.length)
+            for (let i = 0; i < next.length; i++) root.popups.push(next[i])
             root.popupVersion++
         })
     }
 
     function pushPopupNow(notif) {
-        if (!notif)
-            return
-
-        const filtered = root.popups.filter(n => n.id !== notif.id)
-        root.popups = [notif].concat(filtered).slice(0, root.maxPopups)
+        if (!notif) return
+        const idx = root.popups.findIndex(n => n.id === notif.id)
+        if (idx >= 0) root.popups.splice(idx, 1)
+        root.popups.unshift(notif)
+        while (root.popups.length > root.maxPopups) root.popups.pop()
         root.popupVersion++
     }
 
     function popupDuration(notif) {
         const timeout = notif?.expireTimeout ?? -1
-        if (timeout === 0)
-            return 0
-        if (timeout > 0)
-            return timeout
-        return root.defaultPopupMs
+        if (timeout === 0) return 0
+        return timeout > 0 ? timeout : root.defaultPopupMs
     }
 
     function pushPopup(notif) {
-        if (!notif)
-            return
-
+        if (!notif) return
         const filtered = root.popups.filter(n => n.id !== notif.id)
         applyPopups([notif].concat(filtered).slice(0, root.maxPopups))
     }
 
     function popPopup(notif) {
-        if (!notif)
-            return
-
+        if (!notif) return
         applyPopups(root.popups.filter(n => n.id !== notif.id))
     }
 
     function hidePopup(notif) {
-        if (!notif)
-            return
+        if (!notif) return
         root.popupHideRequested(notif)
     }
 
@@ -221,10 +138,9 @@ Item {
         next[notif.id] = Date.now()
         root.timestamps = next
 
-        if (!root.panelOpen)
-            root.unreadCount++
+        if (!root.panelOpen) root.unreadCount++
 
-        notif.closed.connect(function() {
+        notif.closed.connect(function () {
             const copy = Object.assign({}, root.timestamps)
             delete copy[notif.id]
             root.timestamps = copy
@@ -250,9 +166,8 @@ Item {
             notif.tracked = true
             root.registerNotification(notif)
             Qt.callLater(() => {
-                root.pushPopupNow(notif)
-                root.listVersion++
-                root.listChanged()
+                if (!NetworkStatusService.dndMode) root.pushPopupNow(notif)
+                root.listVersion++; root.listChanged()
             })
         }
 

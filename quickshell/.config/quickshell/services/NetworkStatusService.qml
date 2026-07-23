@@ -4,6 +4,7 @@ import QtQuick
 import Quickshell.Io
 import Quickshell.Bluetooth
 import "../core"
+import "../utils"
 
 Item {
     id: root
@@ -28,18 +29,15 @@ Item {
 
     readonly property var btAdapter: Bluetooth.defaultAdapter
     readonly property bool btEnabled: {
-        if (root.airplaneMode)
-            return false
+        if (root.airplaneMode) return false
         return btAdapter?.enabled ?? false
     }
 
     readonly property string btDeviceName: {
-        if (!btAdapter || !btAdapter.enabled || root.airplaneMode)
-            return ""
+        if (!btAdapter || !btAdapter.enabled || root.airplaneMode) return ""
         const devs = btAdapter.devices.values
         for (let i = 0; i < devs.length; i++) {
-            if (devs[i].connected)
-                return devs[i].name
+            if (devs[i].connected) return devs[i].name
         }
         return ""
     }
@@ -50,36 +48,28 @@ Item {
     }
 
     function refresh() {
-        if (statusScanner.running) {
-            root.pendingRefresh = true
-            return
-        }
+        if (statusScanner.running) { root.pendingRefresh = true; return }
         statusScanner.running = false
         statusScanner.running = true
     }
 
-    function parseBool(text) {
-        return text === "true" || text === "1" || text === "yes"
-    }
+    function parseBool(text) { return text === "true" || text === "1" || text === "yes" }
 
     function parsePercent(text, fallback) {
         const n = parseInt(text, 10)
-        return isNaN(n) ? fallback : Math.max(0, Math.min(100, n))
+        return isNaN(n) ? fallback : ColorUtils.clamp(n, 0, 100)
     }
 
     function applyScanLine(line) {
-        if (!line || !line.includes("|"))
-            return false
+        if (!line || !line.includes("|")) return false
 
         const parts = line.trim().split("|")
-        if (parts.length < 10)
-            return false
+        if (parts.length < 10) return false
 
         root.airplaneMode = root.parseBool(parts[2])
         root.wifiEnabled = parts[0] === "enabled" && !root.airplaneMode
         root.wifiNetwork = root.wifiEnabled ? (parts[1] ?? "") : ""
 
-        root.dndMode = root.parseBool(parts[3])
         root.nightMode = root.parseBool(parts[4])
         root.sysVol = root.parsePercent(parts[5], root.sysVol)
         root.sysVolMute = root.parseBool(parts[6])
@@ -87,23 +77,19 @@ Item {
         root.sysMicMute = root.parseBool(parts[8])
         root.sysBright = root.parsePercent(parts[9], root.sysBright)
 
+        AudioService.applyFromParts(parts)
+
         root.scanGeneration++
         root.updated()
         return true
     }
 
     function finishScan() {
-        if (root.pendingRefresh) {
-            root.pendingRefresh = false
-            Qt.callLater(root.refresh)
-        }
+        if (root.pendingRefresh) { root.pendingRefresh = false; Qt.callLater(root.refresh) }
     }
 
     Timer {
-        interval: 2000
-        running: true
-        repeat: true
-        triggeredOnStart: true
+        interval: 2000; running: true; repeat: true; triggeredOnStart: true
         onTriggered: root.refresh()
     }
 
@@ -115,8 +101,7 @@ Item {
             waitForEnd: true
             onStreamFinished: {
                 const lines = this.text.trim().split("\n").filter(line => line.includes("|"))
-                if (lines.length > 0)
-                    root.applyScanLine(lines[lines.length - 1])
+                if (lines.length > 0) root.applyScanLine(lines[lines.length - 1])
                 root.finishScan()
             }
         }
@@ -130,87 +115,69 @@ Item {
         property string actionValue: ""
 
         command: {
-            if (actionType === "airplane_on")
-                return ["bash", "-c",
-                    "rfkill block wifi; rfkill block bluetooth; nmcli radio wifi off 2>/dev/null; true"]
-            if (actionType === "airplane_off")
-                return ["bash", "-c",
-                    "rfkill unblock wifi; rfkill unblock bluetooth; true"]
-            if (actionType === "wifi_on")
-                return ["bash", "-c",
-                    "rfkill unblock wifi 2>/dev/null; nmcli radio wifi on"]
-            if (actionType === "wifi_off")
+            switch (actionType) {
+            case "airplane_on":
+                return ["bash", "-c", "rfkill block wifi; rfkill block bluetooth; nmcli radio wifi off 2>/dev/null; true"]
+            case "airplane_off":
+                return ["bash", "-c", "rfkill unblock wifi; rfkill unblock bluetooth; true"]
+            case "wifi_on":
+                return ["bash", "-c", "rfkill unblock wifi 2>/dev/null; nmcli radio wifi on"]
+            case "wifi_off":
                 return ["nmcli", "radio", "wifi", "off"]
-            if (actionType === "dnd_on")
+            case "dnd_on":
                 return ["bash", "-c",
                     "if command -v dunstctl >/dev/null; then dunstctl set-paused true; " +
                     "elif command -v makoctl >/dev/null; then makoctl mode -a dnd; fi; true"]
-            if (actionType === "dnd_off")
+            case "dnd_off":
                 return ["bash", "-c",
                     "if command -v dunstctl >/dev/null; then dunstctl set-paused false; " +
                     "elif command -v makoctl >/dev/null; then makoctl mode -r dnd; fi; true"]
-            if (actionType === "night_on")
+            case "night_on":
                 return ["bash", "-c", "hyprsunset -t 4000 &"]
-            if (actionType === "night_off")
+            case "night_off":
                 return ["killall", "hyprsunset"]
-            if (actionType === "vol")
+            case "vol":
                 return ["bash", "-c", "wpctl set-volume @DEFAULT_AUDIO_SINK@ " + (parseInt(actionValue) / 100)]
-            if (actionType === "mic")
+            case "mic":
                 return ["bash", "-c", "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ " + (parseInt(actionValue) / 100)]
-            if (actionType === "bright")
+            case "bright":
                 return ["brightnessctl", "set", actionValue + "%"]
-            if (actionType === "mute_vol")
+            case "mute_vol":
                 return ["wpctl", "set-mute", "@DEFAULT_AUDIO_SINK@", "toggle"]
-            if (actionType === "mute_mic")
+            case "mute_mic":
                 return ["wpctl", "set-mute", "@DEFAULT_AUDIO_SOURCE@", "toggle"]
-            if (actionType === "lock")
+            case "lock":
                 return ["hyprlock"]
-            if (actionType === "sleep")
+            case "sleep":
                 return ["systemctl", "suspend"]
-            if (actionType === "logout")
+            case "logout":
                 return ["hyprctl", "dispatch", "exit"]
-            if (actionType === "poweroff")
+            case "poweroff":
                 return ["systemctl", "poweroff"]
-            return ["true"]
+            default:
+                return ["true"]
+            }
         }
 
         onExited: Qt.callLater(root.refresh)
     }
 
     function setWifiEnabled(enabled) {
-        if (enabled) {
-            root.airplaneMode = false
-            root.wifiEnabled = true
-            root.runAction("wifi_on")
-        } else {
-            root.wifiEnabled = false
-            root.wifiNetwork = ""
-            root.runAction("wifi_off")
-        }
+        if (enabled) { root.airplaneMode = false; root.wifiEnabled = true; root.runAction("wifi_on") }
+        else { root.wifiEnabled = false; root.wifiNetwork = ""; root.runAction("wifi_off") }
     }
 
     function setAirplaneMode(enabled) {
         root.airplaneMode = enabled
         if (enabled) {
-            root.wifiEnabled = false
-            root.wifiNetwork = ""
-            if (root.btAdapter)
-                root.btAdapter.enabled = false
+            root.wifiEnabled = false; root.wifiNetwork = ""
+            if (root.btAdapter) root.btAdapter.enabled = false
             root.runAction("airplane_on")
-        } else {
-            root.runAction("airplane_off")
-        }
+        } else { root.runAction("airplane_off") }
     }
 
-    function setDndMode(enabled) {
-        root.dndMode = enabled
-        root.runAction(enabled ? "dnd_on" : "dnd_off")
-    }
-
-    function setNightMode(enabled) {
-        root.nightMode = enabled
-        root.runAction(enabled ? "night_on" : "night_off")
-    }
+    function setDndMode(enabled) { root.dndMode = enabled }
+    function setNightMode(enabled) { root.nightMode = enabled; root.runAction(enabled ? "night_on" : "night_off") }
 
     function runAction(type, value) {
         actionRunner.actionType = type
@@ -221,9 +188,7 @@ Item {
 
     Connections {
         target: Theme
-        function onThemeUpdated() {
-            Qt.callLater(root.refresh)
-        }
+        function onThemeUpdated() { Qt.callLater(root.refresh) }
     }
 
     Component.onCompleted: Qt.callLater(root.refresh)

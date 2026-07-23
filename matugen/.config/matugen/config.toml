@@ -38,13 +38,17 @@ output_path = '~/.config/gtk-4.0/gtk.css'
 input_path = "~/.config/matugen/templates/wlogout-colors.css"
 output_path = "~/.config/wlogout/colors.css"
 
-[templates.quickshell]
-input_path = "~/.config/matugen/templates/quickshell.qml"
-output_path = "~/.config/quickshell/Theme.qml"
+[templates.hyprwave]
+input_path = "~/.config/matugen/templates/hyprwave.css"
+output_path = "~/.local/share/hyprwave/style.css"
 
-[templates.quickshell_overview]
-input_path  = "./templates/quickshell-overview.qml"
-output_path = "~/.config/quickshell/overview/common/Appearance.colors.qml"
+[templates.btop]
+input_path = "~/.config/matugen/templates/btop.theme"
+output_path = "~/.config/btop/themes/custom.theme"
+
+[templates.yazi]
+input_path = "~/.config/matugen/templates/yazi.toml"
+output_path = "~/.config/yazi/theme.toml"
 
 #[templates.vscode]
 #input_path = "~/.config/matugen/templates/vscode.json"
