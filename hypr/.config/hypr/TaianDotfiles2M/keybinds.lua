@@ -13,7 +13,8 @@ hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs ipc call notifications_panel togg
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("qs ipc call network_popup toggle"))
 hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd("qs ipc call date_popup toggle"))
 hl.bind(mainMod .. " + TAB", hl.dsp.exec_cmd("qs ipc -c overview call overview toggle"))
-hl.bind("SUPER + TAB", hl.dsp.exec_cmd("qs ipc -c overview call overview toggle"))
+hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("qs ipc call bar_popup close"))
+
 -- ============================================================================
 -- Window Management & Focus Control
 -- ============================================================================

@@ -58,6 +58,23 @@ hl.window_rule({
 	size = { 800, 500 },
 })
 
+-- Btop Floating
+hl.window_rule({
+	name = "windowrule-3.1",
+	match = { class = "^(kitty-floating-btop)$" },
+	float = true,
+	center = true,
+	size = { 1280, 900 },
+})
+
+hl.window_rule({
+	name = "windowrule-3",
+	match = { class = "^(kitty-floating)$" },
+	float = true,
+	center = true,
+	size = { 800, 500 },
+})
+
 -- XDG Desktop Portal (File pickers, etc.)
 hl.window_rule({
 	name = "windowrule-4",

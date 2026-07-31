@@ -28,6 +28,17 @@ PanelWindow {
 
     WallpaperService { id: wallpaperService }
 
+    Connections {
+        target: wallpaperService
+        function onApplied(path) { closeTimer.start() }
+    }
+
+    Timer {
+        id: closeTimer
+        interval: 300
+        onTriggered: themeChanger.isOpened = false
+    }
+
     IpcHandler {
         target: "theme_panel"
         function toggle(): void {

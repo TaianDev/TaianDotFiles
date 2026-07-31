@@ -3,15 +3,11 @@ import Quickshell
 import Quickshell.Hyprland
 import "../../../core"
 import "../../../services"
+import "../../../components"
 
-Rectangle {
+PillBase {
+    gradient: true
     id: capsule
-    height: 28
-    implicitWidth: wsContainer.implicitWidth + 24
-    radius: height / 2
-    color: Theme.barPillBackgroundColor()
-    border.width: Theme.barPillBorderWidth
-    border.color: Theme.barPillBorderColor()
 
     property string outputName: ""
     property string primaryMonitorName: "HDMI-A-1"
@@ -22,9 +18,8 @@ Rectangle {
     readonly property int pillHeight: 22
     readonly property int pillVPad: (height - pillHeight) / 2
 
-    Item {
+    content: Item {
         id: wsContainer
-        anchors.centerIn: parent
         implicitWidth: wsRow.implicitWidth
         implicitHeight: capsule.pillHeight
 

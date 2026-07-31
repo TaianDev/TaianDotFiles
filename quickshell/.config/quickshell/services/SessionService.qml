@@ -35,7 +35,7 @@ Item {
 
     Process {
         id: lockRunner
-        command: ["hyprlock"]
+        command: ["quickshell", "-c", "/home/taianlux/.config/quickshell/modules/lockscreen/"]
     }
 
     Process {
@@ -45,7 +45,7 @@ Item {
 
     Process {
         id: logoutRunner
-        command: ["hyprctl", "dispatch", "exit"]
+        command: ["hyprctl", "eval", "hl.dispatch(hl.dsp.exit())"]
     }
 
     Process {

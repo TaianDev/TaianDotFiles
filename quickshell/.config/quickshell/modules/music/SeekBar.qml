@@ -16,6 +16,9 @@ Column {
     Item {
         width: parent.width; height: 14
 
+        readonly property bool dragging: dragArea.dragging
+        readonly property real dragProgress: dragArea.seekProgress
+
         Rectangle {
             id: track
             width: parent.width; height: 4; radius: 2
@@ -24,7 +27,7 @@ Column {
 
             Rectangle {
                 id: fill
-                width: track.width * root.progress
+                width: track.width * (root.dragging ? root.dragProgress : root.progress)
                 height: parent.height; radius: 2; color: "#ffffff"
             }
 
@@ -36,11 +39,28 @@ Column {
         }
 
         MouseArea {
+            id: dragArea
             anchors.fill: parent
             cursorShape: Qt.PointingHandCursor
-            onClicked: mouse => {
-                if (!root.player?.canSeek) return
-                root.player.position = (mouse.x / width) * root.player.length
+
+            property bool dragging: false
+            property real seekProgress: 0
+
+            onPressed: mouse => {
+                dragging = true
+                seekProgress = Math.max(0, Math.min(1, mouse.x / width))
+            }
+
+            onPositionChanged: mouse => {
+                if (!dragging) return
+                seekProgress = Math.max(0, Math.min(1, mouse.x / width))
+            }
+
+            onReleased: mouse => {
+                if (!dragging) return
+                dragging = false
+                if (root.player?.canSeek)
+                    root.player.position = seekProgress * root.player.length
             }
         }
     }

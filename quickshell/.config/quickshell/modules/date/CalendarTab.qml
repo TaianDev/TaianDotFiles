@@ -16,14 +16,6 @@ Item {
     property var daysModel: []
     property var markedDates: []   // Almacena las fechas marcadas como "YYYY-MM-DD"
 
-    // Reiniciar a la fecha actual cuando el popup se abra
-    Connections {
-        target: popup  // id del PanelWindow contenedor (DatePopup)
-        function onIsOpenedChanged() {
-            if (popup.isOpened) resetToToday()
-        }
-    }
-
     function resetToToday() {
         let today = new Date()
         dYear = today.getFullYear()

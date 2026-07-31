@@ -5,14 +5,9 @@ import "../../services"
 import "../../components"
 import "popup"
 
-Rectangle {
+PillBase {
+    gradient: true
     id: root
-    height: 28
-    width:  contentRow.implicitWidth + 24
-    radius: height / 2
-    color: Theme.barPillBackgroundColor()
-    border.width: Theme.barPillBorderWidth
-    border.color: Theme.barPillBorderColor()
 
     property var hostWindow: null
     property string iconsPath: Qt.resolvedUrl("../../assets/icons/")
@@ -20,9 +15,8 @@ Rectangle {
     property real rxSpeed: SystemMonitorService.rxSpeed
     property real txSpeed: SystemMonitorService.txSpeed
 
-    RowLayout {
+    content: RowLayout {
         id: contentRow
-        anchors.centerIn: parent
         spacing: 10
 
         WifiModule {

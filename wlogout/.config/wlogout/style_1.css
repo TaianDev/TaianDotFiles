@@ -70,10 +70,10 @@ button:hover#shutdown {
     margin : ${hvr}px 0px ${hvr}px 0px;
 }
 
-button:hover#hibernate {
+/*button:hover#hibernate {
     border-radius: ${active_rad}px;
     margin : ${hvr}px 0px ${hvr}px 0px;
-}
+}*/
 
 button:hover#reboot {
     border-radius: ${active_rad}px;
@@ -107,11 +107,11 @@ button:hover#reboot {
     margin : ${mgn}px 0px ${mgn}px 0px;
 }
 
-#hibernate {
+/*#hibernate {
     background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
     border-radius: 0px 0px 0px 0px;
     margin : ${mgn}px 0px ${mgn}px 0px;
-}
+}*/
 
 #reboot {
     background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));

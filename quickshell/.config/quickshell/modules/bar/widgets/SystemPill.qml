@@ -1,24 +1,20 @@
 import QtQuick
 import QtQuick.Layouts
+import Quickshell
 import "../../../core"
 import "../../../services"
+import "../../../components"
 
-Rectangle {
+PillBase {
+    gradient: true
     id: root
-    height: 28
-    width: contentRow.implicitWidth + 24
-    radius: height / 2
-    color: Theme.barPillBackgroundColor()
-    border.width: Theme.barPillBorderWidth
-    border.color: Theme.barPillBorderColor()
 
     property int cpuUsage:  SystemMonitorService.cpuUsage
     property int ramUsage:  SystemMonitorService.ramUsage
     property int tempValue: SystemMonitorService.tempValue
 
-    RowLayout {
+    content: RowLayout {
         id: contentRow
-        anchors.centerIn: parent
         spacing: 16
 
         ResourceMeter {
@@ -38,6 +34,15 @@ Rectangle {
             iconPath: Qt.resolvedUrl("../../../assets/icons/temperature.svg")
             activeColor: Theme.tertiary
             suffix: "°"
+        }
+    }
+
+    MouseArea {
+        anchors.fill: parent
+        acceptedButtons: Qt.RightButton
+        onClicked: {
+            if (mouse.button === Qt.RightButton)
+                Quickshell.execDetached(["kitty", "--class", "kitty-floating-btop", "btop"])
         }
     }
 }

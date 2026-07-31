@@ -27,16 +27,6 @@ Item {
 
     function alpha(c, o) { return Qt.rgba(c.r, c.g, c.b, o) }
 
-    Process {
-        id: homeResolver
-        command: ["sh", "-c", "echo -n \"$HOME\""]
-        stdout: StdioCollector {
-            onStreamFinished: root.homeDir = this.text.trim()
-        }
-    }
-
-    Component.onCompleted: homeResolver.running = true
-
     // ── PILL ─────────────────────────────────────────────────
     Rectangle {
         id: pill

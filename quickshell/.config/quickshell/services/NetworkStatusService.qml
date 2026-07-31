@@ -70,7 +70,6 @@ Item {
         root.wifiEnabled = parts[0] === "enabled" && !root.airplaneMode
         root.wifiNetwork = root.wifiEnabled ? (parts[1] ?? "") : ""
 
-        root.nightMode = root.parseBool(parts[4])
         root.sysVol = root.parsePercent(parts[5], root.sysVol)
         root.sysVolMute = root.parseBool(parts[6])
         root.sysMic = root.parsePercent(parts[7], root.sysMic)
@@ -162,6 +161,12 @@ Item {
         onExited: Qt.callLater(root.refresh)
     }
 
+    Process {
+        id: sunsetRunner
+        property var actionCmd: ["true"]
+        command: actionCmd
+    }
+
     function setWifiEnabled(enabled) {
         if (enabled) { root.airplaneMode = false; root.wifiEnabled = true; root.runAction("wifi_on") }
         else { root.wifiEnabled = false; root.wifiNetwork = ""; root.runAction("wifi_off") }
@@ -177,7 +182,12 @@ Item {
     }
 
     function setDndMode(enabled) { root.dndMode = enabled }
-    function setNightMode(enabled) { root.nightMode = enabled; root.runAction(enabled ? "night_on" : "night_off") }
+    function setNightMode(enabled) {
+        root.nightMode = enabled
+        sunsetRunner.actionCmd = enabled ? ["bash", "-c", "hyprsunset -t 5000"] : ["pkill", "hyprsunset"]
+        sunsetRunner.running = false
+        sunsetRunner.running = true
+    }
 
     function runAction(type, value) {
         actionRunner.actionType = type

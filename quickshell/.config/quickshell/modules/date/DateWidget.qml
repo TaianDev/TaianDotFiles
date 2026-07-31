@@ -8,18 +8,9 @@ import "../../services"
 import "../../components"
 import "../../utils"
 
-Rectangle {
+PillBase {
     id: root
-
-    height: 28
-    implicitWidth: mainLayout.width + 24
-    radius: height / 2
-    color: widgetMa.containsMouse
-        ? Theme.alpha(Theme.surfaceVariant, 0.72)
-        : Theme.barPillBackgroundColor()
-    border.width: Theme.barPillBorderWidth
-    border.color: Theme.barPillBorderColor()
-    Behavior on color { ColorAnimation { duration: 150 } }
+    hoverEffect: true
 
     property string tempString: "..."
     property string iconsPath: Qt.resolvedUrl("../../assets/icons/")
@@ -67,6 +58,7 @@ Rectangle {
     function triggerTimerEnded() {
         root.showTmControls = false; root.showSwControls = false
         root.tmEndedNotification = true; dismissNotificationTimer.restart()
+        if (root.swElapsedMs > 0 || root.swRunning) root.activeInstance = 1
     }
 
     Timer { id: autoHideSw; interval: 3500; onTriggered: root.showSwControls = false }
@@ -93,60 +85,52 @@ Rectangle {
         onTriggered: { weatherScanner.running = false; weatherScanner.running = true }
     }
 
-    MouseArea {
-        id: widgetMa
-        anchors.fill: parent
-        hoverEnabled: true; cursorShape: Qt.PointingHandCursor
-        acceptedButtons: Qt.LeftButton | Qt.RightButton
-
-        property real startX: 0
-        property bool dragDetected: false
-
-        onPressed: mouse => { startX = mouse.x; dragDetected = false }
-
-        onPositionChanged: mouse => {
-            if (!dragDetected && (mouse.x - startX > 40)) {
-                dragDetected = true
-                let swIsActive = (root.swElapsedMs > 0 || root.swRunning)
-                if (swIsActive && root.tmActive) {
-                    root.activeInstance = (root.activeInstance === 1) ? 2 : 1
-                    if (root.showSwControls || root.showTmControls) {
-                        root.showSwControls = (root.activeInstance === 1)
-                        root.showTmControls = (root.activeInstance === 2)
-                    }
-                }
-            }
-        }
-
-        onClicked: mouse => {
-            if (dragDetected) return
-            if (mouse.button === Qt.RightButton) {
-                if (datePopup.isOpened) {
-                    datePopup.isOpened = false
-                } else {
-                    PopupManager.openExclusive(PopupManager.dateId)
-                    Qt.callLater(() => datePopup.isOpened = true)
-                }
-            } else {
-                if (root.tmEndedNotification) { root.tmEndedNotification = false; return }
-                if (root.activeInstance === 1 && (root.swElapsedMs > 0 || root.swRunning)) {
-                    root.showSwControls = !root.showSwControls; root.showTmControls = false; autoHideSw.stop()
-                } else if (root.activeInstance === 2 && root.tmActive) {
-                    root.showTmControls = !root.showTmControls; root.showSwControls = false; autoHideTm.stop()
-                }
-            }
-        }
-    }
-
-    Item {
+    content: Item {
         id: mainLayout
-        anchors.centerIn: parent
         height: 28
 
         width: currentViewState === "notification" ? notificationView.implicitWidth
             : currentViewState === "stopwatch" ? swView.implicitWidth
             : currentViewState === "timer" ? tmView.implicitWidth : normalView.implicitWidth
         Behavior on width { NumberAnimation { duration: 300; easing.type: Easing.OutBack; easing.overshoot: 0.4 } }
+
+        MouseArea {
+            id: pillMa
+            anchors.fill: parent
+            acceptedButtons: Qt.LeftButton | Qt.RightButton
+            hoverEnabled: true; cursorShape: Qt.PointingHandCursor
+            enabled: root.currentViewState === "normal" || root.currentViewState === "notification"
+
+            onClicked: mouse => {
+                if (mouse.button === Qt.RightButton) {
+                    if (datePopup.isOpened) {
+                        datePopup.isOpened = false
+                    } else {
+                        PopupManager.openExclusive(PopupManager.dateId)
+                        Qt.callLater(() => datePopup.isOpened = true)
+                    }
+                } else {
+                    if (root.tmEndedNotification) {
+                        root.tmEndedNotification = false
+                        if (root.swElapsedMs > 0 || root.swRunning) {
+                            root.activeInstance = 1; root.showSwControls = true; root.showTmControls = false
+                        } else if (root.tmActive) {
+                            root.activeInstance = 2; root.showTmControls = true; root.showSwControls = false
+                        }
+                        return
+                    }
+                    if (root.activeInstance === 1 && (root.swElapsedMs > 0 || root.swRunning)) {
+                        root.showSwControls = !root.showSwControls; root.showTmControls = false
+                        autoHideSw.stop()
+                        if (root.showSwControls) autoHideSw.restart()
+                    } else if (root.activeInstance === 2 && root.tmActive) {
+                        root.showTmControls = !root.showTmControls; root.showSwControls = false
+                        autoHideTm.stop()
+                        if (root.showTmControls) autoHideTm.restart()
+                    }
+                }
+            }
+        }
 
         RowLayout {
             id: normalView
@@ -197,8 +181,7 @@ Rectangle {
             }
 
             Text {
-                // Usamos Qt.formatDateTime para aplicar tus patrones personalizados correctamente
-                text: Qt.formatDateTime(sysClock.date, "HH:mm") + " \u2022 " + 
+                text: Qt.formatDateTime(sysClock.date, "HH:mm") + " \u2022 " +
                     Qt.formatDateTime(sysClock.date, "ddd, dd/MM") + " \u2022 " + root.tempString
                 color: Theme.inkSurf
                 font.pixelSize: 12
@@ -233,11 +216,11 @@ Rectangle {
 
             Rectangle { width: 24; height: 24; radius: 6; color: Qt.rgba(1, 1, 1, 0.1)
                 SvgIcon { anchors.centerIn: parent; source: root.iconsPath + "stop.svg"; size: 12; tint: Theme.inkSurf }
-                MouseArea { anchors.fill: parent; onClicked: { root.swRunning = false; root.swElapsedMs = 0; root.showSwControls = false } }
+                MouseArea { anchors.fill: parent; onClicked: { if (root.currentViewState !== "stopwatch") return; root.swRunning = false; root.swElapsedMs = 0; root.showSwControls = false; if (root.tmActive) root.activeInstance = 2 } }
             }
             Rectangle { width: 24; height: 24; radius: 6; color: Qt.rgba(224/255, 108/255, 117/255, 0.2)
                 SvgIcon { anchors.centerIn: parent; source: root.iconsPath + (root.swRunning ? "pause.svg" : "play.svg"); size: 12; tint: Theme.err }
-                MouseArea { anchors.fill: parent; onClicked: root.swRunning = !root.swRunning }
+                MouseArea { anchors.fill: parent; onClicked: { if (root.currentViewState !== "stopwatch") return; root.swRunning = !root.swRunning } }
             }
         }
 
@@ -265,11 +248,11 @@ Rectangle {
 
             Rectangle { width: 24; height: 24; radius: 6; color: Qt.rgba(1, 1, 1, 0.1)
                 SvgIcon { anchors.centerIn: parent; source: root.iconsPath + "stop.svg"; size: 12; tint: Theme.inkSurf }
-                MouseArea { anchors.fill: parent; onClicked: { root.tmRunning = false; root.tmActive = false; root.tmTotalSecs = 0; root.showTmControls = false } }
+                MouseArea { anchors.fill: parent; onClicked: { if (root.currentViewState !== "timer") return; root.tmRunning = false; root.tmActive = false; root.tmTotalSecs = 0; root.showTmControls = false; if (root.swElapsedMs > 0 || root.swRunning) root.activeInstance = 1 } }
             }
             Rectangle { width: 24; height: 24; radius: 6; color: Qt.rgba(180/255, 219/255, 146/255, 0.2)
                 SvgIcon { anchors.centerIn: parent; source: root.iconsPath + (root.tmRunning ? "pause.svg" : "play.svg"); size: 12; tint: Theme.primary }
-                MouseArea { anchors.fill: parent; onClicked: root.tmRunning = !root.tmRunning }
+                MouseArea { anchors.fill: parent; onClicked: { if (root.currentViewState !== "timer") return; root.tmRunning = !root.tmRunning } }
             }
         }
 
@@ -292,29 +275,39 @@ Rectangle {
 
             Text { text: "Time's up!"; color: Theme.err; font.pixelSize: 14; font.bold: true }
         }
+
+        MouseArea {
+            id: swipeDetector
+            anchors.fill: parent
+            acceptedButtons: Qt.LeftButton
+            propagateComposedEvents: true
+            hoverEnabled: false
+
+            property real startX: 0
+            property bool dragDetected: false
+
+            onPressed: mouse => { startX = mouse.x; dragDetected = false }
+
+            onPositionChanged: mouse => {
+                if (!dragDetected && (mouse.x - startX > 40)) {
+                    dragDetected = true
+                    let swIsActive = (root.swElapsedMs > 0 || root.swRunning)
+                    if (swIsActive && root.tmActive) {
+                        root.activeInstance = (root.activeInstance === 1) ? 2 : 1
+                        if (root.showSwControls || root.showTmControls) {
+                            root.showSwControls = (root.activeInstance === 1)
+                            root.showTmControls = (root.activeInstance === 2)
+                        }
+                    }
+                }
+            }
+        }
     }
 
     function togglePopup() {
         if (datePopup.isOpened) { datePopup.isOpened = false }
         else { PopupManager.openExclusive(PopupManager.dateId); Qt.callLater(() => datePopup.isOpened = true) }
     }
-
-    Item {
-        id: timerKeyBridge
-        focus: datePopup.isOpened && datePopup.currentTab === 2
-        Keys.onPressed: event => {
-            const popup = datePopup
-            if (!popup || popup.currentTab !== 2) return
-            const tt = popup.timerTabInstance
-            if (!tt) return
-            if (event.key === Qt.Key_Backspace || event.key === Qt.Key_Delete) tt.backspaceField()
-            else {
-                const ch = event.text
-                if (ch >= "0" && ch <= "9") tt.appendDigit(parseInt(ch, 10))
-            }
-        }
-    }
-
     DatePopup {
         id: datePopup
         widgetRef: root

@@ -38,7 +38,7 @@ PopupWindow {
             return
 
         const pos = anchorItem.mapToItem(hostWindow.contentItem, 0, anchorItem.height)
-        const ax = hostWindow.width - implicitWidth - 20
+        const ax = pos.x + anchorItem.width / 2 - implicitWidth / 2
         anchor.window = hostWindow
         anchor.rect = Qt.rect(ax, pos.y + 8, implicitWidth, implicitHeight)
         anchor.updateAnchor()

@@ -6,6 +6,8 @@ import Quickshell.Io
 import "."
 
 ShellRoot {
+    id: root
+
     property string homeDir: ""
 
     Process {
@@ -26,6 +28,7 @@ ShellRoot {
 
     FileView {
         id: themeFileView
+        watchChanges: true
         onLoaded: {
             var text = themeFileView.text()
             if (!text || text.length === 0) return
@@ -39,13 +42,19 @@ ShellRoot {
             if (Object.keys(colors).length >= 10)
                 Theme.applyFromParsed(colors)
         }
+        onFileChanged: themeDebounce.restart()
+    }
+
+    Timer {
+        id: themeDebounce
+        interval: 150
+        onTriggered: themeFileView.reload()
     }
 
     LockContext {
         id: lockContext
         onUnlocked: {
-            lock.locked = false;
-            Qt.quit(); 
+            // Exit animation handles the rest
         }
     }
     WlSessionLock {
@@ -53,10 +62,15 @@ ShellRoot {
         locked: true
         WlSessionLockSurface {
             LockSurface {
+                id: lockSurface
                 anchors.fill: parent
                 context: lockContext
+                homeDir: root.homeDir
+                onExitAnimationFinished: {
+                    lock.locked = false;
+                    Qt.quit();
+                }
             }
         }
     }
 }
-

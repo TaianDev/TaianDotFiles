@@ -21,14 +21,6 @@ Item {
         ? homeDir + "/.config/quickshell/modules/lockscreen/cava_bar.conf"
         : ""
 
-    Process {
-        id: homeResolver
-        command: ["sh", "-c", "echo -n \"$HOME\""]
-        stdout: StdioCollector {
-            onStreamFinished: root.homeDir = this.text.trim()
-        }
-    }
-
     property int activePlayerIndex: 0
     property var playerList: Mpris.players.values
 
@@ -203,7 +195,6 @@ Item {
     implicitHeight: 196
 
     Component.onCompleted: {
-        homeResolver.running = true
         root.updatePlayerIcon()
         root._switchReady = true
     }

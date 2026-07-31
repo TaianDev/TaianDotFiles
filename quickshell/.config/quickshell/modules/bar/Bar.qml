@@ -14,6 +14,7 @@ import "../network/popup"
 import "../date"
 import "../music"
 import "../tray"
+import "../focused-window"
 
 PanelWindow {
     id: flareBar
@@ -35,7 +36,8 @@ PanelWindow {
     readonly property int barPopupGap: 8
 
     readonly property real barPopupTopY: {
-        const pos = dateWidget.mapToItem(flareBar.contentItem, 0, dateWidget.height)
+        const ref = dateWidget
+        const pos = ref.mapToItem(flareBar.contentItem, 0, ref.height)
         return pos.y + barPopupGap
     }
 
@@ -45,6 +47,13 @@ PanelWindow {
     WlrLayershell.namespace: "flare_bar_" + modelData.name
     color: "transparent"
     mask: Region { item: mainBody }
+
+    property color _barDarkColor: Qt.rgba(
+        Theme.background.r * 0.6,
+        Theme.background.g * 0.6,
+        Theme.background.b * 0.6,
+        1
+    )
 
     Item {
         id: barShadowHost
@@ -59,8 +68,11 @@ PanelWindow {
             anchors.left: parent.left
             anchors.right: parent.right
             height: flareBar.barHeight
-            color: Theme.background
-            Behavior on color { ColorAnimation { duration: 300 } }
+
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: Theme.background }
+                GradientStop { position: 1.0; color: flareBar._barDarkColor }
+            }
         }
 
         Shape {
@@ -70,7 +82,7 @@ PanelWindow {
             antialiasing: true
             layer.enabled: true; layer.samples: 8
             ShapePath {
-                fillColor: Theme.background; strokeWidth: 0
+                fillColor: flareBar._barDarkColor; strokeWidth: 0
                 startX: 0; startY: 0
                 PathLine { x: flareBar.flareRadius; y: 0 }
                 PathQuad { x: 0; y: flareBar.flareRadius; controlX: 0; controlY: 0 }
@@ -84,7 +96,7 @@ PanelWindow {
             antialiasing: true
             layer.enabled: true; layer.samples: 8
             ShapePath {
-                fillColor: Theme.background; strokeWidth: 0
+                fillColor: flareBar._barDarkColor; strokeWidth: 0
                 startX: 0; startY: 0
                 PathQuad {
                     x: flareBar.flareRadius; y: flareBar.flareRadius
@@ -96,11 +108,22 @@ PanelWindow {
         }
     }
 
+    // Sombra densa cercana (contact shadow)
     DropShadow {
         anchors.fill: barShadowHost
-        horizontalOffset: 0; verticalOffset: 3
-        radius: 10; samples: 16
-        color: Qt.rgba(0, 0, 0, 0.4)
+        horizontalOffset: 0; verticalOffset: 2
+        radius: 4; samples: 8
+        color: Qt.rgba(0, 0, 0, 0.45)
+        source: barShadowHost
+        transparentBorder: true
+    }
+
+    // Sombra suave separada (ambient shadow)
+    DropShadow {
+        anchors.fill: barShadowHost
+        horizontalOffset: 0; verticalOffset: 5
+        radius: 14; samples: 22
+        color: Qt.rgba(0, 0, 0, 0.3)
         source: barShadowHost
         transparentBorder: true
     }
@@ -115,65 +138,7 @@ PanelWindow {
         anchors.leftMargin: flareBar.edgeMargin
         anchors.rightMargin: flareBar.edgeMargin
 
-        Row {
-            id: leftRow
-            anchors.left: parent.left
-            anchors.verticalCenter: parent.verticalCenter
-            spacing: flareBar.sectionSpacing
-
-            ArchLogo { }
-
-            WorkspacePills {
-                id: workspacePills
-                outputName: flareBar.modelData.name
-                primaryMonitorName: flareBar.primaryMonitorName
-            }
-
-            Loader {
-                active: !flareBar.isPrimary
-                sourceComponent: SystemPill { }
-            }
-
-            Item {
-                id: musicSlot
-                visible: flareBar.isPrimary
-                width: visible ? music.implicitWidth : 0
-                height: visible ? music.implicitHeight : 0
-
-                CavaBackdrop {
-                    anchors.centerIn: parent
-                    width: music.implicitWidth; height: music.implicitHeight
-                    radius: music.capsuleHeight / 2
-                    shown: music.player !== null
-                    animating: music.playing
-                }
-
-                MusicWidget {
-                    id: music
-                    anchors.centerIn: parent
-                }
-            }
-
-            Loader {
-                active: flareBar.isPrimary
-                sourceComponent: compBatteryPill
-            }
-
-            NotificationPill {
-                visible: flareBar.isPrimary
-            }
-
-            TrayWidget {
-                id: trayWidget
-                visible: flareBar.isPrimary
-                hostWindow: flareBar
-            }
-
-            ScreenshotPill {
-                visible: flareBar.isPrimary
-            }
-        }
-
+        // ── DateWidget compartido (única instancia) ──
         DateWidget {
             id: dateWidget
             anchors.horizontalCenter: parent.horizontalCenter
@@ -181,28 +146,141 @@ PanelWindow {
             hostWindow: flareBar
         }
 
-        Row {
-            id: rightRow
-            anchors.right: parent.right
-            anchors.verticalCenter: parent.verticalCenter
-            spacing: flareBar.sectionSpacing
+        // ═══════════════════════════════════════════════════════
+        // MONITOR SECUNDARIO — sin cambios
+        // ═══════════════════════════════════════════════════════
+        Item {
+            visible: !flareBar.isPrimary
+            anchors.fill: parent
 
-            Loader {
-                active: flareBar.isPrimary
-                sourceComponent: SystemPill { }
+            Row {
+                id: leftRowSec
+                anchors.left: parent.left
+                anchors.verticalCenter: parent.verticalCenter
+                spacing: flareBar.sectionSpacing
+
+                ArchLogo { }
+
+                WorkspacePills {
+                    outputName: flareBar.modelData.name
+                    primaryMonitorName: flareBar.primaryMonitorName
+                }
+
+                Loader {
+                    active: true
+                    sourceComponent: SystemPill { }
+                }
             }
 
-            Loader {
-                active: !flareBar.isPrimary
-                sourceComponent: compBatteryPill
+            Row {
+                id: rightRowSec
+                anchors.right: parent.right
+                anchors.verticalCenter: parent.verticalCenter
+                spacing: flareBar.sectionSpacing
+
+                Loader {
+                    active: true
+                    sourceComponent: compBatteryPill
+                }
+
+                NetworkPill {
+                    id: networkPillSec
+                    hostWindow: flareBar
+                }
+
+                PowerPill { }
+            }
+        }
+
+        // ═══════════════════════════════════════════════════════
+        // MONITOR PRIMARIO — nueva disposición
+        // ═══════════════════════════════════════════════════════
+        Item {
+            visible: flareBar.isPrimary
+            anchors.fill: parent
+
+            // ── BORDE IZQUIERDO ──
+            FocusedWindow {
+                anchors.left: parent.left
+                anchors.leftMargin: 15
+                anchors.verticalCenter: parent.verticalCenter
             }
 
-            NetworkPill {
-                id: networkPill
-                hostWindow: flareBar
+            // ── BORDE DERECHO ──
+            Row {
+                id: rightEdgeRow
+                anchors.right: parent.right
+                anchors.rightMargin: 15
+                anchors.verticalCenter: parent.verticalCenter
+                spacing: flareBar.sectionSpacing
+
+                MusicSpectrumPill { }
+                KeyboardPill { }
+                NotificationPill { }
+                ScreenshotPill { }
+                PowerPill { }
             }
 
-            PowerPill { }
+            // ── IZQUIERDA del Date ──
+            Row {
+                id: centerLeftRow
+                x: dateWidget.x - width - flareBar.sectionSpacing
+                y: dateWidget.y + (dateWidget.height - height) / 2
+                spacing: flareBar.sectionSpacing
+
+                TrayWidget {
+                    id: trayWidgetPri
+                    hostWindow: flareBar
+                }
+
+                WorkspacePills {
+                    outputName: flareBar.modelData.name
+                    primaryMonitorName: flareBar.primaryMonitorName
+                }
+
+                Item {
+                    id: musicSlotPri
+                    width: musicPri.implicitWidth
+                    height: musicPri.implicitHeight
+
+                    CavaBackdrop {
+                        anchors {
+                            top: parent.top
+                            bottom: parent.bottom
+                            right: parent.right
+                        }
+                        width: musicPri.implicitWidth - 28
+                        height: musicPri.implicitHeight
+                        radius: musicPri.capsuleHeight / 2
+                        shown: musicPri.player !== null
+                        animating: musicPri.playing
+                    }
+
+                    MusicWidget {
+                        id: musicPri
+                        anchors.centerIn: parent
+                    }
+                }
+
+                UpdatePill { }
+
+                BatteryPill { }
+            }
+
+            // ── DERECHA del Date ──
+            Row {
+                id: centerRightRow
+                x: dateWidget.x + dateWidget.width + flareBar.sectionSpacing
+                y: dateWidget.y + (dateWidget.height - height) / 2
+                spacing: flareBar.sectionSpacing
+
+                SystemPill { }
+
+                NetworkPill {
+                    id: networkPillPri
+                    hostWindow: flareBar
+                }
+            }
         }
     }
 
@@ -212,11 +290,12 @@ PanelWindow {
         target: PopupManager
         function onToggleMusicRequested() {
             if (!flareBar.isPrimary) return
-            music.togglePopup()
+            musicPri.togglePopup()
         }
         function onToggleNetworkRequested() {
             if (!flareBar.isFocused) return
-            networkPill.togglePopup()
+            const ref = flareBar.isPrimary ? networkPillPri : networkPillSec
+            if (ref) ref.togglePopup()
         }
         function onToggleDateRequested() {
             if (!flareBar.isFocused) return
@@ -228,11 +307,11 @@ PanelWindow {
         active: flareBar.isPrimary
         sourceComponent: Item {
             MusicPopup {
-                widgetRef: music
+                widgetRef: musicPri
                 parentWindow: flareBar
             }
             TrayPopup {
-                widgetRef: trayWidget
+                widgetRef: trayWidgetPri
                 parentWindow: flareBar
             }
             NotificationPanel {

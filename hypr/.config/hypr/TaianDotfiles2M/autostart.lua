@@ -9,7 +9,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("gnome-keyring-daemon --start")
 
 	-- Wallpaper & Visuals
-	hl.exec_cmd("swww-daemon")
+	hl.exec_cmd("awww-daemon")
 	hl.exec_cmd("hyprctl setcursor Sunset-cursors 24")
 
 	-- System Trays & Indicators
@@ -19,7 +19,7 @@ hl.on("hyprland.start", function()
 
 	-- Utilities & Daemons (Fixed swayidle syntax here)
 	--hl.exec_cmd("hyprpm reload -n")
-	hl.exec_cmd("swayidle -w")
+	hl.exec_cmd("hypridle")
 	hl.exec_cmd("GSK_RENDERER=gl swayosd-server --top-margin 0.95")
 	hl.exec_cmd("clipse -listen")
 

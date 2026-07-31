@@ -5,8 +5,9 @@ import Quickshell
 import Quickshell.Services.Mpris
 import "../../core"
 import "../../services"
+import "../../components"
 
-Item {
+PillBase {
     id: root
 
     property int capsuleHeight: 28
@@ -14,8 +15,7 @@ Item {
     property string iconsPath: Qt.resolvedUrl("../../assets/icons/")
 
     implicitHeight: capsuleHeight
-    implicitWidth:  root.player !== null ? pillRow.implicitWidth + 24 : noPlayerPill.implicitWidth + 24
-    visible:        true
+    implicitWidth: pillRow.implicitWidth + 24
 
     // ── Players ───────────────────────────────────────────────
     property int activePlayerIndex: 0
@@ -48,7 +48,6 @@ Item {
             readonly property string pkey: modelData.playerName
                 ?? modelData.identity ?? "unknown"
 
-            // Observar artUrl de este player aunque no sea el activo
             readonly property string watchedArtUrl: modelData.trackArtUrl ?? ""
 
             onWatchedArtUrlChanged: {
@@ -59,7 +58,6 @@ Item {
                 }
             }
 
-            // Inicializar al aparecer
             Component.onCompleted: {
                 if (watchedArtUrl !== "") {
                     const updated = Object.assign({}, root.artCache)
@@ -70,11 +68,9 @@ Item {
         }
     }
 
-    // Clave del player activo
     readonly property string activePkey: player?.playerName
         ?? player?.identity ?? "unknown"
 
-    // Carátula estable del player activo — desde el caché global
     readonly property string stableArtUrl: artCache[activePkey] ?? ""
 
     property bool popupOpen: false
@@ -103,7 +99,6 @@ Item {
         }
     }
 
-    // Ruta al disco por defecto
     property string defaultArtPath: Qt.resolvedUrl("../../assets/music-disc.jpg")
 
     // ── Botón SVG ─────────────────────────────────────────────
@@ -137,116 +132,72 @@ Item {
         }
     }
 
-    // ── Cápsula ───────────────────────────────────────────────
-    Rectangle {
-        id: capsule
-        anchors.fill: parent
-        radius: capsuleHeight / 2
-        color: root.player !== null ? "transparent" : Theme.barPillBackgroundColor()
-        border.width: Theme.barPillBorderWidth
-        border.color: Theme.barPillBorderColor()
-        clip: true
+    content: RowLayout {
+        id: pillRow
+        spacing: 8
+        opacity: 1
+        Behavior on opacity { NumberAnimation { duration: 200; easing.type: Easing.OutCubic } }
 
-        RowLayout {
-            id: pillRow
-            anchors.centerIn: parent
-            spacing: 8
-            visible: root.player !== null
-
-            Rectangle {
-                width: 20; height: 20; radius: 10
-                color: "transparent"
-                visible: true
-                clip: true
-                Image {
-                    anchors.fill: parent
-                    source: root.stableArtUrl !== ""
-                        ? root.stableArtUrl
-                        : root.defaultArtPath
-                    fillMode: Image.PreserveAspectCrop
-                    cache: true; asynchronous: true
-                    opacity: root.player !== null ? 1.0 : 0.4
-                    Behavior on opacity { NumberAnimation { duration: 200 } }
-                }
-                layer.enabled: true
-                layer.effect: OpacityMask {
-                    maskSource: Rectangle { width: 20; height: 20; radius: 10 }
-                }
+        Rectangle {
+            width: 20; height: 20; radius: 10
+            color: "transparent"
+            clip: true
+            Image {
+                anchors.fill: parent
+                source: root.stableArtUrl !== ""
+                    ? root.stableArtUrl
+                    : root.defaultArtPath
+                fillMode: Image.PreserveAspectCrop
+                cache: true; asynchronous: true
+                opacity: root.player !== null ? 1.0 : 0.35
+                Behavior on opacity { NumberAnimation { duration: 200 } }
             }
-
-            Row {
-                spacing: 6
-                Layout.alignment: Qt.AlignVCenter
-
-                SvgBtn {
-                    size: root.buttonSize
-                    iconPath: root.iconsPath + "rewind.svg"
-                    btnEnabled: root.player?.canGoPrevious ?? false
-                    onClicked: root.player?.previous()
-                }
-                SvgBtn {
-                    size: root.buttonSize + 4
-                    iconPath: root.playing
-                        ? root.iconsPath + "pause.svg"
-                        : root.iconsPath + "play.svg"
-                    btnEnabled: root.player?.canTogglePlaying ?? false
-                    onClicked: root.player?.togglePlaying()
-                }
-                SvgBtn {
-                    size: root.buttonSize
-                    iconPath: root.iconsPath + "rewind.svg"
-                    iconRot: 180
-                    btnEnabled: root.player?.canGoNext ?? false
-                    onClicked: root.player?.next()
-                }
+            layer.enabled: true
+            layer.effect: OpacityMask {
+                maskSource: Rectangle { width: 20; height: 20; radius: 10 }
             }
         }
 
-        // Pildora cuando no hay reproductor
         Row {
-            id: noPlayerPill
-            anchors.centerIn: parent
-            spacing: 8
-            visible: root.player === null
+            spacing: 6
+            Layout.alignment: Qt.AlignVCenter
+            opacity: root.player !== null ? 1 : 0.45
+            Behavior on opacity { NumberAnimation { duration: 200 } }
 
-            Rectangle {
-                width: 20; height: 20; radius: 10
-                color: "transparent"
-                clip: true
-                Image {
-                    anchors.fill: parent
-                    source: root.defaultArtPath
-                    fillMode: Image.PreserveAspectCrop
-                    cache: true; asynchronous: true
-                    opacity: 0.4
-                }
-                layer.enabled: true
-                layer.effect: OpacityMask {
-                    maskSource: Rectangle { width: 20; height: 20; radius: 10 }
-                }
+            SvgBtn {
+                size: root.buttonSize + 4
+                iconPath: root.iconsPath + "rewind.svg"
+                btnEnabled: root.player?.canGoPrevious ?? false
+                onClicked: root.player?.previous()
             }
-
-            Text {
-                anchors.verticalCenter: parent.verticalCenter
-                text: "No music"
-                color: Qt.rgba(1, 1, 1, 1)
-                font.pixelSize: 11
+            SvgBtn {
+                size: root.buttonSize + 4
+                iconPath: root.playing
+                    ? root.iconsPath + "pause.svg"
+                    : root.iconsPath + "play.svg"
+                btnEnabled: root.player?.canTogglePlaying ?? false
+                onClicked: root.player?.togglePlaying()
+            }
+            SvgBtn {
+                size: root.buttonSize + 4
+                iconPath: root.iconsPath + "rewind.svg"
+                iconRot: 180
+                btnEnabled: root.player?.canGoNext ?? false
+                onClicked: root.player?.next()
             }
         }
+    }
 
-        MouseArea {
-            anchors.fill: parent
-            acceptedButtons: Qt.RightButton
-            cursorShape: Qt.PointingHandCursor
-            onClicked: {
-                if (root.player === null)
-                    return
-                if (root.popupOpen) {
-                    root.popupOpen = false
-                } else {
-                    PopupManager.openExclusive(PopupManager.musicId)
-                    Qt.callLater(() => root.popupOpen = true)
-                }
+    TapHandler {
+        acceptedButtons: Qt.RightButton
+        onTapped: {
+            if (root.player === null)
+                return
+            if (root.popupOpen) {
+                root.popupOpen = false
+            } else {
+                PopupManager.openExclusive(PopupManager.musicId)
+                Qt.callLater(() => root.popupOpen = true)
             }
         }
     }

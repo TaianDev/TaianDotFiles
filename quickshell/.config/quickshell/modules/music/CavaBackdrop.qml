@@ -9,7 +9,7 @@ Item {
     property bool  shown: true
     property bool  animating: true
     property real  radius: 14
-    property int   barCount: 12
+    property int   barCount: 8
     property var   barHeights: []
 
     readonly property string configPath: {
@@ -18,7 +18,6 @@ Item {
     }
 
     opacity: root.shown ? 1 : 0
-    visible: opacity > 0.01
     Behavior on opacity { NumberAnimation { duration: 350; easing.type: Easing.OutCubic } }
 
     function idleBars() {
@@ -97,12 +96,6 @@ Item {
             }
         }
 
-        Rectangle {
-            anchors.fill: parent
-            radius: root.radius
-            color: Theme.barPillBackgroundColor()
-        }
-
         Row {
             id: barRow
             anchors.fill: parent
@@ -110,7 +103,6 @@ Item {
             anchors.rightMargin: 6
             spacing: 2
             opacity: root.animating ? 1 : 0
-            visible: root.animating || opacity > 0.01
             Behavior on opacity { NumberAnimation { duration: 220; easing.type: Easing.OutCubic } }
 
             Repeater {

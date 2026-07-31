@@ -30,6 +30,8 @@ PopupWindow {
     readonly property bool volumeSupported: popup.player?.volumeSupported ?? false
 
     property bool volumeOpen: false
+    property bool _slideBackward: false
+    property bool _fadeTransition: false
 
     visible: open || shell.exitRunning || volumeFade.shown || volumeFade.exitRunning
     color: "transparent"
@@ -196,6 +198,7 @@ PopupWindow {
                                 activeIndex: popup.widgetRef?.activePlayerIndex ?? 0
                                 iconsPath: popup.iconsPath
                                 onPlayerChanged: index => {
+                                    popup._fadeTransition = true
                                     if (popup.widgetRef) popup.widgetRef.activePlayerIndex = index
                                 }
                             }
@@ -208,6 +211,10 @@ PopupWindow {
                                     id: artBlock
                                     width: parent.width; height: parent.width
                                     clip: true
+                                    layer.enabled: true
+                                    layer.effect: OpacityMask {
+                                        maskSource: Rectangle { width: artBlock.width; height: artBlock.height; radius: 10 }
+                                    }
 
                                     Image {
                                         id: artOut
@@ -215,10 +222,6 @@ PopupWindow {
                                         fillMode: Image.PreserveAspectFit
                                         cache: true; opacity: 0
                                         sourceSize.width: 300; sourceSize.height: 300
-                                        layer.enabled: true
-                                        layer.effect: OpacityMask {
-                                            maskSource: Rectangle { width: artOut.width; height: artOut.height; radius: 10 }
-                                        }
                                     }
 
                                     Image {
@@ -228,20 +231,28 @@ PopupWindow {
                                         fillMode: Image.PreserveAspectFit
                                         cache: true; asynchronous: true
                                         sourceSize.width: 300; sourceSize.height: 300
-                                        layer.enabled: true
-                                        layer.effect: OpacityMask {
-                                            maskSource: Rectangle { width: artIn.width; height: artIn.height; radius: 10 }
-                                        }
 
                                         onSourceChanged: {
-                                            artOut.source = artIn.source
-                                            artOut.x = 0; artOut.opacity = 1
-                                            artIn.x = artIn.width
-                                            slideIn.restart(); slideOut.restart()
+                                            if (popup._fadeTransition) {
+                                                popup._fadeTransition = false
+                                                artOut.source = artIn.source
+                                                artOut.opacity = 0
+                                                artIn.x = 0; artIn.opacity = 0
+                                                fadeInAnim.restart()
+                                            } else {
+                                                artOut.source = artIn.source
+                                                artOut.x = 0; artOut.opacity = 1
+                                                artIn.x = popup._slideBackward ? -artIn.width : artIn.width
+                                                slideAnim.from = popup._slideBackward ? -artIn.width : artIn.width
+                                                slideAnim.to = 0
+                                                slideOutAnim.from = 0
+                                                slideOutAnim.to = popup._slideBackward ? artOut.width : -artOut.width
+                                                slideAnim.restart(); slideOutAnim.restart()
+                                            }
                                         }
 
                                         NumberAnimation on x {
-                                            id: slideIn
+                                            id: slideAnim
                                             from: artIn.width; to: 0; duration: 280
                                             easing.type: Easing.OutCubic
                                         }
@@ -260,11 +271,17 @@ PopupWindow {
                                     }
 
                                     NumberAnimation {
-                                        id: slideOut
+                                        id: slideOutAnim
                                         target: artOut; property: "x"
                                         from: 0; to: -artOut.width; duration: 280
                                         easing.type: Easing.OutCubic
                                         onStopped: artOut.opacity = 0
+                                    }
+
+                                    SequentialAnimation {
+                                        id: fadeInAnim
+                                        NumberAnimation { target: artIn; property: "opacity"; from: 0; to: 1; duration: 200; easing.type: Easing.OutCubic }
+                                        ScriptAction { script: artOut.opacity = 0 }
                                     }
                                 }
 
@@ -315,7 +332,10 @@ PopupWindow {
                                     size: 28
                                     iconPath: popup.iconsPath + "rewind.svg"
                                     btnEnabled: popup.player?.canGoPrevious ?? false
-                                    onClicked: popup.player?.previous()
+                                    onClicked: {
+                                        popup._slideBackward = true
+                                        popup.player?.previous()
+                                    }
                                 }
                                 MusicSvgButton {
                                     anchors.verticalCenter: parent.verticalCenter
@@ -332,7 +352,10 @@ PopupWindow {
                                     iconPath: popup.iconsPath + "rewind.svg"
                                     iconRot: 180
                                     btnEnabled: popup.player?.canGoNext ?? false
-                                    onClicked: popup.player?.next()
+                                    onClicked: {
+                                        popup._slideBackward = false
+                                        popup.player?.next()
+                                    }
                                 }
                                 MusicSvgButton {
                                     anchors.verticalCenter: parent.verticalCenter

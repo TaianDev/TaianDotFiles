@@ -64,7 +64,7 @@ Item {
                     hoverEnabled: true // Necesario para detectar cuando el ratón pasa por encima
                     cursorShape: Qt.PointingHandCursor
                     // Envía la orden al padre
-                    onClicked: { if (root.widgetRef) root.widgetRef.swRunning = !root.widgetRef.swRunning } 
+                    onClicked: { if (root.widgetRef) { root.widgetRef.swRunning = !root.widgetRef.swRunning; if (root.widgetRef.swRunning) root.widgetRef.togglePopup() } }
                 }
             }
 

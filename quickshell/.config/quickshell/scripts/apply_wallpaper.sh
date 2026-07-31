@@ -15,11 +15,9 @@ wal -qste -i "$WALLPAPER_PATH"
 matugen image "$WALLPAPER_PATH" --source-color-index 0
 
 # 3. APLICAR FONDO DE PANTALLA
-swww img "$WALLPAPER_PATH" --transition-type wave --transition-fps 60 --transition-duration 2 &
+awww img "$WALLPAPER_PATH" --transition-type wave --transition-fps 60 --transition-duration 2 &
 
 # 4. RECARGAR APLICACIONES (Theme.qml lo recoge ThemeLoader; no relanzar quickshell)
 #swaync-client -rs 2>/dev/null || true
 
 killall -SIGUSR1 kitty 2>/dev/null || true
-
-#echo "==> Theme update complete!"

@@ -15,17 +15,16 @@ PanelWindow {
 
     anchors {
         top: true
-        bottom: true
         right: true
     }
 
     margins {
         top: popups.barPopupTopY
-        bottom: 14
         right: 14
     }
 
     implicitWidth: 340
+    height: toastColumn.height + 6
 
     color: "transparent"
     exclusiveZone: 0

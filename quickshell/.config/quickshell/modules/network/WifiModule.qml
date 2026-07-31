@@ -72,7 +72,7 @@ Item {
             visible: root.connected
 
             Row {
-                spacing: 4
+                spacing: 8
                 SvgIcon {
                     source: root.iconsPath + "receive.svg"
                     size: 10; tint: Theme.primary

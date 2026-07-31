@@ -55,6 +55,10 @@ PopupWindow {
         anchor.updateAnchor()
     }
 
+    onCurrentTabChanged: {
+        if (currentTab === 2) timerKeyInput.forceActiveFocus()
+    }
+
     onIsOpenedChanged: {
         if (!isOpened)
             PopupManager.notifyClosed(PopupManager.dateId)
@@ -63,6 +67,7 @@ PopupWindow {
             reposition()
             shell.active = true
             Qt.callLater(() => popup.contentItem.forceActiveFocus())
+            if (currentTab === 2) timerKeyInput.forceActiveFocus()
         } else {
             shell.active = false
         }
@@ -154,6 +159,24 @@ PopupWindow {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
 
+                Item {
+                    id: timerKeyInput
+                    Keys.onPressed: event => {
+                        const tt = timerTabInstance
+                        if (!tt) return
+                        if (event.key === Qt.Key_Backspace || event.key === Qt.Key_Delete) {
+                            tt.backspaceField()
+                            event.accepted = true
+                        } else {
+                            const ch = event.text
+                            if (ch >= "0" && ch <= "9") {
+                                tt.appendDigit(parseInt(ch, 10))
+                                event.accepted = true
+                            }
+                        }
+                    }
+                }
+
                 CalendarTab {
                     anchors.fill: parent
                     textMain: popup.textMain
@@ -191,20 +214,5 @@ PopupWindow {
             }
         }
     }
-
-        Item {
-            focus: popup.isOpened && popup.currentTab === 2
-            Keys.onPressed: event => {
-                const tt = timerTabInstance
-                if (!tt) return
-                if (event.key === Qt.Key_Backspace || event.key === Qt.Key_Delete) {
-                    tt.backspaceField()
-                } else {
-                    const ch = event.text
-                    if (ch >= "0" && ch <= "9")
-                        tt.appendDigit(parseInt(ch, 10))
-                }
-            }
-        }
     }
 }

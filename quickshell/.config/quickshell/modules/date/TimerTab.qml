@@ -55,6 +55,7 @@ Item {
         widgetRef.tmTotalSecs = widgetRef.tmH * 3600 + widgetRef.tmM * 60 + widgetRef.tmS
         widgetRef.tmActive = true
         widgetRef.tmRunning = true
+        widgetRef.togglePopup()
     }
 
     function updateTime(idx, delta) {
@@ -185,32 +186,40 @@ Item {
                                     }
                                 }
                                 
-Text {
+TextField {
                                     Layout.fillWidth: true
                                     Layout.preferredHeight: 34
-                                    horizontalAlignment: Text.AlignHCenter
-                                    verticalAlignment: Text.AlignVCenter
+
+                                    text: (index === 0 ? root.h : index === 1 ? root.m : root.s).toString().padStart(2, '0')
+
                                     color: root.textMain
                                     font.pixelSize: 28
-                                    text: {
-                                        if (index === 0) return root.h.toString().padStart(2, '0')
-                                        if (index === 1) return root.m.toString().padStart(2, '0')
-                                        return root.s.toString().padStart(2, '0')
+                                    font.bold: true
+                                    horizontalAlignment: Text.AlignHCenter
+                                    verticalAlignment: Text.AlignVCenter
+
+                                    inputMethodHints: Qt.ImhDigitsOnly
+                                    maximumLength: 2
+                                    cursorVisible: root.activeFieldIndex === index
+                                    selectByMouse: true
+
+                                    padding: 0
+                                    leftPadding: 0
+                                    rightPadding: 0
+                                    topPadding: 0
+                                    bottomPadding: 0
+
+                                    background: Rectangle {
+                                        radius: 6
+                                        color: "transparent"
+                                        border.width: index === root.activeFieldIndex ? 1 : 0
+                                        border.color: Theme.primary
                                     }
 
                                     MouseArea {
                                         anchors.fill: parent
                                         cursorShape: Qt.IBeamCursor
                                         onClicked: root.selectField(index)
-                                    }
-
-                                    Rectangle {
-                                        anchors.fill: parent
-                                        radius: 6
-                                        color: "transparent"
-                                        border.width: index === root.activeFieldIndex ? 1 : 0
-                                        border.color: Theme.primary
-                                        visible: index === root.activeFieldIndex
                                     }
                                 }
                                 
@@ -271,7 +280,8 @@ Text {
                                 
                                 if (widgetRef.tmTotalSecs > 0) {
                                     widgetRef.tmActive = true; 
-                                    widgetRef.tmRunning = true; 
+                                    widgetRef.tmRunning = true;
+                                    widgetRef.togglePopup()
                                 }
                             } 
                         } 

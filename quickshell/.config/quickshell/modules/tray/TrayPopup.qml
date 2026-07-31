@@ -61,14 +61,26 @@ PopupWindow {
 
     readonly property bool rightShowBack: menuStack.length > 1
 
-    visible: open || iconsSlide.shown || iconsSlide.exitRunning
-             || menuSlide.shown || menuSlide.exitRunning
+    property bool _fadeOut: false
+    visible: open || _fadeOut
 
     grabFocus: open
 
     HyprlandFocusGrab {
         windows: [popup, parentWindow]
         active: popup.open
+    }
+
+    property real _anchorY: 0
+    property bool _repQueued: false
+
+    function queueReposition() {
+        if (_repQueued) return
+        _repQueued = true
+        Qt.callLater(() => {
+            _repQueued = false
+            reposition()
+        })
     }
 
     function reposition() {
@@ -81,11 +93,13 @@ PopupWindow {
             return
 
         const pos = widgetRef.mapToItem(parentWindow.contentItem, 0, widgetRef.height)
-        if (!popup.menuOpen || popup.anchorLeft === 0)
+        if (!popup.menuOpen || popup.anchorLeft === 0) {
             popup.anchorLeft = pos.x + widgetRef.width / 2 - w / 2
+            popup._anchorY = pos.y + 8
+        }
 
         anchor.window = parentWindow
-        anchor.rect = Qt.rect(popup.anchorLeft, pos.y + 8, w, h)
+        anchor.rect = Qt.rect(popup.anchorLeft, popup._anchorY, 1, 1)
         anchor.updateAnchor()
     }
 
@@ -99,11 +113,12 @@ PopupWindow {
 
     function selectItem(index, item) {
         if (index === popup.selectedIndex && popup.menuOpen) {
-            menuSlide.shown = false
             popup.clearSelection()
-            Qt.callLater(reposition)
+            queueReposition()
             return
         }
+
+        if (popup.menuOpen) return
 
         popup.selectedIndex = index
         popup.selectedItem = item
@@ -112,24 +127,22 @@ PopupWindow {
 
         if (item.hasMenu) {
             popup.menuOpen = true
-            menuSlide.shown = true
             Qt.callLater(() => {
                 if (leftLoader.item)
                     leftLoader.item.bindMenu(popup.leftMenuHandle)
             })
         } else {
             item.activate()
-            menuSlide.shown = false
             popup.clearSelection()
         }
-        Qt.callLater(reposition)
+        queueReposition()
     }
 
     function pushSubmenu(entry) {
         var stack = popup.menuStack.slice()
         stack.push(entry)
         popup.menuStack = stack
-        Qt.callLater(reposition)
+        queueReposition()
     }
 
     function popSubmenu() {
@@ -140,7 +153,7 @@ PopupWindow {
         popup.menuStack = stack
         if (stack.length === 0)
             popup.activeSubEntry = null
-        Qt.callLater(reposition)
+        queueReposition()
     }
 
     property var activeSubEntry: null
@@ -153,39 +166,41 @@ PopupWindow {
             popup.menuStack = [entry]
             popup.activeSubEntry = entry
         }
-        Qt.callLater(reposition)
+        queueReposition()
     }
 
     function closeSubmenu() {
         popup.menuStack = []
         popup.activeSubEntry = null
-        Qt.callLater(reposition)
+        queueReposition()
     }
 
     onOpenChanged: {
         if (open) {
+            _fadeOut = false
             popup.anchorLeft = 0
             clearSelection()
-            menuSlide.shown = false
-            iconsSlide.shown = true
             Qt.callLater(() => popup.contentItem.forceActiveFocus())
-            Qt.callLater(reposition)
+            queueReposition()
         } else {
-            menuSlide.shown = false
-            iconsSlide.shown = false
-            clearSelection()
+            _fadeOut = true
+            exitTimer.restart()
         }
+    }
+
+    Timer {
+        id: exitTimer
+        interval: 200
+        onTriggered: _fadeOut = false
     }
 
     onMenuOpenChanged: {
-        if (!menuOpen) {
-            menuSlide.shown = false
+        if (!menuOpen)
             popup.menuStack = []
-        }
-        Qt.callLater(reposition)
+        queueReposition()
     }
 
-    onImplicitHeightChanged: Qt.callLater(reposition)
+    onImplicitHeightChanged: queueReposition()
 
     Connections {
         target: PopupManager
@@ -196,18 +211,22 @@ PopupWindow {
     }
 
     onVisibleChanged: {
-        if (visible) {
-            Qt.callLater(reposition)
-        } else if (popup.open && !iconsSlide.exitRunning && !menuSlide.exitRunning) {
-            widgetRef.isOpened = false
-        }
+        if (visible)
+            queueReposition()
     }
 
     Connections {
         target: trayModel
         function onValuesChanged() {
-            if (popup.selectedIndex >= popup.trayCount)
-                popup.clearSelection()
+            if (popup.selectedItem === null) return
+            const items = trayModel.values
+            for (let i = 0; i < items.length; i++) {
+                if (items[i] === popup.selectedItem) {
+                    popup.selectedIndex = i
+                    return
+                }
+            }
+            popup.clearSelection()
         }
     }
 
@@ -219,12 +238,14 @@ PopupWindow {
             id: rootCol
             anchors.fill: parent
             spacing: 8
+            opacity: 1
 
-            TraySlidePanel {
+            // ═══ Icons bar ═══
+                Item {
                 id: iconsSlide
-                width: popup.menuColumnWidth
-                panelHeight: popup.iconsBoxHeight
-                shown: popup.open
+                width: popup.iconsBoxWidth
+                height: popup.iconsBoxHeight
+                opacity: 1
 
                 Rectangle {
                     width: iconsSlide.width
@@ -253,11 +274,14 @@ PopupWindow {
                                 radius: 8
                                 color: index === popup.selectedIndex
                                        ? Theme.alpha(Theme.primary, 0.18)
-                                       : (iconMa.containsMouse
+                                       : (iconMa.containsMouse && !popup.menuOpen
                                           ? Theme.alpha(Theme.inkSurf, 0.08)
-                                          : Theme.alpha(Theme.surfaceVariant, 0.5))
-                                border.width: index === popup.selectedIndex ? 1 : 0
-                                border.color: Theme.alpha(Theme.primary, 0.45)
+                                          : "transparent")
+                                border.width: index === popup.selectedIndex
+                                    || (iconMa.containsMouse && !popup.menuOpen) ? 1 : 0
+                                border.color: index === popup.selectedIndex
+                                    ? Theme.alpha(Theme.primary, 0.45)
+                                    : Theme.alpha(Theme.outlineVariant, 0.35)
                                 Behavior on color { ColorAnimation { duration: 150 } }
 
                                 Image {
@@ -292,6 +316,7 @@ PopupWindow {
                 }
             }
 
+            // ═══ Menu panels ═══
             Item {
                 id: menuArea
                 width: parent.width
@@ -300,16 +325,17 @@ PopupWindow {
                 property int leftBoxContent: 64
                 property int rightBoxContent: 64
 
-                TraySlidePanel {
+                Item {
                     id: menuSlide
                     width: popup.menuColumnWidth
-                    panelHeight: Math.min(300, menuArea.leftBoxContent + 16)
-                    shown: popup.menuOpen && popup.showMenuList
+                    height: Math.min(300, menuArea.leftBoxContent + 16)
+                    opacity: popup.menuOpen && popup.showMenuList ? 1 : 0
+                    Behavior on opacity { NumberAnimation { duration: 120 } }
 
                     Rectangle {
                         id: leftBox
                         width: menuSlide.width
-                        height: menuSlide.panelHeight
+                        height: menuSlide.height
                         radius: 12
                         color: Theme.background
                         border.width: 1

@@ -37,6 +37,7 @@ Item {
     }
 
     function toggleMute() {
+        root.muted = !root.muted
         muteRunner.running = false
         muteRunner.running = true
     }
@@ -50,6 +51,7 @@ Item {
     }
 
     function toggleMicMute() {
+        root.micMuted = !root.micMuted
         micMuteRunner.running = false
         micMuteRunner.running = true
     }

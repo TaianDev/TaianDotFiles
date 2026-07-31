@@ -8,9 +8,17 @@ Item {
     property bool showFailure: false
     signal unlocked()
 
+    property bool _suppressFailureReset: false
+
     onCurrentTextChanged: {
-        if (showFailure)
+        if (showFailure && !_suppressFailureReset)
             showFailure = false
+        _suppressFailureReset = false
+    }
+
+    function clearText() {
+        _suppressFailureReset = true
+        root.currentText = ""
     }
 
     PamContext {
