@@ -2,7 +2,6 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import QtQuick.Layouts
-import Qt5Compat.GraphicalEffects
 import Quickshell
 import Quickshell.Services.Notifications
 import "../../core"
@@ -102,15 +101,6 @@ Item {
         color: Theme.surface
         border.width: 1
         border.color: isCritical ? Theme.err : Theme.outlineVariant
-
-        layer.enabled: true
-        layer.effect: DropShadow {
-            horizontalOffset: 0
-            verticalOffset: 8
-            radius: 22
-            samples: 28
-            color: Theme.alpha(Theme.colorShadow, 0.38)
-        }
 
         Column {
             id: contentColumn

@@ -3,7 +3,6 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import Qt5Compat.GraphicalEffects
 import Quickshell
 import Quickshell.Wayland
 import "../../core"
@@ -110,7 +109,6 @@ PanelWindow {
             id: focusHost
             anchors.fill: parent
             focus: panel.open
-            clip: true
 
             Keys.onUpPressed: {
                 if (notifModel.count === 0) return
@@ -147,16 +145,6 @@ PanelWindow {
                 color: Theme.surface
                 border.width: 1
                 border.color: Theme.outlineVariant
-                clip: true
-
-                layer.enabled: true
-                layer.effect: DropShadow {
-                    horizontalOffset: 0
-                    verticalOffset: 10
-                    radius: 28
-                    samples: 32
-                    color: Theme.alpha(Theme.colorShadow, 0.42)
-                }
 
                 Column {
                     anchors.fill: parent
