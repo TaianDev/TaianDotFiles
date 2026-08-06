@@ -1,6 +1,8 @@
 module Services
 WallpaperService 1.0 WallpaperService.qml
 singleton NotificationService 1.0 NotificationService.qml
+singleton AssistantService 1.0 AssistantService.qml
+singleton TranslationService 1.0 TranslationService.qml
 singleton NetworkStatusService 1.0 NetworkStatusService.qml
 singleton PopupManager 1.0 PopupManager.qml
 singleton HyprlandData 1.0 HyprlandData.qml

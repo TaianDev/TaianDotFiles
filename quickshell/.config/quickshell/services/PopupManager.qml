@@ -15,7 +15,7 @@ Item {
     readonly property string notificationsId: "notifications"
     readonly property string launcherId: "launcher"
     readonly property string themeId: "theme"
-
+    readonly property string assistantId: "assistant"
     property string activeId: ""
     property bool escapeBound: false
 

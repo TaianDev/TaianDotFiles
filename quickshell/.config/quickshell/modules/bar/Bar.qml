@@ -8,6 +8,7 @@ import "../../core"
 import "../../services"
 import "../../components"
 import "./widgets"
+import "../assistant"
 import "../notifications"
 import "../network"
 import "../network/popup"
@@ -217,6 +218,7 @@ PanelWindow {
                 MusicSpectrumPill { }
                 KeyboardPill { }
                 NotificationPill { }
+                AssistantPill { }
                 ScreenshotPill { }
                 PowerPill { }
             }
@@ -315,6 +317,10 @@ PanelWindow {
                 parentWindow: flareBar
             }
             NotificationPanel {
+                screen: flareBar.modelData
+                barPopupTopY: flareBar.barPopupTopY
+            }
+            AssistantPanel {
                 screen: flareBar.modelData
                 barPopupTopY: flareBar.barPopupTopY
             }

@@ -12,6 +12,10 @@ hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("qs ipc call music_popup togg
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs ipc call notifications_panel toggle"))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("qs ipc call network_popup toggle"))
 hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd("qs ipc call date_popup toggle"))
+hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("qs ipc call assistant_panel toggle"))
+hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd([[
+    sh -c 'qs ipc call assistant_translate translate "$(wl-paste --primary)"'
+]]))
 hl.bind(mainMod .. " + TAB", hl.dsp.exec_cmd("qs ipc -c overview call overview toggle"))
 hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("qs ipc call bar_popup close"))
 
