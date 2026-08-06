@@ -251,4 +251,7 @@ hl.layer_rule({
 	name = "flare-notifications-anim",
 	match = { namespace = "^flare_notifications_" },
 	animation = "slide left",
+	dim_around = false,
+	blur = true,
+	ignore_alpha = 0,
 })
