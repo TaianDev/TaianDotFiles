@@ -1,4 +1,4 @@
-clipse/.config/clipse/clipboard_history.json
-clipse/.config/clipse/tmp_files/
+clipse/.config/clipse/*
+!clipse/.config/clipse/config.json
 Code/
 Fonts/
