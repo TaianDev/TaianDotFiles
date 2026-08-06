@@ -30,8 +30,8 @@ hl.device({
 hl.device({
 	name = "compx-2.4g-wireless-receiver",
 	kb_layout = "us",
-	kb_variant = "",
-	kb_options = "compose:rctrl",
+	kb_variant = "altgr-intl",
+	kb_options = "lv3:switch",
 })
 
 -- Aula F75 Mechanical Keyboard (US English layout with Spanish support via Compose key)
